@@ -34,6 +34,8 @@ class HideBracket:
         txt = txt.replace("[ ", "[")\
             .replace("；", ";").replace(" ]", "]")\
             .replace("（", "(")\
+            .replace("【", "[")\
+            .replace("！", "!")\
             .replace("）", ")").replace("& lt;", "&lt;").replace("& gt;", "&gt;")
         return extract_map("(_", "_)", txt, self._restore)
 
