@@ -9,7 +9,10 @@
 
 运行 po4a.py 会更新 po 文件，并生成在 doc 目录下生成新翻译的文档。 
 
-运行 baidu_transalte.py 可以通过百度翻译的 API自动翻译未翻译 的英文，自动翻译的英文都以 ? 作为行的开头，以便于修改
+可以用 [poedit](https://poedit.net/) 更方便的编辑po文件。 
+
+运行 baidu_transalte.py 可以通过百度翻译的API自动翻译未翻译的英文，自动翻译的英文都以 ? 作为行的开头，以便于修改。
+
 
 
 
