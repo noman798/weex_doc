@@ -21,8 +21,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:7
 msgid ""
-"Android version of Playground App can be downloaded [here](http://empty-"
-"now).  iOS version will soon be ready to download."
+"Android version of Playground App can be downloaded "
+"[here](http://empty-now).  iOS version will soon be ready to download."
 msgstr ""
 
 #. type: Title ##
@@ -34,16 +34,16 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:12
 msgid ""
-"![Weex playground App](http://gtms01.alicdn.com/tps/i1/"
-"TB1bC5LMpXXXXb7XXXXA0gJJXXX-720-1280.png)"
+"![Weex playground "
+"App](http://gtms01.alicdn.com/tps/i1/TB1bC5LMpXXXXb7XXXXA0gJJXXX-720-1280.png)"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:15
 msgid ""
-"This is main interface of Weex Playground App , grey color list item is Demo/"
-"Showcase entry . click top right corner Icon will active QR scaner that work "
-"with Weex [toolkit CLI](../tools/cli.md)"
+"This is main interface of Weex Playground App , grey color list item is "
+"Demo/Showcase entry . click top right corner Icon will active QR scaner that "
+"work with Weex [toolkit CLI](../tools/cli.md)"
 msgstr ""
 
 #. type: Plain text

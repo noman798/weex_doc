@@ -1,27 +1,27 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:1
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "工具书类 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Bootstrap](./bootstrap.md)"
-msgstr ""
+msgstr "[引导](./bootstrap.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Component Definition](./component-defs.md)"
-msgstr ""
+msgstr "[定义](./component-defs.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Instance APIs](./api.md)"
-msgstr ""
+msgstr "[例](./api.md)API ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
@@ -49,3 +49,24 @@ msgid ""
 "    * [JS Framework APIs](../specs/js-framework-apis.md)\n"
 "    * [Virtual DOM APIs](../specs/virtual-dom-apis.md)\n"
 msgstr ""
+"* [内部](../components/README.md) ???\n"
+"* [共同属性](./common-attrs.md) ???\n"
+"* [普通型](./common-style.md) ???\n"
+"* [公共事件](./common-event.md) ???\n"
+"* [元](../components/special-element.md) ???\n"
+"* [&lt;div &gt;](../components/div.md) ???\n"
+"* [&lt;上卷&gt;](../components/scroller.md) ???\n"
+"* [&lt;列表&gt;](../components/list.md) ???\n"
+"* [&lt;细胞&gt;](../components/cell.md) ???\n"
+"* [&lt;文本&gt;](../components/text.md) ???\n"
+"* [&lt;图像&gt;](../components/image.md) ???\n"
+"* [&lt;输入&gt;](../components/input.md) ???\n"
+"* [&lt;开关&gt;](../components/switch.md) ???\n"
+"* [&lt;滑块&gt;](../components/slider.md) ???\n"
+"* [&lt;指示&gt;](../components/indicator.md) ???\n"
+"* [&lt;视频&gt;](../components/video.md) ???\n"
+"* [建](../modules/README.md)模块 ???\n"
+"*低级别规格 ???\n"
+"* [js包格式](../specs/js-bundle-format.md) ???\n"
+"* [js框架的API(../specs/js-framework-apis.md)] ???\n"
+"* [虚拟DOM API(../specs/virtual-dom-apis.md)] ???\n"

@@ -11,7 +11,7 @@
 
 可以用 [poedit](https://poedit.net/) 更方便的编辑po文件。 
 
-运行 baidu_transalte.py 可以通过百度翻译的API自动翻译未翻译的英文，自动翻译的英文都以 ? 作为行的开头，以便于修改。
+运行 baidu_transalte.py 可以通过百度翻译的API自动翻译未翻译的英文，自动翻译的英文都以 ??? 作为行的结尾，以便于修改。
 
 
 

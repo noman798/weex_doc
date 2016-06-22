@@ -11,7 +11,10 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:4
 #, no-wrap
-msgid "A simple Weex page sample is just a piece of `<template>` code, a piece of `<style>` code and a piece of `<script>` code. The three parts together describe a whole Weex page.\n"
+msgid ""
+"A simple Weex page sample is just a piece of `<template>` code, a piece of "
+"`<style>` code and a piece of `<script>` code. The three parts together "
+"describe a whole Weex page.\n"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -74,7 +77,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:26
 #, no-wrap
-msgid "We describe page structure in `<template>` tag like the following definition:\n"
+msgid ""
+"We describe page structure in `<template>` tag like the following "
+"definition:\n"
 msgstr ""
 
 #. type: Plain text
@@ -84,7 +89,8 @@ msgid ""
 "```html\n"
 "<template>\n"
 "  <container>\n"
-"    <image style=\"width: 200; height: 200;\" src=\"http://gtms02.alicdn.com/tps/i2/TB1QHKjMXXXXXadXVXX20ySQVXX-512-512.png\"></image>\n"
+"    <image style=\"width: 200; height: 200;\" "
+"src=\"http://gtms02.alicdn.com/tps/i2/TB1QHKjMXXXXXadXVXX20ySQVXX-512-512.png\"></image>\n"
 "    <text>Alibaba Weex Team</text>\n"
 "  </container>\n"
 "</template>\n"
@@ -154,7 +160,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:55
 #, no-wrap
-msgid "First we could write inline `style` attribute in `<template>` element. Second we could use the `class` attribute to apply stylesheets, which are defined with single-class selectors in `<style>` code. Here is an example:\n"
+msgid ""
+"First we could write inline `style` attribute in `<template>` "
+"element. Second we could use the `class` attribute to apply stylesheets, "
+"which are defined with single-class selectors in `<style>` code. Here is an "
+"example:\n"
 msgstr ""
 
 #. type: Plain text
@@ -201,9 +211,10 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:76
 msgid ""
-"weex is basically following [HTML attribute](https://en.wikipedia.org/wiki/"
-"HTML_attribute) naming rule , so please **do not use CamelCase** in your "
-"attribute , **long-name** with “-” as delimiter is much better."
+"weex is basically following [HTML "
+"attribute](https://en.wikipedia.org/wiki/HTML_attribute) naming rule , so "
+"please **do not use CamelCase** in your attribute , **long-name** with “-” "
+"as delimiter is much better."
 msgstr ""
 
 #. type: Title ##
@@ -259,7 +270,14 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:109
 #, no-wrap
-msgid "This piece of `<script>` code will generate some component options and assign it to `module.exports`. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the `<script>` code stores component data which could be used for [data-binding](./data-binding.md) in the `<template>`. When data changes, the bound value will be updated automatically. Also it could be read and written by `this.x` in its methods.\n"
+msgid ""
+"This piece of `<script>` code will generate some component options and "
+"assign it to `module.exports`. The three text components above respectively "
+"shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the "
+"`<script>` code stores component data which could be used for "
+"[data-binding](./data-binding.md) in the `<template>`. When data changes, "
+"the bound value will be updated automatically. Also it could be read and "
+"written by `this.x` in its methods.\n"
 msgstr ""
 
 #. type: Bullet: '* '

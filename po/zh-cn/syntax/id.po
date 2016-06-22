@@ -18,8 +18,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:6
 msgid ""
-"`id` can be used by `this.$(id)` to find an element with a certain id. Take `"
-"$scrollTo()` For example:"
+"`id` can be used by `this.$(id)` to find an element with a certain id. Take "
+"`$scrollTo()` For example:"
 msgstr ""
 
 #. type: Plain text
@@ -64,7 +64,8 @@ msgid ""
 "```\n"
 "  <template>\n"
 "    <container>\n"
-"      <image id=\"{{imgId}}\" src=\"{{imgUrl}}\" onclick=\"getImageId\" repeat=\"{{images}}\"></image>\n"
+"      <image id=\"{{imgId}}\" src=\"{{imgUrl}}\" onclick=\"getImageId\" "
+"repeat=\"{{images}}\"></image>\n"
 "    </container>\n"
 "  </template>\n"
 "  <script>\n"

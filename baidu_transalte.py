@@ -62,7 +62,7 @@ def translate_po(lang, po):
                 j = j.strip()
                 txt = lang_dict.get(j, 0)
                 if txt:
-                    txt = "? " + txt
+                    txt = txt + " ???"
                 else:
                     txt = j
                 txt = hide_bracket.restore(txt)

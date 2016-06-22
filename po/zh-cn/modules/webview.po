@@ -1,35 +1,36 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:1
 #, no-wrap
 msgid "webview"
-msgstr ""
+msgstr "WebView ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:3
 #, no-wrap
 msgid "Summary"
-msgstr ""
+msgstr "总结 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:6
-msgid "A series of web operation api like `goBack`, `goForward`, and `reload`."
-msgstr ""
+msgid ""
+"A series of web operation api like `goBack`, `goForward`, and `reload`."
+msgstr "一系列的Web操作API像`goBack``, ``goForward``, and ``reload`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:7
 #, no-wrap
 msgid "API"
-msgstr ""
+msgstr "美国石油学会 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:9
 #, no-wrap
 msgid "goBack(ref)"
-msgstr ""
+msgstr "返回(ref) ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:11
@@ -37,12 +38,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:45
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "描述 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:14
 msgid "Loads the previous location in the history stack."
-msgstr ""
+msgstr "载入历史堆栈中的前一个位置。 ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:15
@@ -50,14 +51,14 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:48
 #, no-wrap
 msgid "Arguments"
-msgstr ""
+msgstr "争论 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:18
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:35
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:51
 msgid "`ref`*(string)*: the reference of the web component."
-msgstr ""
+msgstr "`ref`*(string)*的Web组件的引用。 ???"
 
 #. type: Title #####
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:19
@@ -65,47 +66,53 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:52
 #, no-wrap
 msgid "Example"
-msgstr ""
+msgstr "例子 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:26
 msgid ""
-"```js var webview = require('@weex-module/webview'); var webElement = this."
-"$el('webview'); webview.goBack(webElement.ref); ```"
+"```js var webview = require('@weex-module/webview'); var webElement = "
+"this.$el('webview'); webview.goBack(webElement.ref); ```"
 msgstr ""
+"```js var webview = require(_8_); var webElement = this.$el(_9_); "
+"webview.goBack(_10_); ``` ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:27
 #, no-wrap
 msgid "goForward(ref)"
-msgstr ""
+msgstr "前进(ref) ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:31
 msgid "Loads the next location in the history stack."
-msgstr ""
+msgstr "加载历史堆栈中的下一个位置。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:43
 msgid ""
-"```js var webview = require('@weex-module/webview'); var webElement = this."
-"$el('webview'); webview.goForward(webElement.ref); ```"
+"```js var webview = require('@weex-module/webview'); var webElement = "
+"this.$el('webview'); webview.goForward(webElement.ref); ```"
 msgstr ""
+"```js var webview = require(_13_); var webElement = this.$el(_14_); "
+"webview.goForward(_15_); ``` ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:44
 #, no-wrap
 msgid "reload(ref)"
-msgstr ""
+msgstr "重装(ref) ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:47
 msgid "Reloads the current web page."
-msgstr ""
+msgstr "重新载入当前网页。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:59
 msgid ""
-"```js var webview = require('@weex-module/webview'); var webElement = this."
-"$el('webview'); webview.reload(webElement.ref); ```"
+"```js var webview = require('@weex-module/webview'); var webElement = "
+"this.$el('webview'); webview.reload(webElement.ref); ```"
 msgstr ""
+"```js var webview = require(_18_); var webElement = this.$el(_19_); "
+"webview.reload(_20_); ``` ???"

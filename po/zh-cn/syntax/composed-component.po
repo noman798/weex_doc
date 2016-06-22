@@ -18,7 +18,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:6
 #, no-wrap
-msgid "you can use `<we-element>` tag to create composed component, the value of `name` attribute is the component name.\n"
+msgid ""
+"you can use `<we-element>` tag to create composed component, the value of "
+"`name` attribute is the component name.\n"
 msgstr ""
 
 #. type: Plain text
@@ -48,7 +50,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:27
 #, no-wrap
-msgid "Content of `<we-element>` tag is the same as normal weex file, consists of `<template>`, `<style>` and `<script>` .\n"
+msgid ""
+"Content of `<we-element>` tag is the same as normal weex file, consists of "
+"`<template>`, `<style>` and `<script>` .\n"
 msgstr ""
 
 #. type: Plain text
@@ -57,8 +61,7 @@ msgid "Once composed component been defined, you can use it like following."
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47
-#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47 /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
 #, no-wrap
 msgid ""
 "```html\n"
@@ -173,7 +176,8 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid ""
 "If child component have `id` attribute, you can access the context of the "
-"child component by `this.$vm(id)`. See more about [find an element](./id.md)."
+"child component by `this.$vm(id)`. See more about [find an "
+"element](./id.md)."
 msgstr ""
 
 #. type: Bullet: '- '
