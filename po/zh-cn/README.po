@@ -1,17 +1,20 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/README.md:1
 #, no-wrap
 msgid "Weex"
-msgstr ""
+msgstr "Weex"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/README.md:9
 msgid ""
 "Table of Contents * [Tutorial](./tutorial.md)  * [Guide](./guide.md)  * "
-"[References](./references/main.md)  * [Examples](./demo/main.md)  * [Service "
-"& Tools](./tools/main.md)"
+"[References](./references/main.md)  * [Examples](./demo/main.md)  * [Service"
+" & Tools](./tools/main.md)"
 msgstr ""
+"Table of Contents * [Tutorial](./tutorial.md)  * [Guide](./guide.md)  * "
+"[References](./references/main.md)  * [Examples](./demo/main.md)  * [Service"
+" & Tools](./tools/main.md)"

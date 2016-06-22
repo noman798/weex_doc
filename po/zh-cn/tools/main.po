@@ -1,24 +1,24 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:1
 #, no-wrap
 msgid "Service & Tools"
-msgstr ""
+msgstr "Service & Tools"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:5
 msgid "[CLI](./cli.md)"
-msgstr ""
+msgstr "[CLI](./cli.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:5
 msgid "[Transformer](./transformer.md)"
-msgstr ""
+msgstr "[Transformer](./transformer.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:5
 msgid "[Playground App](./playground-app.md)"
-msgstr ""
+msgstr "[Playground App](./playground-app.md)"

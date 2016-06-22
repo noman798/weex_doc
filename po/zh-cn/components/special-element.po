@@ -1,18 +1,18 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:1
 #, no-wrap
 msgid "Special Element"
-msgstr ""
+msgstr "Special Element"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:3
 #, no-wrap
 msgid "&lt;content&gt;"
-msgstr ""
+msgstr "&lt;内容&gt; ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:6
@@ -20,18 +20,20 @@ msgid ""
 "The element serves as content distribution outlest in a composed component "
 "template. The element itself will be replaced."
 msgstr ""
+"The element serves as content distribution outlest in a composed component "
+"template. The element itself will be replaced."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:8
 #, no-wrap
 msgid "alias: `<slot>`\n"
-msgstr ""
+msgstr "别名：`<slot>`???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:9
 #, no-wrap
 msgid "Code Example"
-msgstr ""
+msgstr "Code Example"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:19

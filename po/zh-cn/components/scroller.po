@@ -1,52 +1,56 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:1
 #, no-wrap
 msgid "&lt;scroller&gt;"
-msgstr ""
+msgstr "&lt;上卷&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:3
 #, no-wrap
 msgid "Summary"
-msgstr ""
+msgstr "Summary"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:6
 msgid ""
-"A vertical scroller which can have multiple child components arranged in one "
-"column. If total height of its child components is higher then the height of "
-"itself, the whole child components are scrollable."
+"A vertical scroller which can have multiple child components arranged in one"
+" column. If total height of its child components is higher then the height "
+"of itself, the whole child components are scrollable."
 msgstr ""
+"A vertical scroller which can have multiple child components arranged in one"
+" column. If total height of its child components is higher then the height "
+"of itself, the whole child components are scrollable."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:8
 #, no-wrap
 msgid ""
-"**Notes:** A `<scroller>` can be used as a root element or a embed "
-"element. The scoll direction of this component is column, and it can't be "
-"changed.\n"
+"**Notes:** A `<scroller>` can be used as a root element or a embed element. "
+"The scoll direction of this component is column, and it can't be changed.\n"
 msgstr ""
+"**Notes:** A `<scroller>` can be used as a root element or a embed element. "
+"The scoll direction of this component is column, and it can't be changed.\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:9
 #, no-wrap
 msgid "Child Components"
-msgstr ""
+msgstr "Child Components"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:12
 msgid "It supports all kinds of weex components as its child components."
-msgstr ""
+msgstr "It supports all kinds of weex components as its child components."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:13
 #, no-wrap
 msgid "Attributes"
-msgstr ""
+msgstr "Attributes"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:16
@@ -54,12 +58,14 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
+"There is no specific attribute for this component other than the [common "
+"attributes](../references/common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:17
 #, no-wrap
 msgid "Styles"
-msgstr ""
+msgstr "Styles"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:20
@@ -67,43 +73,48 @@ msgstr ""
 msgid ""
 "**common styles**: check out [common styles for "
 "components](../references/common-style.md)\n"
-msgstr ""
+msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:25
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles - support "
+"````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:26
 #, no-wrap
 msgid "Events"
-msgstr ""
+msgstr "Events"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:29
 #, no-wrap
 msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
-msgstr ""
+"**common events**: check out the [common events](../references/common-"
+"event.md)\n"
+msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:32
 msgid ""
-"- support `click` event. Check out [common "
-"events](../references/common-event.md)  - support `appear` / `disappear` "
-"event. Check out [common events](../references/common-event.md)"
+"- support `click` event. Check out [common events](../references/common-"
+"event.md)  - support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
+"- support `click`` event. Check out [common events](../references/common-"
+"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
+"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:33
 #, no-wrap
 msgid "Example"
-msgstr ""
+msgstr "Example"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:43

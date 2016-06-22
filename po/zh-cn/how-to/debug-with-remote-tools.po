@@ -1,12 +1,12 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:1
 #, no-wrap
 msgid "How to debug With Weex-Toolkit ?"
-msgstr ""
+msgstr "How to debug With Weex-Toolkit ?"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:4
@@ -15,6 +15,9 @@ msgid ""
 "tool , it be designed to help you quickly preview Weex `we file` and debug "
 "your `we file`."
 msgstr ""
+"[Weex Toolkit](../tools/cli.md) is a multipurpose command line interface "
+"tool , it be designed to help you quickly preview Weex `we file`` and debug "
+"your ``we file`."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:6
@@ -22,13 +25,17 @@ msgid ""
 "At present the only debug assist function of Weex toolkit is `Hot reload` , "
 "we will add more utility debug function soon."
 msgstr ""
+"At present the only debug assist function of Weex toolkit is `Hot reload` , "
+"we will add more utility debug function soon."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:8
 msgid ""
-"After install weex toolkit， open your terminal and navigate to the directory "
-"where you save `we` file. then type"
+"After install weex toolkit， open your terminal and navigate to the directory"
+" where you save `we` file. then type"
 msgstr ""
+"After install weex toolkit， open your terminal and navigate to the directory"
+" where you save `we` file. then type"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:12
@@ -39,14 +46,19 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:14
 msgid ""
 "A browser window will open automatically to display render result of your "
-"`we` file. Trying to change some content of your `we` file and save the file "
-".  your browser will immediately display these changes."
+"`we` file. Trying to change some content of your `we` file and save the file"
+" .  your browser will immediately display these changes."
 msgstr ""
+"A browser window will open automatically to display render result of your "
+"`we`` file. Trying to change some content of your ``we` file and save the "
+"file .  your browser will immediately display these changes."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:17
-msgid "`Hot Reload` also work with Native Runtime in Weex Playground App , type"
+msgid ""
+"`Hot Reload` also work with Native Runtime in Weex Playground App , type"
 msgstr ""
+"`Hot Reload` also work with Native Runtime in Weex Playground App , type"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:21
@@ -60,3 +72,6 @@ msgid ""
 "Playground App ,your `we` file will be render in playground App. Update the "
 "file the render result will be update automaticly."
 msgstr ""
+"An QR code will be display in the terminal window, scan the QR using Weex "
+"Playground App ,your `we` file will be render in playground App. Update the "
+"file the render result will be update automaticly."

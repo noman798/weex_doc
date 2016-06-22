@@ -1,19 +1,19 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:1
 #, no-wrap
 msgid "Composed Component"
-msgstr ""
+msgstr "Composed Component"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:4
 msgid ""
 "if some part of weex file is repeated often , you could create a composed "
 "component represent these part."
-msgstr ""
+msgstr "如果weex文件的某些部分重复，你可以创建一个代表这些部分组成。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:6
@@ -22,6 +22,8 @@ msgid ""
 "you can use `<we-element>` tag to create composed component, the value of "
 "`name` attribute is the component name.\n"
 msgstr ""
+"你可以使用`<we-element>`` tag to create composed component, the value of "
+"``name`属性是组件的名称。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:25
@@ -54,14 +56,17 @@ msgid ""
 "Content of `<we-element>` tag is the same as normal weex file, consists of "
 "`<template>`, `<style>` and `<script>` .\n"
 msgstr ""
+"Content of `<we-element>`` tag is the same as normal weex file, consists of "
+"``<template>``, ``<style>`` and ``<script>` .\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:29
 msgid "Once composed component been defined, you can use it like following."
-msgstr ""
+msgstr "Once composed component been defined, you can use it like following."
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47 /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
 #, no-wrap
 msgid ""
 "```html\n"
@@ -97,7 +102,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:53
 #, no-wrap
 msgid "Nesting Component"
-msgstr ""
+msgstr "Nesting Component"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:56
@@ -105,11 +110,13 @@ msgid ""
 "Composed component supports nesting. For easy access nesting component, you "
 "should name nesting component with \"parent name and hyphen\" prefix."
 msgstr ""
+"Composed component supports nesting. For easy access nesting component, you "
+"should name nesting component with \"parent name and hyphen\" prefix."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:58
 msgid "for example:"
-msgstr ""
+msgstr "例如： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:93
@@ -165,12 +172,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:113
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid "Every composed component have an independent `<style>` work scope."
-msgstr ""
+msgstr "Every composed component have an independent `<style>` work scope."
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
@@ -179,6 +186,9 @@ msgid ""
 "child component by `this.$vm(id)`. See more about [find an "
 "element](./id.md)."
 msgstr ""
+"If child component have `id`` attribute, you can access the context of the "
+"child component by ``this.$vm(id)`. See more about [find an "
+"element](./id.md)."
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
@@ -186,8 +196,10 @@ msgid ""
 "Please refer to [communicate between components](./comm.md) for more "
 "communication issues."
 msgstr ""
+"Please refer to [communicate between components](./comm.md) for more "
+"communication issues."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:119
 msgid "Next is how to [find an element](./id.md)."
-msgstr ""
+msgstr "Next is how to [find an element](./id.md)."

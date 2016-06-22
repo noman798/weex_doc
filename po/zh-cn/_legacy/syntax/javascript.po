@@ -1,21 +1,24 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:1
 #, no-wrap
 msgid "Data&Logic"
-msgstr ""
+msgstr "Data&Logic"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:4
 #, no-wrap
 msgid ""
-"The most commonly used statement in script is   `module.exports =  {...}`  "
-".  the object be used for assignment value contain three properties:  "
-"`data`, `methods` and `created` .\n"
+"The most commonly used statement in script is   `module.exports =  {...}`  ."
+"  the object be used for assignment value contain three properties:  `data`,"
+" `methods` and `created` .\n"
 msgstr ""
+"The most commonly used statement in script is   `module.exports =  {...}``  "
+".  the object be used for assignment value contain three properties:  "
+"``data``, ``methods`` and ``created` .\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:20
@@ -42,12 +45,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:21
 #, no-wrap
 msgid "data"
-msgstr ""
+msgstr "数据 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:24
 msgid "value for `data` must be a JSON object"
-msgstr ""
+msgstr "value for `data` must be a JSON object"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:25
@@ -56,6 +59,8 @@ msgid ""
 "properties of the JSON object can be using in `<template>` and method "
 "context .  \n"
 msgstr ""
+"properties of the JSON object can be using in `<template>` and method "
+"context .  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:28
@@ -63,12 +68,14 @@ msgid ""
 "please refer to [Data Binding](data-binding.md)  for more information about "
 "event."
 msgstr ""
+"please refer to [Data Binding](data-binding.md)  for more information about "
+"event."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:29
 #, no-wrap
 msgid "`methods`"
-msgstr ""
+msgstr "`methods`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:32
@@ -76,36 +83,40 @@ msgid ""
 "value for `methods` is a one level JSON object , every properties of the "
 "object must be function type."
 msgstr ""
+"value for `methods` is a one level JSON object , every properties of the "
+"object must be function type."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:34
 msgid "these function should be using as event handlers ."
-msgstr ""
+msgstr "这些函数应该使用作为事件处理程序。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:36
 msgid "please refer to [Event](events.md)  for more information ."
-msgstr ""
+msgstr "please refer to [Event](events.md)  for more information ."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:37
 #, no-wrap
 msgid "`created`"
-msgstr ""
+msgstr "`created`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:39
 #, no-wrap
 msgid ""
-"created should be optionally assign with function.  If this function provide "
-", it will be called  just after weex context created.  \n"
+"created should be optionally assign with function.  If this function provide"
+" , it will be called  just after weex context created.  \n"
 msgstr ""
+"created should be optionally assign with function.  If this function provide"
+" , it will be called  just after weex context created.  \n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:41
 #, no-wrap
 msgid "context"
-msgstr ""
+msgstr "语境 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:44
@@ -113,11 +124,13 @@ msgid ""
 "context can be reference by `this`. the object have properties of currenet "
 "script `data` , `methods` and weex common API."
 msgstr ""
+"context can be reference by `this``. the object have properties of currenet "
+"script ``data`` , ``methods` and weex common API."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:46
 msgid "data in context is writeable ; methods is executable."
-msgstr ""
+msgstr "数据在上下文中是可写的方法是可执行的。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:48
@@ -125,22 +138,23 @@ msgid ""
 "please refer to [Common API](../core-concepts/api.md)  for more information "
 "about common API."
 msgstr ""
+"please refer to [Common API](../core-concepts/api.md)  for more information "
+"about common API."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:49
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:53
 #, no-wrap
 msgid ""
-"- `setTimeout` is available , but  "
-"`clearTimeout/setInterval/clearInterval/requestAnimationFrame/cancelAnimationFrame` "
-"is not.\n"
-"-  tag is immutable , we believe interface should be changed by status "
-"updates , please refer to [Data Binding](data-binding.md).\n"
-"-  at present , weex can't using external script (no `<script src=\"...\">`  "
-"or `require`) \n"
+"- `setTimeout` is available , but  `clearTimeout/setInterval/clearInterval/requestAnimationFrame/cancelAnimationFrame` is not.\n"
+"-  tag is immutable , we believe interface should be changed by status updates , please refer to [Data Binding](data-binding.md).\n"
+"-  at present , weex can't using external script (no `<script src=\"...\">`  or `require`) \n"
 msgstr ""
+"-`setTimeout`` is available , but  ``clearTimeout/setInterval/clearInterval/requestAnimationFrame/cancelAnimationFrame`` is not.\n"
+"-  tag is immutable , we believe interface should be changed by status updates , please refer to [Data Binding](data-binding.md).\n"
+"-  at present , weex can't using external script (no ``<script src=\"...\">``  or ``require`) ???\n"

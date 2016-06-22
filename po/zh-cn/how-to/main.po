@@ -1,69 +1,71 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:1
 #, no-wrap
 msgid "How-tos"
-msgstr ""
+msgstr "How-tos"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Manage Your File Structure](./manage-your-file-structure.md)"
-msgstr ""
+msgstr "[Manage Your File Structure](./manage-your-file-structure.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Maintain Your Component Code](./maintain-your-component-code.md)"
-msgstr ""
+msgstr "[Maintain Your Component Code](./maintain-your-component-code.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Require 3rd-party Libs](./require-3rd-party-libs.md)"
-msgstr ""
+msgstr "[Require 3rd-party Libs](./require-3rd-party-libs.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Transform Code Into JS Bundle](./transform-code-into-js-bundle.md)"
-msgstr ""
+msgstr "[Transform Code Into JS Bundle](./transform-code-into-js-bundle.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Preview in Browser](./preview-in-browser.md)"
-msgstr ""
+msgstr "[Preview in Browser](./preview-in-browser.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Preview in Playground App](./preview-in-playground-app.md)"
-msgstr ""
+msgstr "[Preview in Playground App](./preview-in-playground-app.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Customize a Native Component](./customize-a-native-component.md)"
-msgstr ""
+msgstr "[Customize a Native Component](./customize-a-native-component.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Customize Native APIs](./cuszomize-native-apis.md)"
-msgstr ""
+msgstr "[Customize Native APIs](./cuszomize-native-apis.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Debug with HTML5](./debug-with-html5.md)"
-msgstr ""
+msgstr "[Debug with HTML5](./debug-with-html5.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Debug with Native](./debug-with-native.md)"
-msgstr ""
+msgstr "[Debug with Native](./debug-with-native.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
 msgid "[Debug with Remote Tools](./debug-with-remote-tools.md)"
-msgstr ""
+msgstr "[Debug with Remote Tools](./debug-with-remote-tools.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
-msgid "[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
+msgid ""
+"[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
 msgstr ""
+"[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
