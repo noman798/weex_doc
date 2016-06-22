@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:1
@@ -13,13 +13,15 @@ msgstr "找到一个元素 ???"
 msgid ""
 "In Weex, we may set the `id` property for a particular element, just as "
 "unique identification of a particular element."
-msgstr "在长的，我们可以设置为一个特定的元素`id`财产，就像一个特定元素的唯一标识。 ???"
+msgstr ""
+"在长的，我们可以设置为一个特定的元素`id`财产，就像一个特定元素的唯一标"
+"识。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:6
 msgid ""
-"`id` can be used by `this.$(id)` to find an element with a certain id. Take "
-"`$scrollTo()` For example:"
+"`id` can be used by `this.$(id)` to find an element with a certain id. Take `"
+"$scrollTo()` For example:"
 msgstr ""
 "`id`` can be used by ``this.$(id)`` to find an element with a certain id. "
 "Take ``$scrollTo()`例如： ???"
@@ -98,7 +100,8 @@ msgid ""
 "Additionally, in the [composed components](./composed-component.md), we can "
 "get the corresponding sub component through `this.$vm(id)` APIs."
 msgstr ""
-"此外，在[](./composed-component.md)组成成分，我们可以通过`this.$vm(id)`API得到相应的子组件。 ???"
+"此外，在[](./composed-component.md)组成成分，我们可以通过`this.$vm(id)`API得"
+"到相应的子组件。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:58
