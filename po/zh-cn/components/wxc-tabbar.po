@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:1
@@ -22,7 +22,8 @@ msgid ""
 "for selecting between the different modes and for displaying different weex "
 "pages for that mode."
 msgstr ""
-"“WXC TabBar”的标签，实现了一个专门的组件对应的广播方式的选择。它显示标签，在窗口的底部选择不同模式之间和显示模式不同，weex页。 ???"
+"“WXC TabBar”的标签，实现了一个专门的组件对应的广播方式的选择。它显示标签，在"
+"窗口的底部选择不同模式之间和显示模式不同，weex页。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:7
@@ -60,14 +61,17 @@ msgstr ""
 msgid ""
 "image: &lt;string&gt;The icon displayed when the tabitem is unselected. If "
 "null, the icon is not displayed."
-msgstr "图像：&lt;字符串&gt;的图标显示在选中的TabItem。如果为空，则不显示该图标。 ???"
+msgstr ""
+"图像：&lt;字符串&gt;的图标显示在选中的TabItem。如果为空，则不显示该图标。 ???"
 
 #. type: Bullet: '  + '
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
 msgid ""
 "selectedImage: &lt;string&gt;The icon displayed when the tabitem is "
 "selected. If null, the icon is not displayed."
-msgstr "SelectedImage：&lt;字符串&gt;图标上时显示的TabItem选择。如果为空，则不显示该图标。 ???"
+msgstr ""
+"SelectedImage：&lt;字符串&gt;图标上时显示的TabItem选择。如果为空，则不显示该"
+"图标。 ???"
 
 #. type: Bullet: '  + '
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
@@ -87,8 +91,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:24
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
@@ -100,9 +104,7 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:28
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
 msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
 
 #. type: Plain text
@@ -112,8 +114,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles - support "
-"````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
+"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:34
@@ -126,7 +128,9 @@ msgstr "事件 ???"
 msgid ""
 "- `tabBar.onClick`: triggered when the tabitem is selected. You need to "
 "register the observer in ready or create block."
-msgstr "-`tabBar.onClick`：TabItem选择时触发。您需要注册准备就绪或创建块的观察者。 ???"
+msgstr ""
+"-`tabBar.onClick`：TabItem选择时触发。您需要注册准备就绪或创建块的观察"
+"者。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:38
@@ -137,13 +141,13 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:41
 msgid ""
-"`require('weex-components')` should be used with webpack, see "
-"[example](https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-"
-"demo.we) for more detail."
+"`require('weex-components')` should be used with webpack, see [example]"
+"(https://github.com/alibaba/weex/blob/example/examples/component/tabbar/"
+"tabbar-demo.we) for more detail."
 msgstr ""
-"`require('weex-"
-"components')`应该用WebPACK，看到更详细的例子(https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-"
-"demo.we)[]。 ???"
+"`require('weex-components')`应该用WebPACK，看到更详细的例子(https://github."
+"com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-demo.we)"
+"[]。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:48

@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:1
@@ -20,16 +20,19 @@ msgid ""
 "Weex is a extendable cross-platform solution for dynamic programming and "
 "publishing projects, which is for developers to write code once and run the "
 "code everywhere."
-msgstr "weex是动态规划和出版项目可扩展的跨平台的解决方案，这是开发者写一次代码和运行代码到处。 ???"
+msgstr ""
+"weex是动态规划和出版项目可扩展的跨平台的解决方案，这是开发者写一次代码和运行"
+"代码到处。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:8
 msgid ""
-"The bundle transformed from the source can currently run on android, ios and"
-" web platform. Weex HTML5 is a renderer for weex bundle to run on a webview "
+"The bundle transformed from the source can currently run on android, ios and "
+"web platform. Weex HTML5 is a renderer for weex bundle to run on a webview "
 "or a modern browser etc."
 msgstr ""
-"包从源目前可以运行在Android、iOS和Web平台。weex HTML5是一个weex束运行在WebView或现代浏览器等渲染器 ???"
+"包从源目前可以运行在Android、iOS和Web平台。weex HTML5是一个weex束运行在"
+"WebView或现代浏览器等渲染器 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:9
@@ -40,16 +43,17 @@ msgstr "得到weex HTML5 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:12
 msgid ""
-"Use npm to install the latest version of Weex HTML5, require it in your code"
-" by CommonJS and use it as a npm package. You should require Weex JS "
+"Use npm to install the latest version of Weex HTML5, require it in your code "
+"by CommonJS and use it as a npm package. You should require Weex JS "
 "Framework as well, which is as a dependency to Weex HTML5, or you can "
-"require a whole javascript file with path `./node_modules/weex-"
-"html5/dist/bundle.js`. In this way you don't need to require Weex JS "
-"Framework manually anymore since it is already embeded."
+"require a whole javascript file with path `./node_modules/weex-html5/dist/"
+"bundle.js`. In this way you don't need to require Weex JS Framework manually "
+"anymore since it is already embeded."
 msgstr ""
-"使用新安装weex HTML5的最新版本，需要在您的代码通过CommonJS和使用它作为一个新的包。你应该要求weex "
-"JS框架，这是作为一个依赖于weex HTML5，或者你可以要求一个`./node_modules/weex-"
-"html5/dist/bundle.js`整个JavaScript文件路径。这样你就不需要再手动weex JS框架既然已经嵌入。 ???"
+"使用新安装weex HTML5的最新版本，需要在您的代码通过CommonJS和使用它作为一个新"
+"的包。你应该要求weex JS框架，这是作为一个依赖于weex HTML5，或者你可以要求一个"
+"`./node_modules/weex-html5/dist/bundle.js`整个JavaScript文件路径。这样你就不"
+"需要再手动weex JS框架既然已经嵌入。 ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:13
@@ -61,11 +65,11 @@ msgstr "从新安装 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:16
 msgid ""
 "Make sure you get the latest version by `npm install` or `npm update`. For "
-"more informations of npm, please visit the [npm official "
-"site](https://docs.npmjs.com/)."
+"more informations of npm, please visit the [npm official site](https://docs."
+"npmjs.com/)."
 msgstr ""
-"确保你得到`npm install`` or ``npm "
-"update`最新版本。更多信息请访问[NPM，NPM官方网站](https://docs.npmjs.com/)。 ???"
+"确保你得到`npm install`` or ``npm update`最新版本。更多信息请访问[NPM，NPM官"
+"方网站](https://docs.npmjs.com/)。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:21
@@ -107,7 +111,8 @@ msgid ""
 "object as the first argument to confirm the runtime infomation and "
 "environment. Following parameters can be set by this config object:"
 msgstr ""
-"你可以通过API`init`初始化weex。这种方法需要一个配置对象来确定运行时信息和环境的第一个参数。下面的参数可以通过这个配置对象设置： ???"
+"你可以通过API`init`初始化weex。这种方法需要一个配置对象来确定运行时信息和环境"
+"的第一个参数。下面的参数可以通过这个配置对象设置： ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:46

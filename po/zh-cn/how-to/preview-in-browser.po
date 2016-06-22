@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:1
@@ -18,13 +18,15 @@ msgstr "weex工具包 ???"
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:6
 msgid ""
 "We strongly suggest you use weex-toolkit to preview weex code in your "
-"browser. This tool were Node.JS based, so you need to install Node at first."
-" Please download and install latest stable version of Node from "
-"[https://nodejs.org/en/download/stable/](https://nodejs.org/en/download/stable/)."
-" Then you can install weex-toolkit using npm install:"
+"browser. This tool were Node.JS based, so you need to install Node at first. "
+"Please download and install latest stable version of Node from [https://"
+"nodejs.org/en/download/stable/](https://nodejs.org/en/download/stable/). "
+"Then you can install weex-toolkit using npm install:"
 msgstr ""
-"我们强烈建议你使用weex工具包预览您的浏览器weex代码。这个工具是基于Node.js，所以你需要先安装节点。请下载并安装最新的稳定版本节点https://nodejs.org/en/download/stable/(https://nodejs.org/en/download/stable/)[]。然后你可以安装weex工具包使用npm安装："
-" ???"
+"我们强烈建议你使用weex工具包预览您的浏览器weex代码。这个工具是基于Node.js，所"
+"以你需要先安装节点。请下载并安装最新的稳定版本节点https://nodejs.org/en/"
+"download/stable/(https://nodejs.org/en/download/stable/)[]。然后你可以安装"
+"weex工具包使用npm安装： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:10
@@ -34,9 +36,10 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:12
 msgid ""
-"Check whether the toolkit is working by typeing `weex` in cmd line. Normally"
-" you should see the following help text:"
-msgstr "检查是否被打`weex`工具包CMD线工作。通常情况下，您应该看到以下帮助文本： ???"
+"Check whether the toolkit is working by typeing `weex` in cmd line. Normally "
+"you should see the following help text:"
+msgstr ""
+"检查是否被打`weex`工具包CMD线工作。通常情况下，您应该看到以下帮助文本： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:15
@@ -91,7 +94,8 @@ msgstr "一个浏览器窗口将自动打开，显示你想预览的页面： ??
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:36
 msgid ""
-"![preview "
-"page](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
+"![preview page](http://gtms02.alicdn.com/tps/i2/"
+"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 msgstr ""
-"![预览](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)???"
+"![预览](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584."
+"jpg)???"

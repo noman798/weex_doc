@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title =
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
@@ -39,11 +39,11 @@ msgstr "weex ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex "
-"foo/bar/your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
+"your_next_best_weex_script_file.we [options]"
 msgstr ""
-"热加载````使用weex文件预览工具：weex foo /酒吧/ your_next_best_weex_script_file.we [选项] "
-"???"
+"热加载````使用weex文件预览工具：weex foo /酒吧/ "
+"your_next_best_weex_script_file.we [选项] ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25
@@ -120,7 +120,8 @@ msgstr "160223：添加-o选项weex JS束直接变换 ???"
 msgid ""
 "160201 : adopt new weex JS bundle style(define / require) & output "
 "transformer Error/Warning logs"
-msgstr "160201：采用新的weex JS捆绑式(define / require)输出变压器的错误/警告日志 ???"
+msgstr ""
+"160201：采用新的weex JS捆绑式(define / require)输出变压器的错误/警告日志 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
