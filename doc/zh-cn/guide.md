@@ -1,4 +1,4 @@
-# 目录
+# Guide
 
 * [Tutorial](tutorial.md)
 * [Syntax](syntax/main.md)

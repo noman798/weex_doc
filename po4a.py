@@ -28,11 +28,45 @@ def bash(cmd):
 
 
 def _update(lang, path):
+    f = "%s/po/%s/%s.po" % (
+        PATH, lang, path[:-3]
+    )
     bash(
-        "po4a-updatepo -M utf-8 -f text -o markdown -m %s/%s -p %s/po/%s/%s.po" % (
-            PATH_DOC, path, PATH, lang, path[:-3]
+        "po4a-updatepo -M utf-8 -f text -o markdown -m %s/%s -p %s --copyright-holder weex" % (
+            PATH_DOC, path, f
         )
     )
+
+    li = []
+    with open(f) as fin:
+        li = []
+        for i in fin:
+            for prefix in (
+                '"Project-Id-Version: ',
+                '"PO-Revision-Date: ',
+                # '#, no-wrap',
+                '"Last-Translator: ',
+                '"POT-Creation-Date: ',
+                '"Language-Team: ',
+                '"Language: ',
+                '"MIME-Version: ',
+                '"Content-Type: ',
+                '"Content-Transfer-Encoding: ',
+                '# SOME DESCRIPTIVE TITLE',
+                '# Copyright (C) YEAR weex',
+                '# This file is distributed under the same license as the PACKAGE package.',
+                '# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.',
+                '#, fuzzy',
+            ):
+                if i.startswith(prefix) or i.strip() == "#":
+                    break
+            else:
+                li.append(i)
+
+    with open(f, "w") as fout:
+        fout.write("".join(li).replace("""msgid ""
+msgstr ""
+""", '').strip("\n"))
 
 
 def _build(lang, path):
@@ -52,11 +86,15 @@ def scan():
 
     count = 1
     for (dirpath, dirnames, filenames) in walk(PATH_DOC):
-        for lang in LANG:
-            for i in ("po", "doc"):
-                mkpath(join(PATH, i, lang, dirpath[len(PATH_DOC) + 1:]))
+        md_li = []
+
         for i in filenames:
             if i.endswith(".md"):
+                md_li.append(i)
+        if md_li:
+            for lang in LANG:
+                mkpath(join(PATH, "po", lang, dirpath[len(PATH_DOC) + 1:]))
+            for i in md_li:
                 for lang in LANG:
                     for func in (_update, _build):
                         f = join(dirpath, i)[len(PATH_DOC) + 1:]
@@ -67,4 +105,3 @@ def scan():
 
 if __name__ == "__main__":
     scan()
-

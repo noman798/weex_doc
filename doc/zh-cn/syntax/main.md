@@ -84,8 +84,8 @@ Both the two `text` components above have the same `font-size`, which is
 ### Notes!
 weex is basically following [HTML
 attribute](https://en.wikipedia.org/wiki/HTML_attribute) naming rule , so
-please **do not use CamelCase** in your attribute , **long-name** with “-”
-as delimiter is much better.
+please **do not use CamelCase** in your attribute , **long-name** with
+“-” as delimiter is much better.
 
 ## `<script>`
 

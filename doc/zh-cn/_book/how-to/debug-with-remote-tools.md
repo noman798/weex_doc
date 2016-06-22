@@ -7,8 +7,8 @@ your `we file`.
 At present the only debug assist function of Weex toolkit is `Hot reload` ,
 we will add more utility debug function soon.
 
-After install weex toolkit， open your terminal and navigate to the directory
-where you save `we` file. then type
+After install weex toolkit， open your terminal and navigate to the
+directory where you save `we` file. then type
 
 ``` weex the_next_great_we_file.we ```
 
