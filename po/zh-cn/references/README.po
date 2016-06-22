@@ -6,22 +6,22 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:1
 #, no-wrap
 msgid "References"
-msgstr "References"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Bootstrap](./bootstrap.md)"
-msgstr "[Bootstrap](./bootstrap.md)"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Component Definition](./component-defs.md)"
-msgstr "[Component Definition](./component-defs.md)"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Instance APIs](./api.md)"
-msgstr "[Instance APIs](./api.md)"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
@@ -49,24 +49,3 @@ msgid ""
 "    * [JS Framework APIs](../specs/js-framework-apis.md)\n"
 "    * [Virtual DOM APIs](../specs/virtual-dom-apis.md)\n"
 msgstr ""
-"* [Built-in Components](../components/README.md)\n"
-"    * [Common Attributes](./common-attrs.md)\n"
-"    * [Common Style](./common-style.md)\n"
-"    * [Common Event](./common-event.md)\n"
-"    * [Special Element](../components/special-element.md)\n"
-"* [&lt;div &gt;](../components/div.md)???\n"
-"* [&lt;上卷&gt;](../components/scroller.md)???\n"
-"* [&lt;列表&gt;](../components/list.md)???\n"
-"* [&lt;细胞&gt;](../components/cell.md)???\n"
-"* [&lt;文本&gt;](../components/text.md)???\n"
-"* [&lt;图像&gt;](../components/image.md)???\n"
-"* [&lt;输入&gt;](../components/input.md)???\n"
-"* [&lt;开关&gt;](../components/switch.md)???\n"
-"* [&lt;滑块&gt;](../components/slider.md)???\n"
-"* [&lt;指示&gt;](../components/indicator.md)???\n"
-"* [&lt;视频&gt;](../components/video.md)???\n"
-"* [Built-in Modules](../modules/README.md)\n"
-"* Low-level Specs\n"
-"    * [JS Bundle Format](../specs/js-bundle-format.md)\n"
-"    * [JS Framework APIs](../specs/js-framework-apis.md)\n"
-"    * [Virtual DOM APIs](../specs/virtual-dom-apis.md)\n"

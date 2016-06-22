@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:1
 #, no-wrap
 msgid "&lt;slider&gt;"
-msgstr "&lt;滑块&gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "Summary"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:6
@@ -20,14 +20,12 @@ msgid ""
 "A slide's player to show slides (mostly as pictures) one page by another. "
 "The default interval between two slides is 3 seconds."
 msgstr ""
-"A slide's player to show slides (mostly as pictures) one page by another. "
-"The default interval between two slides is 3 seconds."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:7
 #, no-wrap
 msgid "Child Components"
-msgstr "Child Components"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:10
@@ -36,15 +34,12 @@ msgid ""
 "`indicator` component which can be used only as a child component of "
 "`slider`."
 msgstr ""
-"It supports all kinds of weex components as its slides, especially the "
-"`indicator`` component which can be used only as a child component of "
-"``slider`."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:11
 #, no-wrap
 msgid "Attributes"
-msgstr "Attributes"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:14
@@ -53,9 +48,6 @@ msgid ""
 "whether the slides plays automatically after the page rendering finished. "
 "The default value is `false`."
 msgstr ""
-"-`auto-play``: &lt;boolean&gt; ``true`` | ``false``. This value determines "
-"whether the slides plays automatically after the page rendering finished. "
-"The default value is ``false`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:16
@@ -63,20 +55,18 @@ msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
 msgstr ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:17
 #, no-wrap
 msgid "Styles"
-msgstr "Styles"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:20
 #, no-wrap
 msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
-msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:25
@@ -85,14 +75,12 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:26
 #, no-wrap
 msgid "Events"
-msgstr "Events"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:29
@@ -101,14 +89,12 @@ msgid ""
 "contains the attribute of `index`, which is the index number of the "
 "currently shown slide."
 msgstr ""
-"-`change``: triggerd when the slide's index is changed. The event object "
-"contains the attribute of ``index`，这是当前显示的幻灯片的指数。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:31
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:34
@@ -117,15 +103,12 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
-"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:35
 #, no-wrap
 msgid "Example"
-msgstr "Example"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:46

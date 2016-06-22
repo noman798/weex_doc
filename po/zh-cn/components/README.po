@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:1
 #, no-wrap
 msgid "Build-in Components"
-msgstr "Build-in Components"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:4
@@ -14,50 +14,48 @@ msgid ""
 "Before see all built-in components, let's have a look at the common things "
 "about component."
 msgstr ""
-"Before see all built-in components, let's have a look at the common things "
-"about component."
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:8
 msgid "[Common Attributes](../references/common-attrs.md)"
-msgstr "[Common Attributes](../references/common-attrs.md)"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:8
 msgid "[Common Style](../references/common-style.md)"
-msgstr "[Common Style](../references/common-style.md)"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:8
 msgid "[Common Event](../references/common-event.md)"
-msgstr "[Common Event](../references/common-event.md)"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:10
 #, no-wrap
 msgid "**Special Element**\n"
-msgstr "**Special Element**\n"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:12
 msgid "[&lt;content&gt; / &lt;slot&gt;](./special-element.md)"
-msgstr "[&lt;内容&gt;、&lt;槽&gt;](./special-element.md)???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:14
 #, no-wrap
 msgid "**Component List**\n"
-msgstr "**Component List**\n"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:28
 msgid "[&lt;div&gt;](./div.md)"
-msgstr "[&lt;div &gt;](./div.md)???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:28
 msgid "[&lt;scroller&gt;](./scroller.md)"
-msgstr "[&lt;上卷&gt;](./scroller.md)???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:28
@@ -76,15 +74,3 @@ msgid ""
 "* [&lt;wxc-navpage&gt;](./wxc-navpage.md)\n"
 "* [&lt;wxc-navbar&gt;](./wxc-navbar.md)\n"
 msgstr ""
-"* [&lt;列表&gt;](./list.md)???\n"
-"* [&lt;细胞&gt;](./cell.md)???\n"
-"* [&lt;文本&gt;](./text.md)???\n"
-"* [&lt;图像&gt;](./image.md)???\n"
-"* [&lt;输入&gt;](./input.md)???\n"
-"* [&lt;开关&gt;](./switch.md)???\n"
-"* [&lt;滑块&gt;](./slider.md)???\n"
-"* [&lt;指示&gt;](./indicator.md)???\n"
-"* [&lt;视频&gt;](./video.md)???\n"
-"* [&lt;Web &gt;](./web.md)???\n"
-"* [&lt;WXC navpage &gt;](./wxc-navpage.md)???\n"
-"* [&lt;WXC NavBar &gt;](./wxc-navbar.md)???\n"

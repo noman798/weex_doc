@@ -6,18 +6,18 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
 #, no-wrap
 msgid "Weex-Toolkit\n"
-msgstr "Weex-Toolkit\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:5
 msgid "Weex CLI tool set"
-msgstr "Weex CLI tool set"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:6
 #, no-wrap
 msgid "Install"
-msgstr "Install"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:10
@@ -28,92 +28,87 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:11
 #, no-wrap
 msgid "Usage"
-msgstr "Usage"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:13
 #, no-wrap
 msgid "weex"
-msgstr "weex ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
-"your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ``` Usage: weex "
+"foo/bar/your_next_best_weex_script_file.we [options]"
 msgstr ""
-"Weex file preview tool with hot reload ```` Usage: weex foo/bar/"
-"your_next_best_weex_script_file.we [options]"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25
 #, no-wrap
 msgid ""
 "Options:\n"
-"  --qr    display QR code for Weex Playground app, default action.               \n"
-"  -o      transform weex JS bundle only, specify bundle file name using the option\n"
-"  -s      start a http file server, weex .we file will be transformed on the server. specify local root path using the option\n"
+"  --qr    display QR code for Weex Playground app, default action.               "
+"\n"
+"  -o      transform weex JS bundle only, specify bundle file name using the "
+"option\n"
+"  -s      start a http file server, weex .we file will be transformed on the "
+"server. specify local root path using the option\n"
 "  --help  Show help                                                       \n"
 "```\n"
 msgstr ""
-"Options:\n"
-"  --qr    display QR code for Weex Playground app, default action.               \n"
-"  -o      transform weex JS bundle only, specify bundle file name using the option\n"
-"-开始一个HTTP文件服务器，weex。我们将文件服务器上的转化。使用选项指定本地根路径 ???\n"
-"  --help  Show help                                                       \n"
-"````???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:27
 #, no-wrap
 msgid "Issue & Feedback"
-msgstr "Issue & Feedback"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:30
 msgid "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
-msgstr "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:31
 #, no-wrap
 msgid "Changelog"
-msgstr "Changelog"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160418 : temporary turnoff H5 preview"
-msgstr "160418 : temporary turnoff H5 preview"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160401 : format for opensource"
-msgstr "160401：格式开源 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160331 : update upstream lib , ready for opensource"
-msgstr "160331：更新上游库，准备开源 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160321 : update HTML5 runtime"
-msgstr "160321 : update HTML5 runtime"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160301 : add -s option & update upstream lib"
-msgstr "160301：添加选项和更新上游库 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160224 : update upstream weex-html5 lib , improve stability"
-msgstr "160224：更新上游weex-html5库，提高稳定性 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160223 : add -o option for transform weex JS bundle directly"
-msgstr "160223 : add -o option for transform weex JS bundle directly"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
@@ -121,30 +116,28 @@ msgid ""
 "160201 : adopt new weex JS bundle style(define / require) & output "
 "transformer Error/Warning logs"
 msgstr ""
-"160201 : adopt new weex JS bundle style(define / require) & output "
-"transformer Error/Warning logs"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160129 : add native runtime support with --qr option"
-msgstr "160129：添加本机运行时支持，QR选项 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160122 : add -n , -h options & improve CLI feedback output"
-msgstr "160122 : add -n , -h options & improve CLI feedback output"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160119 : update upstream weex-html5 lib"
-msgstr "160119：更新weex-html5库上游 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160118 : hot reload function & English document"
-msgstr "160118 : hot reload function & English document"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
 msgid "160114 : first version"
-msgstr "160114：第一个版本 ???"
+msgstr ""

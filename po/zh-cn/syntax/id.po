@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:1
 #, no-wrap
 msgid "Find an Element"
-msgstr "Find an Element"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:4
@@ -14,17 +14,13 @@ msgid ""
 "In Weex, we may set the `id` property for a particular element, just as "
 "unique identification of a particular element."
 msgstr ""
-"In Weex, we may set the `id` property for a particular element, just as "
-"unique identification of a particular element."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:6
 msgid ""
-"`id` can be used by `this.$(id)` to find an element with a certain id. Take `"
-"$scrollTo()` For example:"
+"`id` can be used by `this.$(id)` to find an element with a certain id. Take "
+"`$scrollTo()` For example:"
 msgstr ""
-"`id`` can be used by ``this.$(id)`` to find an element with a certain id. "
-"Take ``$scrollTo()` For example:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:28
@@ -60,9 +56,6 @@ msgid ""
 "control](./display-logic.md), and ensure repetitive elements with different "
 "`id`:"
 msgstr ""
-"`id`` can also work with ``repeat`` attribute [See more about display "
-"logical control](./display-logic.md), and ensure repetitive elements with "
-"different ``id`： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:55
@@ -71,7 +64,8 @@ msgid ""
 "```\n"
 "  <template>\n"
 "    <container>\n"
-"      <image id=\"{{imgId}}\" src=\"{{imgUrl}}\" onclick=\"getImageId\" repeat=\"{{images}}\"></image>\n"
+"      <image id=\"{{imgId}}\" src=\"{{imgUrl}}\" onclick=\"getImageId\" "
+"repeat=\"{{images}}\"></image>\n"
 "    </container>\n"
 "  </template>\n"
 "  <script>\n"
@@ -100,10 +94,8 @@ msgid ""
 "Additionally, in the [composed components](./composed-component.md), we can "
 "get the corresponding sub component through `this.$vm(id)` APIs."
 msgstr ""
-"Additionally, in the [composed components](./composed-component.md), we can "
-"get the corresponding sub component through `this.$vm(id)` APIs."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:58
 msgid "Next is how to [send messages between composed components](./comm.md)."
-msgstr "Next is how to [send messages between composed components](./comm.md)."
+msgstr ""

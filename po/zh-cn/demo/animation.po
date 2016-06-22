@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/demo/animation.md:2
 #, no-wrap
 msgid "Animation Demo\n"
-msgstr "Animation Demo\n"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/animation.md:4
 #, no-wrap
 msgid "snapshot"
-msgstr "快照 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/animation.md:6
@@ -20,14 +20,12 @@ msgid ""
 "![weex demo](http://gtms02.alicdn.com/tps/i2/"
 "TB1B5L2MpXXXXXhXXXXp.9cVpXX-278-424.gif)"
 msgstr ""
-"![weex演示](http://gtms02.alicdn.com/tps/i2/"
-"TB1B5L2MpXXXXXhXXXXp.9cVpXX-278-424.gif)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/animation.md:7
 #, no-wrap
 msgid "weex code"
-msgstr "weex代码 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/animation.md:10
@@ -35,5 +33,3 @@ msgid ""
 "See [animation example](https://github.com/alibaba/weex/tree/master/examples/"
 "animation.we)."
 msgstr ""
-"See [animation example](https://github.com/alibaba/weex/tree/master/examples/"
-"animation.we)."

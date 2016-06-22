@@ -6,20 +6,22 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:1
 #, no-wrap
 msgid "Composed Component"
-msgstr "Composed Component"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:4
 msgid ""
 "if some part of weex file is repeated often , you could create a composed "
 "component represent these part."
-msgstr "如果weex文件的某些部分重复，你可以创建一个代表这些部分组成。 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:6
 #, no-wrap
-msgid "you can use `<we-element>` tag to create composed component, the value of `name` attribute is the component name.\n"
-msgstr "你可以使用`<we-element>`` tag to create composed component, the value of ``name`属性是组件的名称。 ???\n"
+msgid ""
+"you can use `<we-element>` tag to create composed component, the value of "
+"`name` attribute is the component name.\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:25
@@ -48,17 +50,18 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:27
 #, no-wrap
-msgid "Content of `<we-element>` tag is the same as normal weex file, consists of `<template>`, `<style>` and `<script>` .\n"
-msgstr "Content of `<we-element>`` tag is the same as normal weex file, consists of ``<template>``, ``<style>`` and ``<script>` .\n"
+msgid ""
+"Content of `<we-element>` tag is the same as normal weex file, consists of "
+"`<template>`, `<style>` and `<script>` .\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:29
 msgid "Once composed component been defined, you can use it like following."
-msgstr "Once composed component been defined, you can use it like following."
+msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47
-#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47 /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
 #, no-wrap
 msgid ""
 "```html\n"
@@ -94,7 +97,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:53
 #, no-wrap
 msgid "Nesting Component"
-msgstr "Nesting Component"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:56
@@ -102,13 +105,11 @@ msgid ""
 "Composed component supports nesting. For easy access nesting component, you "
 "should name nesting component with \"parent name and hyphen\" prefix."
 msgstr ""
-"Composed component supports nesting. For easy access nesting component, you "
-"should name nesting component with \"parent name and hyphen\" prefix."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:58
 msgid "for example:"
-msgstr "例如： ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:93
@@ -164,22 +165,20 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:113
 #, no-wrap
 msgid "Notes"
-msgstr "Notes"
+msgstr ""
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid "Every composed component have an independent `<style>` work scope."
-msgstr "Every composed component have an independent `<style>` work scope."
+msgstr ""
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid ""
 "If child component have `id` attribute, you can access the context of the "
-"child component by `this.$vm(id)`. See more about [find an element](./id.md)."
+"child component by `this.$vm(id)`. See more about [find an "
+"element](./id.md)."
 msgstr ""
-"If child component have `id`` attribute, you can access the context of the "
-"child component by ``this.$vm(id)`. See more about [find an element](./id."
-"md)."
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
@@ -187,10 +186,8 @@ msgid ""
 "Please refer to [communicate between components](./comm.md) for more "
 "communication issues."
 msgstr ""
-"Please refer to [communicate between components](./comm.md) for more "
-"communication issues."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:119
 msgid "Next is how to [find an element](./id.md)."
-msgstr "Next is how to [find an element](./id.md)."
+msgstr ""

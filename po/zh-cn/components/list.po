@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:1
 #, no-wrap
 msgid "&lt;list&gt;"
-msgstr "&lt;一览; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "Summary"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:6
@@ -22,50 +22,44 @@ msgid ""
 "then the height of itself, the whole child components are scrollable and "
 "it's high-performanced."
 msgstr ""
-"A fixed height container which has multiple child components (cells) "
-"arranged in one column. If total height of its child components is higher "
-"then the height of itself, the whole child components are scrollable and "
-"it's high-performanced."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:8
 #, no-wrap
 msgid "**Notes:** height of `list` must be specified (list's styles must contain `height` or pair of `top`, `bottom` or flex value if outter container's `flex-direction` value is `column`).\n"
-msgstr "**Notes:** height of `list`` must be specified (list's styles must contain ``height`` or pair of ``top``, ``bottom`` or flex value if outter container's ``flex-direction`` value is ``column`).\n"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:9
 #, no-wrap
 msgid "Child Components"
-msgstr "Child Components"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:14
 msgid ""
 "`cell` is a available candidate to be used as a child component for `list`."
 msgstr ""
-"`cell`` is a available candidate to be used as a child component for "
-"``list`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:14
 msgid ""
 "`refresh` component can be used inside list to add pull to refresh "
 "functionality."
-msgstr "`refresh`组件可以应用在列表中添加下拉刷新功能。 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:14
 msgid ""
 "`loading` component can be used inside list to add loading view at the "
 "bottom of scroller."
-msgstr "`loading`组件可以用内部列表在滚动条的底部添加加载视图。 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:15
 #, no-wrap
 msgid "Attributes"
-msgstr "Attributes"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:18
@@ -74,8 +68,6 @@ msgid ""
 "of the list to trigger the loadmore event, which is triggered when the list "
 "scrolls down near enough to the bottom."
 msgstr ""
-"-`loadmoreoffset`：&lt;数&gt;偏移距离向下列表的事件触发负载量的底部，被触发"
-"时，列表中向下滚动靠近底部。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:20
@@ -83,20 +75,18 @@ msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
 msgstr ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:21
 #, no-wrap
 msgid "Styles"
-msgstr "Styles"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:24
 #, no-wrap
 msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
-msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:29
@@ -105,14 +95,12 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:30
 #, no-wrap
 msgid "Events"
-msgstr "Events"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:35
@@ -125,19 +113,12 @@ msgid ""
 "will be triggered when list is stopped. You can do something in this event "
 "handler."
 msgstr ""
-"- `loadmore``: if the list scrolls to bottom, this event will be triggered "
-"immediately. You can load the next page of items in this event handler.  - "
-"``onappear``: if the list's cells scroll to visible area, this event will be "
-"triggered when list is stopped. You can do something in this event handler.  "
-"- ``ondisappear`: if the list's cells scroll to invisible area, this event "
-"will be triggered when list is stopped. You can do something in this event "
-"handler."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:38
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:43
@@ -150,19 +131,12 @@ msgid ""
 "inside scroller, this event will be triggered when user scrolling to the "
 "bottom."
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear`` event. Check out [common "
-"events](../references/common-event.md)  - support ``refresh`` event .  If a "
-"refresh component is inside scroller, this event will be triggered when the "
-"scroller is swiping down.  - support ``loading` event .  If a loading "
-"component is inside scroller, this event will be triggered when user "
-"scrolling to the bottom."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:44
 #, no-wrap
 msgid "Example"
-msgstr "Example"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:46
@@ -170,5 +144,3 @@ msgid ""
 "see [list-basic demo](https://github.com/alibaba/weex/blob/example/examples/"
 "component/list/list-basic.we)"
 msgstr ""
-"看到[列出基本演示](https://github.com/alibaba/weex/blob/example/examples/"
-"component/list/list-basic.we)???"

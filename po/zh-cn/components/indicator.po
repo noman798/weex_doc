@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:1
 #, no-wrap
 msgid "&lt;indicator&gt;"
-msgstr "&lt;指标&gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "Summary"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:6
@@ -20,25 +20,23 @@ msgid ""
 "This component must be used as a subcomponent of a [`slider`](slider.md) "
 "component."
 msgstr ""
-"This component must be used as a subcomponent of a [`slider`](slider.md) "
-"component."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:7
 #, no-wrap
 msgid "Child Components"
-msgstr "Child Components"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:10
 msgid "This component supports no child components."
-msgstr "This component supports no child components."
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:11
 #, no-wrap
 msgid "Attributes"
-msgstr "Attributes"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:14
@@ -46,14 +44,12 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"There is no specific attribute for this component other than the [common "
-"attributes](../references/common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:15
 #, no-wrap
 msgid "Styles"
-msgstr "Styles"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:20
@@ -65,18 +61,12 @@ msgid ""
 "in the hexadecimal #RRGGBB format.  - `item-size`: &lt;length&gt; The size "
 "of the indicator elements, which is an float attribute."
 msgstr ""
-"- `item-color``: &lt;colors&gt; This style attribute sets the normal item "
-"color using either a named color or a color specified in the hexadecimal "
-"#RRGGBB format.  - ``item-selectedColor``: &lt;colors&gt; This style "
-"attribute sets the selected item color using either a named color or a color "
-"specified in the hexadecimal #RRGGBB format.  - ``item-size`: &lt;length&gt; "
-"The size of the indicator elements, which is an float attribute."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:22
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:27
@@ -85,20 +75,18 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:28
 #, no-wrap
 msgid "Events"
-msgstr "Events"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:31
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:34
@@ -107,15 +95,12 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
-"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:35
 #, no-wrap
 msgid "Example"
-msgstr "Example"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:44

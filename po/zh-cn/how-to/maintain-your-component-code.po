@@ -6,9 +6,9 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/maintain-your-component-code.md:1
 #, no-wrap
 msgid "How to maintain your components' code ?"
-msgstr "How to maintain your components' code ?"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/maintain-your-component-code.md:3
 msgid "TODO"
-msgstr "TODO"
+msgstr ""

@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:1
 #, no-wrap
 msgid "Communicate Between Components"
-msgstr "Communicate Between Components"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:3
 #, no-wrap
 msgid "For Child-Parent Communication"
-msgstr "For Child-Parent Communication"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:6
@@ -24,19 +24,11 @@ msgid ""
 "[Function callback])` method , the callback will be execute with one "
 "argument , the message object will be `detail` property of the the argument."
 msgstr ""
-"Children component can use `this.$dispatch([String type], [Object detail])`` "
-"method passing information to parent component. first argument meaning type "
-"of message , second argument is the message object. If any parent of the "
-"child component register the same type of listener using ``$on([String "
-"type], [Function callback])`` method , the callback will be execute with one "
-"argument , the message object will be ``detail` property of the the argument."
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8
-#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:100
-#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:174
+#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8 /home/dev/download/weex_doc/weex/doc/syntax/comm.md:100 /home/dev/download/weex_doc/weex/doc/syntax/comm.md:174
 msgid "eg:"
-msgstr "如： ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:31
@@ -83,7 +75,8 @@ msgid ""
 "  module.exports = {\n"
 "    created: function () {\n"
 "      this.$on('notify', function(e) {\n"
-"        //  when <foo> image tag  be clicked ,the function will be executing.\n"
+"        //  when <foo> image tag  be clicked ,the function will be "
+"executing.\n"
 "        // e.detail is  `{a: 1}`\n"
 "      })\n"
 "    }\n"
@@ -96,7 +89,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:48
 #, no-wrap
 msgid "For Parent-Child Communication"
-msgstr "For Parent-Child Communication"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:51
@@ -105,9 +98,6 @@ msgid ""
 "component. you can access child component information using the context "
 "object."
 msgstr ""
-"Parent component can using `this.$([String id])` get context of child "
-"component. you can access child component information using the context "
-"object."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:74
@@ -171,7 +161,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:95
 #, no-wrap
 msgid "Parent to Children (multi-child) Communication"
-msgstr "Parent to Children (multi-child) Communication"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:98
@@ -179,8 +169,6 @@ msgid ""
 "Parent can using `this.$broadcast([String type], [Object detail])` broadcast "
 "message to all of children."
 msgstr ""
-"Parent can using `this.$broadcast([String type], [Object detail])` broadcast "
-"message to all of children."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:122
@@ -274,13 +262,14 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:169
 #, no-wrap
 msgid "Siblings Communication"
-msgstr "Siblings Communication"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:172
 msgid ""
-"siblings components can using common parent as bridge for passing information"
-msgstr "兄弟姐妹的组件可以使用共同的家长作为传递信息的桥梁 ???"
+"siblings components can using common parent as bridge for passing "
+"information"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:188
@@ -354,5 +343,3 @@ msgid ""
 "At last, you can learn how to write [config & data](./config-n-data.md) for "
 "a Weex page."
 msgstr ""
-"At last, you can learn how to write [config & data](./config-n-data.md) for "
-"a Weex page."

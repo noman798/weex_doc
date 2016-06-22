@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:1
 #, no-wrap
 msgid "&lt;div&gt;"
-msgstr "&lt;div &gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "Summary"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:6
@@ -21,21 +21,18 @@ msgid ""
 "components. It supports all the common styles, attributes and layout of "
 "flexbox."
 msgstr ""
-"The most fundamental component which is a contianer to wrap any other "
-"components. It supports all the common styles, attributes and layout of "
-"flexbox."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:8
 #, no-wrap
 msgid "alias: `<container>` (deprecated)\n"
-msgstr "别名：`<container>`(deprecated)???\n"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:9
 #, no-wrap
 msgid "Child Components"
-msgstr "Child Components"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:12
@@ -43,14 +40,12 @@ msgid ""
 "This type of component supports all kinds of weex component as its child "
 "components including its own kind."
 msgstr ""
-"This type of component supports all kinds of weex component as its child "
-"components including its own kind."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:13
 #, no-wrap
 msgid "Attributes"
-msgstr "Attributes"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:16
@@ -58,20 +53,18 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"There is no specific attribute for this component other than the [common "
-"attributes](../references/common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:17
 #, no-wrap
 msgid "Styles"
-msgstr "Styles"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:20
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:25
@@ -80,20 +73,18 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:26
 #, no-wrap
 msgid "Events"
-msgstr "Events"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:29
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:32
@@ -102,15 +93,12 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
-"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:33
 #, no-wrap
 msgid "Examples"
-msgstr "Examples"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:41

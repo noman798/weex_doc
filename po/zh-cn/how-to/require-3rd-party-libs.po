@@ -6,24 +6,24 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:1
 #, no-wrap
 msgid "How to require 3rd Party Libs ?"
-msgstr "How to require 3rd Party Libs ?"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:4
 #, no-wrap
 msgid "In the paragraph [Maintain Your Component Code](./maintain-your-component-code.md), we learn that JavaScript code can be written in `<script>` tag in one component. But there must be some common functions or modules in your project, such as parsing url params, extending properties from some objects to another object and so on. It's a bad practice to copy and paste them in each component, therefore there's a urgent need of `require`. Weex provides CommonJS `require` syntax for developers.\n"
-msgstr "In the paragraph [Maintain Your Component Code](./maintain-your-component-code.md), we learn that JavaScript code can be written in `<script>`` tag in one component. But there must be some common functions or modules in your project, such as parsing url params, extending properties from some objects to another object and so on. It's a bad practice to copy and paste them in each component, therefore there's a urgent need of ``require``. Weex provides CommonJS ``require` syntax for developers.\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:6
 msgid "Let take `extend` for example."
-msgstr "Let take `extend` for example."
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:7
 #, no-wrap
 msgid "Require Local Js Modules"
-msgstr "Require Local Js Modules"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:10
@@ -31,8 +31,6 @@ msgid ""
 "A basic implementation of `extend` is as follows, and it's placed in "
 "directory path `./common/utils.js`."
 msgstr ""
-"A basic implementation of `extend`` is as follows, and it's placed in "
-"directory path ``./common/utils.js`."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:19
@@ -51,7 +49,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:21
 msgid "In a `.we` file, `extend` can be used with the help of `require`:"
-msgstr "In a `.we`` file, ``extend`` can be used with the help of ``require`:"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:30
@@ -71,7 +69,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:31
 #, no-wrap
 msgid "Require Installed Node Modules"
-msgstr "Require Installed Node Modules"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:34
@@ -81,10 +79,6 @@ msgid ""
 "extending any built-in objects. It implements a more robust version of "
 "[extend](http://underscorejs.org/#extend)."
 msgstr ""
-"Besides, [underscore](http://underscorejs.org) is a JavaScript library that "
-"provides a whole mess of useful functional programming helpers without "
-"extending any built-in objects. It implements a more robust version of "
-"[extend](http://underscorejs.org/#extend)."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:36
@@ -93,9 +87,6 @@ msgid ""
 "ourselves. After installing `underscore` to the `node_modules` directory, we "
 "can `require` and use it."
 msgstr ""
-"We can use underscore's extend instead of the version implemented by "
-"ourselves. After installing `underscore`` to the ``node_modules`` directory, "
-"we can ``require` and use it."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:40

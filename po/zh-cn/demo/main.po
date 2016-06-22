@@ -6,9 +6,9 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/demo/main.md:1
 #, no-wrap
 msgid "Examples"
-msgstr "Examples"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/demo/main.md:3
 msgid "[Hello World](./hello-world.md)"
-msgstr "[Hello World](./hello-world.md)"
+msgstr ""

@@ -6,19 +6,19 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:1
 #, no-wrap
 msgid "Service & Tools"
-msgstr "Service & Tools"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[CLI](./cli.md)"
-msgstr "[CLI](./cli.md)"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[Transformer](./transformer.md)"
-msgstr "[Transformer](./transformer.md)"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[Playground App](./playground-app.md)"
-msgstr "[Playground App](./playground-app.md)"
+msgstr ""

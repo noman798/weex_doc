@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/faq.md:1
 #, no-wrap
 msgid "FAQ"
-msgstr "FAQ"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:3
 #, no-wrap
 msgid "Command errors in Windows"
-msgstr "Command errors in Windows"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:6
@@ -21,15 +21,12 @@ msgid ""
 "see [For Windows](https://github.com/alibaba/weex/tree/dev#for-windows) for "
 "more information."
 msgstr ""
-"Please install [Git for Windows](https://git-scm.com/download/win) first, "
-"see [For Windows](https://github.com/alibaba/weex/tree/dev#for-windows) for "
-"more information."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:8
 #, no-wrap
 msgid "Gradle errors in Android Studio"
-msgstr "Gradle errors in Android Studio"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:11
@@ -38,6 +35,3 @@ msgid ""
 "reset` or `peer not authenticated`.  Maybe a network problem, try a proxy or "
 "VPN."
 msgstr ""
-"Downloading `license-gradle-plugin.jar`` may trigger errors, like "
-"``Connection reset`` or ``peer not authenticated`.  Maybe a network problem, "
-"try a proxy or VPN."

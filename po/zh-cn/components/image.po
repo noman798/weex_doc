@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:1
 #, no-wrap
 msgid "&lt;image&gt;"
-msgstr "&lt;图像&gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "Summary"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:6
@@ -20,42 +20,40 @@ msgid ""
 "`image` tag is used to render a specified picture, and it shouldn't contain "
 "any child component. You can use `img` as alias."
 msgstr ""
-"`image`` tag is used to render a specified picture, and it shouldn't contain "
-"any child component. You can use ``img`别名。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:8
 #, no-wrap
 msgid "**Notes:** the styles of `width` and `height` should be specified, otherwise it won't work.\n"
-msgstr "**Notes:** the styles of `width`` and ``height` should be specified, otherwise it won't work.\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:10
 #, no-wrap
 msgid "alias: `<img>`\n"
-msgstr "别名：`<img>`???\n"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:11
 #, no-wrap
 msgid "Child Components"
-msgstr "Child Components"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:14
 msgid "This component supports no child components."
-msgstr "This component supports no child components."
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:15
 #, no-wrap
 msgid "Attributes"
-msgstr "Attributes"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:18
 msgid "- `src`: &lt;string&gt; image source url"
-msgstr "-`src`：&lt;字符串&gt;图像源URL ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:20
@@ -63,14 +61,12 @@ msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
 msgstr ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:21
 #, no-wrap
 msgid "Styles"
-msgstr "Styles"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:26
@@ -82,18 +78,12 @@ msgid ""
 "specified. Possible values are ``cover``, ``contain``, each of which has the "
 "same meaning with w3c standard."
 msgstr ""
-"-`width``: &lt;length&gt; the width of the component. This style should be "
-"specified.  - ``height``: &lt;length&gt; the height of the component. This "
-"style should be specifed.  - ``resize``: &lt;string&gt; the 'ScaleType' of "
-"the component. The default value is ````stretch````, if this attribute is "
-"not specified. Possible values are ````cover````, ````contain```，每个具有相"
-"同的含义与W3C标准。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:28
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:33
@@ -102,20 +92,18 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:34
 #, no-wrap
 msgid "Events"
-msgstr "Events"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:37
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:40
@@ -124,15 +112,12 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
-"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:41
 #, no-wrap
 msgid "Examples"
-msgstr "Examples"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:48

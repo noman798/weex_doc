@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:1
 #, no-wrap
 msgid "Built-in Modules"
-msgstr "Built-in Modules"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:3
 #, no-wrap
 msgid "How to use"
-msgstr "How to use"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:6
@@ -20,8 +20,6 @@ msgid ""
 "You can use a simply way like `require('@weex-module/name')` to access the "
 "apis of module. e.g."
 msgstr ""
-"You can use a simply way like `require('@weex-module/name')` to access the "
-"apis of module. e.g."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:13
@@ -39,34 +37,34 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:14
 #, no-wrap
 msgid "Table of Contents"
-msgstr "Table of Contents"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[dom](./dom.md)"
-msgstr "[唐](./dom.md)???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[steam](./stream.md)"
-msgstr "[蒸汽](./stream.md)???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[modal](./modal.md)"
-msgstr "[模式](./modal.md)???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[animation](./animation.md)"
-msgstr "[动画](./animation.md)???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[navigator](./navigator.md)"
-msgstr "[导航](./navigator.md)???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[webview](./webview.md)"
-msgstr "[使用](./webview.md)???"
+msgstr ""

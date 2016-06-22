@@ -6,18 +6,17 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:1
 #, no-wrap
 msgid "APIs"
-msgstr "APIs"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:4
 msgid "You can access these apis through `this`(Vm) context in script methods."
 msgstr ""
-"You can access these apis through `this`(Vm) context in script methods."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:6
 msgid "e.g."
-msgstr "例如 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:18
@@ -40,122 +39,109 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:19
 #, no-wrap
 msgid "$(id)"
-msgstr "(id)美元 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:22
 #, no-wrap
 msgid "**Deprecated**, please use `$vm` instead.\n"
-msgstr "**Deprecated**, please use `$vm` instead.\n"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:23
 #, no-wrap
 msgid "$el(id)"
-msgstr "EL(id)美元 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:26
 msgid "Return the element referenced by specific id."
-msgstr "Return the element referenced by specific id."
+msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:27
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:43
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:27 /home/dev/download/weex_doc/weex/doc/references/api.md:43
 #, no-wrap
 msgid "Arguments"
-msgstr "Arguments"
+msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:30
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:46
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:30 /home/dev/download/weex_doc/weex/doc/references/api.md:46
 msgid "`id`*(string)*: the unique identifier."
-msgstr "`id`*(string)*：唯一标识符。 ???"
+msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:31
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:47
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:59
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:31 /home/dev/download/weex_doc/weex/doc/references/api.md:47 /home/dev/download/weex_doc/weex/doc/references/api.md:59
 #, no-wrap
 msgid "Returns"
-msgstr "Returns"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:34
 msgid "*(Element)*: an Element object referenced."
-msgstr "*(Element)*: an Element object referenced."
+msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:35
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:51
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:35 /home/dev/download/weex_doc/weex/doc/references/api.md:51
 #, no-wrap
 msgid "Tips"
-msgstr "Tips"
+msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:38
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:54
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:38 /home/dev/download/weex_doc/weex/doc/references/api.md:54
 msgid ""
 "id is only guaranteed to be unique within the current (page)components, if "
 "you are looking for the parent components or child components, you can make "
 "use of the communication mode between components."
 msgstr ""
-"我只能保证当前(page)组件内是独特的，如果你正在寻找的父组件或子组件，你可以使"
-"用组件之间的通信方式。 ???"
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:38
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:54
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:38 /home/dev/download/weex_doc/weex/doc/references/api.md:54
 msgid ""
-"Further reading: [id](../syntax/id.md), [Communicate Between Components](../"
-"syntax/comm.md)"
+"Further reading: [id](../syntax/id.md), [Communicate Between "
+"Components](../syntax/comm.md)"
 msgstr ""
-"Further reading: [id](../syntax/id.md), [Communicate Between Components](../"
-"syntax/comm.md)"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:39
 #, no-wrap
 msgid "$vm(id)"
-msgstr "VM(id)美元 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:42
 msgid "Return the vm object referenced by specific id."
-msgstr "Return the vm object referenced by specific id."
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:50
 msgid "`vm`*(Vm)*: a Vm object referenced."
-msgstr "`vm`*(Vm)*: a Vm object referenced."
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:55
 #, no-wrap
 msgid "$getConfig()"
-msgstr "$getConfig()"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:58
-msgid ""
-"Get the current global environment variables and configuration information."
+msgid "Get the current global environment variables and configuration information."
 msgstr ""
-"Get the current global environment variables and configuration information."
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`config`*(object)*: the object of config."
-msgstr "`config`*(object)*：配置对象。 ???"
+msgstr ""
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`bundleUrl`*(string)*: the url of bundle."
-msgstr "`bundleUrl`* *：(string)管束的URL。 ???"
+msgstr ""
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`debug`*(boolean)*: if is debug mode."
-msgstr "`debug`*(boolean)*：如果是调试模式。 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
@@ -165,30 +151,24 @@ msgid ""
 "    * `weexVersion`*(string)*: a version of weex sdk.\n"
 "    * `appName`*(string)*: a name of app.\n"
 "    * `appVersion`*(string)*: a version of app.\n"
-"    * `platform`*(string)*: the platform, one of `iOS`, `Android` and `Web`.\n"
+"    * `platform`*(string)*: the platform, one of `iOS`, `Android` and "
+"`Web`.\n"
 "    * `osVersion`*(string)*: the version of os.\n"
 "    * `deviceModel`*(string)*: the model of device. **native only**\n"
 "    * `deviceWidth`*(number)*: the width of device, default is `750`.\n"
 "    * `deviceHeight`*(number)*: the height of device.\n"
 msgstr ""
-"*`env``*(object)*: a object of envrioment.\n"
-"    * ``weexVersion``*(string)*: a version of weex sdk.\n"
-"    * ``appName``*(string)*: a name of app.\n"
-"    * ``appVersion``*(string)*: a version of app.\n"
-"    * ``platform``*(string)*: the platform, one of ``iOS``, ``Android`` and ``Web``.\n"
-"    * ``osVersion``*(string)*: the version of os.\n"
-"    * ``deviceModel``*(string)*: the model of device. **native only**\n"
-"    * ``deviceWidth``*(number)*: the width of device, default is ``750``.\n"
-"    * ``deviceHeight`*(number)*：设备高度。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:74
 #, no-wrap
 msgid "$call(module, method, ...args)"
-msgstr "电话(module, method, ...args)美元 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:77
 #, no-wrap
-msgid "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
-msgstr "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
+msgid ""
+"**Deprecated**, please use `require('@weex-module/module')[method](...args)` "
+"instead. See [modules](../modules/REAME.md) for more information\n"
+msgstr ""

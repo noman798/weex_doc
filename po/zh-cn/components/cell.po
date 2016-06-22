@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:1
 #, no-wrap
 msgid "&lt;<cell>&gt;"
-msgstr "&lt;<cell>&gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "Summary"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:6
@@ -20,14 +20,12 @@ msgid ""
 "This component must be used as a subcomponent of a [`list`](list.md) "
 "component, which is for the performance optimizing during scrolling."
 msgstr ""
-"This component must be used as a subcomponent of a [`list`](list.md) "
-"component, which is for the performance optimizing during scrolling."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:7
 #, no-wrap
 msgid "Child Components"
-msgstr "Child Components"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:10
@@ -35,14 +33,12 @@ msgid ""
 "This type of component supports all kinds of weex component as its child "
 "components."
 msgstr ""
-"This type of component supports all kinds of weex component as its child "
-"components."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:11
 #, no-wrap
 msgid "Attributes"
-msgstr "Attributes"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:14
@@ -50,26 +46,24 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"There is no specific attribute for this component other than the [common "
-"attributes](../references/common-attrs.md)."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:16
 #, no-wrap
 msgid "**Notes:** you can't give `<cell>` a `flex` value. Width of `<cell>` is equal to the width of its parent component `<list>`, and you don't need to specify its height.\n"
-msgstr "**Notes:** you can't give `<cell>`` a ``flex`` value. Width of ``<cell>`` is equal to the width of its parent component ``<list>`, and you don't need to specify its height.\n"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:17
 #, no-wrap
 msgid "Styles"
-msgstr "Styles"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:20
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:25
@@ -78,20 +72,18 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:26
 #, no-wrap
 msgid "Events"
-msgstr "Events"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:29
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:32
@@ -100,17 +92,14 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
-"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:33
 #, no-wrap
 msgid "Example"
-msgstr "Example"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:35
 msgid "please refer to [List](list.md)"
-msgstr "please refer to [List](list.md)"
+msgstr ""
