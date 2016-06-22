@@ -1,11 +1,3 @@
-from ztz.util.unescape import unescape
-
-
-def extract_html(begin, end, html):
-    r = extract(begin, end, html)
-    if r:
-        return unescape(r)
-
 
 def extract(begin, end, html):
     if not html:
@@ -22,10 +14,6 @@ def extract(begin, end, html):
             end = html.find(end, start)
         if end is None or end >= 0:
             return html[start:end].strip()
-
-
-def extract_all_html(begin, end, html):
-    return list(map(unescape, extract_all(begin, end, html)))
 
 
 def extract_all(begin, end, html):

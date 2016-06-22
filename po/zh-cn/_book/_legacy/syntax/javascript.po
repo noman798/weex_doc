@@ -11,7 +11,10 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_book/_legacy/syntax/javascript.md:4
 #, no-wrap
-msgid "The most commonly used statement in script is   `module.exports =  {...}`  .  the object be used for assignment value contain three properties:  `data`, `methods` and `created` .\n"
+msgid ""
+"The most commonly used statement in script is   `module.exports =  {...}`  "
+".  the object be used for assignment value contain three properties:  "
+"`data`, `methods` and `created` .\n"
 msgstr ""
 
 #. type: Plain text
@@ -49,7 +52,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_book/_legacy/syntax/javascript.md:25
 #, no-wrap
-msgid "properties of the JSON object can be using in `<template>` and method context .  \n"
+msgid ""
+"properties of the JSON object can be using in `<template>` and method "
+"context .  \n"
 msgstr ""
 
 #. type: Plain text
@@ -91,7 +96,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_book/_legacy/syntax/javascript.md:39
 #, no-wrap
-msgid "created should be optionally assign with function.  If this function provide , it will be called  just after weex context created.  \n"
+msgid ""
+"created should be optionally assign with function.  If this function provide "
+", it will be called  just after weex context created.  \n"
 msgstr ""
 
 #. type: Title ###
@@ -129,7 +136,11 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/_book/_legacy/syntax/javascript.md:53
 #, no-wrap
 msgid ""
-"- `setTimeout` is available , but  `clearTimeout/setInterval/clearInterval/requestAnimationFrame/cancelAnimationFrame` is not.\n"
-"-  tag is immutable , we believe interface should be changed by status updates , please refer to [Data Binding](data-binding.md).\n"
-"-  at present , weex can't using external script (no `<script src=\"...\">`  or `require`) \n"
+"- `setTimeout` is available , but  "
+"`clearTimeout/setInterval/clearInterval/requestAnimationFrame/cancelAnimationFrame` "
+"is not.\n"
+"-  tag is immutable , we believe interface should be changed by status "
+"updates , please refer to [Data Binding](data-binding.md).\n"
+"-  at present , weex can't using external script (no `<script src=\"...\">`  "
+"or `require`) \n"
 msgstr ""
