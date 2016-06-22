@@ -51,7 +51,7 @@ msgid ""
 "  + title: &lt;string&gt; The item’s title. If null, a title is not displayed.\n"
 "  + titleColor: &lt;color&gt;The item’s titleColor. Default is black color.  \n"
 msgstr ""
-"-`tab-items`：这个属性包含TabItem对象的数组，其中每一个对应于广播方式的选择。在这个属性项的顺序对应于屏幕上的项目顺序。你可以通过设置配置TabBar TabItem外观。每个TabItem特性可以描述如下。 ???\n"
+"`tab-items`：这个属性包含TabItem对象的数组，其中每一个对应于广播方式的选择。在这个属性项的顺序对应于屏幕上的项目顺序。你可以通过设置配置TabBar TabItem外观。每个TabItem特性可以描述如下。 ???\n"
 "  + index: &lt;integer&gt; This attribute must be set to identify the order of the item.\n"
 "  + title: &lt;string&gt; The item’s title. If null, a title is not displayed.\n"
 "  + titleColor: &lt;color&gt;The item’s titleColor. Default is black color.  \n"
@@ -93,7 +93,7 @@ msgstr ""
 msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
-msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
+msgstr "其他属性请检查[常见属性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:25
@@ -114,8 +114,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
+"- support ````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:34
@@ -129,7 +129,7 @@ msgid ""
 "- `tabBar.onClick`: triggered when the tabitem is selected. You need to "
 "register the observer in ready or create block."
 msgstr ""
-"-`tabBar.onClick`：TabItem选择时触发。您需要注册准备就绪或创建块的观察"
+"`tabBar.onClick`：选择时触发的TabItem。您需要注册准备就绪或创建块的观察"
 "者。 ???"
 
 #. type: Title ###

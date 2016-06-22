@@ -104,7 +104,7 @@ msgstr "那是所有关于长的语法。更多的阅读，请检查： ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:52
 msgid "[how-tos](../how-to/main.md) articles and"
-msgstr "[如何](../how-to/main.md)文章 ???"
+msgstr "[如何](../how-to/main.md)篇文章 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:52

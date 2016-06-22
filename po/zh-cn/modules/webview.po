@@ -17,7 +17,7 @@ msgstr "总结 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:6
 msgid "A series of web operation api like `goBack`, `goForward`, and `reload`."
-msgstr "一系列的Web操作API像`goBack``, ``goForward``, and ``reload`。 ???"
+msgstr "一系列的Web操作的像`goBack``, ``goForward``, and ``reload`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:7

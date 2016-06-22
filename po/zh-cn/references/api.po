@@ -11,7 +11,7 @@ msgstr "API ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:4
 msgid "You can access these apis through `this`(Vm) context in script methods."
-msgstr "你可以通过在脚本的方法`this`(Vm)语境这些API访问。 ???"
+msgstr "您可以通过脚本方法中的(Vm)个`this`上下文访问这些原料药。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:6
@@ -45,7 +45,7 @@ msgstr "$(id)"
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:22
 #, no-wrap
 msgid "**Deprecated**, please use `$vm` instead.\n"
-msgstr "*不* *，请使用`$vm`相反。 ???\n"
+msgstr "*不* *，请改为使用`$vm`。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:23
@@ -82,7 +82,7 @@ msgstr "退换商品 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:34
 msgid "*(Element)*: an Element object referenced."
-msgstr "*(Element)*：一个元素对象引用。 ???"
+msgstr "*(Element)*：一个引用的元素对象。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:35
@@ -99,8 +99,8 @@ msgid ""
 "you are looking for the parent components or child components, you can make "
 "use of the communication mode between components."
 msgstr ""
-"我只能保证当前(page)组件内是独特的，如果你正在寻找的父组件或子组件，你可以使"
-"用组件之间的通信方式。 ???"
+"身份证是唯一保证是唯一的在当前的(page)个组成部分，如果你正在寻找的父组件或子"
+"组件，您可以利用组件之间的通信模式。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:38
@@ -189,4 +189,4 @@ msgstr "$call(module, method, ...args)"
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:77
 #, no-wrap
 msgid "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
-msgstr "*不* *，请使用`require('@weex-module/module')[method](...args)`相反。看到[模块](../modules/REAME.md)更多信息 ???\n"
+msgstr "*不* *，请改为使用`require('@weex-module/module')[method](...args)`。参见[模块](../modules/REAME.md)的更多信息 ???\n"

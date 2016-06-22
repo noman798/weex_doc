@@ -49,18 +49,18 @@ msgid ""
 "to control whether it is playing when the page initialization finished. "
 "Defalut value is `false`."
 msgstr ""
-"-`src``: &lt;string&gt; The URL of the video to embed.  - ``play-status``: "
-"&lt;boolean&gt; ``play`` | ``pause``. Use it to control video's play/pause. "
+"-`: &lt;string&gt; The URL of the video to embed.  - ``play-status``: &lt;"
+"boolean&gt; ``play`` | ``pause``. Use it to control video's play/pause. "
 "Default value is ``pause``.  - ``auto-play``: &lt;boolean&gt; ``true`` | "
 "``false``. Use it to control whether it is playing when the page "
-"initialization finished. Defalut value is ``false`。 ???"
+"initialization finished. Defalut value is ``src``false`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:18
 msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
-msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
+msgstr "其他属性请检查[常见属性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:19
@@ -81,8 +81,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
+"- support ````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:28
@@ -99,7 +99,7 @@ msgid ""
 msgstr ""
 "-`start``: triggered when playback state is Playing.  - ``pause``: triggered "
 "when playback state is Paused.  - ``finish``: triggered when playback state "
-"is Finished.  - ``fail`：触发时，播放状态失败。 ???"
+"is Finished.  - ``fail`：当播放状态失败时触发。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:36

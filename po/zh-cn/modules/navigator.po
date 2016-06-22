@@ -17,7 +17,7 @@ msgstr "总结 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:5
 msgid "A series of navigator operation apis like `push`, `pop`."
-msgstr "一系列的导航操作API像`push``, ``pop`。 ???"
+msgstr "一系列导航操作的原料药，如`, ``pop``push`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:6

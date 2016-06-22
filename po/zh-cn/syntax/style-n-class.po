@@ -38,11 +38,11 @@ msgid ""
 "number(the default units is px); The key and the value must be separated by "
 "`:`, between each key-value pairs must be separated by `;`."
 msgstr ""
-"键值对的格式`prop-name: prop-value;``. The key name is ``prop-name``, the "
-"value name is ``prop-value``.  Usually,the key name and the value name "
-"follow Horizontal connection nomenclature, the value may be a number(the "
-"default units is px); The key and the value must be separated by ``:``, "
-"between each key-value pairs must be separated by ``;`。 ???"
+"关键值对的格式为`. The key name is `、、`prop-name`、`, the value name is `、"
+"`prop-value`、`.  Usually,the key name and the value name follow Horizontal "
+"connection nomenclature, the value may be a number(the default units is px); "
+"The key and the value must be separated by `、`:`、`, between each key-value "
+"pairs must be separated by `、`prop-name: prop-value;`、`;`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:14
@@ -57,7 +57,7 @@ msgstr "`<template>`标签的样式属性 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:17
 msgid "Stylesheets of `<style>` label"
-msgstr "对`<style>`标签样式 ???"
+msgstr "`<style>`标签样式 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:18
@@ -87,13 +87,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:31
 #, no-wrap
 msgid "It is said that the width and height of `<container>` label is 400 pixels and 50 pixels respectively.\n"
-msgstr "这是说，`<container>`标签的宽度和高度为400像素和50像素分别。 ???\n"
+msgstr "有人说，`<container>`标签的宽度和高度分别为400像素和50像素。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:32
 #, no-wrap
 msgid "the `<style>` tag"
-msgstr "的`<style>`标签 ???"
+msgstr "`<style>`标签 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:35
@@ -143,7 +143,7 @@ msgstr "类属性 ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:55
 #, no-wrap
 msgid "The selectors of `<style>` label are matched with the class attribute of `<template>` label, we should use spaces to separate the class names. For example:\n"
-msgstr "对`<style>`` label are matched with the class attribute of ``<template>`标签选择器，我们应该使用空格分开的类名称。例如： ???\n"
+msgstr "`<style>`` label are matched with the class attribute of ``<template>`标签选择器，我们应该使用空格分开的类名称。例如： ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:69
@@ -206,7 +206,7 @@ msgid ""
 "style.md)."
 msgstr ""
 "CSS标准可以支持多种类型的长度单位，但现在快只支持像素，和`px`单元可以忽略，你"
-"可以直接写数字。更多的细节可以在[一般](../references/common-style.md)发现风"
+"可以直接写数字。更多的细节可以在[一般](../references/common-style.md)风"
 "格。 ???"
 
 #. type: Bullet: '* '
@@ -226,7 +226,7 @@ msgid ""
 "include `font-size`, `color`, etc."
 msgstr ""
 "CSS标准包含了很多风格，但只支持长几款式包括布局如箱模型，flexbox，位置。风格"
-"包括`font-size``, ``color`，等。 ???"
+"包括`, `、`color`、`font-size`等。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:80
@@ -240,7 +240,7 @@ msgid ""
 "Page [data](./data-binding.md) can be bound in `style` and `class` "
 "attribute. For example:"
 msgstr ""
-"页[数据](./data-binding.md)可以绑定在`style`` and ``class`属性。例如： ???"
+"页[数据](./data-binding.md)可以绑定在` and ``style``class`属性。例如： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:104
@@ -271,4 +271,4 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:105
 msgid "Next, let's have a look at [events](./events.md)."
-msgstr "接下来，让我们在[事件](./events.md)一看。 ???"
+msgstr "下一步，让我们看看[事件](./events.md)。 ???"

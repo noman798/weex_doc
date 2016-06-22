@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:2
 #, no-wrap
 msgid "Weex Playground App\n"
-msgstr "长的操场上应用 ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:5
@@ -17,10 +17,6 @@ msgid ""
 "playground App preset a lot of Demo & ShowCase ,so you will get to "
 "experience performance of Weex native runtime easily."
 msgstr ""
-"一个长的最好的部分是本地运行。在预览使用CLI渲染你长的H5`we file`工具包，你可"
-"以在一个独立的应用程序尝试本地运行，这是长的操场上的应用。更多的则是，长的操"
-"场上应用程序的预设了很多演示和展示，所以你将体验到长的本地运行时表现的很轻"
-"松。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:7
@@ -28,14 +24,12 @@ msgid ""
 "Android version of Playground App can be downloaded [here](http://empty-"
 "now).  iOS version will soon be ready to download."
 msgstr ""
-"Android应用程序版本的操场上可以下载[这里](http://empty-now)。iOS版本将很快准"
-"备下载。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:9
 #, no-wrap
 msgid "Screenshot "
-msgstr "Screenshot "
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:12
@@ -43,8 +37,6 @@ msgid ""
 "![Weex playground App](http://gtms01.alicdn.com/tps/i1/"
 "TB1bC5LMpXXXXb7XXXXA0gJJXXX-720-1280.png)"
 msgstr ""
-"![Weex playground App](http://gtms01.alicdn.com/tps/i1/"
-"TB1bC5LMpXXXXb7XXXXA0gJJXXX-720-1280.png)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:15
@@ -53,11 +45,8 @@ msgid ""
 "Showcase entry . click top right corner Icon will active QR scaner that work "
 "with Weex [toolkit CLI](../tools/cli.md)"
 msgstr ""
-"This is main interface of Weex Playground App , grey color list item is Demo/"
-"Showcase entry . click top right corner Icon will active QR scaner that work "
-"with Weex [toolkit CLI](../tools/cli.md)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/playground-app.md:17
 msgid "please refer to [Weex Tutorial](../tutorial.md)"
-msgstr "please refer to [Weex Tutorial](../tutorial.md)"
+msgstr ""

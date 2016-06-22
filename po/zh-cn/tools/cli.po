@@ -121,7 +121,7 @@ msgid ""
 "160201 : adopt new weex JS bundle style(define / require) & output "
 "transformer Error/Warning logs"
 msgstr ""
-"160201：采用新长的JS捆绑式(define / require)输出变压器的错误/警告日志 ???"
+"160201：采用新长的JS捆绑式(define / require)和输出变压器的错误/警告日志 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44

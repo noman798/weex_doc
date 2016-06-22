@@ -19,7 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "This component must be used as a subcomponent of a [`list`](list.md) "
 "component, which is for the performance optimizing during scrolling."
-msgstr "这部分必须作为子一[`list`](list.md)组成，这是性能优化在滚动。 ???"
+msgstr "这部分必须作为子一[`list`](list.md)组件，这是性能优化在滚动。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:7
@@ -46,14 +46,14 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"在这个组件以外的共同属性] [(../references/common-attrs.md)没有特定的属"
+"除了[常见属性](../references/common-attrs.md)以外，没有这个组件的特定属"
 "性。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:16
 #, no-wrap
 msgid "**Notes:** you can't give `<cell>` a `flex` value. Width of `<cell>` is equal to the width of its parent component `<list>`, and you don't need to specify its height.\n"
-msgstr "*注：* *你不能给`<cell>`` a ``flex`` value. Width of ``<cell>`` is equal to the width of its parent component ``<list>`，你不需要指定它的高度。 ???\n"
+msgstr "* *注：*你不能给` a ``flex``<cell>`` value. Width of ``<cell>`` is equal to the width of its parent component ``<list>`，你不需要指定它的高度。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:17
@@ -74,8 +74,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
+"- support ````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:26

@@ -28,7 +28,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:8
 #, no-wrap
 msgid "**Notes:** A `<scroller>` can be used as a root element or a embed element. The scoll direction of this component is column, and it can't be changed.\n"
-msgstr "*注：* *`<scroller>`可以作为根元素或嵌套元素。此组件将方向柱，这是不可改变的。 ???\n"
+msgstr "*注：* A`<scroller>`可以作为一个根元素或嵌入元素。此组件将方向柱，这是不可改变的。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:9
@@ -53,7 +53,7 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"在这个组件以外的共同属性] [(../references/common-attrs.md)没有特定的属"
+"除了[常见属性](../references/common-attrs.md)以外，没有这个组件的特定属"
 "性。 ???"
 
 #. type: Title ###
@@ -75,8 +75,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
+"- support ````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/scroller.md:26

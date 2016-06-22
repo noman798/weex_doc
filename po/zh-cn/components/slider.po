@@ -20,7 +20,7 @@ msgid ""
 "A slide's player to show slides (mostly as pictures) one page by another. "
 "The default interval between two slides is 3 seconds."
 msgstr ""
-"幻灯片的播放幻灯片(mostly as pictures)一页一。两个幻灯片之间的默认间隔为3"
+"幻灯片的播放幻灯片(mostly as pictures)页的另一个。两个幻灯片之间的默认间隔为3"
 "秒。 ???"
 
 #. type: Title ###
@@ -36,7 +36,7 @@ msgid ""
 "`indicator` component which can be used only as a child component of "
 "`slider`."
 msgstr ""
-"它支持各种长的元件为幻灯片，尤其是`indicator`` component which can be used "
+"它支持各种长的元件为幻灯片，特别是`indicator`` component which can be used "
 "only as a child component of ``slider`。 ???"
 
 #. type: Title ###
@@ -52,16 +52,16 @@ msgid ""
 "whether the slides plays automatically after the page rendering finished. "
 "The default value is `false`."
 msgstr ""
-"-`auto-play``: &lt;boolean&gt; ``true`` | ``false``. This value determines "
-"whether the slides plays automatically after the page rendering finished. "
-"The default value is ``false`。 ???"
+"-`: &lt;boolean&gt; ``true`` | ``false``. This value determines whether the "
+"slides plays automatically after the page rendering finished. The default "
+"value is ``false``auto-play`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:16
 msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
-msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
+msgstr "其他属性请检查[常见属性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:17
@@ -82,8 +82,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
+"- support ````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:26
@@ -98,8 +98,8 @@ msgid ""
 "contains the attribute of `index`, which is the index number of the "
 "currently shown slide."
 msgstr ""
-"-`change``: triggerd when the slide's index is changed. The event object "
-"contains the attribute of ``index`，这是当前显示的幻灯片的指数。 ???"
+"-`: triggerd when the slide's index is changed. The event object contains "
+"the attribute of ``index``change`，这是当前显示的幻灯片的索引号。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:31

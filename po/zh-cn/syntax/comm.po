@@ -24,12 +24,12 @@ msgid ""
 "[Function callback])` method , the callback will be execute with one "
 "argument , the message object will be `detail` property of the the argument."
 msgstr ""
-"儿童的组件可以使用`this.$dispatch([String type], [Object detail])`` method "
-"passing information to parent component. first argument meaning type of "
-"message , second argument is the message object. If any parent of the child "
-"component register the same type of listener using ``$on([String type], "
-"[Function callback])`` method , the callback will be execute with one "
-"argument , the message object will be ``detail`属性的争论。 ???"
+"儿童组件可以使用` method passing information to parent component. first "
+"argument meaning type of message , second argument is the message object. If "
+"any parent of the child component register the same type of listener using ``"
+"$on([String type], [Function callback])`` method , the callback will be "
+"execute with one argument , the message object will be ``detail``this."
+"$dispatch([String type], [Object detail])`属性的参数。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8
@@ -105,7 +105,7 @@ msgid ""
 "component. you can access child component information using the context "
 "object."
 msgstr ""
-"父组件可以使用`this.$([String id])`得到子组件的上下文。您可以使用上下文对象访"
+"父组件可以使用`this.$([String id])`获取子组件的上下文。您可以使用上下文对象访"
 "问子组件信息。 ???"
 
 #. type: Plain text
@@ -170,7 +170,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:95
 #, no-wrap
 msgid "Parent to Children (multi-child) Communication"
-msgstr "父母对孩子(multi-child)通信 ???"
+msgstr "亲子(multi-child)沟通 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:98
@@ -178,8 +178,8 @@ msgid ""
 "Parent can using `this.$broadcast([String type], [Object detail])` broadcast "
 "message to all of children."
 msgstr ""
-"家长可以利用`this.$broadcast([String type], [Object detail])`消息广播到所有的"
-"孩子。 ???"
+"家长可以使用`this.$broadcast([String type], [Object detail])`个广播信息给所有"
+"的孩子。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:122
@@ -352,4 +352,4 @@ msgstr ""
 msgid ""
 "At last, you can learn how to write [config & data](./config-n-data.md) for "
 "a Weex page."
-msgstr "最后，你可以学习如何写[配置和数据](./config-n-data.md)一长页。 ???"
+msgstr "最后，你可以学习如何写[配置](./config-n-data.md)个长的页面数据。 ???"

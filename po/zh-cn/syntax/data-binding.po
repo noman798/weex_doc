@@ -12,7 +12,7 @@ msgstr "数据绑定 ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:4
 #, no-wrap
 msgid "In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` which are defined in `<script>`. Once data and template is bound, the data changes will influence the corresponding template content immediately and automatically.\n"
-msgstr "在长的，我们使用*胡子*语法`{{...}}`` to bind data in ``<template>`` which are defined in ``<script>`。一旦数据和模板绑定，数据的更改将立即和自动地影响相应的模板内容。 ???\n"
+msgstr "在长的，我们用* *`{{...}}`` to bind data in ``<template>`` which are defined in `胡子语法`<script>`。一旦数据和模板绑定，数据的更改将立即和自动地影响相应的模板内容。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:5
@@ -51,14 +51,16 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:25
 msgid ""
 "The code above will bind the `title` and `size` data field to `template`."
-msgstr "上面的代码会将`title`` and ``size`` data field to ``template`。 ???"
+msgstr ""
+"上面的代码将绑定` and `个`title``size`` data field to ``template`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:27
 msgid ""
 "We can also use `.` syntax to bind cascading data structure. Let's look at "
 "the following code snippet:"
-msgstr "我们也可以用`.`语法绑定级联数据结构。让我们来看看下面的代码片段： ???"
+msgstr ""
+"我们还可以使用`.`个语法来绑定级联数据结构。让我们来看看下面的代码片段： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:34
@@ -232,14 +234,14 @@ msgid ""
 "Otherwise when you call `changeName` after click, the setter will be invoked "
 "and this.firstName and this.lastName will be updated accordingly."
 msgstr ""
-"否则，当你打电话`changeName`点击之后，会调用setter和this.firstname和this."
+"否则当你拨打`changeName`后点击，二传队员将被调用，this.firstname和this."
 "lastname会相应的更新。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:118
 #, no-wrap
 msgid "**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the execution context -- `this`, we can access both of them.**\n"
-msgstr "*注：`data`` and ``methods`` can't have duplicate fields. 'Cause in the execution context -- ``this`，我们可以访问他们的**。 ???\n"
+msgstr "*注：` and ``data``methods`` can't have duplicate fields. 'Cause in the execution context -- ``this`，我们可以访问他们两个。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:119
@@ -256,7 +258,7 @@ msgstr "Styles: `style`` or ``class`"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:124
 msgid "the style of a component can be bind using the `style` attribute:"
-msgstr "一个组件的风格可以用`style`属性绑定： ???"
+msgstr "一个组件的样式可以使用`style`个属性绑定： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:130
@@ -274,7 +276,7 @@ msgstr ""
 msgid ""
 "while style can also get bound with `class` attribute, multiple classnames "
 "can be split by spaces:"
-msgstr "而风格也能得到一定`class`属性，多类名称可分空间： ???"
+msgstr "而风格也可以绑定`class`属性，多类名称可分空间： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:141
@@ -296,8 +298,8 @@ msgid ""
 "here if `{{size}}` and `{{status}}` have empty value, then only `class="
 "\"title\"` will be rendered."
 msgstr ""
-"在这里，如果`{{size}}`` and ``{{status}}`` have empty value, then only "
-"``class=\"title\"`将呈现。 ???"
+"在这里，如果` and ``{{status}}`` have empty value, then only ``class=\"title"
+"\"``{{size}}`将被渲染。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:145
@@ -318,8 +320,8 @@ msgid ""
 "don't need to add mustache around the method name or add parentheses to call "
 "it."
 msgstr ""
-"事件处理程序是一个属性的名称前缀`on...`。属性名称的另一部分是事件类型，值是事"
-"件处理程序名。我们不需要添加胡子在方法名称或加括号来调用它。 ???"
+"事件处理程序是一个属性，它的名称有一个前缀`on...`。属性名称的另一部分是事件类"
+"型，值是事件处理程序名。我们不需要添加胡子在方法名称或加括号来调用它。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:154
@@ -397,7 +399,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:193
 msgid "We can also use `repeat` attribute to generate a list."
-msgstr "我们也可以用`repeat`属性生成一个列表。 ???"
+msgstr "我们也可以使用`repeat`个属性来生成一个列表。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:195
@@ -407,4 +409,4 @@ msgstr "[See more about display logic control](./display-logic.md)"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:197
 msgid "Next, let's have a look at [style and class](./style-n-class.md)."
-msgstr "接下来，让我们在[样式和类](./style-n-class.md)一看。 ???"
+msgstr "下一步，让我们看看[风格和类](./style-n-class.md)。 ???"

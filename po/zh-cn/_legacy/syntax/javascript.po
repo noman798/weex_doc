@@ -12,7 +12,7 @@ msgstr "数据和逻辑 ???"
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:4
 #, no-wrap
 msgid "The most commonly used statement in script is   `module.exports =  {...}`  .  the object be used for assignment value contain three properties:  `data`, `methods` and `created` .\n"
-msgstr "在脚本中最常用的说法是`module.exports =  {...}``  .  the object be used for assignment value contain three properties:  ``data``, ``methods`` and ``created`。 ???\n"
+msgstr "在脚本中最常用的语句是`  .  the object be used for assignment value contain three properties:  ``data``, `` and ``methods``created`。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:20
@@ -44,7 +44,7 @@ msgstr "数据 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:24
 msgid "value for `data` must be a JSON object"
-msgstr "`data`值必须是一个JSON对象 ???"
+msgstr "价值`data`必须是一个JSON对象 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:25
@@ -57,7 +57,7 @@ msgstr "properties of the JSON object can be using in `<template>` and method co
 msgid ""
 "please refer to [Data Binding](data-binding.md)  for more information about "
 "event."
-msgstr "请参阅[数据绑定](data-binding.md)有关事件的更多信息。 ???"
+msgstr "请参阅[数据绑定](data-binding.md)关于事件的更多信息。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:29
@@ -70,7 +70,7 @@ msgstr "`methods`"
 msgid ""
 "value for `methods` is a one level JSON object , every properties of the "
 "object must be function type."
-msgstr "值为一一的水平`methods`JSON对象，对象的每个属性必须是功能型。 ???"
+msgstr "值为`methods`为一一级的JSON对象，对象的每个属性必须是功能型。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:34
@@ -80,7 +80,7 @@ msgstr "这些函数应该使用作为事件处理程序。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:36
 msgid "please refer to [Event](events.md)  for more information ."
-msgstr "请参阅[事件](events.md)更多信息。 ???"
+msgstr "请参阅[事件](events.md)以了解更多信息。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:37
@@ -106,8 +106,8 @@ msgid ""
 "context can be reference by `this`. the object have properties of currenet "
 "script `data` , `methods` and weex common API."
 msgstr ""
-"语境是可以通过`this``. the object have properties of currenet script "
-"``data`` , ``methods`和长的普通API参考。 ???"
+"语境可以通过`this``. the object have properties of currenet script "
+"``data`` , ``methods`长的普通API参考。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:46
@@ -119,7 +119,8 @@ msgstr "数据在上下文中是可写的方法是可执行的。 ???"
 msgid ""
 "please refer to [Common API](../core-concepts/api.md)  for more information "
 "about common API."
-msgstr "请参阅[常用API](../core-concepts/api.md)有关通用API的更多信息。 ???"
+msgstr ""
+"请参阅[常见的原料药](../core-concepts/api.md)有关共同的原料药的更多信息。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:49

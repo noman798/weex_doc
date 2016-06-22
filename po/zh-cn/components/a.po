@@ -22,7 +22,8 @@ msgid ""
 "HTML/Element/a) in HTML5."
 msgstr ""
 "&lt;一&gt;定义了一个超链接到一个网页的网页。其目的和语法非常类似于[&lt;一"
-"&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)HTML5。 ???"
+"&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)在"
+"HTML5。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:5

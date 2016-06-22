@@ -133,7 +133,7 @@ msgstr ""
 msgid ""
 "by providing the value of `tree` or `node`, it determines the progress of "
 "rendering."
-msgstr "通过提供`tree`` or ``node`价值，它决定了绘制的进展。 ???"
+msgstr "通过提供` or ``tree``node`的值，它决定了渲染的进展。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:65

@@ -19,7 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "This component must be used as a subcomponent of a [`slider`](slider.md) "
 "component."
-msgstr "这部分必须作为子一[`slider`](slider.md)组件。 ???"
+msgstr "这部分必须作为子一[`slider`](slider.md)元。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:7
@@ -44,7 +44,7 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"在这个组件以外的共同属性] [(../references/common-attrs.md)没有特定的属"
+"除了[常见属性](../references/common-attrs.md)以外，没有这个组件的特定属"
 "性。 ???"
 
 #. type: Title ###
@@ -63,7 +63,7 @@ msgid ""
 "in the hexadecimal #RRGGBB format.  - `item-size`: &lt;length&gt; The size "
 "of the indicator elements, which is an float attribute."
 msgstr ""
-"-`item-color``: &lt;colors&gt; This style attribute sets the normal item "
+"`item-color``: &lt;colors&gt; This style attribute sets the normal item "
 "color using either a named color or a color specified in the hexadecimal "
 "#RRGGBB format.  - ``item-selectedColor``: &lt;colors&gt; This style "
 "attribute sets the selected item color using either a named color or a color "
@@ -83,8 +83,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
+"- support ````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:28

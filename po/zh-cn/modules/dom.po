@@ -49,8 +49,8 @@ msgid ""
 "* `options`*(object)*: some options.\n"
 "  * `offset`*(number)*: An offset to the visible position, default is `0`.\n"
 msgstr ""
-"*`options``*(object)*: some options.\n"
-"  * ``offset``*(number)*: An offset to the visible position, default is ``0`。 ???\n"
+"*`*(object)*: some options.\n"
+"  * ``offset``*(number)*: An offset to the visible position, default is ``0``options`。 ???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:17

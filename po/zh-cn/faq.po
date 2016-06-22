@@ -21,8 +21,8 @@ msgid ""
 "see [For Windows](https://github.com/alibaba/weex/tree/dev#for-windows) for "
 "more information."
 msgstr ""
-"请安装Windows(https://git-scm.com/download/win)[饭桶]第一，看到[窗口]"
-"(https://github.com/alibaba/weex/tree/dev#for-windows)更多信息。 ???"
+"请安装Windows(https://git-scm.com/download/win)的第一个[]的蠢货，更多信息请看"
+"Windows(https://github.com/alibaba/weex/tree/dev#for-windows)[]。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:8

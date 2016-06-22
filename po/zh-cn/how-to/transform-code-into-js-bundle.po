@@ -20,12 +20,12 @@ msgid ""
 "advanced/how-it-works.md) and [JS Bundle Format](../specs/js-bundle-format."
 "md)."
 msgstr ""
-"款[保持你(./maintain-your-component-code.md)组件代码]，[保持]和[(./maintain-"
-"your-component-code.md)组件代码需要第三方库](./require-3rd-party-libs.md)告诉"
-"我们如何撰写和组织长的代码。然而，长的DSL代码必须转化为`js bundle`` so that "
-"``js framework`可以解析和执行它的iOS，Android和HTML5的门户。有关更多信息，请"
-"参阅[如何]和[格式](/advanced/how-it-works.md)JS束(../specs/js-bundle-format."
-"md)。 ???"
+"款[保持你的组件代码](./maintain-your-component-code.md)，[保持]和[(./"
+"maintain-your-component-code.md)分量码需要第三方库](./require-3rd-party-libs."
+"md)告诉我们如何撰写和组织长的代码。然而，长的DSL代码必须转化为`js bundle`` "
+"so that ``js framework`可以解析和执行它的iOS，Android和HTML5的门户。有关更多"
+"信息，请参阅[如何]和[(/advanced/how-it-works.md)](../specs/js-bundle-format."
+"md)JS包格式。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:7
@@ -94,7 +94,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:31
 #, no-wrap
 msgid "** transform(name, code, path, elements, config) **\n"
-msgstr "* * * *变换(name, code, path, elements, config)???\n"
+msgstr "* *变换(name, code, path, elements, config)* * ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:36
@@ -189,7 +189,7 @@ msgid ""
 "})\n"
 "```\n"
 msgstr ""
-"gulp.task('default', function ()(){ ???\n"
+"gulp.task(){('default', function ()???\n"
 "  return gulp.src('src/*.html')\n"
 "    .pipe(weex({})({}))\n"
 "    .pipe(gulp.dest('./dest')('./dest'))\n"

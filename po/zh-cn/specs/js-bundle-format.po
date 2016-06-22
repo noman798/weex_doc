@@ -46,7 +46,7 @@ msgid ""
 "  // content of module2\n"
 "})\n"
 msgstr ""
-"定义('moduleName2', function (require, exports, module)(require, exports, module){ ???\n"
+"定义(require, exports, module)个('moduleName2', function (require, exports, module){ ???\n"
 "  // content of module2\n"
 "}) ???\n"
 
@@ -62,8 +62,8 @@ msgid ""
 "`bootstrap(rootComponentName, optionalConfig, optionalExternalData)` "
 "function call."
 msgstr ""
-"整个长的JS束串接这些模块和一`bootstrap(rootComponentName, optionalConfig, "
-"optionalExternalData)`函数调用。 ???"
+"整个长的JS束串接这些模块和最后`bootstrap(rootComponentName, optionalConfig, "
+"optionalExternalData)`个函数调用。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:27
@@ -83,7 +83,7 @@ msgid ""
 "  // content of composed component <b>\n"
 "})\n"
 msgstr ""
-"定义('@weex-component/b', function (require, exports, module)(require, exports, module){ ???\n"
+"定义(require, exports, module)个('@weex-component/b', function (require, exports, module){ ???\n"
 "  // content of composed component <b>\n"
 "}) ???\n"
 
@@ -106,8 +106,8 @@ msgid ""
 "And, the method call `bootstrap()` allows 1~3 parameters: root module name "
 "(String), config info (optional JSON) and external data (optional JSON)."
 msgstr ""
-"而且，方法调用`bootstrap()`允许1 ~ 3参数：根模块名称(String)，配置信息"
-"(optional JSON)和外部数据(optional JSON)。 ???"
+"并且，方法调用`bootstrap()`允许(optional JSON)到3个参数：根模块名称(String)，"
+"配置信息(optional JSON)和外部数据1。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:39
@@ -134,11 +134,11 @@ msgid ""
 "option is a piece of JSON object assigned to `module.exports.style` which "
 "describes the reusable styles in this component"
 msgstr ""
-"全选项是一段JavaScript代码把组件选项(除了`template`` option and ``style`` "
+"全选项是一段JavaScript代码把组件选项(除`template`` option and ``style`` "
 "option) into ``module.exports`` - ``template`` option is a piece of JSON-"
 "like object assigned to ``module.exports.template`` which describes the "
 "display structure of this component - ``style`` option is a piece of JSON "
-"object assigned to ``module.exports.style`描述此组件的可重用的方式中 ???"
+"object assigned to ``module.exports.style`说明了在该组件可重用的方式 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:48
@@ -146,8 +146,8 @@ msgid ""
 "The `template` option is required and appeared only once, and the `style` "
 "option and whole options definition are optional."
 msgstr ""
-"的`template`` option is required and appeared only once, and the ``style`期权"
-"和期权定义是可选的。 ???"
+"` option is required and appeared only once, and the `个`style`个选项和整个选"
+"项的定义是可选的。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:50
@@ -157,8 +157,8 @@ msgid ""
 "as the same result if you are not going to use Transformer. But that's not "
 "recommended."
 msgstr ""
-"这些选项被定义和转换的变压器。其实你也可以忽略所有格式的限制，写选项`module."
-"exports`为相同的结果，如果你不打算使用的变压器。但这不建议。 ???"
+"这些选项被定义和转换的变压器。事实上，你也可以忽略所有的格式限制和写入选项到"
+"`module.exports`相同的结果，如果你不打算使用变压器。但这不建议。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:51
