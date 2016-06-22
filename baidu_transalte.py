@@ -46,13 +46,13 @@ class HideBracket:
         return txt
 
     def _restore(self, txt):
-        txt = RE_ZZWEEX.sub(matchcase('weex'), txt)
         x = txt[6:-6]
         if x.isdigit():
             return self._hideed[int(x)]
         return txt
 
     def restore(self, txt):
+        txt = RE_ZZWEEX.sub(matchcase('weex'), txt)
         txt = txt.replace("[ ", "[")\
             .replace("；", ";").replace(" ]", "]")\
             .replace("（", "(")\
