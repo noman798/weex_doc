@@ -1,10 +1,8 @@
 # Find an Element
 
-In Weex, we may set the `id` property for a particular element, just as
-unique identification of a particular element.
+In Weex, we may set the `id` property for a particular element, just as unique identification of a particular element.
 
-`id` can be used by `this.$(id)` to find an element with a certain id. Take
-`$scrollTo()` For example:
+`id` can be used by `this.$(id)` to find an element with a certain id. Take `$scrollTo()` For example:
 
 ```
   <template>
@@ -28,9 +26,7 @@ unique identification of a particular element.
     </script>
 ```
 
-`id` can also work with `repeat` attribute [See more about display logical
-control](./display-logic.md), and ensure repetitive elements with different
-`id`:
+`id` can also work with `repeat` attribute [See more about display logical control](./display-logic.md), and ensure repetitive elements with different `id`:
 
 ```
   <template>
@@ -57,7 +53,6 @@ control](./display-logic.md), and ensure repetitive elements with different
   </script>
 ```
 
-Additionally, in the [composed components](./composed-component.md), we can
-get the corresponding sub component through `this.$vm(id)` APIs.
+Additionally, in the [composed components](./composed-component.md), we can get the corresponding sub component through `this.$vm(id)` APIs.
 
 Next is how to [send messages between composed components](./comm.md).

@@ -2,8 +2,7 @@
 
 ## &lt;content&gt;
 
-The element serves as content distribution outlest in a composed component
-template. The element itself will be replaced.
+The element serves as content distribution outlest in a composed component template. The element itself will be replaced.
 
 alias: `<slot>`
 

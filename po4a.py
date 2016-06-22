@@ -50,7 +50,7 @@ def _update(lang, path):
                 '"Language-Team: ',
                 '"Language: ',
                 '"MIME-Version: ',
-                '"Content-Type: ',
+                # '"Content-Type: ',
                 '"Content-Transfer-Encoding: ',
                 '# SOME DESCRIPTIVE TITLE',
                 '# Copyright (C) YEAR weex',
@@ -64,9 +64,11 @@ def _update(lang, path):
                 li.append(i)
 
     with open(f, "w") as fout:
-        fout.write("".join(li).replace("""msgid ""
-msgstr ""
-""", '').strip("\n"))
+        fout.write("".join(li)
+                   #.replace("""msgid ""
+                   # msgstr ""
+                   #""", '').strip("\n")
+                   )
 
 
 def _build(lang, path):

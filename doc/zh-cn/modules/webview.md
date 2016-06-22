@@ -2,7 +2,7 @@
 
 ## Summary
 
-A series of web operation api like `goBack`, `goForward`, and `reload`.
+A series of web operation api like `goBack`, `goForward`,  and `reload`.
 
 ## API
 
@@ -18,8 +18,11 @@ Loads the previous location in the history stack.
  
 ##### Example
 
-```js var webview = require('@weex-module/webview'); var webElement =
-this.$el('webview'); webview.goBack(webElement.ref); ```
+```js
+var webview = require('@weex-module/webview');
+var webElement = this.$el('webview');
+webview.goBack(webElement.ref);
+```
 
 ### goForward(ref)
 
@@ -32,8 +35,11 @@ Loads the next location in the history stack.
  
 ##### Example
 
-```js var webview = require('@weex-module/webview'); var webElement =
-this.$el('webview'); webview.goForward(webElement.ref); ```
+```js
+var webview = require('@weex-module/webview');
+var webElement = this.$el('webview');
+webview.goForward(webElement.ref);
+```
     
 ### reload(ref)
 #### Description
@@ -45,8 +51,11 @@ Reloads the current web page.
  
 ##### Example
 
-```js var webview = require('@weex-module/webview'); var webElement =
-this.$el('webview'); webview.reload(webElement.ref); ```
+```js
+var webview = require('@weex-module/webview');
+var webElement = this.$el('webview');
+webview.reload(webElement.ref);
+```
 
 
 

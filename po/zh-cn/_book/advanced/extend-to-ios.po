@@ -1,3 +1,7 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_book/advanced/extend-to-ios.md:1
 msgid "TODO"
