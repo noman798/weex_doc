@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:1
@@ -11,20 +11,22 @@ msgstr "自举 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:4
 #, no-wrap
-msgid "Besides its default meaning, `<script>` tag supports two more configuration with its `type` property *in the top level component of a page*.\n"
-msgstr "除了默认的意思， `(bb000dd)` 标签支持两个配置的 `type` 在一页，顶层组件的属性*。 ???\n"
+msgid ""
+"Besides its default meaning, `<script>` tag supports two more configuration "
+"with its `type` property *in the top level component of a page*.\n"
+msgstr "除了默认的意思，((bb000dd))((bb010dd))((bb020dd))在一页，顶层组件的属性*。 ???\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:7
 msgid ""
 "`type=\"data\"`: For initial data configuration, the data defined here will "
 "overwrite the data definition in the `<script>`."
-msgstr "` type=“数据”`：初始数据配置，数据定义将覆盖在`数据定义<script>`。 ???"
+msgstr "((bb060dd))((bb070dd))((bb080dd))。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:7
 msgid "`type=\"config\"`: For configuration definition."
-msgstr "类型=“配置”：用于配置定义。 ???"
+msgstr "((bb0120dd))：配置定义。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:12
@@ -55,8 +57,14 @@ msgstr "初始数据定义 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:21
 #, no-wrap
-msgid "Sometimes, it is hard to maintain huge data structure in the default `<script>` tag. So Weex allows us to have a `<script type=\"data\">` tag to define initial data. The data defined in here will totally replace the data defined in the default `<script>` tag.\n"
-msgstr "有时，很难在默认维持庞大的数据结构 `(bb040dd)` 标签。所以，快让我们有一个 `(bb050dd)` 标签来定义初始数据。数据定义在这里将完全取代默认定义的数据 `(bb060dd)` 标签。 ???\n"
+msgid ""
+"Sometimes, it is hard to maintain huge data structure in the default "
+"`<script>` tag. So Weex allows us to have a `<script type=\"data\">` tag to "
+"define initial data. The data defined in here will totally replace the data "
+"defined in the default `<script>` tag.\n"
+msgstr ""
+"有时，很难在默认维持庞大的数据结构((bb0140dd))((bb0150dd))((bb0160dd))((bb0170dd))((bb0180dd))标签。"
+" ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:23
@@ -86,14 +94,16 @@ msgstr "脚本配置 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:36
 #, no-wrap
-msgid "Weex also allows us to do some configuration with a `<script type=\"config\">`, So far, we only support the `downgrade` configs.\n"
-msgstr "快也让我们有做一些配置 `(bb0100dd)`, So far, we only support the `downgrade`  `downgrade` 配置。 ???\n"
+msgid ""
+"Weex also allows us to do some configuration with a `<script "
+"type=\"config\">`, So far, we only support the `downgrade` configs.\n"
+msgstr "快也让我们有做一些配置((bb0240dd))((bb0250dd))((bb0260dd))配置。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:40
 msgid ""
-"- `downgrade.osVersion` - `downgrade.appVersion` - `downgrade.weexVersion` - "
-"`downgrade.deviceModel`"
+"- `downgrade.osVersion` - `downgrade.appVersion` - `downgrade.weexVersion` -"
+" `downgrade.deviceModel`"
 msgstr ""
-"- `downgrade.osVersion` - `downgrade.appVersion` - `downgrade.weexVersion` - "
-"`模型`降级。 ???"
+"-((bb0300dd))((bb0310dd))((bb0320dd))((bb0330dd))((bb0340dd))((bb0350dd))((bb0360dd))"
+" ???"

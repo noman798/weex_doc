@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:1
@@ -29,8 +29,7 @@ msgstr ""
 msgid ""
 "For example: If you want to implement an address jumping function, you can "
 "achieve a Module Follow the steps below."
-msgstr ""
-"例如：如果你想实现一个地址跳转功能，你可以实现一个模块按照下面的步骤。 ???"
+msgstr "例如：如果你想实现一个地址跳转功能，你可以实现一个模块按照下面的步骤。 ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8
@@ -79,8 +78,8 @@ msgstr "模块方法将在用户界面线程中调用，不要在那里投入耗
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class "
-"that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class"
+" that implements WXObject interface"
 msgstr "长的参数可以int，双，浮弦，图，表，自定义类实现wxobject接口 ???"
 
 #. type: Plain text
@@ -116,8 +115,12 @@ msgstr "    public class WXEventModule extends WXModule{\n"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:28
 #, no-wrap
-msgid "\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
-msgstr "\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgid ""
+"\tprivate static final String "
+"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgstr ""
+"\tprivate static final String "
+"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:42
@@ -138,16 +141,16 @@ msgid ""
 "    }\n"
 msgstr ""
 "\t@WXModuleAnno\n"
-"\tpublic void openURL(String url){\n"
-"\t\tif (TextUtils.isEmpty(url)(url)) {\n"
+"\tpublic void openURL((String url)){\n"
+"\t\tif ((TextUtils.isEmpty(url))((url))) {\n"
 "\t\t\treturn;\n"
 "\t\t}\n"
-"\t\tStringBuilder builder=new StringBuilder(\"http:\");\n"
-"\t\tbuilder.append(url);\n"
-"\t\tUri uri = Uri.parse(builder.toString()());\n"
-"        Intent intent = new Intent(Intent.ACTION_VIEW, uri);\n"
-"\t\tintent.addCategory(WEEX_CATEGORY);\n"
-"        mWXSDKInstance.getContext().startActivity(intent);\n"
+"\t\tStringBuilder builder=new StringBuilder((\"http:\"));\n"
+"\t\tbuilder.append((url));\n"
+"\t\tUri uri = Uri.parse((builder.toString())(()));\n"
+"        Intent intent = new Intent((Intent.ACTION_VIEW, uri));\n"
+"\t\tintent.addCategory((WEEX_CATEGORY));\n"
+"        mWXSDKInstance.getContext(()).startActivity((intent));\n"
 "\t   }\n"
 "    }\n"
 
@@ -186,7 +189,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:60
 #, no-wrap
 msgid "  WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
-msgstr "  WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
+msgstr "  WXSDKEngine.registerModule((\"event\", WXEventModule.class));\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:64
@@ -201,7 +204,7 @@ msgid ""
 "<font color=\"gray\">\n"
 "There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
 msgstr ""
-"<font color=\"gray\"> ???\n"
+"(<font color=\"gray\">) ???\n"
 "There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
 
 #. type: Bullet: '1. '
@@ -215,8 +218,8 @@ msgid ""
 "@WXComponentProp(name=value(value is attr or style of dsl)) for it be "
 "recognized by weex SDK."
 msgstr ""
-"“wxcomponentprop(name=value(value is attr or style of dsl)(value is attr or "
-"style of dsl))它被公认长的SDK。 ???"
+"“wxcomponentprop((name=value(value is attr or style of dsl))((value is attr "
+"or style of dsl)))它被公认长的SDK。 ???"
 
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
@@ -254,12 +257,12 @@ msgid ""
 "\t }\n"
 msgstr ""
 "\tpublic class MyViewComponent extends WXComponent{ \n"
-"\tpublic MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
-"\t                   WXVContainer parent, String instanceId, boolean isLazy) \n"
+"\tpublic MyViewComponent((WXSDKInstance instance, WXDomObject dom,\n"
+"\t                   WXVContainer parent, String instanceId, boolean isLazy)) \n"
 "\t { \n"
-"\t public MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
-"\t   WXVContainer parent, String instanceId, boolean isLazy) {\n"
-"\t  super(instance, dom, parent, instanceId, isLazy);\n"
+"\t public MyViewComponent((WXSDKInstance instance, WXDomObject dom,\n"
+"\t   WXVContainer parent, String instanceId, boolean isLazy)) {\n"
+"\t  super((instance, dom, parent, instanceId, isLazy));\n"
 "\t }\n"
 
 #. type: Plain text
@@ -277,12 +280,12 @@ msgid ""
 "\t}\n"
 msgstr ""
 "\t @Override\n"
-"\t protected void initView() {\n"
-"\t    mHost = new TextView(mContext);\n"
+"\t protected void initView(()) {\n"
+"\t    mHost = new TextView((mContext));\n"
 "\t }\n"
-"\t @WXComponentProp(name=WXDomPropConstant.WX_ATTR_VALUE)\n"
-"\t public void setMyViewValue(String value) {\n"
-"\t    ((TextView)(TextView)mHost).setText(value);\n"
+"\t @WXComponentProp((name=WXDomPropConstant.WX_ATTR_VALUE))\n"
+"\t public void setMyViewValue((String value)) {\n"
+"\t    (((TextView))((TextView))mHost).setText((value));\n"
 "\t }\n"
 "\t}\n"
 
@@ -328,7 +331,7 @@ msgid ""
 "<font color=\"gray\">\n"
 "Weex SDK has no image download capability, you need to implement IWXImgLoaderAdapter. Refer to the following examples.\n"
 msgstr ""
-"<font color=\"gray\"> ???\n"
+"(<font color=\"gray\">) ???\n"
 "长的SDK没有图像的下载功能，你需要实现iwximgloaderadapter。参考下面的例子。 ???\n"
 
 #. type: Plain text
@@ -339,22 +342,22 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:136
 msgid ""
-"import android.app.Activity; import android.text.TextUtils; import android."
-"widget.ImageView;"
+"import android.app.Activity; import android.text.TextUtils; import "
+"android.widget.ImageView;"
 msgstr ""
-"进口android.app.activity;进口android.text.textutils;进口android.widget."
-"imageview; ???"
+"进口android.app.activity;进口android.text.textutils;进口android.widget.imageview; "
+"???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:142
 msgid ""
 "import com.squareup.picasso.Picasso; import com.taobao.weex.WXEnvironment; "
-"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import com.taobao.weex."
-"common.WXImageStrategy; import com.taobao.weex.dom.WXImageQuality;"
+"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import "
+"com.taobao.weex.common.WXImageStrategy; import "
+"com.taobao.weex.dom.WXImageQuality;"
 msgstr ""
-"进口com.squareup.picasso.picasso;进口com.taobao.weex.wxenvironment;进口com."
-"taobao.weex.adapter.iwximgloaderadapter;进口com.taobao.weex.common."
-"wximagestrategy;进口com.taobao.weex.dom.wximagequality; ???"
+"进口com.squareup.picasso.picasso;进口com.taobao.weex.wxenvironment;进口com.taobao.weex.adapter.iwximgloaderadapter;进口com.taobao.weex.common.wximagestrategy;进口com.taobao.weex.dom.wximagequality;"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:144
@@ -375,7 +378,7 @@ msgid ""
 "\t\tmContext = activity;\n"
 "\t}\n"
 msgstr ""
-"\tpublic ImageAdapter(Activity activity) {\n"
+"\tpublic ImageAdapter((Activity activity)) {\n"
 "\t\tmContext = activity;\n"
 "\t}\n"
 
@@ -389,9 +392,9 @@ msgid ""
 "\t\tmContext.runOnUiThread(new Runnable() {\n"
 msgstr ""
 "\t@Override\n"
-"\tpublic void setImage(final String url, final ImageView view,\n"
-"\t\t\tWXImageQuality quality, WXImageStrategy strategy) {\n"
-"\t\tmContext.runOnUiThread(new Runnable()() {\n"
+"\tpublic void setImage((final String url, final ImageView view,\n"
+"\t\t\tWXImageQuality quality, WXImageStrategy strategy)) {\n"
+"\t\tmContext.runOnUiThread((new Runnable())(()) {\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:177
@@ -420,22 +423,22 @@ msgid ""
 "}\n"
 msgstr ""
 "\t\t\t@Override\n"
-"\t\t\tpublic void run() {\n"
-"\t\t\t\tif (TextUtils.isEmpty(url)(url)) {\n"
-"\t\t\t\t\tview.setImageBitmap(null);\n"
+"\t\t\tpublic void run(()) {\n"
+"\t\t\t\tif ((TextUtils.isEmpty(url))((url))) {\n"
+"\t\t\t\t\tview.setImageBitmap((null));\n"
 "\t\t\t\t\treturn;\n"
 "\t\t\t\t}\n"
 "\t\t\t\tString temp = url;\n"
-"\t\t\t\tif (url.startsWith(\"//\")(\"//\")){\n"
+"\t\t\t\tif ((url.startsWith(\"//\"))((\"//\"))){\n"
 "\t\t\t\t\ttemp = \"http:\" + url;\n"
 "\t\t\t\t}\n"
-"\t\t\t\tif (view.getLayoutParams()().width<=0 || view.getLayoutParams().height<=0) {\n"
+"\t\t\t\tif ((view.getLayoutParams())(()).width<=0 || view.getLayoutParams(()).height<=0) {\n"
 "\t\t\t\t\treturn;\n"
 "\t\t\t\t}\n"
-"\t\t\t\tPicasso.with(WXEnvironment.getApplication()())\n"
-"\t\t\t\t\t\t.load(temp)\n"
-"\t\t\t\t\t\t.resize(view.getLayoutParams()().width,\n"
-"\t\t\t\t\t\t\t\tview.getLayoutParams().height).into(view);\n"
+"\t\t\t\tPicasso.with((WXEnvironment.getApplication())(()))\n"
+"\t\t\t\t\t\t.load((temp))\n"
+"\t\t\t\t\t\t.resize((view.getLayoutParams())(()).width,\n"
+"\t\t\t\t\t\t\t\tview.getLayoutParams(()).height).into((view));\n"
 "\t\t\t}\n"
 "\t\t});\n"
 "\t}\n"

@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:1
@@ -20,15 +20,13 @@ msgid ""
 "The most fundamental component which is a contianer to wrap any other "
 "components. It supports all the common styles, attributes and layout of "
 "flexbox."
-msgstr ""
-"这是一个容器包装任何其他组件的最基本的组成部分。它支持所有常见的样式属性和布"
-"局flexbox。 ???"
+msgstr "这是一个容器包装任何其他组件的最基本的组成部分。它支持所有常见的样式属性和布局flexbox。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:8
 #, no-wrap
 msgid "alias: `<container>` (deprecated)\n"
-msgstr "别名： `(bb010dd)` (deprecated) ???\n"
+msgstr "别名：((bb000dd))((deprecated)) ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:9
@@ -54,8 +52,7 @@ msgstr "属性 ???"
 msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
-msgstr ""
-"在这个组件以外的[共同属性]没有特定的属性(../references/common-attrs.md)。 ???"
+msgstr "在这个组件以外的[共同属性]没有特定的属性((../references/common-attrs.md))。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:17
@@ -66,8 +63,10 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:20
 #, no-wrap
-msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "* * *：常见的方式查看[普通样式](../references/common-attrs.md) ???\n"
+msgid ""
+"**common styles**: check out the [common styles](../references/common-"
+"attrs.md)\n"
+msgstr "* * *：常见的方式查看[普通样式]((../references/common-attrs.md)) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:25
@@ -76,8 +75,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持 ``position`` 相关的风格支持 "
-"``opacity``, ``background-color``  ``background-color`` 等。 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))((bb0150dd))等。"
+" ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:26
@@ -88,19 +87,20 @@ msgstr "事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:29
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)共同 ???\n"
+msgid ""
+"**common events**: check out the [common events](../references/common-"
+"event.md)\n"
+msgstr "* * *：常见的事件查看[事件]((../references/common-event.md))共同 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:32
 msgid ""
 "- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"event.md)  - support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
-"支持 `click` 事件。查看[事件]常见(../references/common-event.md)支持 "
-"`appear` / `disappear` 事件。查看[事件](../references/common-event.md)共"
-"同 ???"
+"支持((bb0280dd))((bb0290dd))((bb0300dd))((bb0310dd))((bb0320dd))事件。查看[事件]((../references/common-"
+"event.md))共同 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:33

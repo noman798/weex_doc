@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:1
@@ -18,13 +18,13 @@ msgstr "总结 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:6
 msgid ""
 "The \"wxc-navpage\" tag implements a specialized component that contains a "
-"navbar at the top of the window and an embed content page. You can customize "
-"the navbar as you like. In addition, you can use `navigator` module to "
+"navbar at the top of the window and an embed content page. You can customize"
+" the navbar as you like. In addition, you can use `navigator` module to "
 "control the page jump, see [navigator module](../modules/navigator.md)."
 msgstr ""
-"“WXC navpage”的标签，实现了一个专门的组件包含在窗口顶部的导航栏和一个嵌入的内"
-"容页。您可以自定义导航栏的你喜欢的。此外，您可以使用 `navigator` 模块来控制页"
-"面跳转，看到[导航模块](../modules/navigator.md)。 ???"
+"“WXC "
+"navpage”的标签，实现了一个专门的组件包含在窗口顶部的导航栏和一个嵌入的内容页。您可以自定义导航栏的你喜欢的。此外，您可以使用((bb000dd))模块来控制页面跳转，看到[导航模块]((../modules/navigator.md))。"
+" ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:7
@@ -48,8 +48,8 @@ msgstr "属性 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:23
 msgid ""
-"- `height`: &lt;length&gt; The height of the navbar. Default value is 88.  - "
-"`background-color`: &lt;color&gt;The backgroudColor of the navbar. Default "
+"- `height`: &lt;length&gt; The height of the navbar. Default value is 88.  -"
+" `background-color`: &lt;color&gt;The backgroudColor of the navbar. Default "
 "value is `white`.  - `title`: &lt;string&gt; The title of the navbar.  - "
 "`title-color`: &lt;color&gt;The color of the navbar title. Default value is "
 "`black`.  - `left-item-title`: &lt;string&gt; The title of the leftItem.  - "
@@ -57,24 +57,18 @@ msgid ""
 "value is `black`.  - `right-item-title`: &lt;string&gt; The title of the "
 "rightItem.  - `right-item-color`: &lt;color&gt; The color of the rightItem "
 "title. Default value is `black`.  - `left-item-src`: &lt;string&gt; The "
-"imageURL of the leftItem you want to set.  - `right-item-src`: &lt;"
-"string&gt; The imageURL of the rightItem you want to set."
+"imageURL of the leftItem you want to set.  - `right-item-src`: "
+"&lt;string&gt; The imageURL of the rightItem you want to set."
 msgstr ""
-"- `高度`：&lt;长度&gt;的导航栏的高度。默认值为88。- `背景颜色`：&lt;彩色&gt;"
-"的导航栏的backgroudcolor。默认值是白色的。- `标题`：&lt;字符串&gt;的导航栏的"
-"标题。- `标题颜色`：&lt;彩色&gt;的导航栏标题的颜色。默认值是黑色的。- `左项标"
-"题`：&lt;字符串&gt;的leftitem标题。- `离开物品的颜色`：&lt;彩色&gt;的leftitem"
-"标题颜色。默认值是黑色的。- `权项标题`：&lt;字符串&gt;的rightitem标题。- `对"
-"物品的颜色`：&lt;彩色&gt;的rightitem标题颜色。默认值是黑色的。- `左项SRC `："
-"&lt;字符串&gt;你想设置的leftitem ImageUrl。- `权项SRC `：&lt;字符串&gt;你想设"
-"置的rightitem ImageUrl。 ???"
+"-((bb030dd))((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))((bb0150dd))((bb0160dd))((bb0170dd))((bb0180dd))((bb0190dd))((bb0200dd))((bb0210dd))((bb0220dd))((bb0230dd))((bb0240dd))((bb0250dd))((bb0260dd))((bb0270dd))((bb0280dd))((bb0290dd))：&lt;字符串&gt;你想设置的rightitem"
+" ImageUrl。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:25
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
-msgstr "其他属性，请查看[共同属性](../references/common-attrs.md)。 ???"
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr "其他属性，请查看[共同属性]((../references/common-attrs.md))。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:26
@@ -85,8 +79,10 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:29
 #, no-wrap
-msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "* * *：常见的方式查看[普通样式](../references/common-attrs.md) ???\n"
+msgid ""
+"**common styles**: check out the [common styles](../references/common-"
+"attrs.md)\n"
+msgstr "* * *：常见的方式查看[普通样式]((../references/common-attrs.md)) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:34
@@ -95,8 +91,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持 ``position`` 相关的风格支持 "
-"``opacity``, ``background-color``  ``background-color`` 等。 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持((bb0590dd))((bb0600dd))((bb0610dd))((bb0620dd))((bb0630dd))((bb0640dd))((bb0650dd))((bb0660dd))((bb0670dd))((bb0680dd))((bb0690dd))等。"
+" ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:35
@@ -112,26 +108,26 @@ msgid ""
 "`naviBar.rightItem.click`: triggered when the rightItem of navbar is "
 "clicked. You need to register the observer in ready or create block."
 msgstr ""
-"- ` Navibar。leftitem。点击`：触发时的leftitem点击导航栏。您需要注册准备就绪"
-"或创建块的观察者。- ` Navibar。rightitem。点击`：触发时的rightitem点击导航"
-"栏。您需要注册准备就绪或创建块的观察者。 ???"
+"-((bb0810dd))((bb0820dd))((bb0830dd))：触发时的rightitem点击导航栏。您需要注册准备就绪或创建块的观察者。 "
+"???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:41
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)共同 ???\n"
+msgid ""
+"**common events**: check out the [common events](../references/common-"
+"event.md)\n"
+msgstr "* * *：常见的事件查看[事件]((../references/common-event.md))共同 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:44
 msgid ""
 "- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"event.md)  - support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
-"支持 `click` 事件。查看[事件]常见(../references/common-event.md)支持 "
-"`appear` / `disappear` 事件。查看[事件](../references/common-event.md)共"
-"同 ???"
+"支持((bb0880dd))((bb0890dd))((bb0900dd))((bb0910dd))((bb0920dd))事件。查看[事件]((../references/common-"
+"event.md))共同 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:45

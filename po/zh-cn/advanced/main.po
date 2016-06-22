@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:1
@@ -11,39 +11,39 @@ msgstr "先进的 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[How It Works](./how-it-works.md)"
-msgstr "[如何](./how-it-works.md) ???"
+msgstr "[如何]((./how-it-works.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[How Data Binding Works](./how-data-binding-works.md)"
-msgstr "[数据如何结合作品](./how-data-binding-works.md) ???"
+msgstr "[数据如何结合作品]((./how-data-binding-works.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[Integrate to iOS](./integrate-to-ios.md)"
-msgstr "[整合到iOS](./integrate-to-ios.md) ???"
+msgstr "[整合到iOS]((./integrate-to-ios.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[Extend to iOS](./extend-to-ios.md)"
-msgstr "[延伸](iOS bb030dd) ???"
+msgstr "[延伸](iOS (./extend-to-ios.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[Integrate to Android](./integrate-to-android.md)"
-msgstr "[整合到Android](./integrate-to-android.md) ???"
+msgstr "[整合到Android]((./integrate-to-android.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[Extend to Android](./extend-to-android.md)"
-msgstr "[延伸](Android bb050dd) ???"
+msgstr "[延伸](Android (./extend-to-android.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[Integrate to HTML5](./integrate-to-html5.md)"
-msgstr "[整合](HTML5 bb060dd) ???"
+msgstr "[整合](HTML5 (./integrate-to-html5.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/main.md:10
 msgid "[Extend to HTML5](./extend-to-html5.md)"
-msgstr "[延伸](HTML5 bb070dd) ???"
+msgstr "[延伸](HTML5 (./extend-to-html5.md)) ???"

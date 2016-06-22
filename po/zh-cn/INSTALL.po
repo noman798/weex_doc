@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/INSTALL.md:1
 #, no-wrap
 msgid "Install Book"
-msgstr ""
+msgstr "安装书 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/INSTALL.md:9
@@ -20,3 +20,6 @@ msgid ""
 "    0. `gitbook build`\n"
 "    0. `open _book/index.html`\n"
 msgstr ""
+"0。先决条件 ???\n"
+"    0. Install [Node.js]((http://nodejs.org/)) 4.0+\n"
+"    0. ((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))((bb050dd))((bb060dd))\n"

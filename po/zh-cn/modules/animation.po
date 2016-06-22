@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:1
@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:9
 #, no-wrap
 msgid "transition(node, options, callback)"
-msgstr "过渡(node, options, callback) ???"
+msgstr "过渡((node, options, callback)) ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:11
@@ -40,7 +40,7 @@ msgstr "争论 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
 msgid "`node`*(Node)*: An element that will be animated."
-msgstr "`节点` *(Node)*：一个元素，将动画。 ???"
+msgstr "((bb010dd))*((Node))*：一个元素，将动画。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
@@ -59,46 +59,7 @@ msgid ""
 "  * `transform-origin`*(string)*: The center of scale and rotation. The value can be number of pixel in `x, y` format or keyword like `left`, `right`, `bottom`, `top`, `center`.\n"
 "* **callback** Callback which is called after the completion of transition.\n"
 msgstr ""
-"* `options`*(bb020dd)*: Transition options. \n"
-"  * `styles`*(bb030dd)*: Specify the names and values of styles to which a transition effect should be applied.\n"
-"    * `color`*(bb040dd)*: the color of the element when the animaiton finished.\n"
-"    * `transform`*(bb050dd)*: transform fuction to be applied to the element. Following value is supported.\n"
-"      * `translate/translateX/translateY`*(bb060dd)*: translate the element to the new location. The value can be a pixel or percent\n"
-"      * `rotate`*(bb070dd)*: the unit is degree.\n"
-"      * `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `styles`*(bb030dd)*: Specify the names and values of styles to which a transition effect should be applied.\n"
-"    * `color`*(bb040dd)*: the color of the element when the animaiton finished.\n"
-"    * `transform`*(bb050dd)*: transform fuction to be applied to the element. Following value is supported.\n"
-"      * `translate/translateX/translateY`*(bb060dd)*: translate the element to the new location. The value can be a pixel or percent\n"
-"      * `rotate`*(bb070dd)*: the unit is degree.\n"
-"      * `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `color`*(bb040dd)*: the color of the element when the animaiton finished.\n"
-"    * `transform`*(bb050dd)*: transform fuction to be applied to the element. Following value is supported.\n"
-"      * `translate/translateX/translateY`*(bb060dd)*: translate the element to the new location. The value can be a pixel or percent\n"
-"      * `rotate`*(bb070dd)*: the unit is degree.\n"
-"      * `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `transform`*(bb050dd)*: transform fuction to be applied to the element. Following value is supported.\n"
-"      * `translate/translateX/translateY`*(bb060dd)*: translate the element to the new location. The value can be a pixel or percent\n"
-"      * `rotate`*(bb070dd)*: the unit is degree.\n"
-"      * `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `translate/translateX/translateY`*(bb060dd)*: translate the element to the new location. The value can be a pixel or percent\n"
-"      * `rotate`*(bb070dd)*: the unit is degree.\n"
-"      * `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `rotate`*(bb070dd)*: the unit is degree.\n"
-"      * `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `scale`*(bb080dd)*: scale up or scale down the element.\n"
-"  * `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `duration`*(bb090dd)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `timingFuncion`*(bb0100dd)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `linear`, and can also be one of `ease-in`, `ease-out`, `ease-in-out`, `linear`  `ease-in`, `ease-out`, `ease-in-out`, `linear`  `ease-out`, `ease-in-out`, `linear`  `ease-in-out`, `linear`  `linear` 或 `cubic-bezier(bb0110dd)`.\n"
-"  * `delay`*(bb0120dd)*: Specify the amount of milliseconds to wait between a change being requested to a property that is to be transitioned and the start of the transition effect. By default, the value is 0ms.\n"
-"  * `transform-origin`*(bb0130dd)*: The center of scale and rotation. The value can be number of pixel in `x, y`  `delay`*(bb0120dd)*: Specify the amount of milliseconds to wait between a change being requested to a property that is to be transitioned and the start of the transition effect. By default, the value is 0ms.\n"
-"  * `transform-origin`*(bb0130dd)*: The center of scale and rotation. The value can be number of pixel in `x, y`  `transform-origin`*(bb0130dd)*: The center of scale and rotation. The value can be number of pixel in `x, y`  `x, y` 格式或关键字`左`，`右`，`底`，`顶`，`中心`。 ???\n"
+"*((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))((bb0150dd))((bb0160dd))((bb0170dd))((bb0180dd))((bb0190dd))((bb0200dd))((bb0210dd))((bb0220dd))((bb0230dd))((bb0240dd))((bb0250dd))((bb0260dd))((bb0270dd))((bb0280dd))((bb0290dd))((bb0300dd))((bb0310dd))((bb0320dd))((bb0330dd))((bb0340dd))((bb0350dd))((bb0360dd))((bb0370dd))((bb0380dd))((bb0390dd))((bb0400dd))((bb0410dd))((bb0420dd))((bb0430dd))((bb0440dd))((bb0450dd))((bb0460dd))((bb0470dd))((bb0480dd))。 ???\n"
 "***回调回调函数完成后调用的回调函数。 ???\n"
 
 #. type: Title ####

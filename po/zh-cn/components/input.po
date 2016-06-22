@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:1
@@ -22,17 +22,20 @@ msgid ""
 "considerably depending on the value of its ``type`` attribute, such as "
 "``text``, ``password``, ``url``, ``email``, ``tel`` etc."
 msgstr ""
-"这个长的内置组件 ``input`` 是用来创建交互式控件接收数据的用户。如何 "
-"``input`` 组成的作品有很大的不同取决于它的价值 ``type`` 属性，如 ``text``, "
-"``password``, ``url``, ``email``, ``tel``  ``password``, ``url``, ``email``, "
-"``tel``  ``url``, ``email``, ``tel``  ``email``, ``tel``  ``tel`` 等。 ???"
+"这个长的内置组件((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))((bb0150dd))((bb0160dd))((bb0170dd))((bb0180dd))((bb0190dd))((bb0200dd))((bb0210dd))((bb0220dd))((bb0230dd))((bb0240dd))((bb0250dd))((bb0260dd))((bb0270dd))((bb0280dd))((bb0290dd))((bb0300dd))等。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:8
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:55
 #, no-wrap
-msgid "**Notes:** `<input>` does not support the common-event `click`. Please listen to the `input` or `change` event instead.\n"
-msgstr "*注：* * `(bb080dd)` 不支持常见的事件 `click`. Please listen to the `input`  `input` 或 `change` 事件而。 ???\n"
+msgid ""
+"**Notes:** `<input>` does not support the common-event `click`. Please "
+"listen to the `input` or `change` event instead.\n"
+msgstr ""
+"*注：* "
+"*((bb0620dd))((bb0630dd))((bb0640dd))((bb0650dd))((bb0660dd))((bb0670dd))((bb0680dd))事件而。"
+" ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:9
@@ -66,24 +69,15 @@ msgid ""
 "`autofocus`: &lt;boolean&gt; a boolean attribute lets you specify that a "
 "form control should have input focus when the page loads."
 msgstr ""
-"- `type`: &lt;string&gt; the type of controls to display. The default value "
-"is ``text``, if this attribute is not specified. Possible values are "
-"``text``, ``password``, ``tel``, ``email``, ``url``  ``text``, if this "
-"attribute is not specified. Possible values are ``text``, ``password``, "
-"``tel``, ``email``, ``url``  ``text``, ``password``, ``tel``, ``email``, "
-"``url``  ``password``, ``tel``, ``email``, ``url``  ``tel``, ``email``, "
-"``url``  ``email``, ``url``  ``url`` 等，都有符合W3C标准相同的意义。- `价值"
-"`：&lt;字符串&gt;该控件的值。- `占位符`：&lt;字符串&gt;一个提示，用户可以进入"
-"到控制。占位符文本必须没有回车或换行。- `残疾人`：&lt;布尔&gt;布尔属性表示窗"
-"体控件不可用的互动。特别是，单击事件将不会被发送到禁用的控件上。- `自动对焦"
-"`：&lt;布尔&gt;布尔属性允许你指定一个窗体控件应该有输入焦点时，页面加载。 ???"
+"-((bb0760dd))((bb0770dd))((bb0780dd))((bb0790dd))((bb0800dd))((bb0810dd))((bb0820dd))((bb0830dd))((bb0840dd))((bb0850dd))((bb0860dd))((bb0870dd))((bb0880dd))((bb0890dd))((bb0900dd))((bb0910dd))((bb0920dd))((bb0930dd))((bb0940dd))((bb0950dd))((bb0960dd))((bb0970dd))((bb0980dd))((bb0990dd))((bb01000dd))((bb01010dd))((bb01020dd))((bb01030dd))((bb01040dd))((bb01050dd))((bb01060dd))((bb01070dd))((bb01080dd))：&lt;布尔&gt;布尔属性允许你指定一个窗体控件应该有输入焦点时，页面加载。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:22
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
-msgstr "其他属性，请查看[共同属性](../references/common-attrs.md)。 ???"
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr "其他属性，请查看[共同属性]((../references/common-attrs.md))。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:23
@@ -96,13 +90,14 @@ msgstr "款式 ???"
 msgid ""
 "- `placeholder-color`: the color of placeholder. Default value is "
 "``#999999``."
-msgstr "- `占位符`占位符颜色：彩色。默认值是` ` # 999999 ` `。 ???"
+msgstr ""
+"-((bb01430dd))((bb01440dd))((bb01450dd))((bb01460dd))((bb01470dd))。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:28
 #, no-wrap
 msgid "**text styles**: checkout [text styles](../references/text-style.md)\n"
-msgstr "* * * *：文本样式[文字样式](bb0210dd结帐) ???\n"
+msgstr "* * * *：文本样式[文字样式]((../references/text-style.md)结帐) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:34
@@ -110,14 +105,16 @@ msgid ""
 "- support `color` style.  - support `font-size` style.  - support `font-"
 "style` style.  - support `font-weight` style.  - support `text-align` style."
 msgstr ""
-"支持 `color` 风格。支持 `font-size` 风格。支持 `font-style` 风格。支持 `font-"
-"weight` 风格。支持 `text-align` 风格。 ???"
+"支持((bb01540dd))((bb01550dd))((bb01560dd))((bb01570dd))((bb01580dd))((bb01590dd))((bb01600dd))((bb01610dd))((bb01620dd))风格。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:37
 #, no-wrap
-msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
-msgstr "* * *：常见的方式检查[组件]常见的风格(../references/common-style.md) ???\n"
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr "* * *：常见的方式检查[组件]常见的风格((../references/common-style.md)) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:42
@@ -126,8 +123,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持 ``position`` 相关的风格支持 "
-"``opacity``, ``background-color``  ``background-color`` 等。 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持((bb01730dd))((bb01740dd))((bb01750dd))((bb01760dd))((bb01770dd))((bb01780dd))((bb01790dd))((bb01800dd))((bb01810dd))((bb01820dd))((bb01830dd))等。"
+" ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:43
@@ -138,32 +135,30 @@ msgstr "事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:49
 msgid ""
-"- `input`: the value of an element changes.  - `change`: the change event is "
-"fired when a change to the component's value is commited by the user. It "
+"- `input`: the value of an element changes.  - `change`: the change event is"
+" fired when a change to the component's value is commited by the user. It "
 "always come after a ``blur`` event.  - `focus`: a component has received "
 "focus.  - `blur`: a component has lost focus."
 msgstr ""
-"- `input`: the value of an element changes.  - `change`: the change event is "
-"fired when a change to the component's value is commited by the user. It "
-"always come after a ``blur``  `change`: the change event is fired when a "
-"change to the component's value is commited by the user. It always come "
-"after a ``blur``  ``blur`` 事件。“焦点”：一个组件已接收焦点。-“模糊”：一个组"
-"件失去了焦点。 ???"
+"-((bb01950dd))((bb01960dd))((bb01970dd))((bb01980dd))((bb01990dd))((bb02000dd))((bb02010dd))((bb02020dd))((bb02030dd))((bb02040dd))((bb02050dd))：一个组件失去焦点。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:51
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)共同 ???\n"
+msgid ""
+"**common events**: check out the [common events](../references/common-"
+"event.md)\n"
+msgstr "* * *：常见的事件查看[事件]((../references/common-event.md))共同 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:53
 msgid ""
-"- support `appear` / `disappear` event. Check out [common events](../"
-"references/common-event.md)"
+"- support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
-"支持 `appear` / `disappear` 事件。查看[事件](../references/common-event.md)共"
-"同 ???"
+"支持((bb02180dd))((bb02190dd))((bb02200dd))事件。查看[事件]((../references/common-"
+"event.md))共同 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:56
@@ -181,12 +176,8 @@ msgid ""
 "- for ``focus`` and ``blur`` events:\n"
 "  - `timestamp`: the time stamp of the event.\n"
 msgstr ""
-"- ``input`` 和 ``change`` 事件： ???\n"
-"  - `value`: the value of the component who dispatched this event.\n"
-"  - `timestamp`: the time stamp of the event.\n"
-"- for ``focus``  `timestamp`: the time stamp of the event.\n"
-"- for ``focus``  ``focus`` and ``blur`` events:\n"
-"  - `timestamp`: the time stamp of the event.\n"
+"-((bb02250dd))((bb02260dd))((bb02270dd))((bb02280dd))((bb02290dd))((bb02300dd))((bb02310dd))((bb02320dd))((bb02330dd))((bb02340dd))((bb02350dd))((bb02360dd))((bb02370dd))((bb02380dd))((bb02390dd))((bb02400dd))((bb02410dd))((bb02420dd))((bb02430dd))((bb02440dd))((bb02450dd))：该事件的时间戳。"
+" ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:64

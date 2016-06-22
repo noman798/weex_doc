@@ -27,7 +27,7 @@ class HideBracket:
         return txt
 
     def _restore(self, txt):
-        x = txt[4:-4]
+        x = txt[3:-3]
         if x.isdigit():
             return self._hideed[int(x)]
         return txt
@@ -39,7 +39,7 @@ class HideBracket:
             .replace("【", "[")\
             .replace("！", "!")\
             .replace("）", ")").replace("& lt;", "&lt;").replace("& gt;", "&gt;")
-        return extract_map(" bb0", "0dd ", txt, self._restore)
+        return extract_map("bb0", "0dd", txt, self._restore)
 
 
 def translate_po(lang, po):

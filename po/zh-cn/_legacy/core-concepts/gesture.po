@@ -13,7 +13,7 @@ msgstr "触摸事件 ???"
 msgid ""
 "Weex provides the way of setting `on` attributes on a node to listen some "
 "touch events."
-msgstr "快提供设置方式 `on` 节点上听一些触摸事件属性。 ???"
+msgstr "快提供设置方式((bb000dd))节点上听一些触摸事件属性。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:5
@@ -57,7 +57,7 @@ msgstr ""
 msgid ""
 "According to above code, a `touchstart` event is fired when a touch point is "
 "placed on the touch surface."
-msgstr "根据上面的代码，一个 `touchstart` 事件被触发时，触摸点在触摸表面。 ???"
+msgstr "根据上面的代码，一个((bb020dd))事件被触发时，触摸点在触摸表面。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:27
@@ -78,12 +78,9 @@ msgid ""
 "the touch surface after `panstart`.  - The `longpress` event - fired when a "
 "touch point is sustained of 500 ms or more."
 msgstr ""
-"- `touchstart` 事件时触发触摸点放置在触摸表面。- `touchmove` 事件时触发触摸点"
-"在触摸表面移动。- `touchend` 事件时触发点是从触摸表面移除。- `panstart` 事件"
-"时触发的第一次接触移动10px或更多发生在10毫秒的时间。- `panmove` 事件时触发触"
-"摸移动10px或更多发生在10毫秒的时间。- `panend` 事件时触发触点脱离接触表面后 "
-"`panstart`.  - The `longpress`  `longpress` 事件时触发点是持续500毫秒或更"
-"多。 ???"
+"-((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))"
+"((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))((bb0150dd))"
+"((bb0160dd))((bb0170dd))((bb0180dd))事件时触发点是持续500毫秒或更多。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:37
@@ -98,8 +95,8 @@ msgid ""
 "`timestamp` property - - The `changedTouches` property - A list of touches "
 "for every point of contact which contributed to the event."
 msgstr ""
-"- `type` 财产的事件类型。- `target` 财产的财产 `timestamp` - "
-"`changedTouches` 财产用于接触导致了事件的每一点触动列表。 ???"
+"-((bb0340dd))((bb0350dd))((bb0360dd))((bb0370dd))((bb0380dd))((bb0390dd))"
+"((bb0400dd))财产用于接触导致了事件的每一点触动列表。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:44
@@ -118,12 +115,11 @@ msgid ""
 "screen.  - The `screenY` property - The Y coordinate of the touch point "
 "relative to the top edge of the screen."
 msgstr ""
-"- `identifier` 这种触摸对象唯一标识符的属性。- `pageX` 财产的X坐标的触摸点相"
-"对于文档的左边缘。- `pageY` 财产的Y坐标的触摸点相对于该文件的顶部。- "
-"`screenX` 财产的X坐标的触摸点相对于屏幕左边缘。- `screenY` 财产的Y坐标的触摸"
-"点相对于屏幕的顶部边缘。 ???"
+"-((bb0480dd))((bb0490dd))((bb0500dd))((bb0510dd))((bb0520dd))((bb0530dd))"
+"((bb0540dd))((bb0550dd))((bb0560dd))财产的Y坐标的触摸点相对于屏幕的顶部边"
+"缘。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:52
 msgid "For more information, please visite [Common Events](events.md)."
-msgstr "有关更多信息，请访问[事件](events.md)共同。 ???"
+msgstr "有关更多信息，请访问[事件]((events.md))共同。 ???"

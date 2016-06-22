@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:1
@@ -37,12 +37,12 @@ msgid ""
 "})\n"
 "```\n"
 msgstr ""
-"大口。任务('default', function ()(){ ???\n"
-"  return gulp.src('src/*.html')\n"
-"    .pipe(weex({})({}))\n"
-"    .pipe(gulp.dest('./dest')('./dest'))\n"
+"大口。任务(('default', function ())(()){ ???\n"
+"  return gulp.src(('src/*.html'))\n"
+"    .pipe((weex({}))(({})))\n"
+"    .pipe((gulp.dest('./dest'))(('./dest')))\n"
 "}) ???\n"
-"` ` ` ???\n"
+"((bb000dd))((bb010dd)) ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:18
@@ -64,7 +64,7 @@ msgstr "是否转换为旧格式。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:25
 msgid "default: `false`."
-msgstr "默认：“假”。 ???"
+msgstr "默认值：((bb0110dd))。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:26
@@ -75,9 +75,9 @@ msgstr "isEntry ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:29
 msgid "whether is an entry module which has `bootstrap(...)`."
-msgstr "无论是输入模块具有` Bootstrap(...)`。 ???"
+msgstr "无论是输入模块具有((bb0130dd))。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:30
 msgid "default: `true`."
-msgstr "默认值：“真”。 ???"
+msgstr "默认值：((bb0150dd))。 ???"

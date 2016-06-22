@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:1
@@ -11,17 +11,17 @@ msgstr "工具书类 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Bootstrap](./bootstrap.md)"
-msgstr "[引导](./bootstrap.md) ???"
+msgstr "[引导]((./bootstrap.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Component Definition](./component-defs.md)"
-msgstr "[定义](./component-defs.md) ???"
+msgstr "[定义]((./component-defs.md)) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
 msgid "[Instance APIs](./api.md)"
-msgstr "[例](./api.md)API ???"
+msgstr "[例]((./api.md))API ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/README.md:26
@@ -49,24 +49,24 @@ msgid ""
 "    * [JS Framework APIs](../specs/js-framework-apis.md)\n"
 "    * [Virtual DOM APIs](../specs/virtual-dom-apis.md)\n"
 msgstr ""
-"* [内部](../components/README.md) ???\n"
-"    * [Common Attributes](./common-attrs.md)\n"
-"    * [Common Style](./common-style.md)\n"
-"    * [Common Event](./common-event.md)\n"
-"    * [Special Element](../components/special-element.md)\n"
-"    * [&lt;div&gt;](../components/div.md)\n"
-"    * [&lt;scroller&gt;](../components/scroller.md)\n"
-"    * [&lt;list&gt;](../components/list.md)\n"
-"        * [&lt;cell&gt;](../components/cell.md)\n"
-"    * [&lt;text&gt;](../components/text.md)\n"
-"    * [&lt;image&gt;](../components/image.md)\n"
-"    * [&lt;input&gt;](../components/input.md)\n"
-"    * [&lt;switch&gt;](../components/switch.md)\n"
-"    * [&lt;slider&gt;](../components/slider.md)\n"
-"        * [&lt;indicator&gt;](../components/indicator.md)\n"
-"    * [&lt;video&gt;](../components/video.md)\n"
-"* [建](../modules/README.md)模块 ???\n"
+"* [内部]((../components/README.md)) ???\n"
+"    * [Common Attributes]((./common-attrs.md))\n"
+"    * [Common Style]((./common-style.md))\n"
+"    * [Common Event]((./common-event.md))\n"
+"    * [Special Element]((../components/special-element.md))\n"
+"    * [&lt;div&gt;]((../components/div.md))\n"
+"    * [&lt;scroller&gt;]((../components/scroller.md))\n"
+"    * [&lt;list&gt;]((../components/list.md))\n"
+"        * [&lt;cell&gt;]((../components/cell.md))\n"
+"    * [&lt;text&gt;]((../components/text.md))\n"
+"    * [&lt;image&gt;]((../components/image.md))\n"
+"    * [&lt;input&gt;]((../components/input.md))\n"
+"    * [&lt;switch&gt;]((../components/switch.md))\n"
+"    * [&lt;slider&gt;]((../components/slider.md))\n"
+"        * [&lt;indicator&gt;]((../components/indicator.md))\n"
+"    * [&lt;video&gt;]((../components/video.md))\n"
+"* [建]((../modules/README.md))模块 ???\n"
 "*低级别规格 ???\n"
-"    * [JS Bundle Format](../specs/js-bundle-format.md)\n"
-"    * [JS Framework APIs](../specs/js-framework-apis.md)\n"
-"    * [Virtual DOM APIs](../specs/virtual-dom-apis.md)\n"
+"    * [JS Bundle Format]((../specs/js-bundle-format.md))\n"
+"    * [JS Framework APIs]((../specs/js-framework-apis.md))\n"
+"    * [Virtual DOM APIs]((../specs/virtual-dom-apis.md))\n"

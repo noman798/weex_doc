@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:1
@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:9
 #, no-wrap
 msgid "sendHttp(params, callback)"
-msgstr "sendhttp(params, callback) ???"
+msgstr "sendhttp((params, callback)) ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:11
@@ -48,12 +48,8 @@ msgid ""
 "  * `body`*(string)*: the HTTP body.\n"
 "* `callback`*(function)*: A callback function whose argument is the response string of the request.\n"
 msgstr ""
-"* `参数` *(object)*：请求参数。 ???\n"
-"  * `method`*(string)*: the HTTP method like `GET`, `POST`.\n"
-"  * `url`*(string)*: the request url.\n"
-"  * `header`*(object)*: the HTTP request header.\n"
-"  * `body`*(string)*: the HTTP body.\n"
-"* `回调` *(function)*：一个回调函数的参数是请求的响应字符串。 ???\n"
+"*((bb010dd))((bb020dd))((bb030dd))((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))((bb0150dd))*((function))*：一个回调函数的参数是请求的响应字符串。"
+" ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:20

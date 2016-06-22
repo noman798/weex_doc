@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:1
@@ -11,13 +11,23 @@ msgstr "如何需要第三方库？ ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:4
 #, no-wrap
-msgid "In the paragraph [Maintain Your Component Code](./maintain-your-component-code.md), we learn that JavaScript code can be written in `<script>` tag in one component. But there must be some common functions or modules in your project, such as parsing url params, extending properties from some objects to another object and so on. It's a bad practice to copy and paste them in each component, therefore there's a urgent need of `require`. Weex provides CommonJS `require` syntax for developers.\n"
-msgstr "在段落[保持你的组件代码](./maintain-your-component-code.md)，我们知道JavaScript代码可以写在 `(bb010dd)` 标签中的一个组成部分。但必须有一些共同的功能或模块在你的项目中，例如解析URL参数，扩展性能从对象到另一对象等。复制和粘贴在每个组件是一个不好的做法，因此有迫切的需要 `require`. Weex provides CommonJS `require`  `require` 语法的开发者。 ???\n"
+msgid ""
+"In the paragraph [Maintain Your Component Code](./maintain-your-component-"
+"code.md), we learn that JavaScript code can be written in `<script>` tag in "
+"one component. But there must be some common functions or modules in your "
+"project, such as parsing url params, extending properties from some objects "
+"to another object and so on. It's a bad practice to copy and paste them in "
+"each component, therefore there's a urgent need of `require`. Weex provides "
+"CommonJS `require` syntax for developers.\n"
+msgstr ""
+"在段落[保持你的组件代码]((./maintain-your-component-"
+"code.md))，我们知道JavaScript代码可以写在((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))语法的开发者。"
+" ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:6
 msgid "Let take `extend` for example."
-msgstr "让我们采取 `extend` 为例。 ???"
+msgstr "让我们采取((bb0110dd))为例。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:7
@@ -30,8 +40,7 @@ msgstr "要求本地js模块 ???"
 msgid ""
 "A basic implementation of `extend` is as follows, and it's placed in "
 "directory path `./common/utils.js`."
-msgstr ""
-"一个基本的实现 `extend` 如下，并把它放置在目录路径`。/普通/工具。JS `。 ???"
+msgstr "一个基本的实现((bb0130dd))((bb0140dd))((bb0150dd))。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:19
@@ -50,7 +59,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:21
 msgid "In a `.we` file, `extend` can be used with the help of `require`:"
-msgstr "在一个 `.we` 文件， `extend` 可以使用与`帮助需要`： ???"
+msgstr "在一个((bb0190dd))((bb0200dd))((bb0210dd))((bb0220dd))((bb0230dd))： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:30
@@ -80,19 +89,18 @@ msgid ""
 "extending any built-in objects. It implements a more robust version of "
 "[extend](http://underscorejs.org/#extend)."
 msgstr ""
-"此外，[强调](http://underscorejs.org)是一个JavaScript库，提供了一个有用的功能"
-"编程助手乱不延长任何内置对象。它实现了一个更强大的版本的[延伸](http://"
-"underscorejs.org/#extend)。 ???"
+"此外，[强调]((http://underscorejs.org))是一个JavaScript库，提供了一个有用的功能编程助手乱不延长任何内置对象。它实现了一个更强大的版本的[延伸]((http://underscorejs.org/#extend))。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:36
 msgid ""
 "We can use underscore's extend instead of the version implemented by "
-"ourselves. After installing `underscore` to the `node_modules` directory, we "
-"can `require` and use it."
+"ourselves. After installing `underscore` to the `node_modules` directory, we"
+" can `require` and use it."
 msgstr ""
-"我们可以使用下划线的扩展，而不是由自己来实现的版本。安装后 `underscore` 到 "
-"`node_modules` 的目录，我们可以 `require` 和使用它。 ???"
+"我们可以使用下划线的扩展，而不是由自己来实现的版本。安装后((bb0310dd))((bb0320dd))((bb0330dd))((bb0340dd))((bb0350dd))和使用它。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:40

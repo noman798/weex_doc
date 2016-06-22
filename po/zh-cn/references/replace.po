@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:1
@@ -11,8 +11,13 @@ msgstr "替换选项 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:4
 #, no-wrap
-msgid "The `replace` option is boolean type. It determined whether this composed component will be replaced with the `<template>` content or just as a normal `<div>` element which include the `<template>` content.\n"
-msgstr " `replace` 的选择是布尔型。确定这是否构成组件将被取代的 `(bb000dd)` 内容或只是作为一个正常的 `(bb010dd)` 元素包括 `(bb020dd)` 含量。 ???\n"
+msgid ""
+"The `replace` option is boolean type. It determined whether this composed "
+"component will be replaced with the `<template>` content or just as a normal"
+" `<div>` element which include the `<template>` content.\n"
+msgstr ""
+"的((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))((bb050dd))((bb060dd))含量。"
+" ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:6

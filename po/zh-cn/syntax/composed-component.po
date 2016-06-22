@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:1
@@ -18,8 +18,10 @@ msgstr "如果长文件的某些部分重复，你可以创建一个代表这些
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:6
 #, no-wrap
-msgid "you can use `<we-element>` tag to create composed component, the value of `name` attribute is the component name.\n"
-msgstr "你可以使用 `(bb000dd)` 标签来创建组成，价值 `name` 属性是组件的名称。 ???\n"
+msgid ""
+"you can use `<we-element>` tag to create composed component, the value of "
+"`name` attribute is the component name.\n"
+msgstr "你可以使用((bb000dd))((bb010dd))((bb020dd))属性是组件的名称。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:25
@@ -48,8 +50,12 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:27
 #, no-wrap
-msgid "Content of `<we-element>` tag is the same as normal weex file, consists of `<template>`, `<style>` and `<script>` .\n"
-msgstr "内容 `(bb030dd)` 标记为正常长的文件一样，由 `(bb040dd)`, `(bb050dd)`  `(bb050dd)` 和 `(bb060dd)` 。 ???\n"
+msgid ""
+"Content of `<we-element>` tag is the same as normal weex file, consists of "
+"`<template>`, `<style>` and `<script>` .\n"
+msgstr ""
+"内容((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))((bb0120dd))。"
+" ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:29
@@ -101,9 +107,7 @@ msgstr "嵌套组件 ???"
 msgid ""
 "Composed component supports nesting. For easy access nesting component, you "
 "should name nesting component with \"parent name and hyphen\" prefix."
-msgstr ""
-"组合组件支持嵌套。为方便嵌套的组件，你应该叫嵌套组件“父母姓名和字号”前"
-"缀。 ???"
+msgstr "组合组件支持嵌套。为方便嵌套的组件，你应该叫嵌套组件“父母姓名和字号”前缀。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:58
@@ -169,25 +173,25 @@ msgstr "笔记 ???"
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid "Every composed component have an independent `<style>` work scope."
-msgstr "每一个组成部分有一个独立的 `(bb0110dd)` 工作范围。 ???"
+msgstr "每一个组成部分有一个独立的((bb0200dd))工作范围。 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid ""
 "If child component have `id` attribute, you can access the context of the "
-"child component by `this.$vm(id)`. See more about [find an element](./id.md)."
+"child component by `this.$vm(id)`. See more about [find an "
+"element](./id.md)."
 msgstr ""
-"如果孩子成分 `id` 属性，你可以通过`此访问子组件的上下文。$ VM(id)`。了解更多"
-"关于[元](./id.md)找到一个。 ???"
+"如果孩子成分((bb0220dd))((bb0230dd))((bb0240dd))。了解更多关于[元]((./id.md))找到一个。 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
 msgid ""
 "Please refer to [communicate between components](./comm.md) for more "
 "communication issues."
-msgstr "请参阅[](./comm.md)组件之间的交流更多的沟通问题。 ???"
+msgstr "请参阅[]((./comm.md))组件之间的交流更多的沟通问题。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:119
 msgid "Next is how to [find an element](./id.md)."
-msgstr "二是如何[找到元](./id.md)。 ???"
+msgstr "二是如何[找到元]((./id.md))。 ???"
