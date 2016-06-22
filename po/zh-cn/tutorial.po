@@ -48,10 +48,6 @@ msgid ""
 "  </div>\n"
 "</template>\n"
 msgstr ""
-"<文本类=“标题”> < / JavaScript文本> ???\n"
-"< / DIV > ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:22
@@ -76,8 +72,6 @@ msgid ""
 "</style>\n"
 "```\n"
 msgstr ""
-"< /样式> ???\n"
-"```` ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:27
@@ -271,14 +265,6 @@ msgid ""
 "    <div class=\"cell\">\n"
 "       <image class=\"thumb\" src=\"http://t.cn/RGE31hq\"></image>  \n"
 msgstr ""
-"<文本类=“标题”> < / JavaScript文本> ???\n"
-"< / DIV > ???\n"
-"＜div class=“细胞”> ???\n"
-"<图像类=“拇指”src=“http：／／t.cn / rge3uo9”> < /图像> ???\n"
-"<文本类=“标题”> < / java文本> ???\n"
-"< / DIV > ???\n"
-"＜div class=“细胞”> ???\n"
-"<图像类=“拇指”src=“http：／／t.cn / rge31hq”> < /图像> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:94
@@ -290,10 +276,6 @@ msgid ""
 "  </div>\n"
 "</template>\n"
 msgstr ""
-"<文本类=“标题”>目标C < /文本> ???\n"
-"< / DIV > ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:103
@@ -320,7 +302,7 @@ msgstr ""
 msgid ""
 "![weex qr](http://gtms01.alicdn.com/tps/i1/"
 "TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
-msgstr "！[长](QR _10_) ???"
+msgstr "！[长](QR _8_) ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:115
@@ -345,7 +327,7 @@ msgstr ""
 msgid ""
 "![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
 "TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
-msgstr "！[表](Android _13_) ???"
+msgstr "！[表](Android _11_) ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:119
@@ -394,9 +376,6 @@ msgid ""
 "    <div class=\"cell\">\n"
 "       <image class=\"thumb\" src=\"http://t.cn/RGE3AJt\"></image>  \n"
 msgstr ""
-"＜div class=“容器”onclick=“goweexsite”> ???\n"
-"＜div class=“细胞”> ???\n"
-"<图像类=“拇指”src=“http：／／t.cn / rge3ajt”> < /图像> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:164
@@ -436,7 +415,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:166
 #, no-wrap
 msgid "</style>\n"
-msgstr "< /样式> ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:187
@@ -463,26 +442,6 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"数据：{ ???\n"
-"区间值：“1000”， ???\n"
-"isshowindicators：“真”， ???\n"
-"isautoplay：“真”， ???\n"
-"自行设计：[???\n"
-"{标题：“java”，pictureurl：http：/ / / rge3uo9 t.cn”}， ???\n"
-"{标题：目标C，pictureurl：http：/ / / rge31hq t.cn”}， ???\n"
-"{标题：“JavaScript”，pictureurl：http：/ / / rge3ajt t.cn”} ???\n"
-"] ???\n"
-"}， ???\n"
-"方法：{ ???\n"
-"goweexsite：功能(){ ???\n"
-"这为OpenURL('http://alibaba.github.io/weex/')。 ???\n"
-"} ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"```` ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:189

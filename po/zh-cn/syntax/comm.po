@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:1
@@ -20,16 +20,15 @@ msgid ""
 "Children component can use `this.$dispatch([String type], [Object detail])` "
 "method passing information to parent component. first argument meaning type "
 "of message , second argument is the message object. If any parent of the "
-"child component register the same type of listener using `$on([String type], "
-"[Function callback])` method , the callback will be execute with one "
+"child component register the same type of listener using `$on([String type],"
+" [Function callback])` method , the callback will be execute with one "
 "argument , the message object will be `detail` property of the the argument."
 msgstr ""
-"儿童的组件可以使用`this.$dispatch(_0_)`` method passing information to "
-"parent component. first argument meaning type of message , second argument "
-"is the message object. If any parent of the child component register the "
-"same type of listener using ``$on(_1_)`` method , the callback will be "
-"execute with one argument , the message object will be ``detail`的参数属"
-"性。 ???"
+"儿童的组件可以使用`this.$dispatch(_0_)`` method passing information to parent "
+"component. first argument meaning type of message , second argument is the "
+"message object. If any parent of the child component register the same type "
+"of listener using ``$on(_1_)`` method , the callback will be execute with "
+"one argument , the message object will be ``detail`的参数属性。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8
@@ -74,9 +73,6 @@ msgid ""
 "  <foo title=\"...\" image-url=\"...\"></foo>\n"
 "</template>\n"
 msgstr ""
-"<模板> ???\n"
-"< foo标题=“…”图像url =“…”> < / foo > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:47
@@ -94,17 +90,6 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"创建函数(){ ???\n"
-"这对美元('notify', function(e)(e){ ???\n"
-"//当＜foo >图像标签被点击时，函数将被执行。 ???\n"
-"/ / e.detail是`{a: 1}``\n"
-"      })\n"
-"    }\n"
-"  }\n"
-"</script>\n"
-"````` ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:48
@@ -118,9 +103,7 @@ msgid ""
 "Parent component can using `this.$([String id])` get context of child "
 "component. you can access child component information using the context "
 "object."
-msgstr ""
-"父组件可以使用`this.$(_14_)`得到的子组件的上下文。您可以使用上下文对象访问子"
-"组件信息。 ???"
+msgstr "父组件可以使用`this.$(_7_)`得到的子组件的上下文。您可以使用上下文对象访问子组件信息。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:74
@@ -161,12 +144,6 @@ msgid ""
 "  </div>\n"
 "</template>\n"
 msgstr ""
-"<模板> ???\n"
-"<DIV> ???\n"
-"<文本onclick=“测试”>点击更新foo <文本> ???\n"
-"< foo id =“fooel”title=“…”图像url =“…”> < / foo > ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:94
@@ -185,18 +162,6 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"方法：{ ???\n"
-"功能测试：(e){ ???\n"
-"VaR foo =这$('fooEl')。 ???\n"
-"settitle foo('...')。 ???\n"
-"foo.imageurl = '…' ???\n"
-"} ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"```` ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:95
@@ -207,9 +172,9 @@ msgstr "父母对孩子(multi-child)通信 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:98
 msgid ""
-"Parent can using `this.$broadcast([String type], [Object detail])` broadcast "
-"message to all of children."
-msgstr "家长可以使用`this.$broadcast(_22_)`将消息广播到所有的孩子。 ???"
+"Parent can using `this.$broadcast([String type], [Object detail])` broadcast"
+" message to all of children."
+msgstr "家长可以使用`this.$broadcast(_10_)`将消息广播到所有的孩子。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:122
@@ -264,27 +229,6 @@ msgid ""
 "  </script>\n"
 "</we-element>\n"
 msgstr ""
-"<我们的元素名称=“foo”> ???\n"
-"<模板> ???\n"
-"<DIV> ???\n"
-"<酒吧> <酒吧> > ???\n"
-"<文本> { { } } < /文本> ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"数据：{ ???\n"
-"标题：“” ???\n"
-"}， ???\n"
-"创建函数(){ ???\n"
-"自我=这个 ???\n"
-"这对美元('changeTitle', function(e)(e){ ???\n"
-"self.title = e.detail.title ???\n"
-"}) ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"< /我们元素> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:152
@@ -298,13 +242,6 @@ msgid ""
 "  </div>\n"
 "</template>\n"
 msgstr ""
-"<模板> ???\n"
-"<DIV> ???\n"
-"<文本onclick=“测试”>点击更新foo <文本> ???\n"
-"< > < > / Foo Foo ???\n"
-"< > < > / Foo Foo ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:168
@@ -326,21 +263,6 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"方法：{ ???\n"
-"功能测试：(e){ ???\n"
-"这为广播('changeTitle', {\n"
-"          title: '...'\n"
-"        })。 ???\n"
-"这为广播('changeImage', {\n"
-"          imageUrl: '...'\n"
-"        })。 ???\n"
-"} ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"```` ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:169
@@ -351,7 +273,8 @@ msgstr "兄弟姐妹的沟通 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:172
 msgid ""
-"siblings components can using common parent as bridge for passing information"
+"siblings components can using common parent as bridge for passing "
+"information"
 msgstr "兄弟姐妹的组件可以使用共同的家长作为传递信息的桥梁 ???"
 
 #. type: Plain text
@@ -390,18 +313,6 @@ msgid ""
 "  </script>\n"
 "</we-element>\n"
 msgstr ""
-"<我们元素名称=“栏”> ???\n"
-"<模板>…< /模板> ???\n"
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"创建函数(){ ???\n"
-"这对美元('callbar', function(e)(e){ ???\n"
-"/ / e.detail， ???\n"
-"}) ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"< /我们元素> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:208
@@ -414,12 +325,6 @@ msgid ""
 "  </div>\n"
 "</template>\n"
 msgstr ""
-"<模板> ???\n"
-"<DIV> ???\n"
-"< > < > / Foo Foo ???\n"
-"<酒吧> <酒吧> > ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:220
@@ -437,22 +342,10 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"创建函数(){ ???\n"
-"自我=这个 ???\n"
-"这对美元('callbar', function(e)(e){ ???\n"
-"自美元('callbar', e.detail)播出。 ???\n"
-"}) ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"```` ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:221
 msgid ""
 "At last, you can learn how to write [config & data](./config-n-data.md) for "
 "a Weex page."
-msgstr ""
-"最后，你可以学习如何写[配置和数据](./config-n-data.md)一个长的页面。 ???"
+msgstr "最后，你可以学习如何写[配置和数据](./config-n-data.md)一个长的页面。 ???"

@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:1
@@ -11,16 +11,15 @@ msgstr "如何自定义一个本地组件？ ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:4
 msgid ""
-"Weex has wrap up the most critical platform components,such as ScrollView、"
-"ListView、Text、Imageview. Certainly these components can not completely "
-"meet your need. And thousands of native UI components that alwaysly be using "
-"in our project may be required to integrate into Weex easily. Fortunately,"
-"it's quite convenient to wrap up your own components that shuold be from any "
-"existing components."
+"Weex has wrap up the most critical platform components,such as "
+"ScrollView、ListView、Text、Imageview. Certainly these components can not "
+"completely meet your need. And thousands of native UI components that "
+"alwaysly be using in our project may be required to integrate into Weex "
+"easily. Fortunately,it's quite convenient to wrap up your own components "
+"that shuold be from any existing components."
 msgstr ""
-"长有把最关键的网络组件，如ScrollView、ListView、文本、ImageView。当然这些组件"
-"不能完全满足您的需要。和本土的UI组件，其可在我们的项目中使用数以千计可能需要"
-"融入快易。幸运的是，把你自己的组件，应该是从任何现有的组件很方便。 ???"
+"长有把最关键的网络组件，如ScrollView、ListView、文本、ImageView。当然这些组件不能完全满足您的需要。和本土的UI组件，其可在我们的项目中使用数以千计可能需要融入快易。幸运的是，把你自己的组件，应该是从任何现有的组件很方便。"
+" ???"
 
 #. type: Title #####
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:5
@@ -67,8 +66,8 @@ msgstr "组件方法将在用户界面线程中调用，在这里不包含耗时
 #. type: Bullet: '7. '
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:14
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class "
-"that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class"
+" that implements WXObject interface"
 msgstr "长的参数可以int，双，浮弦，图，表，自定义类实现wxobject接口 ???"
 
 #. type: Title ####

@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:1
@@ -11,8 +11,22 @@ msgstr "如何需要第三方库？ ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:4
 #, no-wrap
-msgid "In the paragraph [Maintain Your Component Code](./maintain-your-component-code.md), we learn that JavaScript code can be written in `<script>` tag in one component. But there must be some common functions or modules in your project, such as parsing url params, extending properties from some objects to another object and so on. It's a bad practice to copy and paste them in each component, therefore there's a urgent need of `require`. Weex provides CommonJS `require` syntax for developers.\n"
-msgstr "在段落[保持你的组件代码](./maintain-your-component-code.md)，我们知道JavaScript代码可以写在`<script>`` tag in one component. But there must be some common functions or modules in your project, such as parsing url params, extending properties from some objects to another object and so on. It's a bad practice to copy and paste them in each component, therefore there's a urgent need of ``require``. Weex provides CommonJS ``require`语法的开发者。 ???\n"
+msgid ""
+"In the paragraph [Maintain Your Component Code](./maintain-your-component-"
+"code.md), we learn that JavaScript code can be written in `<script>` tag in "
+"one component. But there must be some common functions or modules in your "
+"project, such as parsing url params, extending properties from some objects "
+"to another object and so on. It's a bad practice to copy and paste them in "
+"each component, therefore there's a urgent need of `require`. Weex provides "
+"CommonJS `require` syntax for developers.\n"
+msgstr ""
+"在段落[保持你的组件代码](./maintain-your-component-"
+"code.md)，我们知道JavaScript代码可以写在`<script>`` tag in one component. But there "
+"must be some common functions or modules in your project, such as parsing "
+"url params, extending properties from some objects to another object and so "
+"on. It's a bad practice to copy and paste them in each component, therefore "
+"there's a urgent need of ``require``. Weex provides CommonJS "
+"``require`语法的开发者。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:6
@@ -31,8 +45,8 @@ msgid ""
 "A basic implementation of `extend` is as follows, and it's placed in "
 "directory path `./common/utils.js`."
 msgstr ""
-"一个基本的实现`extend`` is as follows, and it's placed in directory path ``./"
-"common/utils.js`。 ???"
+"一个基本的实现`extend`` is as follows, and it's placed in directory path "
+"``./common/utils.js`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:19
@@ -82,19 +96,18 @@ msgid ""
 "extending any built-in objects. It implements a more robust version of "
 "[extend](http://underscorejs.org/#extend)."
 msgstr ""
-"此外，[强调](http://underscorejs.org)是一个JavaScript库，提供了一个有用的功能"
-"编程助手乱不延长任何内置对象。它实现了一个更强大的版本的[延伸](http://"
-"underscorejs.org/#extend)。 ???"
+"此外，[强调](http://underscorejs.org)是一个JavaScript库，提供了一个有用的功能编程助手乱不延长任何内置对象。它实现了一个更强大的版本的[延伸](http://underscorejs.org/#extend)。"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:36
 msgid ""
 "We can use underscore's extend instead of the version implemented by "
-"ourselves. After installing `underscore` to the `node_modules` directory, we "
-"can `require` and use it."
+"ourselves. After installing `underscore` to the `node_modules` directory, we"
+" can `require` and use it."
 msgstr ""
-"我们可以使用下划线的扩展，而不是由自己来实现的版本。安装后`underscore`` to "
-"the ``node_modules`` directory, we can ``require`和使用它。 ???"
+"我们可以使用下划线的扩展，而不是由自己来实现的版本。安装后`underscore`` to the ``node_modules`` "
+"directory, we can ``require`和使用它。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/require-3rd-party-libs.md:40

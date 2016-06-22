@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:1
@@ -18,8 +18,7 @@ msgstr "总结 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:6
 msgid ""
 "A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
-msgstr ""
-"一系列的模态对话框API类`toast``, ``alert``, ``confirm`` and ``prompt`。 ???"
+msgstr "一系列的模态对话框API类`toast``, ``alert``, ``confirm`` and ``prompt`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:7
@@ -66,8 +65,8 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:24
 msgid ""
-"```javascript var modal = require('@weex-module/modal'); modal."
-"toast({'message': 'I am toast!', 'duration': 1}); ```"
+"```javascript var modal = require('@weex-module/modal'); "
+"modal.toast({'message': 'I am toast!', 'duration': 1}); ```"
 msgstr ""
 
 #. type: Title ###

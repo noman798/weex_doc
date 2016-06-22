@@ -49,14 +49,6 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"module.exports = { ???\n"
-"数据：{ ???\n"
-"注：“你好” ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"```` ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:24
