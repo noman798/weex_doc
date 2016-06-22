@@ -17,10 +17,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:6
 #, no-wrap
-msgid ""
-"Render text with specified style rule, `<text>` tag can contain text value "
-"only. You can use variable interpolation in the text content with the mark "
-"`{{}}`.\n"
+msgid "Render text with specified style rule, `<text>` tag can contain text value only. You can use variable interpolation in the text content with the mark `{{}}`.\n"
 msgstr ""
 
 #. type: Title ###
@@ -50,8 +47,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:16
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -94,17 +91,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:35
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:40
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -116,17 +111,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:44
 #, no-wrap
-msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:47
 msgid ""
-"- support `click` event. Check out [common "
-"events](../references/common-event.md)  - support `appear` / `disappear` "
-"event. Check out [common events](../references/common-event.md)"
+"- support `click` event. Check out [common events](../references/common-"
+"event.md)  - support `appear` / `disappear` event. Check out [common events]"
+"(../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -143,8 +136,7 @@ msgid ""
 "<div>\n"
 "  <text>...</text>\n"
 "  <text value=\"...\"></text>\n"
-"  <text style=\"font-size: 24; text-decoration: "
-"underline;\">{{price}}</text>\n"
+"  <text style=\"font-size: 24; text-decoration: underline;\">{{price}}</text>\n"
 "  <text value=\"{{...}}\"></text>\n"
 "</div>\n"
 "```\n"

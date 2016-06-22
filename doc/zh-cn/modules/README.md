@@ -2,7 +2,8 @@
 
 ## How to use
 
-You can use a simply way like `require('@weex-module/name')` to access the apis of module. e.g.
+You can use a simply way like `require('@weex-module/name')` to access the
+apis of module. e.g.
 
 ```javascript
 var dom = require('@weex-module/dom');

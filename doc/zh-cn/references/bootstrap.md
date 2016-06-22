@@ -2,7 +2,8 @@
 
 Besides its default meaning, `<script>` tag supports two more configuration with its `type` property *in the top level component of a page*.
 
-* `type="data"`: For initial data configuration, the data defined here will overwrite the data definition in the `<script>`.
+* `type="data"`: For initial data configuration, the data defined here will
+  overwrite the data definition in the `<script>`.
 * `type="config"`: For configuration definition.
 
 ```
@@ -34,7 +35,5 @@ here is an example:
 
 Weex also allows us to do some configuration with a `<script type="config">`, So far, we only support the `downgrade` configs.
 
-- `downgrade.osVersion`
-- `downgrade.appVersion`
-- `downgrade.weexVersion`
-- `downgrade.deviceModel`
+- `downgrade.osVersion` - `downgrade.appVersion` - `downgrade.weexVersion` -
+`downgrade.deviceModel`

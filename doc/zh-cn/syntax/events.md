@@ -43,7 +43,8 @@ e.g.
 
 ## Event Object
 
-When an event handler called, it will receive an event object as the first argument. Every event object will contains following properties.
+When an event handler called, it will receive an event object as the first
+argument. Every event object will contains following properties.
 
 * `type`: event name, eg: `click`
 * `target`: target `Element` of the event

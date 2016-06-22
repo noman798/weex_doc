@@ -18,9 +18,8 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:4
 msgid ""
 "&lt;a&gt; defines a hyperlink to a page in the web. Its purpose and syntax "
-"is very simliar to "
-"[&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) in "
-"HTML5."
+"is very simliar to [&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/"
+"HTML/Element/a) in HTML5."
 msgstr ""
 
 #. type: Title ###
@@ -62,9 +61,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:15
 #, no-wrap
-msgid ""
-"**common styles**: check out the [common "
-"styles](../references/common-attrs.md)\n"
+msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
 msgstr ""
 
 #. type: Title ###
@@ -76,9 +73,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:18
 #, no-wrap
-msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Title ###

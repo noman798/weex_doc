@@ -1,6 +1,7 @@
 # Build-in Components
 
-Before see all built-in components, let's have a look at the common things about component.
+Before see all built-in components, let's have a look at the common things
+about component.
 
 * [Common Attributes](../references/common-attrs.md)
 * [Common Style](../references/common-style.md)

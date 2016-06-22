@@ -42,14 +42,15 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:15
-msgid "- `src`: &lt;string&gt; this attribute specifies the page source to load."
+msgid ""
+"- `src`: &lt;string&gt; this attribute specifies the page source to load."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:17
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -69,9 +70,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:24
 #, no-wrap
-msgid ""
-"**common styles**: check out the [common "
-"styles](../references/common-attrs.md)\n"
+msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
 msgstr ""
 
 #. type: Plain text
@@ -98,17 +97,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:37
 #, no-wrap
-msgid ""
-"*common events**: check out the [common "
-"events](../references/common-event.md)\n"
+msgid "*common events**: check out the [common events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:40
 msgid ""
-"- support `click` event. Check out [common "
-"events](../references/common-event.md)  - support `appear` / `disappear` "
-"event. Check out [common events](../references/common-event.md)"
+"- support `click` event. Check out [common events](../references/common-"
+"event.md)  - support `appear` / `disappear` event. Check out [common events]"
+"(../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -123,9 +120,7 @@ msgstr ""
 msgid ""
 "```js\n"
 "<div>\n"
-"  <web style=\"width=...; height=...;\" src=\"...\" "
-"\tonpagestart=\"pagestart\" onpagefinish=\"pagefinish\" "
-"\tonerror=\"error\">\n"
+"  <web style=\"width=...; height=...;\" src=\"...\" \tonpagestart=\"pagestart\" onpagefinish=\"pagefinish\" \tonerror=\"error\">\n"
 "  </web>\n"
 "</div>\n"
 "```\n"

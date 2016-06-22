@@ -1,3 +1,7 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:1
 #, no-wrap
@@ -7,14 +11,14 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:5
 msgid ""
-"Paragraphs [Maintain Your Component "
-"Code](./maintain-your-component-code.md), [Maintain Your Component "
-"Code](./maintain-your-component-code.md) and [Require 3rd Party "
-"Libs](./require-3rd-party-libs.md) show us how to write and organize weex "
-"code. However, Weex DSL code must be transformed to `js bundle` so that `js "
-"framework` can parse and execute it for iOS, Android and HTML5 portal. For "
-"more information, please refer to [How It Works ](/advanced/how-it-works.md) "
-"and [JS Bundle Format](../specs/js-bundle-format.md)."
+"Paragraphs [Maintain Your Component Code](./maintain-your-component-code."
+"md), [Maintain Your Component Code](./maintain-your-component-code.md) and "
+"[Require 3rd Party Libs](./require-3rd-party-libs.md) show us how to write "
+"and organize weex code. However, Weex DSL code must be transformed to `js "
+"bundle` so that `js framework` can parse and execute it for iOS, Android and "
+"HTML5 portal. For more information, please refer to [How It Works ](/"
+"advanced/how-it-works.md) and [JS Bundle Format](../specs/js-bundle-format."
+"md)."
 msgstr ""
 
 #. type: Plain text
@@ -61,10 +65,8 @@ msgstr ""
 msgid ""
 "    -h, --help               output usage information\n"
 "    -V, --version            output the version number\n"
-"    -l, --oldFormat [value]  whether to transform to old format (default: "
-"false)\n"
-"    -e, --isEntry [value]    whether is an entry module which has "
-"`bootstrap` (default: true)\n"
+"    -l, --oldFormat [value]  whether to transform to old format (default: false)\n"
+"    -e, --isEntry [value]    whether is an entry module which has `bootstrap` (default: true)\n"
 "    -o, --output [path]      the output file dirname\n"
 "```\n"
 msgstr ""
@@ -121,8 +123,7 @@ msgstr ""
 msgid ""
 "- `config`: object *optional*\n"
 "    * `oldFormat`: whether to transform to old format (default: false)\n"
-"    * `isEntry`: whether is an entry module which has `bootstrap` (default: "
-"true)\n"
+"    * `isEntry`: whether is an entry module which has `bootstrap` (default: true)\n"
 msgstr ""
 
 #. type: Plain text
@@ -135,8 +136,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "- an object with keys\n"
-"    * `result`: string, all custom components `define()` and final "
-"`bootstrap()`\n"
+"    * `result`: string, all custom components `define()` and final `bootstrap()`\n"
 "    * `logs`: array, corresponding warning & error logs\n"
 msgstr ""
 
@@ -153,7 +153,8 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:62
-msgid "```javascript var gulp = require('gulp')  var weex = require('gulp-weex')"
+msgid ""
+"```javascript var gulp = require('gulp')  var weex = require('gulp-weex')"
 msgstr ""
 
 #. type: Plain text

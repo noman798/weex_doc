@@ -1,3 +1,7 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:1
 #, no-wrap
@@ -61,5 +65,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/main.md:14
-msgid "[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
+msgid ""
+"[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
 msgstr ""

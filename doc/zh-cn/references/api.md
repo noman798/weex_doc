@@ -33,8 +33,11 @@ Return the element referenced by specific id.
 * *(Element)*: an Element object referenced.
 
 ### Tips
-* id is only guaranteed to be unique within the current (page)components, if you are looking for the parent components or child components, you can make use of the communication mode between components.
-* Further reading: [id](../syntax/id.md), [Communicate Between Components](../syntax/comm.md)
+* id is only guaranteed to be unique within the current (page)components, if
+  you are looking for the parent components or child components, you can
+  make use of the communication mode between components.
+* Further reading: [id](../syntax/id.md), [Communicate Between
+  Components](../syntax/comm.md)
 
 ## $vm(id)
 
@@ -49,8 +52,11 @@ Return the vm object referenced by specific id.
 * `vm`*(Vm)*: a Vm object referenced.
 
 ### Tips
-* id is only guaranteed to be unique within the current (page)components, if you are looking for the parent components or child components, you can make use of the communication mode between components.
-* Further reading: [id](../syntax/id.md), [Communicate Between Components](../syntax/comm.md)
+* id is only guaranteed to be unique within the current (page)components, if
+  you are looking for the parent components or child components, you can
+  make use of the communication mode between components.
+* Further reading: [id](../syntax/id.md), [Communicate Between
+  Components](../syntax/comm.md)
 
 ## $getConfig()
 
@@ -60,7 +66,7 @@ Get the current global environment variables and configuration information.
 
  * `config`*(object)*: the object of config.
  * `bundleUrl`*(string)*: the url of bundle.
- * `debug`*(boolean)*: if is debug mode. 
+ * `debug`*(boolean)*: if is debug mode.
  * `env`*(object)*: a object of envrioment.
     * `weexVersion`*(string)*: a version of weex sdk.
     * `appName`*(string)*: a name of app.

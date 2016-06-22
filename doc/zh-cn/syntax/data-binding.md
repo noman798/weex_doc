@@ -23,7 +23,8 @@ In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` whi
 
 The code above will bind the `title` and `size` data field to `template`.
 
-We can also use `.` syntax to bind cascading data structure. Let's look at the following code snippet:
+We can also use `.` syntax to bind cascading data structure. Let's look at
+the following code snippet:
 
 ```html
 <template>
@@ -71,7 +72,9 @@ The expression will be evaluated in the data scope of current context.
 
 ## Computed Properties
 
-According to simple operations, in-template expressions are very convenient. But if you want to put more logic into the template, you should use a computed property.
+According to simple operations, in-template expressions are very
+convenient. But if you want to put more logic into the template, you should
+use a computed property.
 
 e.g.
 ```html
@@ -110,9 +113,11 @@ e.g.
 </script>
 ```
 
-Here we have declared a computed property fullName. The function we provided will be used as the getter function for concating firstName and lastName.
+Here we have declared a computed property fullName. The function we provided
+will be used as the getter function for concating firstName and lastName.
 
-Otherwise when you call `changeName` after click, the setter will be invoked and this.firstName and this.lastName will be updated accordingly.
+Otherwise when you call `changeName` after click, the setter will be invoked
+and this.firstName and this.lastName will be updated accordingly.
 
 **NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the execution context -- `this`, we can access both of them.**
 
@@ -128,7 +133,8 @@ the style of a component can be bind using the `style` attribute:
 </template>
 ```
 
-while style can also get bound with `class` attribute, multiple classnames can be split by spaces:
+while style can also get bound with `class` attribute, multiple classnames
+can be split by spaces:
 
 ```html
 <template>
@@ -139,13 +145,17 @@ while style can also get bound with `class` attribute, multiple classnames can b
 </template>
 ```
 
-here if `{{size}}` and `{{status}}` have empty value, then only `class="title"` will be rendered.
+here if `{{size}}` and `{{status}}` have empty value, then only
+`class="title"` will be rendered.
 
 * [See more about style and class](./style-n-class.md)
 
 ### Event Handler: `on...`
 
-The event handler is an attribute which name has a prefix `on...`. The other part of attribute name is event type and the value is event handler name. We don't need to add mustache around the method name or add parentheses to call it.
+The event handler is an attribute which name has a prefix `on...`. The other
+part of attribute name is event type and the value is event handler name. We
+don't need to add mustache around the method name or add parentheses to call
+it.
 
 ```html
 <template>
@@ -165,7 +175,8 @@ The event handler is an attribute which name has a prefix `on...`. The other par
 
 ### `if` & `repeat`
 
-`if` attribute can control the display of a component by a truthy/falsy value.
+`if` attribute can control the display of a component by a truthy/falsy
+value.
 
 ```html
 <template>

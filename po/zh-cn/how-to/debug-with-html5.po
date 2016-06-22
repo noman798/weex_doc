@@ -1,3 +1,7 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:1
 #, no-wrap
@@ -16,8 +20,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:6
 msgid ""
-"![chrome's debug "
-"tool](http://gw.alicdn.com/mt/TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
+"![chrome's debug tool](http://gw.alicdn.com/mt/"
+"TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
 msgstr ""
 
 #. type: Title ##
@@ -110,15 +114,13 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid ""
-"whether the supposed to be called API method is actually called and "
-"executed."
+"whether the supposed to be called API method is actually called and executed."
 msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid ""
-"whether the `callJS` method for event firing or callback executing is "
-"called."
+"whether the `callJS` method for event firing or callback executing is called."
 msgstr ""
 
 #. type: Title ##

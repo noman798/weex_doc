@@ -26,10 +26,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:8
 #, no-wrap
-msgid ""
-"**Notes:** height of `list` must be specified (list's styles must contain "
-"`height` or pair of `top`, `bottom` or flex value if outter container's "
-"`flex-direction` value is `column`).\n"
+msgid "**Notes:** height of `list` must be specified (list's styles must contain `height` or pair of `top`, `bottom` or flex value if outter container's `flex-direction` value is `column`).\n"
 msgstr ""
 
 #. type: Title ###
@@ -40,7 +37,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:14
-msgid "`cell` is a available candidate to be used as a child component for `list`."
+msgid ""
+"`cell` is a available candidate to be used as a child component for `list`."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -74,8 +72,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:20
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -87,17 +85,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:24
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:29
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -121,21 +117,19 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:38
 #, no-wrap
-msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:43
 msgid ""
-"- support `click` event. Check out [common "
-"events](../references/common-event.md)  - support `appear` / `disappear` "
-"event. Check out [common events](../references/common-event.md)  - support "
-"`refresh` event .  If a refresh component is inside scroller, this event "
-"will be triggered when the scroller is swiping down.  - support `loading` "
-"event .  If a loading component is inside scroller, this event will be "
-"triggered when user scrolling to the bottom."
+"- support `click` event. Check out [common events](../references/common-"
+"event.md)  - support `appear` / `disappear` event. Check out [common events]"
+"(../references/common-event.md)  - support `refresh` event .  If a refresh "
+"component is inside scroller, this event will be triggered when the scroller "
+"is swiping down.  - support `loading` event .  If a loading component is "
+"inside scroller, this event will be triggered when user scrolling to the "
+"bottom."
 msgstr ""
 
 #. type: Title ###
@@ -147,6 +141,6 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/list.md:46
 msgid ""
-"see [list-basic "
-"demo](https://github.com/alibaba/weex/blob/example/examples/component/list/list-basic.we)"
+"see [list-basic demo](https://github.com/alibaba/weex/blob/example/examples/"
+"component/list/list-basic.we)"
 msgstr ""

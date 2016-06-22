@@ -1,3 +1,7 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
 #. type: Title =
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:2
 #, no-wrap
@@ -13,8 +17,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:6
 msgid ""
-"![weex hello "
-"world](http://gtms01.alicdn.com/tps/i1/TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920.png)"
+"![weex hello world](http://gtms01.alicdn.com/tps/i1/"
+"TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920.png)"
 msgstr ""
 
 #. type: Title ##

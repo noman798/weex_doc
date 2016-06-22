@@ -24,11 +24,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/components/input.md:8 /home/dev/download/weex_doc/weex/doc/components/input.md:55
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:8
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:55
 #, no-wrap
-msgid ""
-"**Notes:** `<input>` does not support the common-event `click`. Please "
-"listen to the `input` or `change` event instead.\n"
+msgid "**Notes:** `<input>` does not support the common-event `click`. Please listen to the `input` or `change` event instead.\n"
 msgstr ""
 
 #. type: Title ###
@@ -67,8 +66,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:22
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -93,25 +92,22 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:34
 msgid ""
-"- support `color` style.  - support `font-size` style.  - support "
-"`font-style` style.  - support `font-weight` style.  - support `text-align` "
-"style."
+"- support `color` style.  - support `font-size` style.  - support `font-"
+"style` style.  - support `font-weight` style.  - support `text-align` style."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:37
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:42
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -132,16 +128,14 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:51
 #, no-wrap
-msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:53
 msgid ""
-"- support `appear` / `disappear` event. Check out [common "
-"events](../references/common-event.md)"
+"- support `appear` / `disappear` event. Check out [common events](../"
+"references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
