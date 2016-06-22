@@ -59,22 +59,18 @@ msgid "Return the element referenced by specific id."
 msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:27
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:43
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:27 /home/dev/download/weex_doc/weex/doc/references/api.md:43
 #, no-wrap
 msgid "Arguments"
 msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:30
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:46
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:30 /home/dev/download/weex_doc/weex/doc/references/api.md:46
 msgid "`id`*(string)*: the unique identifier."
 msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:31
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:47
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:59
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:31 /home/dev/download/weex_doc/weex/doc/references/api.md:47 /home/dev/download/weex_doc/weex/doc/references/api.md:59
 #, no-wrap
 msgid "Returns"
 msgstr ""
@@ -85,15 +81,13 @@ msgid "*(Element)*: an Element object referenced."
 msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:35
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:51
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:35 /home/dev/download/weex_doc/weex/doc/references/api.md:51
 #, no-wrap
 msgid "Tips"
 msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:38
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:54
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:38 /home/dev/download/weex_doc/weex/doc/references/api.md:54
 msgid ""
 "id is only guaranteed to be unique within the current (page)components, if "
 "you are looking for the parent components or child components, you can make "
@@ -101,11 +95,10 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:38
-#: /home/dev/download/weex_doc/weex/doc/references/api.md:54
+#: /home/dev/download/weex_doc/weex/doc/references/api.md:38 /home/dev/download/weex_doc/weex/doc/references/api.md:54
 msgid ""
-"Further reading: [id](../syntax/id.md), [Communicate Between Components](../"
-"syntax/comm.md)"
+"Further reading: [id](../syntax/id.md), [Communicate Between "
+"Components](../syntax/comm.md)"
 msgstr ""
 
 #. type: Title ##
@@ -132,8 +125,7 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:58
-msgid ""
-"Get the current global environment variables and configuration information."
+msgid "Get the current global environment variables and configuration information."
 msgstr ""
 
 #. type: Bullet: ' * '
@@ -159,7 +151,8 @@ msgid ""
 "    * `weexVersion`*(string)*: a version of weex sdk.\n"
 "    * `appName`*(string)*: a name of app.\n"
 "    * `appVersion`*(string)*: a version of app.\n"
-"    * `platform`*(string)*: the platform, one of `iOS`, `Android` and `Web`.\n"
+"    * `platform`*(string)*: the platform, one of `iOS`, `Android` and "
+"`Web`.\n"
 "    * `osVersion`*(string)*: the version of os.\n"
 "    * `deviceModel`*(string)*: the model of device. **native only**\n"
 "    * `deviceWidth`*(number)*: the width of device, default is `750`.\n"
@@ -175,5 +168,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:77
 #, no-wrap
-msgid "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
+msgid ""
+"**Deprecated**, please use `require('@weex-module/module')[method](...args)` "
+"instead. See [modules](../modules/REAME.md) for more information\n"
 msgstr ""

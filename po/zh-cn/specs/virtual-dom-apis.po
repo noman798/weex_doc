@@ -36,14 +36,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
-msgid ""
-"`createElement(tagName, props)` Create a certain type element with props."
+msgid "`createElement(tagName, props)` Create a certain type element with props."
 msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
-msgid ""
-"`createComment(text)` Create a comment node with a certain comment text."
+msgid "`createComment(text)` Create a comment node with a certain comment text."
 msgstr ""
 
 #. type: Bullet: '* '

@@ -27,7 +27,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:13
 #, no-wrap
-msgid "`id` gives weex tag a unique mark in `<template>` scope. With id attribute you can easily refer a weex tag.\n"
+msgid ""
+"`id` gives weex tag a unique mark in `<template>` scope. With id attribute "
+"you can easily refer a weex tag.\n"
 msgstr ""
 
 #. type: Plain text
@@ -44,7 +46,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:22
 msgid ""
-"``` style=\"width: 200; height: 200\" style=\"padding: {{x}}; margin: 0\" ```"
+"``` style=\"width: 200; height: 200\" style=\"padding: {{x}}; margin: 0\" "
+"```"
 msgstr ""
 
 #. type: Plain text
@@ -94,8 +97,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:45
-#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:55
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:45 /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:55
 msgid "[more information](../syntax/display-logic.md)"
 msgstr ""
 
@@ -112,8 +114,7 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:53
-msgid ""
-"provide a boolean value to decide whether or not to display current tag."
+msgid "provide a boolean value to decide whether or not to display current tag."
 msgstr ""
 
 #. type: Title ##
@@ -169,7 +170,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:79
 msgid ""
-"weex is basically following [HTML attribute](https://en.wikipedia.org/wiki/"
-"HTML_attribute) naming rule , so please **do not use CamelCase** in your "
-"attribute , **kebab-case** with “-” as delimiter is much better."
+"weex is basically following [HTML "
+"attribute](https://en.wikipedia.org/wiki/HTML_attribute) naming rule , so "
+"please **do not use CamelCase** in your attribute , **kebab-case** with “-” "
+"as delimiter is much better."
 msgstr ""

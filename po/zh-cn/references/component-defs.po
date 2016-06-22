@@ -11,7 +11,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:4
 #, no-wrap
-msgid "A component definition is a set of options to describe a component. It's always assigned to `module.exports` in `<script>`.\n"
+msgid ""
+"A component definition is a set of options to describe a component. It's "
+"always assigned to `module.exports` in `<script>`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -60,9 +62,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:30
 msgid ""
-"Each `data` or `methods` property will be proxied to the ViewModel instance. "
-"So you can read and write data with `this.x`, also you can call methods with "
-"`this.doThis(...)`."
+"Each `data` or `methods` property will be proxied to the ViewModel "
+"instance. So you can read and write data with `this.x`, also you can call "
+"methods with `this.doThis(...)`."
 msgstr ""
 
 #. type: Plain text
@@ -76,7 +78,8 @@ msgstr ""
 msgid ""
 "```\n"
 "<template>\n"
-"  <div style=\"width: {{w}}; height: {{h}}; background-color: red;\" onclick=\"update\"></div>\n"
+"  <div style=\"width: {{w}}; height: {{h}}; background-color: red;\" "
+"onclick=\"update\"></div>\n"
 "</template>\n"
 "<script>\n"
 "  module.exports = {\n"
@@ -133,7 +136,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:74
 msgid ""
-"The first argument is a event object which contains event data in `e.detail`."
+"The first argument is a event object which contains event data in "
+"`e.detail`."
 msgstr ""
 
 #. type: Title ##

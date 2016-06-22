@@ -11,7 +11,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:4
 #, no-wrap
-msgid "Besides its default meaning, `<script>` tag supports two more configuration with its `type` property *in the top level component of a page*.\n"
+msgid ""
+"Besides its default meaning, `<script>` tag supports two more configuration "
+"with its `type` property *in the top level component of a page*.\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -55,7 +57,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:21
 #, no-wrap
-msgid "Sometimes, it is hard to maintain huge data structure in the default `<script>` tag. So Weex allows us to have a `<script type=\"data\">` tag to define initial data. The data defined in here will totally replace the data defined in the default `<script>` tag.\n"
+msgid ""
+"Sometimes, it is hard to maintain huge data structure in the default "
+"`<script>` tag. So Weex allows us to have a `<script type=\"data\">` tag to "
+"define initial data. The data defined in here will totally replace the data "
+"defined in the default `<script>` tag.\n"
 msgstr ""
 
 #. type: Plain text
@@ -86,7 +92,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:36
 #, no-wrap
-msgid "Weex also allows us to do some configuration with a `<script type=\"config\">`, So far, we only support the `downgrade` configs.\n"
+msgid ""
+"Weex also allows us to do some configuration with a `<script "
+"type=\"config\">`, So far, we only support the `downgrade` configs.\n"
 msgstr ""
 
 #. type: Plain text

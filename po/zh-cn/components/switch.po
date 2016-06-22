@@ -49,8 +49,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:16
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -62,21 +62,25 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:20
 #, no-wrap
-msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:25
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:27
 #, no-wrap
-msgid "**Notes:** The `width` and `height` is not configurable and the size of this component is fixed to `100x60` (for the design width 750px).\n"
+msgid ""
+"**Notes:** The `width` and `height` is not configurable and the size of this "
+"component is fixed to `100x60` (for the design width 750px).\n"
 msgstr ""
 
 #. type: Title ###
@@ -93,15 +97,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:33
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:36
 msgid ""
-"- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -115,7 +121,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "- for `change` event:\n"
-"  - value: the value of the component who dispatched this event, which is the boolean value ``true`` or ``false``.\n"
+"  - value: the value of the component who dispatched this event, which is "
+"the boolean value ``true`` or ``false``.\n"
 "  - timestamp: the time stamp of the event.\n"
 msgstr ""
 

@@ -42,9 +42,9 @@ msgid ""
 "Use npm to install the latest version of Weex HTML5, require it in your code "
 "by CommonJS and use it as a npm package. You should require Weex JS "
 "Framework as well, which is as a dependency to Weex HTML5, or you can "
-"require a whole javascript file with path `./node_modules/weex-html5/dist/"
-"bundle.js`. In this way you don't need to require Weex JS Framework manually "
-"anymore since it is already embeded."
+"require a whole javascript file with path "
+"`./node_modules/weex-html5/dist/bundle.js`. In this way you don't need to "
+"require Weex JS Framework manually anymore since it is already embeded."
 msgstr ""
 
 #. type: Title ####
@@ -57,8 +57,8 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:16
 msgid ""
 "Make sure you get the latest version by `npm install` or `npm update`. For "
-"more informations of npm, please visit the [npm official site](https://docs."
-"npmjs.com/)."
+"more informations of npm, please visit the [npm official "
+"site](https://docs.npmjs.com/)."
 msgstr ""
 
 #. type: Plain text
@@ -109,18 +109,19 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:46
-msgid ""
-"`source`: the requested url of weex bundle, or the transformed code it self."
+msgid "`source`: the requested url of weex bundle, or the transformed code it self."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:46
 #, no-wrap
 msgid ""
-"* `loader`: the loader type to load the weex bundle, which value is 'xhr' or 'jsonp' or 'source'.\n"
+"* `loader`: the loader type to load the weex bundle, which value is 'xhr' or "
+"'jsonp' or 'source'.\n"
 "  * `xhr`: load the source (weex bundle url) by XHR\n"
 "  * `jsonp`: load the source bundle by JSONP\n"
-"  * `source`: the source parameter above should be a weex bundle content (transformed bundle).\n"
+"  * `source`: the source parameter above should be a weex bundle content "
+"(transformed bundle).\n"
 "* `rootId`: the id of the root element. Default value is 'weex'.\n"
 msgstr ""
 

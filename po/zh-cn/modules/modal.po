@@ -16,8 +16,7 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:6
-msgid ""
-"A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
+msgid "A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
 msgstr ""
 
 #. type: Title ##
@@ -33,10 +32,7 @@ msgid "toast(options)"
 msgstr ""
 
 #. type: Title ####
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:11
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:27
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:50
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:82
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:11 /home/dev/download/weex_doc/weex/doc/modules/modal.md:27 /home/dev/download/weex_doc/weex/doc/modules/modal.md:50 /home/dev/download/weex_doc/weex/doc/modules/modal.md:82
 #, no-wrap
 msgid "Arguments"
 msgstr ""
@@ -51,10 +47,7 @@ msgid ""
 msgstr ""
 
 #. type: Title ####
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:18
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:34
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:63
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:96
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:18 /home/dev/download/weex_doc/weex/doc/modules/modal.md:34 /home/dev/download/weex_doc/weex/doc/modules/modal.md:63 /home/dev/download/weex_doc/weex/doc/modules/modal.md:96
 #, no-wrap
 msgid "Example"
 msgstr ""
@@ -62,8 +55,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:24
 msgid ""
-"```javascript var modal = require('@weex-module/modal'); modal."
-"toast({'message': 'I am toast!', 'duration': 1}); ```"
+"```javascript var modal = require('@weex-module/modal'); "
+"modal.toast({'message': 'I am toast!', 'duration': 1}); ```"
 msgstr ""
 
 #. type: Title ###
@@ -117,8 +110,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:59
-#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:91
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:59 /home/dev/download/weex_doc/weex/doc/modules/modal.md:91
 msgid "This method has a callback function whose arguments will be:"
 msgstr ""
 

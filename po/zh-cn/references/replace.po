@@ -11,7 +11,10 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:4
 #, no-wrap
-msgid "The `replace` option is boolean type. It determined whether this composed component will be replaced with the `<template>` content or just as a normal `<div>` element which include the `<template>` content.\n"
+msgid ""
+"The `replace` option is boolean type. It determined whether this composed "
+"component will be replaced with the `<template>` content or just as a normal "
+"`<div>` element which include the `<template>` content.\n"
 msgstr ""
 
 #. type: Plain text
@@ -37,8 +40,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/references/replace.md:23
-#: /home/dev/download/weex_doc/weex/doc/references/replace.md:50
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:23 /home/dev/download/weex_doc/weex/doc/references/replace.md:50
 #, no-wrap
 msgid ""
 "<template>\n"
@@ -48,8 +50,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/references/replace.md:25
-#: /home/dev/download/weex_doc/weex/doc/references/replace.md:52
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:25 /home/dev/download/weex_doc/weex/doc/references/replace.md:52
 msgid "will rendered as:"
 msgstr ""
 

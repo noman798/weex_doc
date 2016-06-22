@@ -17,8 +17,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:6
 msgid ""
-"A slide's player to show slides (mostly as pictures) one page by another. "
-"The default interval between two slides is 3 seconds."
+"A slide's player to show slides (mostly as pictures) one page by "
+"another. The default interval between two slides is 3 seconds."
 msgstr ""
 
 #. type: Title ###
@@ -45,15 +45,15 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:14
 msgid ""
 "- `auto-play`: &lt;boolean&gt; `true` | `false`. This value determines "
-"whether the slides plays automatically after the page rendering finished. "
-"The default value is `false`."
+"whether the slides plays automatically after the page rendering "
+"finished. The default value is `false`."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:16
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -65,15 +65,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:20
 #, no-wrap
-msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:25
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -93,15 +95,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:31
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:34
 msgid ""
-"- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -118,7 +122,8 @@ msgid ""
 "<template>\n"
 "  <div>\n"
 "    <slider auto-play=\"true\" onchange=\"change\" style=\"...\">\n"
-"      <image repeat=\"{{imageList}}\" src=\"{{src}}\" style=\"...\"></image>\n"
+"      <image repeat=\"{{imageList}}\" src=\"{{src}}\" "
+"style=\"...\"></image>\n"
 "      <indicator></indicator>\n"
 "    </slider>\n"
 "  </div>\n"

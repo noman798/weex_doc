@@ -19,7 +19,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "weex sdk support Moulde extend,\n"
-"Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.  \n"
+"Weex SDK provides only rendering capabilities, rather than have other "
+"capabilities, such as network, picture, and URL redirection. If you want the "
+"these features, you need to implement it.  \n"
 msgstr ""
 
 #. type: Plain text
@@ -30,8 +32,7 @@ msgid ""
 msgstr ""
 
 #. type: Title ####
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:68
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:68
 #, no-wrap
 msgid "Step to customize a module "
 msgstr ""
@@ -49,8 +50,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '3. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:11
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:11 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
 msgid "The access levels of mehtod must be **public**"
 msgstr ""
 
@@ -60,8 +60,7 @@ msgid "The module class also can not be an inner class"
 msgstr ""
 
 #. type: Bullet: '5. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:74
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:74
 msgid "Customize can not be obfuscated by tools like ProGuard"
 msgstr ""
 
@@ -73,22 +72,19 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '7. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
 msgid ""
 "Weex params can be int, double, float, String, Map, List, self-defined class "
 "that implements WXObject interface"
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:18
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:80
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:18 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:80
 msgid "Refer to the following example"
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:20
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:82
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:20 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:82
 msgid "```java"
 msgstr ""
 
@@ -110,7 +106,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:28
 #, no-wrap
-msgid "\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgid ""
+"\tprivate static final String "
+"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 msgstr ""
 
 #. type: Plain text
@@ -133,10 +131,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:44
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:62
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:108
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:178
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:44 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:62 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:108 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:178
 msgid "```"
 msgstr ""
 
@@ -180,7 +175,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<font color=\"gray\">\n"
-"There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
+"There are label, image, div, scroll, ect. components in weex, you can also "
+"customize your own components.  \n"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -221,7 +217,8 @@ msgstr ""
 msgid ""
 "\tpublic class MyViewComponent extends WXComponent{ \n"
 "\tpublic MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
-"\t                   WXVContainer parent, String instanceId, boolean isLazy) \n"
+"\t                   WXVContainer parent, String instanceId, boolean isLazy) "
+"\n"
 "\t { \n"
 "\t public MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
 "\t   WXVContainer parent, String instanceId, boolean isLazy) {\n"
@@ -256,7 +253,8 @@ msgstr ""
 msgid ""
 "```java\n"
 "  /**\n"
-"   * Register component. The registration is singleton in {@link WXSDKEngine} level\n"
+"   * Register component. The registration is singleton in {@link "
+"WXSDKEngine} level\n"
 "   * @param type name of component. Same as type filed in the JS.\n"
 "   * @param clazz the class of the {@link WXComponent} to be registered.\n"
 "   * @param appendTree true for appendTree flag\n"
@@ -284,7 +282,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<font color=\"gray\">\n"
-"Weex SDK has no image download capability, you need to implement IWXImgLoaderAdapter. Refer to the following examples.\n"
+"Weex SDK has no image download capability, you need to implement "
+"IWXImgLoaderAdapter. Refer to the following examples.\n"
 msgstr ""
 
 #. type: Plain text
@@ -295,16 +294,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:136
 msgid ""
-"import android.app.Activity; import android.text.TextUtils; import android."
-"widget.ImageView;"
+"import android.app.Activity; import android.text.TextUtils; import "
+"android.widget.ImageView;"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:142
 msgid ""
 "import com.squareup.picasso.Picasso; import com.taobao.weex.WXEnvironment; "
-"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import com.taobao.weex."
-"common.WXImageStrategy; import com.taobao.weex.dom.WXImageQuality;"
+"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import "
+"com.taobao.weex.common.WXImageStrategy; import "
+"com.taobao.weex.dom.WXImageQuality;"
 msgstr ""
 
 #. type: Plain text
@@ -351,7 +351,8 @@ msgid ""
 "\t\t\t\tif (url.startsWith(\"//\")){\n"
 "\t\t\t\t\ttemp = \"http:\" + url;\n"
 "\t\t\t\t}\n"
-"\t\t\t\tif (view.getLayoutParams().width<=0 || view.getLayoutParams().height<=0) {\n"
+"\t\t\t\tif (view.getLayoutParams().width<=0 || "
+"view.getLayoutParams().height<=0) {\n"
 "\t\t\t\t\treturn;\n"
 "\t\t\t\t}\n"
 "\t\t\t\tPicasso.with(WXEnvironment.getApplication())\n"

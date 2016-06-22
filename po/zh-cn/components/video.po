@@ -41,18 +41,18 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:16
 msgid ""
-"- `src`: &lt;string&gt; The URL of the video to embed.  - `play-status`: &lt;"
-"boolean&gt; `play` | `pause`. Use it to control video's play/pause. Default "
-"value is `pause`.  - `auto-play`: &lt;boolean&gt; `true` | `false`. Use it "
-"to control whether it is playing when the page initialization finished. "
-"Defalut value is `false`."
+"- `src`: &lt;string&gt; The URL of the video to embed.  - `play-status`: "
+"&lt;boolean&gt; `play` | `pause`. Use it to control video's "
+"play/pause. Default value is `pause`.  - `auto-play`: &lt;boolean&gt; `true` "
+"| `false`. Use it to control whether it is playing when the page "
+"initialization finished. Defalut value is `false`."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:18
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -64,15 +64,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:22
 #, no-wrap
-msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgid ""
+"**common styles**: check out the [common "
+"styles](../references/common-attrs.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:27
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -92,15 +94,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:36
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:39
 msgid ""
-"- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -115,7 +119,8 @@ msgstr ""
 msgid ""
 "```\n"
 "<div>\n"
-"\t<video class=\"video\" auto-play=\"true\" play-status=\"play\" src=\"...\" style=\"width:500;height:500;\"></video>\n"
+"\t<video class=\"video\" auto-play=\"true\" play-status=\"play\" src=\"...\" "
+"style=\"width:500;height:500;\"></video>\n"
 "</div>\n"
 "```\n"
 msgstr ""

@@ -63,15 +63,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:20
 #, no-wrap
-msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgid ""
+"**common styles**: check out the [common "
+"styles](../references/common-attrs.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:25
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -83,15 +85,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:29
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/div.md:32
 msgid ""
-"- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###

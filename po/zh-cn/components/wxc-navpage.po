@@ -54,15 +54,15 @@ msgid ""
 "value is `black`.  - `right-item-title`: &lt;string&gt; The title of the "
 "rightItem.  - `right-item-color`: &lt;color&gt; The color of the rightItem "
 "title. Default value is `black`.  - `left-item-src`: &lt;string&gt; The "
-"imageURL of the leftItem you want to set.  - `right-item-src`: &lt;"
-"string&gt; The imageURL of the rightItem you want to set."
+"imageURL of the leftItem you want to set.  - `right-item-src`: "
+"&lt;string&gt; The imageURL of the rightItem you want to set."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:25
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -74,15 +74,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:29
 #, no-wrap
-msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgid ""
+"**common styles**: check out the [common "
+"styles](../references/common-attrs.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:34
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -103,15 +105,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:41
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:44
 msgid ""
-"- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -126,7 +130,9 @@ msgstr ""
 msgid ""
 "```js\n"
 "<template>\n"
-"  <wxc-navpage height={{...}} background-color=\"...\" title=\"...\" title-color=\"...\" left-item-title=\"...\" left-item-color=\"...\" right-item-src=\"...\">\n"
+"  <wxc-navpage height={{...}} background-color=\"...\" title=\"...\" "
+"title-color=\"...\" left-item-title=\"...\" left-item-color=\"...\" "
+"right-item-src=\"...\">\n"
 "      <content> ...</content>\n"
 "  </wxc-navpage>\n"
 "</template>\n"

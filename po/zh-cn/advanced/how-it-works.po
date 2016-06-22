@@ -17,7 +17,14 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:6
 #, no-wrap
-msgid "Weex is a extendable cross-platform solution for dynamic programming and publishing projects. In the source code you can write pages or components with `<template>`, `<style>` and `<script>` tags, and then transform them into bundles for deploying. In server-side we can use these JS bundles for client request. When client get a bundle from server, it will be processed by client-side JavaScript engine and manages the native view rendering, the native API invoking and user interactions.\n"
+msgid ""
+"Weex is a extendable cross-platform solution for dynamic programming and "
+"publishing projects. In the source code you can write pages or components "
+"with `<template>`, `<style>` and `<script>` tags, and then transform them "
+"into bundles for deploying. In server-side we can use these JS bundles for "
+"client request. When client get a bundle from server, it will be processed "
+"by client-side JavaScript engine and manages the native view rendering, the "
+"native API invoking and user interactions.\n"
 msgstr ""
 
 #. type: Title ###
@@ -32,9 +39,9 @@ msgid ""
 "``` Weex file --------------frontend(source code)  ↓ (transform) --------- "
 "frontend(build tool)  JS bundle ------------- frontend(bundle code)  ↓ "
 "(deploy) ------------ server JS bundle in server --- server ↓ (compile) "
-"----------- client(js-engine)  Virtual DOM tree ------ client(weex-"
-"jsframework)  ↓ (render) ------------ client(render-engine)  Native view "
-"----------- client(render-engine)  ```"
+"----------- client(js-engine)  Virtual DOM tree ------ "
+"client(weex-jsframework)  ↓ (render) ------------ client(render-engine)  "
+"Native view ----------- client(render-engine)  ```"
 msgstr ""
 
 #. type: Plain text
@@ -45,7 +52,8 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:26
 msgid ""
-"Transformer: A nodejs tool to transform the source code into the bundle code."
+"Transformer: A nodejs tool to transform the source code into the bundle "
+"code."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -60,10 +68,10 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:26
 msgid ""
-"Native Engine: There are many different ports for different platforms: iOS/"
-"Android/HTML5. They have the same components design, module APIs design and "
-"rendering effect. So they can work with the one and the same JS Framework "
-"and JS bundles."
+"Native Engine: There are many different ports for different platforms: "
+"iOS/Android/HTML5. They have the same components design, module APIs design "
+"and rendering effect. So they can work with the one and the same JS "
+"Framework and JS bundles."
 msgstr ""
 
 #. type: Title ##
@@ -92,8 +100,8 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:34
 msgid ""
-"Transform `<style>` into a JSON tree. For example: `.classname {name: value;}"
-"` will be transformed into `{classname: {name: value}}`."
+"Transform `<style>` into a JSON tree. For example: `.classname {name: "
+"value;}` will be transformed into `{classname: {name: value}}`."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -224,13 +232,20 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:93
 #, no-wrap
-msgid "**Component** is an element in the screen which have a certain view and behavior. It could be configured with some attributes and style properties, and could response user interactions. There are some common components like `<div>`, `<text>`, `<image>` etc.\n"
+msgid ""
+"**Component** is an element in the screen which have a certain view and "
+"behavior. It could be configured with some attributes and style properties, "
+"and could response user interactions. There are some common components like "
+"`<div>`, `<text>`, `<image>` etc.\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:95
 #, no-wrap
-msgid "**Module** is a set of APIs which could be called from JS Framework. Some of them also have to make async callbacks to JS Framework, for example: send HTTP request.\n"
+msgid ""
+"**Module** is a set of APIs which could be called from JS Framework. Some of "
+"them also have to make async callbacks to JS Framework, for example: send "
+"HTTP request.\n"
 msgstr ""
 
 #. type: Plain text
@@ -249,7 +264,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:98
 #, no-wrap
-msgid "![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  \n"
+msgid ""
+"![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  "
+"\n"
 msgstr ""
 
 #. type: Plain text
@@ -299,7 +316,10 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:124
 #, no-wrap
-msgid "![render flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  \n"
+msgid ""
+"![render "
+"flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  "
+"\n"
 msgstr ""
 
 #. type: Plain text

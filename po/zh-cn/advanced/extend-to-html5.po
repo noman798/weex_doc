@@ -20,9 +20,9 @@ msgid ""
 "Weex is a extendable cross-platform solution for dynamic programming and "
 "publishing projects. You can build your own components on web platform or "
 "native platform by extending the components system. Also you can extend weex "
-"by adding new methods for one module, new moudles or new bundle loaders. "
-"Follow the steps bellow you can dive into the journy of creating multiple "
-"builtin components, APIs and loaders."
+"by adding new methods for one module, new moudles or new bundle "
+"loaders. Follow the steps bellow you can dive into the journy of creating "
+"multiple builtin components, APIs and loaders."
 msgstr ""
 
 #. type: Title ###
@@ -32,14 +32,12 @@ msgid "Create new component"
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:10
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:83
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:10 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:83
 msgid "Steps:"
 msgstr ""
 
 #. type: Bullet: '1. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
 msgid "Require `weex-html5` package as `Weex` (or any other name you like)."
 msgstr ""
 
@@ -120,8 +118,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:40
 msgid ""
-"// Extend from Weex.Component.  NewComponent.prototype = Object."
-"create(Component.prototype)"
+"// Extend from Weex.Component.  NewComponent.prototype = "
+"Object.create(Component.prototype)"
 msgstr ""
 
 #. type: Plain text
@@ -175,8 +173,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:70
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:146
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:70 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:146
 msgid "Install your module:"
 msgstr ""
 
@@ -188,9 +185,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:77
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:153
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:191
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:77 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:153 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:191
 msgid "Weex.install(installationModule)  ```"
 msgstr ""
 
@@ -207,8 +202,9 @@ msgid ""
 "modules. For example, you can add a new module `user` with APIs like "
 "'login', 'logout' etc. Or you can just add a single new method such as "
 "`setTitle` for the exsiting module `pageInfo`. Whichever way you use, the "
-"developer can invoke the API by using `require('@weex-module/moduleName)"
-"[methodName](arg1, arg2, ...)` ([Module APIs](../references/api.md))."
+"developer can invoke the API by using "
+"`require('@weex-module/moduleName)[methodName](arg1, arg2, ...)` ([Module "
+"APIs](../references/api.md))."
 msgstr ""
 
 #. type: Bullet: '2. '
@@ -239,8 +235,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:92
 msgid ""
-"First create a file named `user.js` for a new module, then define `login/"
-"logout` methods."
+"First create a file named `user.js` for a new module, then define "
+"`login/logout` methods."
 msgstr ""
 
 #. type: Plain text
@@ -324,8 +320,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:150
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:188
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:150 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:188
 msgid ""
 "```javascript var Weex = require('weex-html5')  var installationModule = "
 "require('installationModule.js')"
@@ -380,8 +375,10 @@ msgstr ""
 msgid ""
 "module.exports = {\n"
 "  init: function (Weex) {\n"
-"    // Register your new method. The last parameter is your API's meta info.\n"
-"    Weex.registerApi('pageInfo', 'setTitle', pageInfo.setTitle, ['string', 'string'])\n"
+"    // Register your new method. The last parameter is your API's meta "
+"info.\n"
+"    Weex.registerApi('pageInfo', 'setTitle', pageInfo.setTitle, ['string', "
+"'string'])\n"
 "  }\n"
 "}\n"
 "```\n"
@@ -442,8 +439,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:215
 msgid ""
-"```javascript // Require your new loader.  var loadByMyServe = require('./"
-"loader').loadByMyServe"
+"```javascript // Require your new loader.  var loadByMyServe = "
+"require('./loader').loadByMyServe"
 msgstr ""
 
 #. type: Plain text
