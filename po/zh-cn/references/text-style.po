@@ -15,8 +15,8 @@ msgid ""
 "components currently includes [`text`](../components/text.md) and [`input`]"
 "(../components/input.md)."
 msgstr ""
-"文本相似的组件共享一些常见的样式规则。文本相似的组件目前包括[`text``](_0_) "
-"and [``input`](../components/input.md)。 ???"
+"文本相似的组件共享一些常见的样式规则。文本相似的组件目前包括[`文本`]和"
+"[bb00z0dd `输入`] bb01z0dd。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/text-style.md:5
@@ -46,24 +46,11 @@ msgid ""
 "`clip` | `ellipsis`. This property determines how overflowed content that is "
 "not displayed is signaled to users. It can be clipped, display an ellipsis."
 msgstr ""
-"-`color``: &lt;colors&gt; this property set the foreground color of an "
-"component's text content.  - ``font-size``: &lt;length&gt; this property "
-"specifies the size of the font.  - ``font-style``: &lt;enum&gt; ``normal`` | "
-"``italic``. This property lets you select italic or normal faces within a "
-"font-family. Default value is ``normal``.  - ``font-weight``: &lt;enum&gt; "
-"``normal`` | ``bold``. This property specifies the boldness of the font. "
-"Default value is ``normal``.  - ``text-decoration``: &lt;enum&gt; ``none`` | "
-"``underline`` | ``line-through``. This property is used to set the text "
-"formatting to underline or line-through. The default value is ``none``.  - "
-"``text-align``: &lt;enum&gt; ``left`` | ``center`` | ``right``. This "
-"property describes how inline content like text is aligned in its parent "
-"component. The default value is ``left``.  - ``font-family``:&lt;string&gt; "
-"this property set the font-family of the text. This property **doesn't "
-"guarteen** the given font will always be set to the text. If the specified "
-"font cannot be found at the device, a typeface fallback will occurr and the "
-"default typeface will be load. The fallback mechanism may vary in different "
-"devices.  - ``text-overflow``:&lt;string&gt; ``clip`` | ``ellipsis`。这个属性"
-"决定了不显示的内容是如何将用户溢出。它将显示一个省略号。 ???"
+"- bb02z0ddbb03z0ddbb04z0ddbb05z0dd | bb06z0ddbb07z0ddbb08z0ddbb09z0dd | "
+"bb010z0ddbb011z0ddbb012z0ddbb013z0dd | bb014z0dd | "
+"bb015z0ddbb016z0ddbb017z0ddbb018z0dd | bb019z0dd | "
+"bb020z0ddbb021z0ddbb022z0ddbb023z0ddbb024z0dd | `省略`。这个属性决定了不显示"
+"的内容是如何将用户溢出。它将显示一个省略号。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/text-style.md:17
@@ -71,7 +58,8 @@ msgid ""
 "The property `color` support multiple fomats of values, contains rgb, rgba, "
 "#fff, #ffffff, named-color."
 msgstr ""
-"属性`color`支持的价值观，多方式包含RGB，RGBA，# FFF，# ffffff，命名颜色。 ???"
+"值的propertybb025z0ddsupport多方式包含RGB，RGBA，# FFF，# ffffff，命名颜"
+"色。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/text-style.md:19
@@ -101,13 +89,12 @@ msgid ""
 "hexadecimal (`#f00`), named color (`red`).  - enumerated values: a limited "
 "number of string values."
 msgstr ""
-"长度：长度单位(编号依次_60_)`, ``px`` can be omitted.  - colors: support "
-"multiple formats of values, including rgb (_53_)(_54_)``), rgba (_55_)"
-"(_56_)`)，十六进制(`#ff0000`)，短的十六进制(`#f00`)，命名颜色(`red`)。枚举"
-"值：数量有限的字符串值。 ???"
+"长度：长度unitbb033z0ddbb034z0ddcan编号依次被省略。颜色：支持多种格式的RGB"
+"值，包括bb026z0ddbb027z0dd `)，RGBA bb028z0ddbb029z0dd `)，bb030z0dd进制，十"
+"六进制bb031z0dd短，命名颜色bb032z0dd，枚举值：有限数量的字符串值。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/text-style.md:35
 #, no-wrap
 msgid "**Note:** [The list of color keywords.](./color-names.md)\n"
-msgstr "*注：* [关键词]颜色列表(./color-names.md)。 ???\n"
+msgstr "*注：* [关键词] bb035z0dd颜色列表。 ???\n"

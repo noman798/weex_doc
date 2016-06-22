@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:9
 #, no-wrap
 msgid "transition(node, options, callback)"
-msgstr "过渡(node, options, callback) ???"
+msgstr "transitionbb00z0dd ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:11
@@ -40,7 +40,7 @@ msgstr "争论 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
 msgid "`node`*(Node)*: An element that will be animated."
-msgstr "`node`*(Node)*：一个元素，将动画。 ???"
+msgstr "`节点` * bb01z0dd *：一个元素，将动画。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
@@ -59,17 +59,7 @@ msgid ""
 "  * `transform-origin`*(string)*: The center of scale and rotation. The value can be number of pixel in `x, y` format or keyword like `left`, `right`, `bottom`, `top`, `center`.\n"
 "* **callback** Callback which is called after the completion of transition.\n"
 msgstr ""
-"*`options``*(_3_)*: Transition options. \n"
-"  * ``styles``*(_4_)*: Specify the names and values of styles to which a transition effect should be applied.\n"
-"    * ``color``*(_5_)*: the color of the element when the animaiton finished.\n"
-"    * ``transform``*(_6_)*: transform fuction to be applied to the element. Following value is supported.\n"
-"      * ``translate/translateX/translateY``*(_7_)*: translate the element to the new location. The value can be a pixel or percent\n"
-"      * ``rotate``*(_8_)*: the unit is degree.\n"
-"      * ``scale``*(_9_)*: scale up or scale down the element.\n"
-"  * ``duration``*(_10_)*: Specify the number of milliseconds a transition animation should take to complete. By default, the value is 0ms, meaning that no animation will occur.\n"
-"  * ``timingFuncion``*(_11_)*: Used to describe how the intermediate values of the styles being affected by a transition effect are calculated. By default, the value is ``linear``, and can also be one of ``ease-in``, ``ease-out``, ``ease-in-out``, ``linear`` or ``cubic-bezier(_12_)``.\n"
-"  * ``delay``*(_13_)*: Specify the amount of milliseconds to wait between a change being requested to a property that is to be transitioned and the start of the transition effect. By default, the value is 0ms.\n"
-"  * ``transform-origin``*(_14_)*: The center of scale and rotation. The value can be number of pixel in ``x, y`` format or keyword like ``left``, ``right``, ``bottom``, ``top``, ``center`。 ???\n"
+"* bb014z0ddbb015z0ddbb016z0ddbb017z0ddbb018z0ddbb019z0ddbb020z0ddbb021z0ddbb022z0ddbb023z0ddbb024z0ddbb025z0ddbb026z0ddbb027z0ddorbb028z0ddbb029z0ddbb030z0ddbb031z0ddformat或关键字`左`，`右`，`底`，`顶`，`中心`。 ???\n"
 "***回调回调函数完成后调用的回调函数。 ???\n"
 
 #. type: Title ####

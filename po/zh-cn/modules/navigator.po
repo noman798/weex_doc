@@ -17,7 +17,7 @@ msgstr "总结 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:5
 msgid "A series of navigator operation apis like `push`, `pop`."
-msgstr "一系列的导航操作API像`push``, ``pop`。 ???"
+msgstr "一系列的导航操作的API像“推”，“流行”。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:6
@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:8
 #, no-wrap
 msgid "push(options, callback)"
-msgstr "推(options, callback) ???"
+msgstr "pushbb00z0dd ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:11
@@ -47,10 +47,10 @@ msgid ""
 "  * `animated`*(string)*:  `true`if the weex page is push through animation, otherwise, `false`.\n"
 "* `callback`*(object)*: the callback function after executing this action.  \n"
 msgstr ""
-"*`options``*(_4_)*: some options.\n"
-"  * ``url``*(_5_)*: The URL of the weex page to push.\n"
-"  * ``animated``*(_6_)*:  ``true``if the weex page is push through animation, otherwise, ``false``.\n"
-"* ``callback`*(object)：执行此动作后的回调函数。 ???\n"
+"* * *：`选项` bb01z0dd一些选项。 ???\n"
+"  * `url`*bb02z0dd*: The URL of the weex page to push.\n"
+"  * `animated`*bb03z0dd*:  `true`if the weex page is push through animation, otherwise, `false`.\n"
+"* `callback`*bb04z0dd*: the callback function after executing this action.  \n"
 
 #. type: Title #####
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:18
@@ -79,7 +79,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:31
 #, no-wrap
 msgid "pop(options, callback)"
-msgstr "流行(options, callback) ???"
+msgstr "popbb05z0dd ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:39
@@ -89,9 +89,8 @@ msgid ""
 "  * `animated`*(string)*:  `true` if the weex page is pop through animation; otherwise, `false`.\n"
 "* `callback`*(object)*: the callback function after executing this action.  \n"
 msgstr ""
-"*`options``*(_20_)*: some options.\n"
-"  * ``animated``*(_21_)*:  ``true`` if the weex page is pop through animation; otherwise, ``false``.\n"
-"* ``callback`*(object)：执行此动作后的回调函数。 ???\n"
+"* bb09z0ddbb010z0ddbb011z0ddif的长页流行通过动画;否则，`假`。 ???\n"
+"* `callback`*bb08z0dd*: the callback function after executing this action.  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:50

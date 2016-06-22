@@ -6,64 +6,65 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:1
 #, no-wrap
 msgid "How-tos"
-msgstr ""
+msgstr "如何 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Manage Your File Structure](./manage-your-file-structure.md)"
-msgstr ""
+msgstr "[结构] bb00z0dd管理你的文件 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Maintain Your Component Code](./maintain-your-component-code.md)"
-msgstr ""
+msgstr "[你] bb01z0dd组件代码维护 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Require 3rd-party Libs](./require-3rd-party-libs.md)"
-msgstr ""
+msgstr "[需要第三方库] bb02z0dd ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Transform Code Into JS Bundle](./transform-code-into-js-bundle.md)"
-msgstr ""
+msgstr "[变换编码成JS束] bb03z0dd ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Preview in Browser](./preview-in-browser.md)"
-msgstr ""
+msgstr "[在浏览器中预览】bb04z0dd ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Preview in Playground App](./preview-in-playground-app.md)"
-msgstr ""
+msgstr "[应用]在操场bb05z0dd预览 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Customize a Native Component](./customize-a-native-component.md)"
-msgstr ""
+msgstr "[自定义] bb06z0dd本地组件 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Customize Native APIs](./cuszomize-native-apis.md)"
-msgstr ""
+msgstr "[自定义] bb07z0dd原生API ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Debug with HTML5](./debug-with-html5.md)"
-msgstr ""
+msgstr "[调试】bb08z0dd HTML5 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Debug with Native](./debug-with-native.md)"
-msgstr ""
+msgstr "[原] bb09z0dd调试 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Debug with Remote Tools](./debug-with-remote-tools.md)"
-msgstr ""
+msgstr "[工具] bb010z0dd远程调试 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
-msgid "[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
-msgstr ""
+msgid ""
+"[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
+msgstr "[高] bb011z0dd CMS管理数据 ???"

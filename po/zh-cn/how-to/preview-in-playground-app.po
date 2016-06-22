@@ -19,9 +19,7 @@ msgstr "长的样一步一步 ???"
 msgid ""
 "Clone Weex from github [`https://github.com/alibaba/weex/`](https://github."
 "com/alibaba/weex/)"
-msgstr ""
-"克隆快从GitHub [`https://github.com/alibaba/weex/`](https://github.com/"
-"alibaba/weex/) ???"
+msgstr "克隆快从GitHub [` https: / / GitHub网站/阿里巴巴/快/ `] bb00z0dd ???"
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-playground-app.md:7
@@ -45,8 +43,8 @@ msgid ""
 "![preview page](http://gtms01.alicdn.com/tps/i1/TB10Ox2MpXXXXXKXpXXA0gJJXXX-720-1280.png)\n"
 "5. Click the icon to the top right of the page to enter the two-dimensional code scanning  \n"
 msgstr ""
-"！[预览](http://gtms01.alicdn.com/tps/i1/TB10Ox2MpXXXXXKXpXXA0gJJXXX-720-1280.png) ???\n"
-"5。单击该图标的右上角的图标输入二维码扫描 ???\n"
+"bb02z0ddbb01z0dd ???\n"
+"5. Click the icon to the top right of the page to enter the two-dimensional code scanning  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-playground-app.md:12
@@ -56,14 +54,12 @@ msgid ""
 "6. use[`Weex-Toolkit`](https://github.com/alibaba/weex_toolchain/tree/master/toolkit/ )make .we to a     QR code \n"
 "7. you will see the page rended by Weex  \n"
 msgstr ""
-"！[](http://gtms04.alicdn.com/tps/i4/TB1Ph05MpXXXXcHXXXX2YSA3pXX-540-960.jpg) ???\n"
-"6。使用[`Weex-Toolkit`](https://github.com/alibaba/weex_toolchain/tree/master/toolkit/ )使我们对QR码。 ???\n"
-"7。你会看到页面的长发 ???\n"
+"bb05z0ddbb03z0dd ???\n"
+"6. use[`Weex-Toolkit`]bb04z0ddmake .we to a     QR code \n"
+"7. you will see the page rended by Weex  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-playground-app.md:13
 msgid ""
 "![](http://gtms03.alicdn.com/tps/i3/TB1ehVLMpXXXXa.XVXX2YSA3pXX-540-960.jpg)"
-msgstr ""
-"！[](http://gtms03.alicdn.com/tps/i3/TB1ehVLMpXXXXa.XVXX2YSA3pXX-540-960."
-"jpg) ???"
+msgstr "bb07z0ddbb06z0dd ???"

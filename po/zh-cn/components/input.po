@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:1
 #, no-wrap
 msgid "&lt;input&gt;"
-msgstr ""
+msgstr "&lt;输入&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:3
 #, no-wrap
 msgid "Summary"
-msgstr ""
+msgstr "总结 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:6
@@ -22,31 +22,33 @@ msgid ""
 "considerably depending on the value of its ``type`` attribute, such as "
 "``text``, ``password``, ``url``, ``email``, ``tel`` etc."
 msgstr ""
+"内置的长componentbb00z0ddis用来创建交互式控件接收数据的用户。如何"
+"abb01z0ddcomponent作品变化很大，取决于itsbb02z0ddattribute的价值，这样的"
+"asbb03z0ddbb04z0ddbb05z0ddbb06z0ddbb07z0ddetc。 ???"
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/components/input.md:8 /home/dev/download/weex_doc/weex/doc/components/input.md:55
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:8
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:55
 #, no-wrap
-msgid ""
-"**Notes:** `<input>` does not support the common-event `click`. Please "
-"listen to the `input` or `change` event instead.\n"
-msgstr ""
+msgid "**Notes:** `<input>` does not support the common-event `click`. Please listen to the `input` or `change` event instead.\n"
+msgstr "*注：* * bb09z0dddoes不支持common-eventbb010z0ddbb011z0ddorbb012z0ddevent相反。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:9
 #, no-wrap
 msgid "Child Components"
-msgstr ""
+msgstr "子组件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:12
 msgid "This component supports no child components."
-msgstr ""
+msgstr "此组件不支持子组件。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:13
 #, no-wrap
 msgid "Attributes"
-msgstr ""
+msgstr "属性 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:20
@@ -63,62 +65,69 @@ msgid ""
 "`autofocus`: &lt;boolean&gt; a boolean attribute lets you specify that a "
 "form control should have input focus when the page loads."
 msgstr ""
+"- bb013z0ddbb014z0ddbb015z0ddbb016z0ddbb017z0ddbb018z0ddbb019z0ddetc，每个具"
+"有相同的含义与W3C标准。- `价值`：&lt;字符串&gt;该控件的值。- `占位符`：&lt;字"
+"符串&gt;一个提示，用户可以进入到控制。占位符文本必须没有回车或换行。- `残疾人"
+"`：&lt;布尔&gt;布尔属性表示窗体控件不可用的互动。特别是，单击事件将不会被发送"
+"到禁用的控件上。- `自动对焦`：&lt;布尔&gt;布尔属性允许你指定一个窗体控件应该"
+"有输入焦点时，页面加载。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:22
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
-msgstr ""
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
+msgstr "其他属性，请查看[共性] bb020z0dd。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:23
 #, no-wrap
 msgid "Styles"
-msgstr ""
+msgstr "款式 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:26
 msgid ""
 "- `placeholder-color`: the color of placeholder. Default value is "
 "``#999999``."
-msgstr ""
+msgstr "- `占位符`占位符颜色：彩色。默认值是` ` # 999999 ` `。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:28
 #, no-wrap
 msgid "**text styles**: checkout [text styles](../references/text-style.md)\n"
-msgstr ""
+msgstr "* * * *：文本样式[文字样式] bb021z0dd结帐 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:34
 msgid ""
-"- support `color` style.  - support `font-size` style.  - support "
-"`font-style` style.  - support `font-weight` style.  - support `text-align` "
-"style."
+"- support `color` style.  - support `font-size` style.  - support `font-"
+"style` style.  - support `font-weight` style.  - support `text-align` style."
 msgstr ""
+"- supportbb022z0ddstyle。- supportbb023z0ddstyle。- supportbb024z0ddstyle。- "
+"supportbb025z0ddstyle。- supportbb026z0ddstyle。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:37
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
-msgstr ""
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
+msgstr "* * *：常见的方式检查[组件] bb027z0dd常见的风格 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:42
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
+"支持flexbox相关的风格支持盒模型相关的风格- supportbb028z0ddrelated风格"
+"supportbb029z0ddbb030z0ddetc。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:43
 #, no-wrap
 msgid "Events"
-msgstr ""
+msgstr "事件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:49
@@ -128,27 +137,27 @@ msgid ""
 "always come after a ``blur`` event.  - `focus`: a component has received "
 "focus.  - `blur`: a component has lost focus."
 msgstr ""
+"- bb031z0ddbb032z0ddbb033z0ddevent。“焦点”：一个组件已接收焦点。-“模糊”：一个"
+"组件失去了焦点。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:51
 #, no-wrap
-msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
-msgstr ""
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgstr "* * *：常见的事件查看[事件] bb034z0dd常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:53
 msgid ""
-"- support `appear` / `disappear` event. Check out [common "
-"events](../references/common-event.md)"
-msgstr ""
+"- support `appear` / `disappear` event. Check out [common events](../"
+"references/common-event.md)"
+msgstr "- supportbb036z0dd / bb037z0ddevent。查看[事件] bb035z0dd常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:56
 #, no-wrap
 msgid "Parameters of events' object"
-msgstr ""
+msgstr "事件对象参数 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:63
@@ -160,12 +169,15 @@ msgid ""
 "- for ``focus`` and ``blur`` events:\n"
 "  - `timestamp`: the time stamp of the event.\n"
 msgstr ""
+"- forbb038z0ddandbb039z0ddevents： ???\n"
+"  -bb040z0ddbb041z0ddbb042z0ddandbb043z0ddevents:\n"
+"  - `timestamp`: the time stamp of the event.\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:64
 #, no-wrap
 msgid "Example"
-msgstr ""
+msgstr "例子 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:76

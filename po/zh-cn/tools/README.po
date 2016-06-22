@@ -11,14 +11,14 @@ msgstr "服务和工具 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[CLI](./cli.md)"
-msgstr "[气候](./cli.md) ???"
+msgstr "[气候] bb00z0dd ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[Transformer](./transformer.md)"
-msgstr "[器](./transformer.md) ???"
+msgstr "[变] bb01z0dd ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[Playground App](./playground-app.md)"
-msgstr "[应用](./playground-app.md)操场 ???"
+msgstr "[应用] bb02z0dd操场 ???"

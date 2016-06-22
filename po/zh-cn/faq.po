@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/faq.md:1
 #, no-wrap
 msgid "FAQ"
-msgstr ""
+msgstr "常见问题解答 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:3
 #, no-wrap
 msgid "Command errors in Windows"
-msgstr ""
+msgstr "窗口中的命令错误 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:6
@@ -20,13 +20,13 @@ msgid ""
 "Please install [Git for Windows](https://git-scm.com/download/win) first, "
 "see [For Windows](https://github.com/alibaba/weex/tree/dev#for-windows) for "
 "more information."
-msgstr ""
+msgstr "请安装Windows bb00z0dd [饭桶]第一，看到[窗口] bb01z0dd更多信息。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:8
 #, no-wrap
 msgid "Gradle errors in Android Studio"
-msgstr ""
+msgstr "在Android Studio工具误差 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:11
@@ -35,3 +35,5 @@ msgid ""
 "reset` or `peer not authenticated`.  Maybe a network problem, try a proxy or "
 "VPN."
 msgstr ""
+"downloadingbb02z0ddmay触发错误，likebb03z0ddor `同伴没有认证`。可能是网络问"
+"题，尝试代理或VPN。 ???"

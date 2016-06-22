@@ -12,7 +12,7 @@ msgstr "事件 ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:4
 #, no-wrap
 msgid "Weex allow `<template>` to bind event type and handler on an Element. The attribute name is the event type with prefix `on...` and the attribute value is handler method name. For instance: `onclick=\"handler\"`. e.g.\n"
-msgstr "快让`<template>`` to bind event type and handler on an Element. The attribute name is the event type with prefix ``on...`` and the attribute value is handler method name. For instance: ``onclick=\"handler\"`。例如 ???\n"
+msgstr "快allowbb01z0ddto绑定事件处理程序的元素类型。属性名和属性值的prefixbb02z0ddand事件类型是处理方法的名称。例如：` onclick=“处理”`。例如 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:9
@@ -44,7 +44,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:22
 #, no-wrap
 msgid "When user clicks the image , handler function which defined in `<script>` code will be executed.\n"
-msgstr "当用户点击图像处理函数定义`<script>`的代码将被执行。 ???\n"
+msgstr "当用户点击图像处理函数定义将要执行的inbb04z0ddcode。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:23
@@ -102,19 +102,19 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:51
 msgid "`type`: event name, eg: `click`"
-msgstr "`type``: event name, eg: ``click` ???"
+msgstr "“类型”：事件名称，例如：“点击” ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:51
 msgid "`target`: target `Element` of the event"
-msgstr "`target``: target ``Element`的事件 ???"
+msgstr "`目标`：targetbb05z0ddof事件 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:51
 msgid "`timestamp`: time stamp that event triggered"
-msgstr "`timestamp`：邮票，事件触发时间 ???"
+msgstr "`时间戳`：邮票，事件触发时间 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:52
 msgid "Next, let's have a look at [display logic control](./display-logic.md)."
-msgstr "接下来，让我们在[显示逻辑控制]一看(./display-logic.md)。 ???"
+msgstr "接下来，让我们在[显示] bb06z0dd看逻辑控制。 ???"

@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:1
 #, no-wrap
 msgid "How to debug in html5 renderer ?"
-msgstr ""
+msgstr "如何在HTML5渲染调试呢？ ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:4
@@ -16,19 +16,22 @@ msgid ""
 "devTools to iterate, debug and profile your weex-html5 app. Take chrome's "
 "debug tool as a example:"
 msgstr ""
+"因为weex-html5可以运行在一个现代的手机浏览器，这是自然的支持在浏览器的开发工"
+"具weex-html5代码调试。使用浏览器的工具升级、调试和配置你的weex-html5 APP。以"
+"铬的调试工具为例： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:6
 msgid ""
-"![chrome's debug "
-"tool](http://gw.alicdn.com/mt/TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
-msgstr ""
+"![chrome's debug tool](http://gw.alicdn.com/mt/"
+"TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
+msgstr "bb01z0ddbb00z0dd ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:7
 #, no-wrap
 msgid "Elements"
-msgstr ""
+msgstr "元素 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:10
@@ -36,12 +39,14 @@ msgid ""
 "Use elements' panel to inspect the layout and design of the weex-html5 page, "
 "and manipulate the DOM and CSS to do some experiment freely."
 msgstr ""
+"使用元素面板进行布局的weex-html5网页设计和操作DOM和CSS来自由地做一些实"
+"验。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:11
 #, no-wrap
 msgid "Console"
-msgstr ""
+msgstr "控制台 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:14
@@ -54,12 +59,16 @@ msgid ""
 "`console.log`, and you should make sure this code will not run on native "
 "platform (otherwise a exception or a crash will be caused)."
 msgstr ""
+"你可以usebb03z0ddto控制台日志信息，但它是高度推荐usebb04z0ddinstead，因为"
+"nativelog可以运行在本地平台除了在浏览器。ofbb05z0ddis的缺陷，不支持跟踪它从控"
+"制台到源文件，thebb06z0ddis称，因此在这种情况下，你最好使用`控制台日志`，你应"
+"该确保这个代码将不能运行在本地平台bb02z0dd。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:15
 #, no-wrap
 msgid "Breakpoints"
-msgstr ""
+msgstr "断点 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:18
@@ -69,6 +78,8 @@ msgid ""
 "execution and then investigate the call stack variable values at that "
 "particular moment in time."
 msgstr ""
+"您可以设置断点来调试代码。断点是调试代码的最有效的方法之一。断点使您可以暂停"
+"脚本执行，然后在特定的时间内调查调用堆栈变量值。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:20
@@ -77,12 +88,14 @@ msgid ""
 "line of code. You can set these via Chrome DevTools GUI, or by inserting the "
 "`debugger` keyword in your code."
 msgstr ""
+"手动断点是您在特定的代码行上设置的单个断点。你可以把这些通过Chrome开发工具的"
+"图形用户界面，或通过在你的代码中插入thebb07z0ddkeyword。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:21
 #, no-wrap
 msgid "Locate your bug"
-msgstr ""
+msgstr "找到你的错误 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:24
@@ -91,13 +104,15 @@ msgid ""
 "the renderer (weex-html5), the js-framework (weex-js-framework) and the "
 "transformer (gulp-weex)."
 msgstr ""
+"一般来说，有三种可能的错误可能发生层：渲染bb08z0dd，JS框架bb09z0dd和变压器"
+"bb010z0dd。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:26
 msgid ""
 "Here are some suggestions to locate your bug so that you can recognize which "
 "layer the bug is on:"
-msgstr ""
+msgstr "这里有一些建议，找到你的错误，以便你可以识别哪些层的错误是： ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
@@ -105,31 +120,30 @@ msgid ""
 "check the console for errors. In debug mode if there is a error happend "
 "there will be info about it on the console."
 msgstr ""
+"检查控制台错误。在调试模式下，如果有错误发生在控制台的关于它的信息。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid "in bridge/receiver.js, whether the `callNative` function is called."
-msgstr ""
+msgstr "在桥梁/ receiver.js，是否thebb011z0ddfunction叫做。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid ""
-"whether the supposed to be called API method is actually called and "
-"executed."
-msgstr ""
+"whether the supposed to be called API method is actually called and executed."
+msgstr "是否应该被称为“调用”的方法实际上被调用和执行。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid ""
-"whether the `callJS` method for event firing or callback executing is "
-"called."
-msgstr ""
+"whether the `callJS` method for event firing or callback executing is called."
+msgstr "无论thebb012z0ddmethod事件触发或回调执行称为。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:32
 #, no-wrap
 msgid "other"
-msgstr ""
+msgstr "其他 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:35
@@ -137,3 +151,5 @@ msgid ""
 "More info about how to debug h5 pages on chrome devTools: [chrome's devTools "
 "docs](https://developers.google.com/web/tools/chrome-devtools/?hl=en)"
 msgstr ""
+"更多信息关于如何调试Chrome DevTools H5页面：[文件] bb013z0dd Chrome的开发工"
+"具 ???"

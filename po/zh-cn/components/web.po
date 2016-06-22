@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:1
 #, no-wrap
 msgid "&lt;web&gt;"
-msgstr ""
+msgstr "&lt;Web &gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:3
 #, no-wrap
 msgid "Summary"
-msgstr ""
+msgstr "总结 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:6
@@ -22,41 +22,45 @@ msgid ""
 "module to control some web operation such as goBack、goForward and reload, "
 "see [webview module](../modules/webview.md)."
 msgstr ""
+"使用Web部件在长的页面显示任何网页内容。thebb01z0ddattribute用于指定一个特殊的"
+"来源。你也可以usebb02z0ddmodule控制一些网络操作如再、前进和重装，看到[模块] "
+"bb00z0dd WebView。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:8
 #, no-wrap
 msgid "Child Components"
-msgstr ""
+msgstr "子组件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:11
 msgid "This component supports no child components."
-msgstr ""
+msgstr "此组件不支持子组件。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:12
 #, no-wrap
 msgid "Attributes"
-msgstr ""
+msgstr "属性 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:15
-msgid "- `src`: &lt;string&gt; this attribute specifies the page source to load."
-msgstr ""
+msgid ""
+"- `src`: &lt;string&gt; this attribute specifies the page source to load."
+msgstr "- ` SRC `：&lt;字符串&gt;此属性指定要加载的页面源代码。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:17
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
-msgstr ""
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
+msgstr "其他属性，请查看[共性] bb03z0dd。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:18
 #, no-wrap
 msgid "Styles"
-msgstr ""
+msgstr "款式 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:22
@@ -65,14 +69,14 @@ msgid ""
 "specified.  - `height`: &lt;length&gt; the height of the component. This "
 "style should be specifed."
 msgstr ""
+"- `宽度`：&lt;长度&gt;组件的宽度。这种风格应该指定。- `高度`：&lt;长度&gt;组"
+"件的高度。这种风格应当指定。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:24
 #, no-wrap
-msgid ""
-"**common styles**: check out the [common "
-"styles](../references/common-attrs.md)\n"
-msgstr ""
+msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgstr "* * *：常见的方式查看[共同] bb04z0dd风格 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:28
@@ -80,12 +84,13 @@ msgid ""
 "- support flexbox related styles - support box model related styles - "
 "support ``position`` related styles"
 msgstr ""
+"支持flexbox相关的风格支持盒模型相关的风格- supportbb05z0ddrelated风格 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:29
 #, no-wrap
 msgid "Events"
-msgstr ""
+msgstr "事件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:34
@@ -94,28 +99,30 @@ msgid ""
 "`pagefinish`: sent after the web component finishes loading a page.  - "
 "`error`: sent if the web component failed to load a page."
 msgstr ""
+"- ` pagestart `：发送启动Web组件加载页面后。- ` pagefinish `：发送Web组件完成"
+"加载页面后。如果Web组件加载一个页面，发送错误：“错误”：“错误”。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:37
 #, no-wrap
-msgid ""
-"*common events**: check out the [common "
-"events](../references/common-event.md)\n"
-msgstr ""
+msgid "*common events**: check out the [common events](../references/common-event.md)\n"
+msgstr "*普通事件*：查看[事件] bb06z0dd常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:40
 msgid ""
-"- support `click` event. Check out [common "
-"events](../references/common-event.md)  - support `appear` / `disappear` "
-"event. Check out [common events](../references/common-event.md)"
+"- support `click` event. Check out [common events](../references/common-"
+"event.md)  - support `appear` / `disappear` event. Check out [common events]"
+"(../references/common-event.md)"
 msgstr ""
+"- supportbb09z0ddevent。查看[事件]常见bb07z0dd - supportbb010z0dd / "
+"bb011z0ddevent。查看[事件] bb08z0dd常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:41
 #, no-wrap
 msgid "Example"
-msgstr ""
+msgstr "例子 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:48
@@ -123,9 +130,7 @@ msgstr ""
 msgid ""
 "```js\n"
 "<div>\n"
-"  <web style=\"width=...; height=...;\" src=\"...\" "
-"\tonpagestart=\"pagestart\" onpagefinish=\"pagefinish\" "
-"\tonerror=\"error\">\n"
+"  <web style=\"width=...; height=...;\" src=\"...\" \tonpagestart=\"pagestart\" onpagefinish=\"pagefinish\" \tonerror=\"error\">\n"
 "  </web>\n"
 "</div>\n"
 "```\n"

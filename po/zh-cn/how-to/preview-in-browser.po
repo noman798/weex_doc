@@ -25,8 +25,7 @@ msgid ""
 msgstr ""
 "我们强烈建议你使用长的工具包预览浏览器长的代码。这个工具是基于Node.js，所以你"
 "需要先安装节点。请下载并安装最新的稳定版本从[HTTPS节点：/ / NodeJS。org / "
-"EN /下载/稳定/](https://nodejs.org/en/download/stable/)。然后你可以安装长的工"
-"具包使用npm安装： ???"
+"EN /下载/稳定/] bb00z0dd。然后你可以安装长的工具包使用npm安装： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:10
@@ -39,7 +38,8 @@ msgid ""
 "Check whether the toolkit is working by typeing `weex` in cmd line. Normally "
 "you should see the following help text:"
 msgstr ""
-"检查工具的类型`weex`工作在命令行。通常情况下，您应该看到以下帮助文本： ???"
+"检查是否是由命令行工作typeingbb01z0ddin工具包。通常情况下，您应该看到以下帮助"
+"文本： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:15
@@ -62,15 +62,15 @@ msgid ""
 "```\n"
 msgstr ""
 "选项： ???\n"
-"- n不打开预览浏览器自动[布尔] ???\n"
-"对于本地运行【布尔】QR显示QR码 ???\n"
-"H指定服务器主机长听[默认：“127.0.0.1”] ???\n"
-"o变换快JS捆绑，捆绑使用指定文件名 ???\n"
-"选择[默认：“不jsbundle输出”] ???\n"
-"-开始一个HTTP文件服务器，快。我们的文件将被转换的 ???\n"
-"服务器，指定本地根路径使用选项[默认：错误] ???\n"
-"——帮助显示帮助[布尔] ???\n"
-"```` ???\n"
+"  -n      do not open preview browser automatic                        [boolean]\n"
+"  --qr    display QR code for native runtime                           [boolean]\n"
+"  -h      specify weex server listen host                 [default: \"127.0.0.1\"]\n"
+"  -o      transform weex JS bundle only, specify bundle file name using the\n"
+"          option                                 [default: \"no JSBundle output\"]\n"
+"  -s      start a http file server, weex .we file will be transformed on the\n"
+"          server , specify local root path using the option     [default: false]\n"
+"  --help  Show help                                                    [boolean]\n"
+"` ` ` ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/preview-in-browser.md:28
@@ -96,6 +96,4 @@ msgstr "一个浏览器窗口将自动打开，显示你想预览的页面： ??
 msgid ""
 "![preview page](http://gtms02.alicdn.com/tps/i2/"
 "TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
-msgstr ""
-"！[预览](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584."
-"jpg) ???"
+msgstr "bb03z0ddbb02z0dd ???"

@@ -12,7 +12,7 @@ msgstr "语法 ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:4
 #, no-wrap
 msgid "A simple Weex page sample is just a piece of `<template>` code, a piece of `<style>` code and a piece of `<script>` code. The three parts together describe a whole Weex page.\n"
-msgstr "一个简单的长页样本只是一块`<template>`` code, a piece of ``<style>`` code and a piece of ``<script>`代码。三部分描述了整个长的页面。 ???\n"
+msgstr "一个简单的长页样本是一块ofbb03z0ddcode，一块一块ofbb05z0ddcode ofbb04z0ddcode。三部分描述了整个长的页面。 ???\n"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:8
@@ -21,7 +21,7 @@ msgid ""
 "of a Weex page, which is build upon several tags. Each tag means a type of "
 "*component*."
 msgstr ""
-"`<template>`：*需要*。只使用HTML语法描述了一个长的页面结构，这是建立在多个标"
+"` bb06z0dd `：*需要*。只使用HTML语法描述了一个长的页面结构，这是建立在多个标"
 "签。每个标签都意味着一个*组件*。 ???"
 
 #. type: Bullet: '- '
@@ -29,7 +29,7 @@ msgstr ""
 msgid ""
 "`<style>`: *optional*. Describes the presetation details, and the content is "
 "based on CSS syntax."
-msgstr "`<style>`：*可选*。描述表达的细节，和内容是基于CSS的语法。 ???"
+msgstr "` bb07z0dd `：*可选*。描述表达的细节，和内容是基于CSS的语法。 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:8
@@ -37,8 +37,8 @@ msgid ""
 "`<script>`: *optional*. Describes the data and behaiver with JavaScript "
 "syntax. It defines data and how these data are processed etc."
 msgstr ""
-"`<script>`：*可选*。介绍了数据与JavaScript语法举动中。它定义了数据和如何处理"
-"这些数据等。 ???"
+"` bb08z0dd `：*可选*。介绍了数据与JavaScript语法举动中。它定义了数据和如何处"
+"理这些数据等。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:13
@@ -73,13 +73,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:23
 #, no-wrap
 msgid "`<template>`"
-msgstr "`<template>` ???"
+msgstr "` bb09z0dd ` ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:26
 #, no-wrap
 msgid "We describe page structure in `<template>` tag like the following definition:\n"
-msgstr "我们描述的页面结构`<template>`标签下面的定义： ???\n"
+msgstr "我们描述网页结构inbb011z0ddtag如下定义： ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:35
@@ -101,8 +101,8 @@ msgid ""
 "Here `container` tag is the root element of the component. `image` tag "
 "describes a picture, while `text` tag means a paragraph of text."
 msgstr ""
-"在这里`container`` tag is the root element of the component. ``image`` tag "
-"describes a picture, while ``text`标签意味着一段文字。 ???"
+"herebb012z0ddtag的component.bb013z0ddtag根元素描述一幅画，whilebb014z0ddtag意"
+"味着一段文字。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:39
@@ -120,23 +120,23 @@ msgid ""
 "root component which has no display logics directive. Here are three types "
 "of root component we support now:"
 msgstr ""
-"模板的根元素：在一个`template`标签，只能有一个根组件没有显示逻辑指令。这里有"
-"三种类型的根组件，我们现在支持： ???"
+"模板的根元素：在abb015z0ddtag，只能有一个根组件没有显示逻辑指令。这里有三种类"
+"型的根组件，我们现在支持： ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:45
 msgid "`<container>`: a common native container"
-msgstr "`<container>`：一个常见的天然容器 ???"
+msgstr "` bb016z0dd `：常见的本地集装箱 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:45
 msgid "`<scroller>`: a native scroll view"
-msgstr "`<scroller>`：原生滚动视图 ???"
+msgstr "` bb017z0dd `：原生滚动视图 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:45
 msgid "`<list>`: a native cell-reusable list view"
-msgstr "`<list>`：原生细胞的可重复使用的列表视图 ???"
+msgstr "` bb018z0dd `：原生细胞的可重复使用的列表视图 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:47
@@ -146,13 +146,13 @@ msgstr "只有这些类型的组件被允许为根元素。 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:49
 msgid "[See all built-in components](../components/README.md)."
-msgstr "[查看所有内置组件(../components/README.md)]。 ???"
+msgstr "[看到] bb019z0dd内置组件。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:50
 #, no-wrap
 msgid "`<style>`"
-msgstr "`<style>` ???"
+msgstr "` bb020z0dd ` ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:53
@@ -165,7 +165,7 @@ msgstr "你可以考虑长式语法的语法的一个子集，但仍有一定差
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:55
 #, no-wrap
 msgid "First we could write inline `style` attribute in `<template>` element. Second we could use the `class` attribute to apply stylesheets, which are defined with single-class selectors in `<style>` code. Here is an example:\n"
-msgstr "首先我们可以写内联`style`` attribute in ``<template>`` element. Second we could use the ``class`` attribute to apply stylesheets, which are defined with single-class selectors in ``<style>`代码。这里是一个例子： ???\n"
+msgstr "首先我们可以写inlinebb023z0ddattribute inbb024z0ddelement。其次我们可以用thebb025z0ddattribute应用样式表，这是与单类选择器inbb026z0ddcode定义。这里是一个例子： ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:63
@@ -195,20 +195,18 @@ msgstr ""
 msgid ""
 "Both the two `text` components above have the same `font-size`, which is "
 "`64` pixel."
-msgstr ""
-"两`text`` components above have the same ``font-size``, which is ``64`像"
-"素。 ???"
+msgstr "无论是twobb027z0ddcomponents上面有samebb028z0ddbb029z0ddpixel。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:72
 msgid "[See common styles in Weex](../references/common-style.md)"
-msgstr "[快]看到常见的风格(../references/common-style.md) ???"
+msgstr "[快] bb030z0dd看到常见的风格 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:73
 #, no-wrap
 msgid "`<script>`"
-msgstr "`<script>` ???"
+msgstr "` bb031z0dd ` ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:76
@@ -216,8 +214,8 @@ msgid ""
 "The syntax is JavaScript (ES5) and it describes data and behavior of a Weex "
 "page. Here we create three paragraphs:"
 msgstr ""
-"语法是JavaScript(ES5)，它描述了一个长的页面数据和行为。在这里，我们创建三个段"
-"落： ???"
+"语法是JavaScript bb032z0dd和描述了一个长的页面数据和行为。在这里，我们创建三"
+"个段落： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:85
@@ -260,14 +258,14 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:105
 #, no-wrap
 msgid "This piece of `<script>` code will generate some component options and assign it to `module.exports`. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the `<script>` code stores component data which could be used for [data-binding](./data-binding.md) in the `<template>`. When data changes, the bound value will be updated automatically. Also it could be read and written by `this.x` in its methods.\n"
-msgstr "这片`<script>`` code will generate some component options and assign it to ``module.exports``. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The ``data`` in the ``<script>`` code stores component data which could be used for [data-binding](_36_) in the ``<template>``. When data changes, the bound value will be updated automatically. Also it could be read and written by ``this.x`的方法。 ???\n"
+msgstr "这件ofbb037z0ddcode会产生一些成分的选择和分配tobb038z0ddbb039z0ddin thebb040z0ddcode存储组件的数据可用于数据绑定的方法thebb041z0ddbb042z0ddin [在] bb033z0dd。 ???\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:107
 msgid "[See component definitions references](../references/component-defs.md)"
-msgstr "[参考]看到组件的定义(../references/component-defs.md) ???"
+msgstr "[参考] bb043z0dd看到组件的定义 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:108
 msgid "Next, let's have a look at [data-binding](./data-binding.md)."
-msgstr "接下来，让我们在[数据绑定]一看(./data-binding.md)。 ???"
+msgstr "接下来，让我们在[数据绑定] bb044z0dd一看。 ???"

@@ -37,12 +37,12 @@ msgid ""
 "})\n"
 "```\n"
 msgstr ""
-"大口。任务('default', function ()(){ ???\n"
-"返回大口。SRC('src/*.html') ???\n"
-"。管(weex({})({})) ???\n"
-"。管(gulp.dest('./dest')('./dest')) ???\n"
+"gulp.taskbb00z0ddbb01z0dd { ???\n"
+"  return gulp.srcbb02z0dd\n"
+"    .pipebb03z0ddbb04z0dd)\n"
+"    .pipebb05z0ddbb06z0dd)\n"
 "}) ???\n"
-"```` ???\n"
+"` ` ` ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:18
@@ -64,7 +64,7 @@ msgstr "是否转换为旧格式。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:25
 msgid "default: `false`."
-msgstr "默认值：`false`。 ???"
+msgstr "默认：“假”。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:26
@@ -75,9 +75,9 @@ msgstr "isEntry ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:29
 msgid "whether is an entry module which has `bootstrap(...)`."
-msgstr "无论是输入模块具有`bootstrap(_10_)`。 ???"
+msgstr "无论是输入模块具有` bootstrapbb07z0dd `。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:30
 msgid "default: `true`."
-msgstr "默认值：`true`。 ???"
+msgstr "默认值：“真”。 ???"

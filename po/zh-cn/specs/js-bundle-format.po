@@ -46,14 +46,14 @@ msgid ""
 "  // content of module2\n"
 "})\n"
 msgstr ""
-"定义('moduleName2', function (require, exports, module)(require, exports, module){ ???\n"
-"的第二模块/内容 ???\n"
+"definebb00z0ddbb01z0dd { ???\n"
+"  // content of module2\n"
 "}) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:20
 msgid "...  ```"
-msgstr "…```` ???"
+msgstr "…` ` ` ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:22
@@ -61,7 +61,7 @@ msgid ""
 "A whole Weex JS Bundle is concatenated by these modules and last a "
 "`bootstrap(rootComponentName, optionalConfig, optionalExternalData)` "
 "function call."
-msgstr "整个长的JS束串接这些模块和最后一个`bootstrap(_4_)`函数调用。 ???"
+msgstr "整个长的JS束串接这些模块和最后的abb03z0ddfunction呼叫。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:27
@@ -81,22 +81,21 @@ msgid ""
 "  // content of composed component <b>\n"
 "})\n"
 msgstr ""
-"定义('@weex-component/b', function (require, exports, module)(require, exports, module){ ???\n"
-"组合构件的含量< ???\n"
+"definebb04z0ddbb05z0dd { ???\n"
+"  // content of composed component bb06z0dd\n"
 "}) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:34
 msgid "bootstrap('@weex-component/b')  ```"
-msgstr "自举('@weex-component/b')```` ???"
+msgstr "bootstrapbb07z0dd ` ` ` ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:36
 msgid ""
 "As the sample above, the component name should be hyphenated (a-z, 0-9, \"-"
 "\"). Other characters are not allowed."
-msgstr ""
-"正如上述示例，组件名称应联用(a-z, 0-9, \"-\")。其他字符是不允许的。 ???"
+msgstr "正如上述示例，组件名称应联用bb08z0dd。其他字符是不允许的。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:38
@@ -104,8 +103,8 @@ msgid ""
 "And, the method call `bootstrap()` allows 1~3 parameters: root module name "
 "(String), config info (optional JSON) and external data (optional JSON)."
 msgstr ""
-"而且，该方法调用`bootstrap(_12_)`允许1 ~ 3参数：根模块名(String)，配置信息"
-"(optional JSON)和外部数据(optional JSON)。 ???"
+"方法1，callbb013z0ddallows ~ 3参数：根模块名称bb010z0dd，配置信息bb011z0dd和"
+"外部数据bb012z0dd。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:39
@@ -132,11 +131,9 @@ msgid ""
 "option is a piece of JSON object assigned to `module.exports.style` which "
 "describes the reusable styles in this component"
 msgstr ""
-"全选项是一段JavaScript代码把组件选项(except `template` option and `style` "
-"option)为`module.exports`` - ``template`` option is a piece of JSON-like "
-"object assigned to ``module.exports.template`` which describes the display "
-"structure of this component - ``style`` option is a piece of JSON object "
-"assigned to ``module.exports.style`描述了这个组件的可重用的方式 ???"
+"全选项是一段JavaScript代码把组件选项bb014z0dd intobb015z0dd-bb016z0ddoption是"
+"一个JSON对象分配tobb017z0ddwhich描述了该组件的显示结构bb018z0ddoption是一个"
+"JSON对象分配tobb019z0ddwhich描述该组件可重用的方式 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:48
@@ -144,8 +141,8 @@ msgid ""
 "The `template` option is required and appeared only once, and the `style` "
 "option and whole options definition are optional."
 msgstr ""
-"的`template`` option is required and appeared only once, and the ``style`选项"
-"和选项的定义是可选的。 ???"
+"thebb020z0ddoption是必需的，只出现过一次，和thebb021z0ddoption整个期权定义是"
+"可选的。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:50
@@ -155,8 +152,8 @@ msgid ""
 "as the same result if you are not going to use Transformer. But that's not "
 "recommended."
 msgstr ""
-"这些选项被定义和转换的变压器。其实你也可以忽略所有格式的限制，写选项`module."
-"exports`为相同的结果，如果你不打算使用的变压器。但这不建议。 ???"
+"这些选项被定义和转换的变压器。其实你也可以忽略所有格式的限制，写选项"
+"tobb022z0ddas相同的结果，如果你不打算使用的变压器。但这不建议。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:51
@@ -179,14 +176,14 @@ msgstr "每一级的JSON格式的对象有下面这些成员： ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid "`type`: a required string, component name/type"
-msgstr "`type`：一个需要的字符串，组件名称/类型 ???"
+msgstr "类型：一个所需的字符串、组件名称/类型 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
 "`component`: an optional boolean, whether this component is composed or "
 "native"
-msgstr "`component`：可选的布尔，不管这个组件是由本土 ???"
+msgstr "“组件”：一个可选的布尔值，无论这个组件是由或本地 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
@@ -195,36 +192,34 @@ msgid ""
 "the value could be a string, number, boolean or a function that bind some "
 "data value"
 msgstr ""
-"`attr`：可选K-V对包含一个元素的所有属性的值可以是一个字符串，数字，布尔值或一"
-"个函数，结合一些数据值 ???"
+"` ATTR `：可选K-V对包含一个元素的所有属性的值可以是一个字符串，数字，布尔值或"
+"一个函数，结合一些数据值 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
 "`style`: an optional k-v pairs which contains all styles of an element, just "
 "the same format as the `attr`"
-msgstr ""
-"`style``: an optional k-v pairs which contains all styles of an element, "
-"just the same format as the ``attr` ???"
+msgstr "`风格`：可选K-V对包含各种风格的元素，只是相同格式的` ATTR ` ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
 "`classList`: an optional array of strings which contains class names for "
 "styleing."
-msgstr "`classList`：含有styleing类名字符串可选阵列。 ???"
+msgstr "`列表`：含有styleing类名字符串可选阵列。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
 "`events`: an optional k-v pairs whose keys are event type and values are "
 "corresponding method names"
-msgstr "`events`：可选K-V对其关键事件的类型和值对应的方法名 ???"
+msgstr "`事件`：可选K-V对其关键事件的类型和值对应的方法名 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid "`children`: an optional array of child components info"
-msgstr "`children`：儿童组成一个可选的阵列信息 ???"
+msgstr "“儿童”：一个可选的子组件信息数组 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
@@ -233,23 +228,22 @@ msgid ""
 "append node-by-node singly or a whole node tree just one time. the defualt "
 "value is `node` and another supported value is `tree`."
 msgstr ""
-"`append``: an optional string which determines a compiling workflow "
-"strategy: append node-by-node singly or a whole node tree just one time. the "
-"defualt value is ``node`` and another supported value is ``tree`。 ???"
+"“附加”：一个可选的字符串，它决定了一个编译工作流策略：添加节点单独或一个完整"
+"的节点树一次。默认值isbb023z0ddand另一支价值`树`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
 "`shown`: a optional function which returns a boolean value to determins "
 "whether this component should be displayed"
-msgstr "`shown`：一个可选的函数返回一个布尔值来确定此组件是否应显示 ???"
+msgstr "`显示`：可选的函数返回一个布尔值来确定此组件是否应显示 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
 "`repeat`: a optional function which returns a list data to displays "
 "components with each"
-msgstr "`repeat`：一个可选的函数返回一个列表数据显示组件，每个 ???"
+msgstr "“重复”：一个可选的函数，它返回一个列表数据来显示每个组件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:69
@@ -270,14 +264,12 @@ msgid ""
 "attributes in Weex file corresponds to `attr` - Child nodes in Weex file "
 "corresponds to `children`"
 msgstr ""
-"标签`name`` in Weex file corresponds to ``type`` - attr ``if`` in Weex file "
-"corresponds to ``shown`` - attr ``repeat`` in Weex file corresponds to "
-"``repeat`` - attr ``append`` in Weex file corresponds to ``append`` - attr "
-"``style`` in Weex file with CSS syntax corresponds to ``style`` - attr "
-"``class`` in Weex file with class names separated by blanks corresponds to "
-"``classList`` - attr ``on***`` in Weex file with prefix ``on`` corresponds "
-"to a k-v pair in ``events`` - other attributes in Weex file corresponds to "
-"``attr`` - Child nodes in Weex file corresponds to ``children` ???"
+"- tagbb024z0ddin长文件对应tobb025z0dd - attrbb026z0ddin长文件对应tobb027z0dd "
+"- attrbb028z0ddin长文件对应tobb029z0dd - attrbb030z0ddin长文件对应tobb031z0dd"
+"与CSS语法attrbb032z0ddin长文件对应tobb033z0dd -课程名称由空格隔开"
+"attrbb034z0ddin长文件对应tobb035z0dd - prefixbb037z0ddcorresponds "
+"attrbb036z0ddin长文件K-V对inbb038z0dd -长文件的其他属性对应tobb039z0dd在长的"
+"文件的子节点对应`儿童` ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:81

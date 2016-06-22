@@ -6,25 +6,25 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:1
 #, no-wrap
 msgid "Touch Events"
-msgstr ""
+msgstr "触摸事件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:4
 msgid ""
 "Weex provides the way of setting `on` attributes on a node to listen some "
 "touch events."
-msgstr ""
+msgstr "快提供节点上听一些触摸事件的settingbb00z0ddattributes方式。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:5
 #, no-wrap
 msgid "How to use"
-msgstr ""
+msgstr "如何使用 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:8
 msgid "Example:"
-msgstr ""
+msgstr "例子: ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:13
@@ -57,13 +57,13 @@ msgstr ""
 msgid ""
 "According to above code, a `touchstart` event is fired when a touch point is "
 "placed on the touch surface."
-msgstr ""
+msgstr "根据上面的代码，abb01z0ddevent开火当触摸点在触摸表面。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:27
 #, no-wrap
 msgid "The Event Types of Touch "
-msgstr ""
+msgstr "The Event Types of Touch "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:36
@@ -78,12 +78,17 @@ msgid ""
 "the touch surface after `panstart`.  - The `longpress` event - fired when a "
 "touch point is sustained of 500 ms or more."
 msgstr ""
+"- thebb02z0ddevent燃当触摸点在触摸表面。- thebb03z0ddevent燃当触摸点在触摸表"
+"面移动。- thebb04z0ddevent燃时的接触点是从触摸表面移除。- thebb05z0ddevent燃"
+"煤时，第一次接触移动10px或更多发生在10毫秒的时间。- thebb06z0ddevent燃当触摸"
+"移动10px或更多发生在10毫秒的时间。- thebb07z0ddevent燃当触摸点的触摸表面"
+"afterbb08z0ddbb09z0ddevent -删除时触发点是持续500毫秒或更多。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:37
 #, no-wrap
 msgid "The Event Properties"
-msgstr ""
+msgstr "事件属性 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:43
@@ -92,12 +97,15 @@ msgid ""
 "`timestamp` property - - The `changedTouches` property - A list of touches "
 "for every point of contact which contributed to the event."
 msgstr ""
+"- thebb010z0ddproperty -事件类型。- thebb011z0ddproperty - "
+"thebb012z0ddproperty - thebb013z0ddproperty -列出的每一个接触点的接触导致的事"
+"件。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:44
 #, no-wrap
 msgid "The Touch Properties"
-msgstr ""
+msgstr "触摸性能 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:51
@@ -110,8 +118,12 @@ msgid ""
 "screen.  - The `screenY` property - The Y coordinate of the touch point "
 "relative to the top edge of the screen."
 msgstr ""
+"- thebb014z0ddproperty -这种触摸对象的唯一标识符。- thebb015z0ddproperty - x"
+"坐标的触摸点相对于文档的左边缘。- thebb016z0ddproperty - Y坐标的触摸点相对于"
+"该文件的顶部。- thebb017z0ddproperty - x坐标的触摸点相对于屏幕左边缘。- "
+"thebb018z0ddproperty - Y坐标的触摸点相对于屏幕的顶部边缘。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:52
 msgid "For more information, please visite [Common Events](events.md)."
-msgstr ""
+msgstr "有关更多信息，请访问[事件] bb019z0dd常见。 ???"

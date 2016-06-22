@@ -5,4 +5,4 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-ios.md:1
 msgid "TODO"
-msgstr ""
+msgstr "待办事项 ???"
