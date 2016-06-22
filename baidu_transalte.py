@@ -78,8 +78,6 @@ def main():
         for i in md_li:
             for lang in LANG:
                 f = join(PATH, "po", lang, dirpath, i)[:-2] + "po"
-                if "display-logi" not in f:
-                    continue
                 print(lang, f)
                 po = polib.pofile(f)
                 translate_po(lang.split("-")[0], po)
