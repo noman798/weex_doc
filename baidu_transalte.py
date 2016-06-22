@@ -8,8 +8,8 @@ from pyutil._baidu import translate
 from pyutil.extract import extract_map
 import re
 
-RE_WEEX = re.compile('weex')
-RE_ZZWEEX = re.compile('zzweex')
+RE_WEEX = re.compile('weex', flags=re.IGNORECASE)
+RE_ZZWEEX = re.compile('zzweex', flags=re.IGNORECASE)
 
 
 def matchcase(word):
@@ -42,11 +42,11 @@ class HideBracket:
         txt = extract_map("`", "`", txt, self._hide)
         txt = extract_map("(", ")", txt, self._hide)
         txt = extract_map("<", ">", txt, self._hide)
-        txt = RE_WEEX.sub(matchcase('zzweex'), txt, flags=re.IGNORECASE)
+        txt = RE_WEEX.sub(matchcase('zzweex'), txt)
         return txt
 
     def _restore(self, txt):
-        txt = RE_ZZWEEX.sub(matchcase('weex'), txt, flags=re.IGNORECASE)
+        txt = RE_ZZWEEX.sub(matchcase('weex'), txt)
         x = txt[6:-6]
         if x.isdigit():
             return self._hideed[int(x)]
