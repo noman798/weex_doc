@@ -5,6 +5,8 @@
 
 文档基于po4a工具进行翻译。ubuntu 可以使用 `apt-get install po4a -y` 安装po4a。
 
+基于 po 文件格式进行多语言化，可以很方便的实现文档的多语言同步翻译，尤其是当文档不断被修改更新时，可以做到多语言同步。
+
 所有的 python 脚本都基于 python3，使用前请先 `pip3 install -r pyutil/requirement.txt` 安装依赖。
 
 运行 po4a.py 会更新 po 文件，并生成在 doc 目录下生成新翻译的文档。 
