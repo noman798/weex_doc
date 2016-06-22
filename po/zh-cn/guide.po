@@ -11,7 +11,7 @@ msgstr "目录"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/guide.md:35
 msgid "[Tutorial](tutorial.md)"
-msgstr ""
+msgstr "[教程](tutorial.md)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/guide.md:35

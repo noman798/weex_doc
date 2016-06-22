@@ -5,13 +5,9 @@ from os import walk
 from os.path import dirname, abspath, join
 from shutil import rmtree, copytree
 from distutils.dir_util import mkpath
-
-PATH = abspath(dirname(__file__))
+from config import LANG, PATH
 PATH_DOC = join(PATH, "weex", "doc")
 
-LANG = [
-    "zh-cn"
-]
 
 
 def print_exist(*args):

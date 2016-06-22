@@ -1,6 +1,6 @@
 # 目录
 
-* [Tutorial](tutorial.md)
+* [教程](tutorial.md)
 * [Syntax](syntax/main.md)
     * [Data Binding](syntax/data-binding.md)
     * [Style and Class](syntax/style-n-class.md)
