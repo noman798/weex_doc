@@ -16,7 +16,7 @@ class HideBracket:
     def _hide(self, txt):
         l = len(self._hideed)
         self._hideed.append(txt)
-        return " bb0%sz0dd " % l
+        return " bb0%s0dd " % l
 
     def hide(self, txt):
         txt = extract_map("(", ")", txt, self._hide)
