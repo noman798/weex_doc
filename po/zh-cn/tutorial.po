@@ -201,7 +201,7 @@ msgid ""
 "support a lot of CSS features, eg: margin, padding, fixed...... Better yet, "
 "flexbox layout (flex) is well supported in Weex Style."
 msgstr ""
-"样式描述weex标签将如何显示。人人都喜欢CSS，所以我们尽量与CSS保持一致。weex 的"
+"样式决定了weex的标签将如何显示。人人都喜欢CSS，所以我们尽量与CSS保持一致。weex 的"
 "样式支持很多CSS中的特性，如：margin、padding、fixed ……  以及 flexbox 布局。 "
 
 #. type: Plain text
