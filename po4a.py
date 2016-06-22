@@ -73,7 +73,7 @@ def _build(lang, path):
     with open(outfile) as f:
         txt = f.read()
     with open(outfile, "w") as f:
-        f.write(txt.replace("``` ", "```\n"))
+        f.write(txt.replace("``` ", "```\n").replace(" ```", "\n```"))
 
 
 def scan():
