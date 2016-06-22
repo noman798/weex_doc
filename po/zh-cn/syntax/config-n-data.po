@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:1
@@ -11,18 +11,18 @@ msgstr "页面配置和数据 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:4
 #, no-wrap
-msgid ""
-"You can write some instance config and data in some additional `<script>` at"
-" the **top-level** Weex component.\n"
+msgid "You can write some instance config and data in some additional `<script>` at the **top-level** Weex component.\n"
 msgstr "你可以写一些实例配置和数据在一些额外的`<script>`在××××weex顶层组件。 ???\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:7
 msgid ""
-"the instance config could declare some meta informations like which "
-"sdk/client version it supports or \"downgrade\" to HTML5 renderer. This part"
-" would be extended more in the future."
-msgstr "实例配置可以宣布一些元信息喜欢SDK /客户端版本支持或“降级”的HTML5渲染。这一部分将在未来扩展更多。 ???"
+"the instance config could declare some meta informations like which sdk/"
+"client version it supports or \"downgrade\" to HTML5 renderer. This part "
+"would be extended more in the future."
+msgstr ""
+"实例配置可以宣布一些元信息喜欢SDK /客户端版本支持或“降级”的HTML5渲染。这一部"
+"分将在未来扩展更多。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:7
@@ -93,13 +93,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:48
 #, no-wrap
-msgid ""
-"Notice that these two additional `<script>` are both optinal and have "
-"`type=\"config|data\"` attribute and only works when it's the top-level "
-"component of a Weex instance.\n"
-msgstr ""
-"请注意这两个额外的`<script>`` are both optinal and have "
-"``type=\"config|data\"`属性，只有当它是一个weex实例顶层组件。 ???\n"
+msgid "Notice that these two additional `<script>` are both optinal and have `type=\"config|data\"` attribute and only works when it's the top-level component of a Weex instance.\n"
+msgstr "请注意这两个额外的`<script>`` are both optinal and have ``type=\"config|data\"`属性，只有当它是一个weex实例顶层组件。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:50

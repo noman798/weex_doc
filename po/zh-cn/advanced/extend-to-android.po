@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:1
@@ -29,7 +29,8 @@ msgstr ""
 msgid ""
 "For example: If you want to implement an address jumping function, you can "
 "achieve a Module Follow the steps below."
-msgstr "例如：如果你想实现一个地址跳转功能，你可以实现一个模块按照下面的步骤。 ???"
+msgstr ""
+"例如：如果你想实现一个地址跳转功能，你可以实现一个模块按照下面的步骤。 ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8
@@ -78,8 +79,8 @@ msgstr "模块方法将在用户界面线程中调用，不要在那里投入耗
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class"
-" that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"
 msgstr "weex参数可以是int，双，浮弦，图，表，自定义类实现wxobject接口 ???"
 
 #. type: Plain text
@@ -115,12 +116,8 @@ msgstr "    公共课wxeventmodule延伸wxmodule { ???\n"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:28
 #, no-wrap
-msgid ""
-"\tprivate static final String "
-"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
-msgstr ""
-" private static final String "
-"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgid "\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgstr " private static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:42
@@ -342,22 +339,22 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:136
 msgid ""
-"import android.app.Activity; import android.text.TextUtils; import "
-"android.widget.ImageView;"
+"import android.app.Activity; import android.text.TextUtils; import android."
+"widget.ImageView;"
 msgstr ""
-"进口android.app.activity;进口android.text.textutils;进口android.widget.imageview; "
-"???"
+"进口android.app.activity;进口android.text.textutils;进口android.widget."
+"imageview; ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:142
 msgid ""
 "import com.squareup.picasso.Picasso; import com.taobao.weex.WXEnvironment; "
-"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import "
-"com.taobao.weex.common.WXImageStrategy; import "
-"com.taobao.weex.dom.WXImageQuality;"
+"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import com.taobao.weex."
+"common.WXImageStrategy; import com.taobao.weex.dom.WXImageQuality;"
 msgstr ""
-"进口com.squareup.picasso.picasso;进口com.taobao.weex.wxenvironment;进口com.taobao.weex.adapter.iwximgloaderadapter;进口com.taobao.weex.common.wximagestrategy;进口com.taobao.weex.dom.wximagequality;"
-" ???"
+"进口com.squareup.picasso.picasso;进口com.taobao.weex.wxenvironment;进口com."
+"taobao.weex.adapter.iwximgloaderadapter;进口com.taobao.weex.common."
+"wximagestrategy;进口com.taobao.weex.dom.wximagequality; ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:144

@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:1
@@ -61,14 +61,17 @@ msgstr " `setListener(listener)`设置听众听每个DOM DOM更新和告诉渲�
 msgid ""
 "`open()` Set a flag which means init rendering start, so each dom update "
 "will be called immediately"
-msgstr " `open()`设置一个标志，这意味着初始化渲染的开始，所以每个DOM更新会被立刻 ???"
+msgstr ""
+" `open()`设置一个标志，这意味着初始化渲染的开始，所以每个DOM更新会被立刻 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
-"`close()` Set a flag which means init rendering finished, so the dom updates"
-" later will be batched in each task."
-msgstr " `close()`设置一个标志，这意味着初始化渲染完成，所以DOM更新后将分批在每个任务。 ???"
+"`close()` Set a flag which means init rendering finished, so the dom updates "
+"later will be batched in each task."
+msgstr ""
+" `close()`设置一个标志，这意味着初始化渲染完成，所以DOM更新后将分批在每个任"
+"务。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -187,8 +190,8 @@ msgid ""
 "`removeChild(node, preserved)` Removes a child. The parameter `preserved` "
 "means whether destroy the removed node immediately or preserve it."
 msgstr ""
-" `removeChild(node, preserved)`` Removes a child. The parameter "
-"``preserved`是否意味着破坏删除节点或立即保存它。 ???"
+" `removeChild(node, preserved)`` Removes a child. The parameter ``preserved`"
+"是否意味着破坏删除节点或立即保存它。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
@@ -297,8 +300,8 @@ msgid ""
 "`add(el, type, handler)` Adds an event `handler` for certain `type` to a "
 "certain `el` element"
 msgstr ""
-" `add(el, type, handler)`` Adds an event ``handler`` for certain ``type`` to"
-" a certain ``el`元 ???"
+" `add(el, type, handler)`` Adds an event ``handler`` for certain ``type`` to "
+"a certain ``el`元 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:68
@@ -306,8 +309,8 @@ msgid ""
 "`remove(el, type)` Removes event handler for certain `type` to a certain "
 "`el` element"
 msgstr ""
-" `remove(el, type)`` Removes event handler for certain ``type`` to a certain"
-" ``el`元 ???"
+" `remove(el, type)`` Removes event handler for certain ``type`` to a certain "
+"``el`元 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:68
