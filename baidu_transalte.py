@@ -42,9 +42,10 @@ def translate_po(lang, po):
     msgid_li = []
     for i in po:
         if not i.msgstr:
-            if i.msgid.strip("\n ").startswith("```"):
+            msgid = i.msgid
+            if msgid.strip("\n ").startswith("```") or "</" in msgid:
                 continue
-            msgid = hide_bracket.hide(i.msgid)
+            msgid = hide_bracket.hide(msgid)
             msgid_li.append((msgid, i))
 
     for msgid, _ in msgid_li:
