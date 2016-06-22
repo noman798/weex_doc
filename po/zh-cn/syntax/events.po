@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:1
@@ -11,13 +11,8 @@ msgstr "事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:4
 #, no-wrap
-msgid ""
-"Weex allow `<template>` to bind event type and handler on an Element. The "
-"attribute name is the event type with prefix `on...` and the attribute value"
-" is handler method name. For instance: `onclick=\"handler\"`. e.g.\n"
-msgstr ""
-"快让 `(bb000dd)` 在元素绑定事件类型和处理程序。属性名与前缀的事件类型 `on...` 和属性值处理方法的名称。例如：` "
-"onclick=“处理”`。例如 ???\n"
+msgid "Weex allow `<template>` to bind event type and handler on an Element. The attribute name is the event type with prefix `on...` and the attribute value is handler method name. For instance: `onclick=\"handler\"`. e.g.\n"
+msgstr "快让 `(bb000dd)` 在元素绑定事件类型和处理程序。属性名与前缀的事件类型 `on...` 和属性值处理方法的名称。例如：` onclick=“处理”`。例如 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:9
@@ -48,9 +43,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:22
 #, no-wrap
-msgid ""
-"When user clicks the image , handler function which defined in `<script>` "
-"code will be executed.\n"
+msgid "When user clicks the image , handler function which defined in `<script>` code will be executed.\n"
 msgstr "当用户点击图像处理函数定义 `(bb030dd)` 的代码将被执行。 ???\n"
 
 #. type: Title ##
@@ -102,7 +95,9 @@ msgstr "事件对象 ???"
 msgid ""
 "When an event handler called, it will receive an event object as the first "
 "argument. Every event object will contains following properties."
-msgstr "当一个事件处理程序调用时，它将接收一个事件对象作为第一个参数。每一个事件对象将包含以下属性。 ???"
+msgstr ""
+"当一个事件处理程序调用时，它将接收一个事件对象作为第一个参数。每一个事件对象"
+"将包含以下属性。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:51
@@ -121,6 +116,5 @@ msgstr "`时间戳`：邮票，事件触发时间 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/events.md:52
-msgid ""
-"Next, let's have a look at [display logic control](./display-logic.md)."
+msgid "Next, let's have a look at [display logic control](./display-logic.md)."
 msgstr "接下来，让我们在[显示逻辑控制]一看(./display-logic.md)。 ???"

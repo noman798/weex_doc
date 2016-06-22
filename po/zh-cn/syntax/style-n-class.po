@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:1
@@ -20,7 +20,9 @@ msgid ""
 "CSS style description can be viewed as a series of key-value pairs,each of "
 "which describes a particular style, such as the width and height of a "
 "component."
-msgstr "CSS样式的描述可以看作是一系列的键-值对，其中描述了一个特定的风格，如一个组件的宽度和高度。 ???"
+msgstr ""
+"CSS样式的描述可以看作是一系列的键-值对，其中描述了一个特定的风格，如一个组件"
+"的宽度和高度。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:10
@@ -36,8 +38,9 @@ msgid ""
 "number(the default units is px); The key and the value must be separated by "
 "`:`, between each key-value pairs must be separated by `;`."
 msgstr ""
-"键值对的格式为“支柱名称：支柱值”。键名称是“道具名称”，这个值名称是“道具值”。通常，键名和值名称遵循横向连接命名的值可以是一个数(the "
-"default units is px);键和值之间必须用`：`，值的每个关键对之间必须相隔`;`。 ???"
+"键值对的格式为“支柱名称：支柱值”。键名称是“道具名称”，这个值名称是“道具值”。"
+"通常，键名和值名称遵循横向连接命名的值可以是一个数(the default units is px);"
+"键和值之间必须用`：`，值的每个关键对之间必须相隔`;`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:14
@@ -81,9 +84,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:31
 #, no-wrap
-msgid ""
-"It is said that the width and height of `<container>` label is 400 pixels "
-"and 50 pixels respectively.\n"
+msgid "It is said that the width and height of `<container>` label is 400 pixels and 50 pixels respectively.\n"
 msgstr "据说，宽度和高度 `(bb050dd)` 标签为400像素和50像素分别。 ???\n"
 
 #. type: Title ###
@@ -114,9 +115,11 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:45
 msgid ""
 "The stylesheets contain multiple style rules, each style rule has only one "
-"class which is contained by its style selector, a pair of curly braces "
-"`{...}`, and the styles of the curly braces. For example:"
-msgstr "样式表包含多个样式规则，每个样式规则只有一个班，是由它的样式选择器中，一对花括号中` {…} `，和大括号的方式。例如： ???"
+"class which is contained by its style selector, a pair of curly braces `{...}"
+"`, and the styles of the curly braces. For example:"
+msgstr ""
+"样式表包含多个样式规则，每个样式规则只有一个班，是由它的样式选择器中，一对花"
+"括号中` {…} `，和大括号的方式。例如： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:49
@@ -137,10 +140,7 @@ msgstr "类属性 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:55
 #, no-wrap
-msgid ""
-"The selectors of `<style>` label are matched with the class attribute of "
-"`<template>` label, we should use spaces to separate the class names. For "
-"example:\n"
+msgid "The selectors of `<style>` label are matched with the class attribute of `<template>` label, we should use spaces to separate the class names. For example:\n"
 msgstr "该选择器 `(bb090dd)` 标签与类属性匹配 `(bb0100dd)` 标签，我们应该使用空格分开的类名称。例如： ???\n"
 
 #. type: Plain text
@@ -168,7 +168,9 @@ msgid ""
 "It means that the width of the outermost container is 600px, The inside of "
 "the two title text is 400 pixels high 50 pixels wide, the second piece of "
 "text is red."
-msgstr "这意味着，最外层的容器的宽度为600px，这两个标题文本里面是400像素，高50像素宽，正文第二片是红色的。 ???"
+msgstr ""
+"这意味着，最外层的容器的宽度为600px，这两个标题文本里面是400像素，高50像素"
+"宽，正文第二片是红色的。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:72
@@ -182,7 +184,9 @@ msgid ""
 "In order to simplify the page design and the complete underlying "
 "implementation, the width of our default screen is unified to 750 pixels, "
 "different screens should be scaled with corresponding ratio."
-msgstr "为了简化页面设计和完整的底层实现，我们的默认屏幕的宽度是统一到750个像素，不同的屏幕应按比例缩小与相应的比例。 ???"
+msgstr ""
+"为了简化页面设计和完整的底层实现，我们的默认屏幕的宽度是统一到750个像素，不同"
+"的屏幕应按比例缩小与相应的比例。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:79
@@ -196,18 +200,20 @@ msgstr "CSS标准可以支持很多的选择，但现在快只支持单类选择
 msgid ""
 "The CSS standard can support many types of length units, but now weex only "
 "support pixel, and the `px` unit could be ignored, you can write number "
-"directly. More details can be found in [commmon "
-"styles](../references/common-style.md)."
+"directly. More details can be found in [commmon styles](../references/common-"
+"style.md)."
 msgstr ""
-"CSS标准可以支持多种类型的长度单位，但现在快只支持像素，和 `px` "
-"单元可以忽略，你可以直接写数字。更多的细节可以在[风格]，(../references/common-style.md)。 ???"
+"CSS标准可以支持多种类型的长度单位，但现在快只支持像素，和 `px` 单元可以忽略，"
+"你可以直接写数字。更多的细节可以在[风格]，(../references/common-style."
+"md)。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:79
 msgid ""
 "The styles of Weex cannot be inherited to children elements, this is "
 "different to the CSS standard, such as `color` and `font-size`."
-msgstr "长的不能被继承到子元素的风格，这是CSS标准不同，如 `color` 和`字体大小`。 ???"
+msgstr ""
+"长的不能被继承到子元素的风格，这是CSS标准不同，如 `color` 和`字体大小`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:79
@@ -215,7 +221,9 @@ msgid ""
 "The CSS standard contains a lot of styles, but weex only sopport few styles "
 "which include layouts such as box model, flexbox, positions. And styles "
 "include `font-size`, `color`, etc."
-msgstr "CSS标准包含了很多风格，但只支持长几款式包括布局如箱模型，flexbox，位置。和样式包括字体大小，颜色等。 ???"
+msgstr ""
+"CSS标准包含了很多风格，但只支持长几款式包括布局如箱模型，flexbox，位置。和样"
+"式包括字体大小，颜色等。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:80
@@ -228,7 +236,8 @@ msgstr "通过数据绑定 ???"
 msgid ""
 "Page [data](./data-binding.md) can be bound in `style` and `class` "
 "attribute. For example:"
-msgstr "页[数据](./data-binding.md)可以绑定 `style` 和 `class` 属性。例如： ???"
+msgstr ""
+"页[数据](./data-binding.md)可以绑定 `style` 和 `class` 属性。例如： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:104
