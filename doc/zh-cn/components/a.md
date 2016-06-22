@@ -1,10 +1,14 @@
 # &lt;a&gt;
 ###Summary
-&lt;a&gt; defines a hyperlink to a page in the web. Its purpose and syntax is very simliar to [&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) in HTML5.
+&lt;a&gt; defines a hyperlink to a page in the web. Its purpose and syntax
+is very simliar to
+[&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) in
+HTML5.
 
 ### Child Components
 
-This type of component supports all kinds of weex component as its child components except for its own kind.
+This type of component supports all kinds of weex component as its child
+components except for its own kind.
 
 ### Attributes
 ##### href

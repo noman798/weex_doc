@@ -2,10 +2,14 @@
 
 You can write some instance config and data in some additional `<script>` at the **top-level** Weex component.
 
-* the instance config could declare some meta informations like which sdk/client version it supports or "downgrade" to HTML5 renderer. This part would be extended more in the future.
-* the instance data could set an external data which would be processed instead of the default top-level component data.
+* the instance config could declare some meta informations like which
+  sdk/client version it supports or "downgrade" to HTML5 renderer. This part
+  would be extended more in the future.
+* the instance data could set an external data which would be processed
+  instead of the default top-level component data.
 
-They all make Weex files more extendable and configurable and works easy with other tools & services like CMS system.
+They all make Weex files more extendable and configurable and works easy
+with other tools & services like CMS system.
 
 ```html
 <!-- definition of sub components -->

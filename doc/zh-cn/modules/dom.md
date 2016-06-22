@@ -16,8 +16,6 @@ A series of dom api.
 
 #### Example
 
-```javascript
-var dom = require('@weex-module/dom');
-dom.scrollTo(this.$el('someId'), {offset: 10});
-```
+```javascript var dom = require('@weex-module/dom');
+dom.scrollTo(this.$el('someId'), {offset: 10}); ```
 

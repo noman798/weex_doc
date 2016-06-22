@@ -17,10 +17,8 @@ A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`.
 
 ##### Example
 
-```javascript
-var modal = require('@weex-module/modal');
-modal.toast({'message': 'I am toast!', 'duration': 1});
-```
+```javascript var modal = require('@weex-module/modal');
+modal.toast({'message': 'I am toast!', 'duration': 1}); ```
 
 ### alert(options, callback)
 

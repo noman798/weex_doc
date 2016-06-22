@@ -25,11 +25,12 @@ public class URLHelperModule extends WXModule{
 
 ```
 
-Notice the `@WXModuleAnno`, use this annotation to mark the methods you wanna expose to javascript.
-If your also want to callback to javascript, you should define a `callbackId` parameter to received 'JS callback function id':
+Notice the `@WXModuleAnno`, use this annotation to mark the methods you
+wanna expose to javascript.  If your also want to callback to javascript,
+you should define a `callbackId` parameter to received 'JS callback function
+id':
 
-```java
-public class URLHelperModule extends WXModule{
+```java public class URLHelperModule extends WXModule{
 	
 	@WXModuleAnno
 	public void openURL(String url,String callbackId){
@@ -64,10 +65,13 @@ URLHelper.openURL("http://www.taobao.com",function(ts){
 
 
 ## Things you need to note:
-1. Customize components must extend WXModule  
-2. @WXModuleAnno annotation must be added, as it is the only the way to recognized by Weex  
-3. The access levels of mehtod must be **public**  
-4. The module class also can not be an inner class  
+1. Customize components must extend WXModule
+2. @WXModuleAnno annotation must be added, as it is the only the way to
+   recognized by Weex
+3. The access levels of mehtod must be **public**
+4. The module class also can not be an inner class
 5. Customize can not be obfuscated by tools like ProGuard
-6. Module methods will be invoked in UI thread, do not put time consuming operation there
-7. Weex params can be int, double, float, String, Map, List, self-defined class that implements WXObject interface
+6. Module methods will be invoked in UI thread, do not put time consuming
+   operation there
+7. Weex params can be int, double, float, String, Map, List, self-defined
+   class that implements WXObject interface
