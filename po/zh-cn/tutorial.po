@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:1
 #, no-wrap
 msgid "Tutorial"
-msgstr "教程 ???"
+msgstr "教程 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:4
@@ -14,19 +14,18 @@ msgid ""
 "We will make a simple but realistic list of tech that weex used, this form "
 "of list also work for a lot of e-commerce app/mobile site."
 msgstr ""
-"我们将做一个简单而现实的技术，weex使用列表，这个列表形式也适合很多电子商务应"
-"用/移动网站。 ???"
+"我们将基于 weex 实现一个简单而实用的列表(list)，这种列表电子商务应用/移动网站。"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:5
 #, no-wrap
 msgid "Getting Started"
-msgstr "入门 ???"
+msgstr "入门"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:8
 msgid "Let's start easy though, making a item of list."
-msgstr "让我们开始轻松，虽然，使一个项目的列表。 ???"
+msgstr "让我们开始制作项目的列表。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:13
@@ -59,10 +58,6 @@ msgid ""
 "  .thumb {width: 200; height: 200; }\n"
 "  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  \n"
 msgstr ""
-" <style>???\n"
-"  单元格{边缘顶部：10;边缘左：10;弯曲方向：行;} ???\n"
-"  拇指{宽：200;高度：200;} ???\n"
-"  标题{文本对齐：中心;弯曲：1;颜色：灰色;字体大小：50;} ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:25
@@ -80,7 +75,7 @@ msgid ""
 "is our recommended the file extension name)"
 msgstr ""
 "你可以复制和粘贴上面的代码到一个weex文件命名为`tech_list.we`` (``.we`是我们推"
-"荐的文件扩展名) ???"
+"荐的文件扩展名) "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:29
@@ -90,7 +85,7 @@ msgid ""
 "CLI program using Node JS npm command."
 msgstr ""
 "weex CLI工具链的节点为基础，所以你需要安装[节点](https://nodejs.org/en/"
-"download/stable/)第一。然后你可以安装weex CLI程序使用节点JS NPM命令。 ???"
+"download/stable/)第一。然后你可以安装weex CLI程序使用节点JS NPM命令。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:33
@@ -105,7 +100,7 @@ msgid ""
 "the following help text displayed:"
 msgstr ""
 "weex CLI程序安装完毕后，应测试以确保weex CLI命令行上键入weex正确安装。您应该"
-"看到以下帮助文本显示： ???"
+"看到以下帮助文本显示： "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:38
@@ -125,21 +120,21 @@ msgid ""
 "  --help  Show help                                                    [boolean]\n"
 "```\n"
 msgstr ""
-"选项： ???\n"
-"  对于本地运行[布尔】QR显示QR码 ???\n"
-"  o变换weex JS捆绑，捆绑使用指定文件名 ???\n"
-"          选择[默认：“不jsbundle输出”] ???\n"
-"  -开始一个HTTP文件服务器，weex。我们的文件将被转换的 ???\n"
-"          服务器，指定本地根路径使用选项[默认：错误] ???\n"
-"  ——帮助显示帮助[布尔] ???\n"
-" ````???\n"
+"选项： \n"
+"  对于本地运行[布尔】QR显示QR码 \n"
+"  o变换weex JS捆绑，捆绑使用指定文件名 \n"
+"          选择[默认：“不jsbundle输出”] \n"
+"  -开始一个HTTP文件服务器，weex。我们的文件将被转换的 \n"
+"          服务器，指定本地根路径使用选项[默认：错误] \n"
+"  ——帮助显示帮助[布尔] \n"
+" ````\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:49
 msgid ""
 "If all works well, navigate to the directory where you save the newly "
 "created tech_list.we, then type"
-msgstr "如果一切正常，浏览目录到你保存新创建的tech_list.we，然后键入 ???"
+msgstr "如果一切正常，浏览目录到你保存新创建的tech_list.we，然后键入 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:53
@@ -154,7 +149,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:55
 msgid ""
 "A browser window will open automatically to display something like below"
-msgstr "一个浏览器窗口会自动打开显示下面的东西 ???"
+msgstr "一个浏览器窗口会自动打开显示下面的东西 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:57
@@ -163,19 +158,19 @@ msgid ""
 "TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 msgstr ""
 "![weex HTML5渲染](http://gtms02.alicdn.com/tps/i2/"
-"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)???"
+"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:60
 #, no-wrap
 msgid "**Weex H5 renderer is not released , So please using Weex Playground App based preview for a while**\n"
-msgstr "* weex H5渲染是没有公布，所以请使用weex操场基于应用程序的预览一下* * ???\n"
+msgstr "* weex H5渲染是没有公布，所以请使用weex操场基于应用程序的预览一下* * \n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:62
 #, no-wrap
 msgid "Intro Weex Syntax"
-msgstr "介绍weex语法 ???"
+msgstr "介绍weex语法 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:64
@@ -185,13 +180,13 @@ msgid ""
 "just like html,css,javascript for the Web."
 msgstr ""
 "所以这是一些无聊的语法”的时候，作为tech_list.we显示内容，weex源代码是用三个部"
-"分——模板*，* * * *脚本风格，像HTML，CSS，JavaScript的Web。 ???"
+"分——模板*，* * * *脚本风格，像HTML，CSS，JavaScript的Web。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:66
 #, no-wrap
 msgid "Template is the skeleton that give weex structure, it composed by tags which surround content and apply meaning to it. Weex has two type of tag, opening tag & closing tag, we call every couple  of opening tag &  closing tag a Weex tag. Tag have *attributes*,  different attribute have different meaning,   class attribute makes it possible to define equal styles for multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
-msgstr "模板是给weex结构的骨架，它由环绕内容标签和应用它的意义。weex有两类标签，打开标签和结束标签，我们称之为每对夫妇的开始标记和结束标记一个weex标签。标签有属性，不同的属性有不同的意义，类属性可以定义多个标签等方式，使标签的onclick属性响应单击事件。 ???\n"
+msgstr "模板是给weex结构的骨架，它由环绕内容标签和应用它的意义。weex有两类标签，打开标签和结束标签，我们称之为每对夫妇的开始标记和结束标记一个weex标签。标签有属性，不同的属性有不同的意义，类属性可以定义多个标签等方式，使标签的onclick属性响应单击事件。 \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:68
@@ -203,7 +198,7 @@ msgid ""
 msgstr ""
 "风格描述weex标签将显示。我们喜欢你，爱的CSS，所以我们尽量用CSS标准尽可能保持"
 "一致。weex风格多多支持CSS的功能，如：边缘、填充、固定......更好的是，flexbox"
-"布局(flex)很支持weex风格。 ???"
+"布局(flex)很支持weex风格。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:70
@@ -215,7 +210,7 @@ msgid ""
 msgstr ""
 "脚本添加数据*和*逻辑* weex标签，帮助您轻松访问本地或远程数据更新标签。您还可"
 "以定义您的标签的一些方法，以应对不同的事件。weex脚本组织从CommonJS模块方式学"
-"到很多。 ???"
+"到很多。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:72
@@ -223,13 +218,13 @@ msgid ""
 "More complete information about Weex syntax can be found in our [Syntax "
 "chapter](syntax/main.md)."
 msgstr ""
-"关于weex语法更完整的信息，可以在我们的[语法](syntax/main.md)发现章。 ???"
+"关于weex语法更完整的信息，可以在我们的[语法](syntax/main.md)发现章。 "
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:73
 #, no-wrap
 msgid "Add More Item"
-msgstr "添加更多的项目 ???"
+msgstr "添加更多的项目 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:76
@@ -238,7 +233,7 @@ msgid ""
 "open tech_list.we in your favorite editor and update it's content like below"
 msgstr ""
 "我们不能调用一个项目列表，所以我们需要在我们的技术列表中添加更多的项目。在你"
-"最喜欢的编辑器打开tech_list.we和更新内容如下 ???"
+"最喜欢的编辑器打开tech_list.we和更新内容如下 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:81
@@ -285,7 +280,7 @@ msgid ""
 "again,then type"
 msgstr ""
 "现在我们将努力与weex本地渲染器渲染我们的tech_list.we。打开终端，浏览目录到你"
-"保存tech_list.we一遍，然后键入 ???"
+"保存tech_list.we一遍，然后键入 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:106
@@ -304,7 +299,7 @@ msgid ""
 "TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
 msgstr ""
 "![weex QR](http://gtms01.alicdn.com/tps/i1/"
-"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)???"
+"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:115
@@ -321,7 +316,7 @@ msgstr ""
 "github.io/weex/download.html)。安装成功后，打开应用程序，然后单击“weex操场右"
 "上角扫描图标，然后扫描QR码在你的终端。如果一切顺利，一个漂亮的列表将显示在您"
 "的手机。在这里，我要强调的是，这份名单是渲染使用本地widget( no webkit )，所以"
-"你的应用程序获得更快的加载速度和更少的内存开销比常见的嵌入式WebKit渲染。 ???"
+"你的应用程序获得更快的加载速度和更少的内存开销比常见的嵌入式WebKit渲染。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
@@ -330,7 +325,7 @@ msgid ""
 "TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 msgstr ""
 "![表](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896."
-"png)Android ???"
+"png)Android "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:119
@@ -342,19 +337,19 @@ msgid ""
 msgstr ""
 "现在打开tech_list.we又试图改变一些文本，更改后保存weex操场程序会立即显示这些"
 "变化。这叫**热加载**，它还与weex浏览器默认渲染器。我们希望热加载将帮助您调试"
-"weex脚本。 ???"
+"weex脚本。 "
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:120
 #, no-wrap
 msgid "Add Build-in Component"
-msgstr "添加内置组件 ???"
+msgstr "添加内置组件 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:123
 #, no-wrap
 msgid "Beyond writing basic tag by yourself, Weex provide  a lot of build-in components.   For example,  Slider is common to many App/Mobile Web, So Weex include  a  build-in  Slider  and you can easily using the component in your script.  Let's open tech_list.we and update it's content like below.\n"
-msgstr "超越自己写作的基本标签，weex提供了大量的内置部件。例如，滑块是许多应用程序和移动网络常见的，所以weex包括内置滑块，你可以在你的脚本很容易使用的组件。让我们打开tech_list.we和更新内容如下。 ???\n"
+msgstr "超越自己写作的基本标签，weex提供了大量的内置部件。例如，滑块是许多应用程序和移动网络常见的，所以weex包括内置滑块，你可以在你的脚本很容易使用的组件。让我们打开tech_list.we和更新内容如下。 \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:134
@@ -399,20 +394,20 @@ msgid ""
 "        height: 200;\n"
 "  }  \n"
 msgstr ""
-" <style>???\n"
-"  单元格{边缘顶部：10;边缘左：10;弯曲方向：行;} ???\n"
-"  拇指{宽：200;高度：200;} ???\n"
-"  标题{文本对齐：中心;弯曲：1;颜色：灰色;字体大小：50;} ???\n"
-"  滑块{。 ???\n"
-"        保证金：18; ???\n"
-"        宽度：714; ???\n"
-"        身高：230; ???\n"
-"  } ???\n"
-"  滑块页面 ???\n"
-"        弯曲方向：行; ???\n"
-"        宽度：714; ???\n"
-"        身高：200; ???\n"
-"  } ???\n"
+" <style>\n"
+"  单元格{边缘顶部：10;边缘左：10;弯曲方向：行;} \n"
+"  拇指{宽：200;高度：200;} \n"
+"  标题{文本对齐：中心;弯曲：1;颜色：灰色;字体大小：50;} \n"
+"  滑块{。 \n"
+"        保证金：18; \n"
+"        宽度：714; \n"
+"        身高：230; \n"
+"  } \n"
+"  滑块页面 \n"
+"        弯曲方向：行; \n"
+"        宽度：714; \n"
+"        身高：200; \n"
+"  } \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:166
@@ -449,7 +444,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:189
 msgid "Open terminal and run the command again."
-msgstr "打开终端并重新运行命令。 ???"
+msgstr "打开终端并重新运行命令。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:193
@@ -459,7 +454,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:196
 msgid "You should see a slider prepend to our list."
-msgstr "你应该看到一个滑块在我们的列表。 ???"
+msgstr "你应该看到一个滑块在我们的列表。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:198
@@ -468,14 +463,14 @@ msgid ""
 "XUXXX-596-1000.gif)"
 msgstr ""
 "![演示](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000."
-"gif)滑块 ???"
+"gif)滑块 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:201
 msgid ""
 "More information about Slider Component can be found [here](components/"
 "slider.md)."
-msgstr "关于滑块组件的更多信息可以在[这里](components/slider.md)。 ???"
+msgstr "关于滑块组件的更多信息可以在[这里](components/slider.md)。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:202
@@ -485,4 +480,4 @@ msgid ""
 "integrate-to-android.md) for integrating Weex into your App."
 msgstr ""
 "就像前面的例子，滑块可以绘制在本地，容易在weex操场，也在你的应用程序。请参阅"
-"[文件](advanced/integrate-to-android.md)weex集成到您的应用程序。 ???"
+"[文件](advanced/integrate-to-android.md)weex集成到您的应用程序。 "

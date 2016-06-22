@@ -77,7 +77,8 @@ def translate_po(lang, po):
 
     for msgid, _ in msgid_li:
         for j in msgid.split("\n"):
-            if j.strip():
+            j = j.strip()
+            if j and not j.startswith("."):
                 li.append(j)
     if not li:
         return
