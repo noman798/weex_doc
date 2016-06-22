@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:1
+#, no-wrap
+msgid "&lt;list&gt;"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:6
+msgid ""
+"A fixed height container which has multiple child components (cells) "
+"arranged in one column. If total height of its child components is higher "
+"then the height of itself, the whole child components are scrollable and "
+"it's high-performanced."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:8
+#, no-wrap
+msgid ""
+"**Notes:** height of `list` must be specified (list's styles must contain "
+"`height` or pair of `top`, `bottom` or flex value if outter container's "
+"`flex-direction` value is `column`).\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:9
+#, no-wrap
+msgid "Child Components"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:14
+msgid "`cell` is a available candidate to be used as a child component for `list`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:14
+msgid ""
+"`refresh` component can be used inside list to add pull to refresh "
+"functionality."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:14
+msgid ""
+"`loading` component can be used inside list to add loading view at the "
+"bottom of scroller."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:15
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:18
+msgid ""
+"- `loadmoreoffset`: &lt;number&gt; the offset distance downwards the bottom "
+"of the list to trigger the loadmore event, which is triggered when the list "
+"scrolls down near enough to the bottom."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:20
+msgid ""
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:21
+#, no-wrap
+msgid "Styles"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:24
+#, no-wrap
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:29
+msgid ""
+"- support flexbox related styles - support box model related styles - "
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:30
+#, no-wrap
+msgid "Events"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:35
+msgid ""
+"- `loadmore`: if the list scrolls to bottom, this event will be triggered "
+"immediately. You can load the next page of items in this event handler.  - "
+"`onappear`: if the list's cells scroll to visible area, this event will be "
+"triggered when list is stopped. You can do something in this event handler.  "
+"- `ondisappear`: if the list's cells scroll to invisible area, this event "
+"will be triggered when list is stopped. You can do something in this event "
+"handler."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:38
+#, no-wrap
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:43
+msgid ""
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)  - support "
+"`refresh` event .  If a refresh component is inside scroller, this event "
+"will be triggered when the scroller is swiping down.  - support `loading` "
+"event .  If a loading component is inside scroller, this event will be "
+"triggered when user scrolling to the bottom."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:44
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/list.md:46
+msgid ""
+"see [list-basic "
+"demo](https://github.com/alibaba/weex/blob/example/examples/component/list/list-basic.we)"
+msgstr ""

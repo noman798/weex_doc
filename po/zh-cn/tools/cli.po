@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
+#, no-wrap
+msgid "Weex-Toolkit\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:5
+msgid "Weex CLI tool set"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:6
+#, no-wrap
+msgid "Install"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:10
+msgid "``` $npm install -g weex-toolkit ```"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:11
+#, no-wrap
+msgid "Usage"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:13
+#, no-wrap
+msgid "weex"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
+msgid ""
+"Weex file preview tool with hot reload ``` Usage: weex "
+"foo/bar/your_next_best_weex_script_file.we [options]"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25
+#, no-wrap
+msgid ""
+"Options:\n"
+"  --qr    display QR code for Weex Playground app, default action.               "
+"\n"
+"  -o      transform weex JS bundle only, specify bundle file name using the "
+"option\n"
+"  -s      start a http file server, weex .we file will be transformed on the "
+"server. specify local root path using the option\n"
+"  --help  Show help                                                       \n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:27
+#, no-wrap
+msgid "Issue & Feedback"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:30
+msgid "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:31
+#, no-wrap
+msgid "Changelog"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160418 : temporary turnoff H5 preview"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160401 : format for opensource"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160331 : update upstream lib , ready for opensource"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160321 : update HTML5 runtime"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160301 : add -s option & update upstream lib"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160224 : update upstream weex-html5 lib , improve stability"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160223 : add -o option for transform weex JS bundle directly"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid ""
+"160201 : adopt new weex JS bundle style(define / require) & output "
+"transformer Error/Warning logs"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160129 : add native runtime support with --qr option"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160122 : add -n , -h options & improve CLI feedback output"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160119 : update upstream weex-html5 lib"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160118 : hot reload function & English document"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44
+msgid "160114 : first version"
+msgstr ""

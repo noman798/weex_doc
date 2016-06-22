@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:1
+#, no-wrap
+msgid "Replace option"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:4
+#, no-wrap
+msgid ""
+"The `replace` option is boolean type. It determined whether this composed "
+"component will be replaced with the `<template>` content or just as a normal "
+"`<div>` element which include the `<template>` content.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:6
+msgid "For example:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:18
+#, no-wrap
+msgid ""
+"```\n"
+"<element name=\"foo\">\n"
+"  <template>\n"
+"    <text>Foo</text>\n"
+"  </template>\n"
+"  <script>\n"
+"    module.exports = {\n"
+"      replace: false // by default\n"
+"    }\n"
+"  </script>\n"
+"</element>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:23 /home/dev/download/weex_doc/weex/doc/references/replace.md:50
+#, no-wrap
+msgid ""
+"<template>\n"
+"  <foo></foo>\n"
+"</template>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:25 /home/dev/download/weex_doc/weex/doc/references/replace.md:52
+msgid "will rendered as:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:31
+#, no-wrap
+msgid ""
+"```\n"
+"<div>\n"
+"  <text>Foo</text>\n"
+"</div>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:33
+msgid "but:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:45
+#, no-wrap
+msgid ""
+"```\n"
+"<element name=\"foo\">\n"
+"  <template>\n"
+"    <text>Foo</text>\n"
+"  </template>\n"
+"  <script>\n"
+"    module.exports = {\n"
+"      replace: true\n"
+"    }\n"
+"  </script>\n"
+"</element>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:56
+#, no-wrap
+msgid ""
+"```\n"
+"<text>Foo</text>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/replace.md:57
+msgid ""
+"So you can choose a way you need or like to manage your virtual DOM "
+"structure."
+msgstr ""

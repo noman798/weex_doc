@@ -1,0 +1,454 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:1
+#, no-wrap
+msgid "Tutorial"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:4
+msgid ""
+"We will make a simple but realistic list of tech that weex used, this form "
+"of list also work for a lot of e-commerce app/mobile site."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:5
+#, no-wrap
+msgid "Getting Started"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:8
+msgid "Let's start easy though, making a item of list."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:13
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <div class=\"container\" >\n"
+"    <div class=\"cell\">\n"
+"       <image class=\"thumb\" src=\"http://t.cn/RGE3AJt\"></image>  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:18
+#, no-wrap
+msgid ""
+"       <text class=\"title\">JavaScript</text>\n"
+"    </div>\n"
+"  </div>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:22 /home/dev/download/weex_doc/weex/doc/tutorial.md:98
+#, no-wrap
+msgid ""
+"<style>\n"
+"  .cell{margin-top:10 ; margin-left:10 ; flex-direction: row; }\n"
+"  .thumb {width: 200; height: 200; }\n"
+"  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:25 /home/dev/download/weex_doc/weex/doc/tutorial.md:101
+#, no-wrap
+msgid ""
+"</style>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:27
+msgid ""
+"You can copy and paste above code to a Weex file named `tech_list.we` (`.we` "
+"is our recommended the file extension name)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:29
+msgid ""
+"The Weex CLI toolchain is Node JS based, so you need to install "
+"[Node](https://nodejs.org/en/download/stable/) first. Then you can install "
+"Weex CLI program using Node JS npm command."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:33
+msgid "``` npm install -g weex-toolkit ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:35
+msgid ""
+"After Weex CLI program install finished, you should test to ensure the Weex "
+"CLI is properly installed by typing weex on the command line. You should see "
+"the following help text displayed:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:38
+msgid "``` Usage: weex foo/bar/your_next_best_weex_script_file.we [options]"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:47
+#, no-wrap
+msgid ""
+"Options:\n"
+"  --qr    display QR code for native runtime                           "
+"[boolean]\n"
+"  -o      transform weex JS bundle only, specify bundle file name using "
+"the\n"
+"          option                                 [default: \"no JSBundle "
+"output\"]\n"
+"  -s      start a http file server, weex .we file will be transformed on "
+"the\n"
+"          server, specify local root path using the option     [default: "
+"false]\n"
+"  --help  Show help                                                    "
+"[boolean]\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:49
+msgid ""
+"If all works well, navigate to the directory where you save the newly "
+"created tech_list.we, then type"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:53
+#, no-wrap
+msgid ""
+"```\n"
+"weex tech_list.we   // Weex H5 renderer is not released , so , the commond "
+"not works now\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:55
+msgid "A browser window will open automatically to display something like below"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:57
+msgid ""
+"![weex html5 "
+"render](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:60
+#, no-wrap
+msgid ""
+"**Weex H5 renderer is not released , So please using Weex Playground App "
+"based preview for a while**\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:62
+#, no-wrap
+msgid "Intro Weex Syntax"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:64
+msgid ""
+"So it's time for some \"boring syntax\", as content of tech_list.we showing, "
+"Weex source code is written in three parts -- *template*, *style*, *script* "
+"just like html,css,javascript for the Web."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:66
+#, no-wrap
+msgid ""
+"Template is the skeleton that give weex structure, it composed by tags which "
+"surround content and apply meaning to it. Weex has two type of tag, opening "
+"tag & closing tag, we call every couple  of opening tag &  closing tag a "
+"Weex tag. Tag have *attributes*,  different attribute have different "
+"meaning,   class attribute makes it possible to define equal styles for "
+"multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:68
+msgid ""
+"Style describes how Weex tags are to be displayed. We like you, love the "
+"CSS, so we try to keep consistent with CSS standard as possible. Weex Style "
+"support a lot of CSS features, eg: margin, padding, fixed...... Better yet, "
+"flexbox layout (flex) is well supported in Weex Style."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:70
+msgid ""
+"Script add *data* & *logic* to Weex tags, help you easy access local or "
+"remote data and update tags. You can also define some methods for your tag "
+"to respond to different events. Weex Script organizing learn a lot from "
+"CommonJS module style."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:72
+msgid ""
+"More complete information about Weex syntax can be found in our [Syntax "
+"chapter](syntax/main.md)."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:73
+#, no-wrap
+msgid "Add More Item"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:76
+msgid ""
+"We can't call one item an list, so we need add more item to our tech list.  "
+"open tech_list.we in your favorite editor and update it's content like below"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:81
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <div class=\"container\"  >\n"
+"    <div class=\"cell\">\n"
+"       <image class=\"thumb\" src=\"http://t.cn/RGE3AJt\"></image>  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:89 /home/dev/download/weex_doc/weex/doc/tutorial.md:145
+#, no-wrap
+msgid ""
+"       <text class=\"title\">JavaScript</text>\n"
+"    </div>\n"
+"    <div class=\"cell\">\n"
+"       <image class=\"thumb\" src=\"http://t.cn/RGE3uo9\"></image>\n"
+"       <text class=\"title\">Java</text>\n"
+"    </div>\n"
+"    <div class=\"cell\">\n"
+"       <image class=\"thumb\" src=\"http://t.cn/RGE31hq\"></image>  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:94 /home/dev/download/weex_doc/weex/doc/tutorial.md:150
+#, no-wrap
+msgid ""
+"       <text class=\"title\">Objective C</text>\n"
+"    </div>\n"
+"  </div>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:103
+msgid ""
+"Now we will try to render our tech_list.we with Weex native renderer.  open "
+"your terminal and navigate to the directory where you save the tech_list.we "
+"again,then type"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:106
+msgid "``` weex tech_list.we --qr"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:109
+msgid "``` An QR code will be display in the terminal window, like:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:112
+msgid ""
+"![weex "
+"qr](http://gtms01.alicdn.com/tps/i1/TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:115
+msgid ""
+"The QR code will work together with Weex playground App, you can download "
+"the app [here](http://alibaba.github.io/weex/download.html).  After "
+"successful installation, open Weex playground App then click scan icon at "
+"top right corner, then scan the Qr code in your terminal.If all works well, "
+"a beautiful list will be displayed in your phone. Here, i must stress that "
+"the list is render using native widget ( no webkit ), so your app get faster "
+"loading and less memory overhead than common embedded webkit renderer."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
+msgid ""
+"![list1 in "
+"Android](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:119
+msgid ""
+"Now open tech_list.we again and trying to change some text, after changes "
+"saved the Weex playground App will immediately display these changes.  this "
+"called **Hot-Reload**, it also works with default Weex browser renderer. We "
+"hope hot-reload will be helpful when you debug Weex script."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:120
+#, no-wrap
+msgid "Add Build-in Component"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:123
+#, no-wrap
+msgid ""
+"Beyond writing basic tag by yourself, Weex provide  a lot of build-in "
+"components.   For example,  Slider is common to many App/Mobile Web, So Weex "
+"include  a  build-in  Slider  and you can easily using the component in your "
+"script.  Let's open tech_list.we and update it's content like below.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:134
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <div style=\"flex-direction: column;\">\n"
+"    <slider class=\"slider\" interval=\"{{intervalValue}}\" "
+"auto-play=\"{{isAutoPlay}}\" >\n"
+"      <div class=\"slider-pages\" repeat=\"{{itemList}}\" "
+"onclick=\"goWeexSite\" >\n"
+"        <image class=\"thumb\" src=\"{{pictureUrl}}\"></image>\n"
+"        <text class=\"title\">{{title}}</text>\n"
+"      </div>\n"
+"    </slider>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:137
+#, no-wrap
+msgid ""
+"  <div class=\"container\" onclick=\"goWeexSite\" >\n"
+"    <div class=\"cell\">\n"
+"       <image class=\"thumb\" src=\"http://t.cn/RGE3AJt\"></image>  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:164
+#, no-wrap
+msgid ""
+"<style>\n"
+"  .cell{margin-top:10 ; margin-left:10 ; flex-direction: row; }\n"
+"  .thumb {width: 200; height: 200; }\n"
+"  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }\n"
+"  .slider {\n"
+"        margin: 18;\n"
+"        width: 714;\n"
+"        height: 230;\n"
+"  }\n"
+"  .slider-pages {\n"
+"        flex-direction: row;\n"
+"        width: 714;\n"
+"        height: 200;\n"
+"  }  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:166
+#, no-wrap
+msgid "</style>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:187
+#, no-wrap
+msgid ""
+"<script>\n"
+"module.exports = {\n"
+"    data: {\n"
+"      intervalValue:\"1000\",\n"
+"      isShowIndicators:\"true\",\n"
+"      isAutoPlay:\"true\",\n"
+"      itemList: [\n"
+"        {title: 'Java', pictureUrl: 'http://t.cn/RGE3uo9'},\n"
+"        {title: 'Objective C', pictureUrl: 'http://t.cn/RGE31hq'},\n"
+"        {title: 'JavaScript', pictureUrl: 'http://t.cn/RGE3AJt'}\n"
+"      ]\n"
+"    },\n"
+"    methods: {\n"
+"      goWeexSite: function () {\n"
+"        this.$openURL('http://alibaba.github.io/weex/')\n"
+"      }       \n"
+"    }\n"
+"}\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:189
+msgid "Open terminal and run the command again."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:193
+msgid "``` weex tech_list.we ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:196
+msgid "You should see a slider prepend to our list."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:198
+msgid ""
+"![slider "
+"demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000.gif)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:201
+msgid ""
+"More information about Slider Component can be found "
+"[here](components/slider.md)."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:202
+msgid ""
+"Just as previous example, the slider can be rendering in native, easily in "
+"Weex playground,also in your App. Please refer [the "
+"document](advanced/integrate-to-android.md) for integrating Weex into your "
+"App."
+msgstr ""

@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:1
+#, no-wrap
+msgid "How to customize a native Component ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:4
+msgid ""
+"Weex has wrap up the most critical platform components,such as "
+"ScrollView、ListView、Text、Imageview. Certainly these components can not "
+"completely meet your need. And thousands of native UI components that "
+"alwaysly be using in our project may be required to integrate into Weex "
+"easily. Fortunately,it's quite convenient to wrap up your own components "
+"that shuold be from any existing components."
+msgstr ""
+
+#. type: Title #####
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:5
+#, no-wrap
+msgid "Step By Step"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:7
+msgid "Customize components must extend WXComponent or WXContainer"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:10
+msgid ""
+"@WXComponentProp(name=value(value is attr or style of dsl)) for it be "
+"recognized by weex SDK."
+msgstr ""
+
+#. type: Bullet: '3. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:10
+msgid "The access levels of mehtod must be **public**"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:10
+msgid "The component class can not be an inner class"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:11
+msgid "Component can not be obfuscated by tools like ProGuard"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:12
+msgid ""
+"Component methods will be invoked in UI thread, do not contain time "
+"consuming operation here."
+msgstr ""
+
+#. type: Bullet: '7. '
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:14
+msgid ""
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:16
+#, no-wrap
+msgid "Refer to the following example: "
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:20
+#, no-wrap
+msgid ""
+"\tpackage com.taobao.weex.ui.component;\n"
+"\t……\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:22
+#, no-wrap
+msgid "    public class  MyViewComponent extends WXComponent{\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:27
+#, no-wrap
+msgid ""
+"           public MyViewComponent(WXSDKInstance instance, WXDomObject node, "
+"\n"
+"                        WXVContainer parent,  String instanceId, boolean "
+"lazy) {                \n"
+"               super(instance, node, parent, instanceId, lazy);\n"
+"            }\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:32
+#, no-wrap
+msgid ""
+"           @Override\n"
+"           protected void initView() {\n"
+"              //TODO:your own code ……\n"
+"           }\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:41
+#, no-wrap
+msgid ""
+"          @Override\n"
+"          public WXFrameLayout getView() {\n"
+"             //TODO:your own code ………        \n"
+"          }\n"
+"          @WXComponentProp(name=WXDomPropConstant.WX_ATTR_VALUE)\n"
+"\t      public void setMyViewValue(String value) {\n"
+"\t         ((TextView)mHost).setText(value);\n"
+"\t      }\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:43
+#, no-wrap
+msgid "    }\n"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:44
+#, no-wrap
+msgid "Component should be registered "
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:47
+#, no-wrap
+msgid "\tWXSDKEngine.registerComponent(\"MyView\", MyViewComponent.class);\n"
+msgstr ""

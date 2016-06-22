@@ -1,0 +1,427 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:1
+#, no-wrap
+msgid "import Weex Android to your project"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:4
+msgid ""
+"You will need to build Weex from source if you want to work on a new "
+"feature/bug fix, try out the latest features which are not released yet, or "
+"maintain your own fork with patches that cannot be merged to the core."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:5
+#, no-wrap
+msgid "Prerequisites"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:8
+msgid ""
+"Assuming you have the Android SDK installed, run `android` to open the "
+"Android SDK Manager."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:10
+msgid "Make sure you have the following installed:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
+msgid ""
+"Android SDK version 23 (compileSdkVersion in "
+"[`build.gradle`](https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
+msgid ""
+"SDK build tools version 23.0.1 (buildToolsVersion in "
+"[`build.gradle`](https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
+msgid "Android Support Repository >= 17 (for Android Support Library)"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
+msgid ""
+"Android NDK (download & extraction instructions "
+"[here](http://developer.android.com/ndk/downloads/index.html))"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:17
+msgid ""
+"Point Gradle to your Android SDK: either have `$ANDROID_SDK` and "
+"`$ANDROID_NDK ` defined, or create a local.properties file in the root of "
+"your react-native checkout with the following contents:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:22
+msgid ""
+"``` sdk.dir=absolute_path_to_android_sdk "
+"ndk.dir=absolute_path_to_android_ndk ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:24
+msgid "Example:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:29
+msgid ""
+"``` sdk.dir=/Users/your_unix_name/android-sdk-macosx "
+"ndk.dir=/Users/your_unix_name/android-ndk/android-ndk-r10e ```"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:31
+#, no-wrap
+msgid "Building the source"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:33
+#, no-wrap
+msgid "1. Clone source from github"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:36
+msgid "First, you need to git clone `weex` from github:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:40
+msgid "```shell git clone https://github.com/alibaba/weex.git ```"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:41
+#, no-wrap
+msgid "2. Adding the `:weex_sdk_android` project"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:44
+msgid "Add the `:weex_sdk_android` project in `android/settings.gradle`:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:47
+msgid "```gradle include ':weex_sdk_android'"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:51
+#, no-wrap
+msgid ""
+"project(':weex_sdk_android').projectDir = new File(\n"
+"    rootProject.projectDir, '../weex_sdk_android')\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:53
+msgid ""
+"Modify your `android/app/build.gradle` to use the `:weex_sdk_android` "
+"project instead of the pre-compiled library, e.g. - replace `compile "
+"'com.taobao.android:weex_sdk:1.3.+'` with `compile "
+"project(':weex_sdk_android')`:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:58
+#, no-wrap
+msgid ""
+"```gradle\n"
+"dependencies {\n"
+"    compile fileTree(dir: 'libs', include: ['*.jar'])\n"
+"    compile 'com.android.support:appcompat-v7:23.0.1'\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:60
+#, no-wrap
+msgid "    compile project(':weex_sdk_android')\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:64
+#, no-wrap
+msgid ""
+"    ...\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:65
+#, no-wrap
+msgid "3. Making 3rd-party modules use your fork"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:68
+msgid ""
+"If you use 3rd-party weex modules, you need to override their dependencies "
+"so that they don't build the pre-compiled library. Otherwise you'll get an "
+"error while compiling - `Error: more than one library with package name "
+"'com.taobao.weex'`."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:70
+msgid ""
+"Modify your `android/app/build.gradle` and replace `compile "
+"project(':weex-custom-module')` with:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:76
+#, no-wrap
+msgid ""
+"```gradle\n"
+"compile(project(':weex-custom-module')) {\n"
+"    exclude group: 'com.taobao.weex', module: 'weex_sdk_android'\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:77
+#, no-wrap
+msgid "Building from Android Studio"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:80
+msgid ""
+"From the Welcome screen of Android Studio choose \"Import project\" and "
+"select the `android` folder of your app."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:82
+msgid "You should be able to use the _Run_ button to run your app on a device."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:82
+#, no-wrap
+msgid "Additional notes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:85
+msgid ""
+"Since the packet size limit is currently only compiled arm , X86 does not "
+"support."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:87
+#, no-wrap
+msgid "Troubleshooting"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:90
+msgid ""
+"Gradle build fails in `ndk-build`. See the section about `local.properties` "
+"file above."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:91
+#, no-wrap
+msgid "#Quick access\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:93
+#, no-wrap
+msgid "Requirements"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:96
+msgid "an existing, gradle-based Android app"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:97
+#, no-wrap
+msgid "Prepare your app"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:100
+msgid "In your app's `build.gradle` file add the React Native dependency:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:102
+#, no-wrap
+msgid "    compile 'com.taobao.weex:weex_sdk:1.3.+'\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:104
+msgid ""
+"You can find the latest version of the react-native library on [Maven "
+"Central](). Next, make sure you have the Internet permission in your "
+"`AndroidManifest.xml`:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:106
+#, no-wrap
+msgid "    <uses-permission android:name=\"android.permission.INTERNET\" />\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:108
+msgid ""
+"This is only really used in dev mode when reloading JavaScript from the "
+"development server, so you can strip this in release builds if you need to."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:109
+#, no-wrap
+msgid "Add native code"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:112
+msgid ""
+"You need to add some native code in order to start the Weex runtime and get "
+"it to render something. To do this, we're going to create an `Application` "
+"to init weex, then we we're going to create an `Activity` that creates a "
+"WeexContainerView, starts a Weex application inside it and sets it as the "
+"main content view."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:119
+#, no-wrap
+msgid ""
+"```java\n"
+"public class WXApplication extends Application {\n"
+"    @Override\n"
+"    public void onCreate() {\n"
+"        super.onCreate();\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:123
+#, no-wrap
+msgid ""
+"        WXEnvironment.addCustomOptions(\"appName\",\"TBSample\");\n"
+"        WXSDKEngine.init(this);\n"
+"        try {\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:126
+#, no-wrap
+msgid ""
+"            WXSDKEngine.registerComponent(\"wtRichText\", "
+"WTRichText.class);\n"
+"            ......\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:134
+#, no-wrap
+msgid ""
+"            WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
+"        } catch (WXException e) {\n"
+"            e.printStackTrace();\n"
+"        }\n"
+"    }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:136
+msgid "Next,"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:162
+#, no-wrap
+msgid ""
+"```java\n"
+"//crate Weex instance\n"
+"WXSDKInstance mInstance = new WXSDKInstance(this);\n"
+"//set image Adapter\n"
+"mInstance.setImgLoaderAdapter(new ImageAdapter(this));\n"
+"//register render listener\n"
+"mInstance.registerRenderListener(new IWXRenderListener() {\n"
+"   @Override\n"
+"   public void onViewCreated(WXSDKInstance instance, View view) {\n"
+"       // addview\n"
+"       mViewGroup.addView(view);\n"
+"   } \n"
+"   @Override\n"
+"   public void onRenderSuccess(WXSDKInstance instance) {\n"
+"   }\n"
+"   @Override\n"
+"   public void onRefreshSuccess(WXSDKInstance instance) {\n"
+"   }\n"
+"   @Override\n"
+"   public void onException(WXSDKInstance instance, String errCode,String "
+"msg) {\n"
+"   }\n"
+"}); \n"
+"//start render weex view   \n"
+"mInstance.render(pageName,template, null, null, -1, -1, "
+"WXRenderStrategy.APPEND_ASYNC);\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:164
+msgid "That's it, your activity is ready to run some JavaScript code."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:165
+#, no-wrap
+msgid "Reference Example   "
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:167
+msgid "[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)"
+msgstr ""

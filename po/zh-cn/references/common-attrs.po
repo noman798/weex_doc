@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:1
+#, no-wrap
+msgid "Common Attribute"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:4
+msgid "All of weex tags share some common attributes"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:5
+#, no-wrap
+msgid "id"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:11
+msgid "``` id=\"logo\" id=\"item-{{index}}\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:13
+#, no-wrap
+msgid ""
+"`id` gives weex tag a unique mark in `<template>` scope. With id attribute "
+"you can easily refer a weex tag.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:15
+msgid "[more information](../syntax/id.md)"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:16
+#, no-wrap
+msgid "style"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:22
+msgid ""
+"``` style=\"width: 200; height: 200\" style=\"padding: {{x}}; margin: 0\" "
+"```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:24
+msgid "weex tag inline style."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:26
+msgid "[more information](../syntax/style-n-class.md)"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:27
+#, no-wrap
+msgid "class"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:33
+msgid "``` class=\"button\" class=\"button {{btnStatus}}\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:35
+msgid ""
+"to add classname for weex tag, you can use class attribute for tag "
+"classification."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:36
+#, no-wrap
+msgid "repeat"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:41
+msgid "``` repeat=\"{{items}}\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:43
+msgid ""
+"provide a list of data, using current tag as a template to repeatedly "
+"generate the same weex tags."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:45 /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:55
+msgid "[more information](../syntax/display-logic.md)"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:46
+#, no-wrap
+msgid "if"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:51
+msgid "``` if=\"{{opened}}\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:53
+msgid "provide a boolean value to decide whether or not to display current tag."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:56
+#, no-wrap
+msgid "append"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:61
+msgid "``` append=\"tree/node\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:63
+msgid ""
+"by providing the value of `tree` or `node`, it determines the progress of "
+"rendering."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:65
+msgid "[more information](../syntax/render-logic.md)"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:66
+#, no-wrap
+msgid "Event Handing (on...)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:72
+msgid "``` onclick=\"gotoDetail\" onappear=\"loadMore\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:74
+msgid "register event handlers on weex tag"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:76
+msgid "[more information](../syntax/events.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:77
+#, no-wrap
+msgid "Notes!"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:79
+msgid ""
+"weex is basically following [HTML "
+"attribute](https://en.wikipedia.org/wiki/HTML_attribute) naming rule , so "
+"please **do not use CamelCase** in your attribute , **kebab-case** with “-” "
+"as delimiter is much better."
+msgstr ""

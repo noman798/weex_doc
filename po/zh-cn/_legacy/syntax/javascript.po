@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:1
+#, no-wrap
+msgid "Data&Logic"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:4
+#, no-wrap
+msgid ""
+"The most commonly used statement in script is   `module.exports =  {...}`  "
+".  the object be used for assignment value contain three properties:  "
+"`data`, `methods` and `created` .\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:20
+#, no-wrap
+msgid ""
+"```html\n"
+"<script>\n"
+"module.exports = {\n"
+"  data: {\n"
+"    ...\n"
+"  },\n"
+"  methods: {\n"
+"    ...\n"
+"  },\n"
+"  created: function() {\n"
+"    ...\n"
+"  }\n"
+"}\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:21
+#, no-wrap
+msgid "data"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:24
+msgid "value for `data` must be a JSON object"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:25
+#, no-wrap
+msgid ""
+"properties of the JSON object can be using in `<template>` and method "
+"context .  \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:28
+msgid ""
+"please refer to [Data Binding](data-binding.md)  for more information about "
+"event."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:29
+#, no-wrap
+msgid "`methods`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:32
+msgid ""
+"value for `methods` is a one level JSON object , every properties of the "
+"object must be function type."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:34
+msgid "these function should be using as event handlers ."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:36
+msgid "please refer to [Event](events.md)  for more information ."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:37
+#, no-wrap
+msgid "`created`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:39
+#, no-wrap
+msgid ""
+"created should be optionally assign with function.  If this function provide "
+", it will be called  just after weex context created.  \n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:41
+#, no-wrap
+msgid "context"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:44
+msgid ""
+"context can be reference by `this`. the object have properties of currenet "
+"script `data` , `methods` and weex common API."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:46
+msgid "data in context is writeable ; methods is executable."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:48
+msgid ""
+"please refer to [Common API](../core-concepts/api.md)  for more information "
+"about common API."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:49
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_legacy/syntax/javascript.md:53
+#, no-wrap
+msgid ""
+"- `setTimeout` is available , but  "
+"`clearTimeout/setInterval/clearInterval/requestAnimationFrame/cancelAnimationFrame` "
+"is not.\n"
+"-  tag is immutable , we believe interface should be changed by status "
+"updates , please refer to [Data Binding](data-binding.md).\n"
+"-  at present , weex can't using external script (no `<script src=\"...\">`  "
+"or `require`) \n"
+msgstr ""

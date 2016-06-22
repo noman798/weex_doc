@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:1
+#, no-wrap
+msgid "Common Events"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:3
+#, no-wrap
+msgid "Click event"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:6
+msgid ""
+"If a `click` event is bound to a component, the event will be triggered when "
+"the user clicks on it."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:8
+#, no-wrap
+msgid ""
+"**Notes:** The component `input` and `switch` do not currently support this "
+"event, please use `change` or `input` event instead.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10 /home/dev/download/weex_doc/weex/doc/references/common-event.md:20 /home/dev/download/weex_doc/weex/doc/references/common-event.md:31
+#, no-wrap
+msgid "**event object**\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
+msgid "`type`: `click`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
+msgid "`target`: The target component where the event is triggered"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14 /home/dev/download/weex_doc/weex/doc/references/common-event.md:25 /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
+msgid "`timestamp`: Timestamp when event is triggered."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:15
+#, no-wrap
+msgid "Appear event"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:18
+msgid ""
+"If a `appear` event is bound to a component inside a scroller, the event "
+"will be triggered when the component comes to be visible."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
+msgid "`type`: `appear`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
+msgid "`target`: The target component where event is triggered"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
+msgid ""
+"`direction`: The direction in which the scroller is scrolling. Should be "
+"`up` or `down`."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:26
+#, no-wrap
+msgid "Disappear event"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:29
+msgid ""
+"If a `disappear` event is bound to a component inside a scroller, the event "
+"will be triggered when the component scrolls out of viewport and disappears "
+"from your sight."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
+msgid "`type`: `disappear`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
+msgid "`target`: The object where event is triggered"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
+msgid ""
+"`direction`: The direction in which the scroller is scrolling. Should be "
+"`up` or `down`"
+msgstr ""

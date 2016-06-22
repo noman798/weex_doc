@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:1
+#, no-wrap
+msgid "&lt;<cell>&gt;"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:6
+msgid ""
+"This component must be used as a subcomponent of a [`list`](list.md) "
+"component, which is for the performance optimizing during scrolling."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:7
+#, no-wrap
+msgid "Child Components"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:10
+msgid ""
+"This type of component supports all kinds of weex component as its child "
+"components."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:11
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:14
+msgid ""
+"There is no specific attribute for this component other than the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:16
+#, no-wrap
+msgid ""
+"**Notes:** you can't give `<cell>` a `flex` value. Width of `<cell>` is "
+"equal to the width of its parent component `<list>`, and you don't need to "
+"specify its height.\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:17
+#, no-wrap
+msgid "Styles"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:20
+#, no-wrap
+msgid ""
+"**common styles**: check out the [common "
+"styles](../references/common-attrs.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:25
+msgid ""
+"- support flexbox related styles - support box model related styles - "
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:26
+#, no-wrap
+msgid "Events"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:29
+#, no-wrap
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:32
+msgid ""
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:33
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/cell.md:35
+msgid "please refer to [List](list.md)"
+msgstr ""

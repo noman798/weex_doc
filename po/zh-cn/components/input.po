@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:1
+#, no-wrap
+msgid "&lt;input&gt;"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:6
+msgid ""
+"The weex builtin component ``input`` is used to create interactive controls "
+"to accept data from users. How a ``input`` component works varies "
+"considerably depending on the value of its ``type`` attribute, such as "
+"``text``, ``password``, ``url``, ``email``, ``tel`` etc."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:8 /home/dev/download/weex_doc/weex/doc/components/input.md:55
+#, no-wrap
+msgid ""
+"**Notes:** `<input>` does not support the common-event `click`. Please "
+"listen to the `input` or `change` event instead.\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:9
+#, no-wrap
+msgid "Child Components"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:12
+msgid "This component supports no child components."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:13
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:20
+msgid ""
+"- `type`: &lt;string&gt; the type of controls to display. The default value "
+"is ``text``, if this attribute is not specified. Possible values are "
+"``text``, ``password``, ``tel``, ``email``, ``url`` etc, each of which has "
+"the same meaning with w3c standard.  - `value`: &lt;string&gt; the value of "
+"the control.  - `placeholder`: &lt;string&gt; a hint to the user of which "
+"can be entered to the control. The placeholder text must have no carriage "
+"returns or line-feeds.  - `disabled`: &lt;boolean&gt; a boolean attribute "
+"indicates that the form control is not available for interaction. In "
+"particular, the click event will not be dispatched on disabled controls.  - "
+"`autofocus`: &lt;boolean&gt; a boolean attribute lets you specify that a "
+"form control should have input focus when the page loads."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:22
+msgid ""
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:23
+#, no-wrap
+msgid "Styles"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:26
+msgid ""
+"- `placeholder-color`: the color of placeholder. Default value is "
+"``#999999``."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:28
+#, no-wrap
+msgid "**text styles**: checkout [text styles](../references/text-style.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:34
+msgid ""
+"- support `color` style.  - support `font-size` style.  - support "
+"`font-style` style.  - support `font-weight` style.  - support `text-align` "
+"style."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:37
+#, no-wrap
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:42
+msgid ""
+"- support flexbox related styles - support box model related styles - "
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:43
+#, no-wrap
+msgid "Events"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:49
+msgid ""
+"- `input`: the value of an element changes.  - `change`: the change event is "
+"fired when a change to the component's value is commited by the user. It "
+"always come after a ``blur`` event.  - `focus`: a component has received "
+"focus.  - `blur`: a component has lost focus."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:51
+#, no-wrap
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:53
+msgid ""
+"- support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:56
+#, no-wrap
+msgid "Parameters of events' object"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:63
+#, no-wrap
+msgid ""
+"- for ``input`` and ``change`` events:\n"
+"  - `value`: the value of the component who dispatched this event.\n"
+"  - `timestamp`: the time stamp of the event.\n"
+"- for ``focus`` and ``blur`` events:\n"
+"  - `timestamp`: the time stamp of the event.\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:64
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/input.md:76
+#, no-wrap
+msgid ""
+"```\n"
+"<div>\n"
+"  <input\n"
+"    type=\"url\"\n"
+"    autofocus=\"true\"\n"
+"    placeholder=\"...\"\n"
+"    value=\"http://alibaba.github.io/weex/\"\n"
+"    style=\"placeholder-color: #666666;\">\n"
+"  </input>\n"
+"</div>\n"
+"```\n"
+msgstr ""

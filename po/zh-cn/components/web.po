@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:1
+#, no-wrap
+msgid "&lt;web&gt;"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:6
+msgid ""
+"Use web component to display any web content in the weex page. The `src` "
+"attribute is used to specify a special source. You also can use `webview` "
+"module to control some web operation such as goBack、goForward and reload, "
+"see [webview module](../modules/webview.md)."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:8
+#, no-wrap
+msgid "Child Components"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:11
+msgid "This component supports no child components."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:12
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:15
+msgid "- `src`: &lt;string&gt; this attribute specifies the page source to load."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:17
+msgid ""
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:18
+#, no-wrap
+msgid "Styles"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:22
+msgid ""
+"- `width`: &lt;length&gt; the width of the component. This style should be "
+"specified.  - `height`: &lt;length&gt; the height of the component. This "
+"style should be specifed."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:24
+#, no-wrap
+msgid ""
+"**common styles**: check out the [common "
+"styles](../references/common-attrs.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:28
+msgid ""
+"- support flexbox related styles - support box model related styles - "
+"support ``position`` related styles"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:29
+#, no-wrap
+msgid "Events"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:34
+msgid ""
+"- `pagestart`: sent after the web component starts loading a page.  - "
+"`pagefinish`: sent after the web component finishes loading a page.  - "
+"`error`: sent if the web component failed to load a page."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:37
+#, no-wrap
+msgid ""
+"*common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:40
+msgid ""
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:41
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/web.md:48
+#, no-wrap
+msgid ""
+"```js\n"
+"<div>\n"
+"  <web style=\"width=...; height=...;\" src=\"...\" "
+"\tonpagestart=\"pagestart\" onpagefinish=\"pagefinish\" "
+"\tonerror=\"error\">\n"
+"  </web>\n"
+"</div>\n"
+"```\n"
+msgstr ""

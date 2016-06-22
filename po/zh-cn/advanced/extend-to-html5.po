@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:1
+#, no-wrap
+msgid "Extend Weex HTML5"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:3
+#, no-wrap
+msgid "Intro"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:6
+msgid ""
+"Weex is a extendable cross-platform solution for dynamic programming and "
+"publishing projects. You can build your own components on web platform or "
+"native platform by extending the components system. Also you can extend weex "
+"by adding new methods for one module, new moudles or new bundle "
+"loaders. Follow the steps bellow you can dive into the journy of creating "
+"multiple builtin components, APIs and loaders."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:7
+#, no-wrap
+msgid "Create new component"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:10 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:83
+msgid "Steps:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
+msgid "Require `weex-html5` package as `Weex` (or any other name you like)."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14
+msgid "Extend `Weex.Component`, override methods of component class."
+msgstr ""
+
+#. type: Bullet: '3. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14
+msgid ""
+"Use `Weex.registerComponent` to register your customized component in the "
+"`init` method of the installation module."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:16
+msgid ""
+"You can override any method of class `Component` to customize your "
+"component's behavior. The typical methods of class `Component` you should "
+"override are:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:22
+msgid "create"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:22
+msgid "createChildren"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:22
+msgid "insertBefore"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:22
+msgid "removeChild"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:22
+msgid "bindEvents"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:24
+#, no-wrap
+msgid "**Here is a example for creating a new component**\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:26
+msgid "The component's implementation file `new-component.js`:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:31
+msgid ""
+"```javascript // require weex-html5 var Weex = require('weex-html5')  var "
+"Component = Weex.Component"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:37
+#, no-wrap
+msgid ""
+"// The constructor of your component.\n"
+"function NewComponent(data) {\n"
+"  this.someAttr = data.attr.someAttr\n"
+"  Component.call(this, data)\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:40
+msgid ""
+"// Extend from Weex.Component.  NewComponent.prototype = "
+"Object.create(Component.prototype)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:47
+#, no-wrap
+msgid ""
+"// Override the \"create\" method to build elements for the component.\n"
+"NewComponent.prototype.create = function () {\n"
+"  var node = document.createElement('div')\n"
+"  node.setAttribute('data-someAttr', this.someAttr)\n"
+"  return node\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:54
+#, no-wrap
+msgid ""
+"// Setup setters for updatable attributes.\n"
+"NewComponent.prototype.attr = {\n"
+"  updatableAttr: function (value) {\n"
+"    this.node.setAttribute('data-updatableAttr', value)\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:57
+msgid "module.exports = NewComponent ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:59
+msgid ""
+"Register your component in the init method of the installation module "
+"`installModule.js`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:68
+#, no-wrap
+msgid ""
+"```javascript\n"
+"var NewComponent = require('new-component.js')\n"
+"module.exports = {\n"
+"  init: function (Weex) {\n"
+"    Weex.registerComponent('new-component', NewComponent)\n"
+"  }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:70 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:146
+msgid "Install your module:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:74
+msgid ""
+"```javascript var Weex = require('weex-html5')  var installationModule = "
+"require('installModule.js')"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:77 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:153 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:191
+msgid "Weex.install(installationModule)  ```"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:78
+#, no-wrap
+msgid "Add new API"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:81
+msgid ""
+"You can add new API modules, or just add a new API for any existing API "
+"modules. For example, you can add a new module `user` with APIs like "
+"'login', 'logout' etc. Or you can just add a single new method such as "
+"`setTitle` for the exsiting module `pageInfo`. Whichever way you use, the "
+"developer can invoke the API by using "
+"`require('@weex-module/moduleName)[methodName](arg1, arg2, ...)` ([Module "
+"APIs](../references/api.md))."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
+msgid "Require your API modules."
+msgstr ""
+
+#. type: Bullet: '3. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
+msgid ""
+"Use `Weex.registerAPIModules` to register your API modules in the init "
+"method of your installation module."
+msgstr ""
+
+#. type: Bullet: '4. '
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
+msgid ""
+"Or use `Weex.registerAPI` to register your API for existing API modules in "
+"the init method of your installation module."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:90
+#, no-wrap
+msgid "**Here is a example for register a new API module**\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:92
+msgid ""
+"First create a file named `user.js` for a new module, then define "
+"`login/logout` methods."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:104
+#, no-wrap
+msgid ""
+"```javascript\n"
+"var user = {\n"
+"  login: function (callbackId) {\n"
+"    var self = this\n"
+"    // your logic code, ex.\n"
+"    login.then(function (res) {\n"
+"      self.sender.performCallback(callbackId, res)\n"
+"    }).catch(function (err) {\n"
+"      self.sender.performCallback(callbackId, err)\n"
+"    })\n"
+"  },\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:115
+#, no-wrap
+msgid ""
+"  logout: function (callbackId) {\n"
+"    var self = this\n"
+"    // your logic code, ex.\n"
+"    logout.then(function (res) {\n"
+"      self.sender.performCallback(callbackId, res)\n"
+"    }).catch(function (err) {\n"
+"      self.sender.performCallback(callbackId, err)\n"
+"    })\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:126
+#, no-wrap
+msgid ""
+"// add meta info to user module.\n"
+"user._meta = {\n"
+"  user: [{\n"
+"    name: 'login',\n"
+"    args: ['function']\n"
+"  }, {\n"
+"    name: 'logout',\n"
+"    args: ['function']\n"
+"  }]\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:129
+msgid "module.exports = user ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:131
+msgid "Register your `user` module in the `installationModule.js`:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:135
+msgid ""
+"```javascript // Require your module file, which is user.js.  var user = "
+"require('./user')"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:144
+#, no-wrap
+msgid ""
+"module.exports = {\n"
+"  init: function (Weex) {\n"
+"    // Register your new module. The last parameter is your\n"
+"    // new API module's meta info.\n"
+"    Weex.registerApiModule('user', user, user._meta)\n"
+"  }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:150 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:188
+msgid ""
+"```javascript var Weex = require('weex-html5')  var installationModule = "
+"require('installationModule.js')"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:156
+#, no-wrap
+msgid "**Another example for register a API to a exsiting API module**\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:158
+msgid "First create a file named `pageInfo.js`, then define `setTitle` method:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:166
+#, no-wrap
+msgid ""
+"```javascript\n"
+"var pageInfo = {\n"
+"  setTitle: function (title) {\n"
+"    document.title = title\n"
+"  }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:168
+msgid ""
+"Register `setTitle` method to the `pageInfo` module in the "
+"`installationModule.js`:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:171
+msgid "```javascript var weex = require('weex-html5')"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:174
+msgid ""
+"// Require your module file, which is pageInfo.js.  var pageInfo = "
+"require('./pageInfo')"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:182
+#, no-wrap
+msgid ""
+"module.exports = {\n"
+"  init: function (Weex) {\n"
+"    // Register your new method. The last parameter is your API's meta "
+"info.\n"
+"    Weex.registerApi('pageInfo', 'setTitle', pageInfo.setTitle, ['string', "
+"'string'])\n"
+"  }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:184
+msgid "install the isntallation module:"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:192
+#, no-wrap
+msgid "Add new loader"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:195
+msgid ""
+"The type of buildin loaders to load a weex bundle are `loadByXHR`, "
+"`loadByJsonp` and `loadBySourceCode`. You can register your own loader by "
+"using `weex.registerLoader`. For example, you got a service method named "
+"`myServe.getWeexBundle`, which can load a weex bundle file throught some "
+"magical tunnel:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:204
+#, no-wrap
+msgid ""
+"```javascript\n"
+"function loadByMyServe(pageId, callback) {\n"
+"  myServe.getWeexBundle(pageId).then(function (bundle) {\n"
+"    callback(bundle)\n"
+"  }).catch(function(err) {\n"
+"    callback(err)\n"
+"  })\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:209
+#, no-wrap
+msgid ""
+"module.exports = {\n"
+"  loadByMyServe: loadByMyServe\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:211
+msgid ""
+"Register your loader in your installation module `loaderMod.js` and then "
+"install it:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:215
+msgid ""
+"```javascript // Require your new loader.  var loadByMyServe = "
+"require('./loader').loadByMyServe"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:223
+#, no-wrap
+msgid ""
+"module.exports = {\n"
+"  init: function (Weex) {\n"
+"    // Register your new loader.\n"
+"    Weex.registerLoader('myserve', loadByMyServe)\n"
+"  }\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:225
+msgid "install:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:229
+msgid ""
+"```javascript var Weex = require('weex-html5')  var loaderMod = "
+"require('loaderMod.js')"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:232
+msgid "Weex.install(loaderMod)  ```"
+msgstr ""

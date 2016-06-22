@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:1
+#, no-wrap
+msgid "How-tos"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Manage Your File Structure](./manage-your-file-structure.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Maintain Your Component Code](./maintain-your-component-code.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Require 3rd-party Libs](./require-3rd-party-libs.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Transform Code Into JS Bundle](./transform-code-into-js-bundle.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Preview in Browser](./preview-in-browser.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Preview in Playground App](./preview-in-playground-app.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Customize a Native Component](./customize-a-native-component.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Customize Native APIs](./cuszomize-native-apis.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Debug with HTML5](./debug-with-html5.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Debug with Native](./debug-with-native.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Debug with Remote Tools](./debug-with-remote-tools.md)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/README.md:14
+msgid "[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
+msgstr ""

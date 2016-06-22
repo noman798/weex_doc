@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:1
+#, no-wrap
+msgid "&lt;text&gt;"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:6
+#, no-wrap
+msgid ""
+"Render text with specified style rule, `<text>` tag can contain text value "
+"only. You can use variable interpolation in the text content with the mark "
+"`{{}}`.\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:7
+#, no-wrap
+msgid "Child Components"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:10
+msgid "This component supports no child components but a text content."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:11
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:14
+msgid ""
+"`value`: &lt;string&gt; text value of this component. This is equal to the "
+"content of `<text>`."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:16
+msgid ""
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:17
+#, no-wrap
+msgid "Styles"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:20
+msgid "- `lines`: specify the text lines. Default value is `0` for unlimited."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:22
+#, no-wrap
+msgid "**text styles**: checkout [text styles](../references/text-style.md)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:33
+msgid "support `color` style."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:33
+#, no-wrap
+msgid ""
+"- support `font-size` style.\n"
+"\t+ iOS: default vlaue `32`\n"
+"  + Android: platform specify\n"
+"  + HTML5: default value `32`\n"
+"- support `font-style` style.\n"
+"- support `font-weight` style.\n"
+"- support `text-decoration` style.\n"
+"- support `text-align` style.\n"
+"- support `text-overflow` style.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:35
+#, no-wrap
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:40
+msgid ""
+"- support flexbox related styles - support box model related styles - "
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:41
+#, no-wrap
+msgid "Events"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:44
+#, no-wrap
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:47
+msgid ""
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:48
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/text.md:58
+#, no-wrap
+msgid ""
+"```\n"
+"<div>\n"
+"  <text>...</text>\n"
+"  <text value=\"...\"></text>\n"
+"  <text style=\"font-size: 24; text-decoration: "
+"underline;\">{{price}}</text>\n"
+"  <text value=\"{{...}}\"></text>\n"
+"</div>\n"
+"```\n"
+msgstr ""

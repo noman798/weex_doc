@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:1
+#, no-wrap
+msgid "modal"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:6
+msgid "A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:7
+#, no-wrap
+msgid "API"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:9
+#, no-wrap
+msgid "toast(options)"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:11 /home/dev/download/weex_doc/weex/doc/modules/modal.md:27 /home/dev/download/weex_doc/weex/doc/modules/modal.md:50 /home/dev/download/weex_doc/weex/doc/modules/modal.md:82
+#, no-wrap
+msgid "Arguments"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:16
+#, no-wrap
+msgid ""
+"* `options`*(object)*: some options.\n"
+"  * `message`*(string)*: the message that the toast shows.\n"
+"  * `duration`*(number)*: the duration(seconds) that the toast shows.\n"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:18 /home/dev/download/weex_doc/weex/doc/modules/modal.md:34 /home/dev/download/weex_doc/weex/doc/modules/modal.md:63 /home/dev/download/weex_doc/weex/doc/modules/modal.md:96
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:24
+msgid ""
+"```javascript var modal = require('@weex-module/modal'); "
+"modal.toast({'message': 'I am toast!', 'duration': 1}); ```"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:25
+#, no-wrap
+msgid "alert(options, callback)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:33
+#, no-wrap
+msgid ""
+"* `options`*(object)*: some options.\n"
+"  * `message`*(string)*: the message that the alert shows.\n"
+"  * `okTitle`*(string)*: the title of alert button.\n"
+"* `callback`*(function)*: callback when complete.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:47
+#, no-wrap
+msgid ""
+"```javascript\n"
+"var arg1 = 'I am alert!';\n"
+"var arg2 = 'I am ok';\n"
+"var modal = require('@weex-module/modal');\n"
+"modal.alert({\n"
+"  message: arg1,\n"
+"  okTitle: arg2\n"
+"}, function(e) {\n"
+"  // TODO after the alert is complete.\n"
+"})\n"
+"```\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:48
+#, no-wrap
+msgid "confirm(options, callback)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:57
+#, no-wrap
+msgid ""
+"* `options`*(object)*: some options.\n"
+"  * `message`*(string)*: the message that the confirm shows.\n"
+"  * `okTitle`*(string)*: the title of confirm button.\n"
+"  * `cancelTitle`*(string)*: the title of cancel button.\n"
+"* `callback`*(function)*: callback when complete.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:59 /home/dev/download/weex_doc/weex/doc/modules/modal.md:91
+msgid "This method has a callback function whose arguments will be:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:62
+#, no-wrap
+msgid ""
+"* `e`*(object)*: a event object.\n"
+"  * `status`*(string)*: the title of the button that clicked by user.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:79
+#, no-wrap
+msgid ""
+"```javascript\n"
+"var arg1 = 'I am alert!'\n"
+"var arg2 = 'I am ok'\n"
+"var arg3 = 'I am cancel'\n"
+"var modal = require('@weex-module/modal');\n"
+"modal.confirm({\n"
+"  message: arg1,\n"
+"  okTitle: arg2,\n"
+"  cancelTitle: arg3\n"
+"}, function(e) {\n"
+"  nativeLog(e.status)\n"
+"  // TODO after the confirm is complete.\n"
+"});\n"
+"```\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:80
+#, no-wrap
+msgid "prompt(options, callback)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:89
+#, no-wrap
+msgid ""
+"* `options`*(object)*: some options.\n"
+"  * `message`*(string)*: the message that the prompt shows.\n"
+"  * `okTitle`*(string)*: the title of confirm button.\n"
+"  * `cancelTitle`*(string)*: the title of cancel button.\n"
+"* `callback`*(function)*: callback when complete.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:95
+#, no-wrap
+msgid ""
+"* `e`*(object)*: a event object.\n"
+"  * `status`*(string)*: the title of the button that clicked by user.\n"
+"  * `data`*(string)*: the value of the text that entered by user.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/modal.md:112
+#, no-wrap
+msgid ""
+"```javascript\n"
+"var arg1 = 'I am prompt!'\n"
+"var arg2 = 'I am ok'\n"
+"var arg3 = 'I am cancel'\n"
+"var modal = require('@weex-module/modal');\n"
+"modal.prompt({\n"
+"  message: arg1,\n"
+"  okTitle: arg2,\n"
+"  cancelTitle: arg3\n"
+"}, function(e) {\n"
+"  nativeLog(e.status + ', ' + e.data);\n"
+"  // TODO after the prompt is complete.\n"
+"});\n"
+"```\n"
+msgstr ""

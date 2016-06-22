@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:1
+#, no-wrap
+msgid "Bootstrap"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:4
+#, no-wrap
+msgid ""
+"Besides its default meaning, `<script>` tag supports two more configuration "
+"with its `type` property *in the top level component of a page*.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:7
+msgid ""
+"`type=\"data\"`: For initial data configuration, the data defined here will "
+"overwrite the data definition in the `<script>`."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:7
+msgid "`type=\"config\"`: For configuration definition."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:12
+#, no-wrap
+msgid ""
+"```\n"
+"<script type=\"data\">\n"
+"  /* (optional) the definition of initial data */\n"
+"</script>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:17
+#, no-wrap
+msgid ""
+"<script type=\"config\">\n"
+"  /* (optional) the definition of configuration */\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:18
+#, no-wrap
+msgid "Initial data definition"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:21
+#, no-wrap
+msgid ""
+"Sometimes, it is hard to maintain huge data structure in the default "
+"`<script>` tag. So Weex allows us to have a `<script type=\"data\">` tag to "
+"define initial data. The data defined in here will totally replace the data "
+"defined in the default `<script>` tag.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:23
+msgid "here is an example:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:32
+#, no-wrap
+msgid ""
+"```html\n"
+"<script type=\"data\">\n"
+"  module.exports = {\n"
+"      title: 'Alibaba',\n"
+"      date: new Date().toLocaleString()\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:33
+#, no-wrap
+msgid "script configuration"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:36
+#, no-wrap
+msgid ""
+"Weex also allows us to do some configuration with a `<script "
+"type=\"config\">`, So far, we only support the `downgrade` configs.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:40
+msgid ""
+"- `downgrade.osVersion` - `downgrade.appVersion` - `downgrade.weexVersion` - "
+"`downgrade.deviceModel`"
+msgstr ""

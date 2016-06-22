@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:1
+#, no-wrap
+msgid "Animation"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:4
+msgid ""
+"Weex provides the way of calling `$transition(...args)` api to perform a "
+"custom animation of a set of CSS properties."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:5
+#, no-wrap
+msgid "How to use"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:8
+msgid "Example:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:22
+#, no-wrap
+msgid ""
+"```\n"
+"this.$transition('foo', {\n"
+"    styles: {\n"
+"        color: '#FF0000',\n"
+"        transform: 'translate(100, 50)'\n"
+"    },\n"
+"    duration: 100, //ms\n"
+"    timingFunction: 'ease',\n"
+"    delay: 0 //ms\n"
+"}, function() {\n"
+"    // when the animation is end.\n"
+"})\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:24
+msgid ""
+"According to above code, it performs a animation with the styles of color "
+"and transform in 100ms."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:25
+#, no-wrap
+msgid "The API"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:28
+msgid ""
+"First, provide the id of the node. Second, provide some properties of "
+"`styles`, `duration`, `timingFunction` and `delay`. At last, provide a "
+"callback function."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:33
+msgid ""
+"- The `styles` property - An object of CSS properties and values that the "
+"animation will move toward.  - The `duration` property - A number "
+"determining how long the animation will run.  - The `timingFunction` "
+"property - A string indicating which easing function to use for the "
+"transition.  - The `delay` property - A number determining how long the "
+"animation will delay."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/_book/_legacy/core-concepts/animation.md:34
+msgid "For more information, please visite [APIs](api.md)."
+msgstr ""

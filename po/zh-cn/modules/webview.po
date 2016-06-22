@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:1
+#, no-wrap
+msgid "webview"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:6
+msgid "A series of web operation api like `goBack`, `goForward`, and `reload`."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:7
+#, no-wrap
+msgid "API"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:9
+#, no-wrap
+msgid "goBack(ref)"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:11 /home/dev/download/weex_doc/weex/doc/modules/webview.md:29 /home/dev/download/weex_doc/weex/doc/modules/webview.md:45
+#, no-wrap
+msgid "Description"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:14
+msgid "Loads the previous location in the history stack."
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:15 /home/dev/download/weex_doc/weex/doc/modules/webview.md:32 /home/dev/download/weex_doc/weex/doc/modules/webview.md:48
+#, no-wrap
+msgid "Arguments"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:18 /home/dev/download/weex_doc/weex/doc/modules/webview.md:35 /home/dev/download/weex_doc/weex/doc/modules/webview.md:51
+msgid "`ref`*(string)*: the reference of the web component."
+msgstr ""
+
+#. type: Title #####
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:19 /home/dev/download/weex_doc/weex/doc/modules/webview.md:36 /home/dev/download/weex_doc/weex/doc/modules/webview.md:52
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:26
+msgid ""
+"```js var webview = require('@weex-module/webview'); var webElement = "
+"this.$el('webview'); webview.goBack(webElement.ref); ```"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:27
+#, no-wrap
+msgid "goForward(ref)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:31
+msgid "Loads the next location in the history stack."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:43
+msgid ""
+"```js var webview = require('@weex-module/webview'); var webElement = "
+"this.$el('webview'); webview.goForward(webElement.ref); ```"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:44
+#, no-wrap
+msgid "reload(ref)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:47
+msgid "Reloads the current web page."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/webview.md:59
+msgid ""
+"```js var webview = require('@weex-module/webview'); var webElement = "
+"this.$el('webview'); webview.reload(webElement.ref); ```"
+msgstr ""

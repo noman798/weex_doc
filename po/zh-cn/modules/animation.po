@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:1
+#, no-wrap
+msgid "animation"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:6
+msgid "A series of animation api."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:7
+#, no-wrap
+msgid "API"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:9
+#, no-wrap
+msgid "transition(node, options, callback)"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:11
+#, no-wrap
+msgid "Arguments"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
+msgid "`node`*(Node)*: An element that will be animated."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
+#, no-wrap
+msgid ""
+"* `options`*(object)*: Transition options. \n"
+"  * `styles`*(object)*: Specify the names and values of styles to which a "
+"transition effect should be applied.\n"
+"    * `color`*(string)*: the color of the element when the animaiton "
+"finished.\n"
+"    * `transform`*(object)*: transform fuction to be applied to the "
+"element. Following value is supported.\n"
+"      * `translate/translateX/translateY`*(string)*: translate the element "
+"to the new location. The value can be a pixel or percent\n"
+"      * `rotate`*(string)*: the unit is degree.\n"
+"      * `scale`*(string)*: scale up or scale down the element.\n"
+"  * `duration`*(number)*: Specify the number of milliseconds a transition "
+"animation should take to complete. By default, the value is 0ms, meaning "
+"that no animation will occur.\n"
+"  * `timingFuncion`*(string)*: Used to describe how the intermediate values "
+"of the styles being affected by a transition effect are calculated. By "
+"default, the value is `linear`, and can also be one of `ease-in`, "
+"`ease-out`, `ease-in-out`, `linear` or `cubic-bezier(x1, y1, x2, y2)`.\n"
+"  * `delay`*(number)*: Specify the amount of milliseconds to wait between a "
+"change being requested to a property that is to be transitioned and the "
+"start of the transition effect. By default, the value is 0ms.\n"
+"  * `transform-origin`*(string)*: The center of scale and rotation. The "
+"value can be number of pixel in `x, y` format or keyword like `left`, "
+"`right`, `bottom`, `top`, `center`.\n"
+"* **callback** Callback which is called after the completion of "
+"transition.\n"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:27
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:35
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <div class=\"ct\">\n"
+"    <div id=\"test\"></div>\n"
+"  </div>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/modules/animation.md:57
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    ready: function () {\n"
+"      var animation = require('@weex-module/animation');\n"
+"      var testEl = this.$el('test');\n"
+"      animation.transition(testEl, {\n"
+"        styles: {\n"
+"          color: '#FF0000',\n"
+"          transform: 'translate(1, 1)'\n"
+"        },\n"
+"        duration: 0, //ms\n"
+"        timingFunction: 'ease',\n"
+"        transform-origin: 'center center',\n"
+"        delay: 0 //ms\n"
+"      }, function () {\n"
+"        nativeLog('animation finished.')\n"
+"      })\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""

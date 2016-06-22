@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:1
+#, no-wrap
+msgid "How data-binding works"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:4
+msgid ""
+"Weex JS Framework is a MVVM framework. It observe data and use "
+"`{{bindedKey}}` syntax to bind in views. When data is changed in anyway, the "
+"view will automatically be updated due to data-binding."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:6
+#, no-wrap
+msgid ""
+"For example, The content of a `<text>` component is bound with the key "
+"`notes` in data:\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:13
+#, no-wrap
+msgid ""
+"```\n"
+"<template>\n"
+"  <div>\n"
+"    <text>{{notes}}</text>\n"
+"  </div>\n"
+"<template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:22
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"        notes: 'Hello'\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:24
+#, no-wrap
+msgid ""
+"Weex JS Framework first observe the data object to make sure each data "
+"change in the future will be observed. And then it will compile the whole "
+"`<template>`. When it finds that the content of the `<text>` is bound with "
+"`notes`, JS Framework will watch the `data.notes` changes and set a handler "
+"which will update the `<text>` content with new `data.notes`. So developer "
+"only need to manage the data, the view display could automatically do "
+"corresponding changes.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:26
+msgid "Some special data-binding syntax here:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:30
+msgid ""
+"`<foo if=\"{{condition}}\">` will watch the condition value changes. When it "
+"changes to `true`, the `<foo>` element will be created and attached, "
+"otherwise it will be not created or removed."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:30
+msgid ""
+"`<foo repeat=\"{{list}}\">` will watch the mutations of a list. At the "
+"beginning the `<foo>` element will be cloned and attached with each item in "
+"list. When some items are added, removed or moved, the `<foo>` element list "
+"will be re-generated new content in the right order with minimum "
+"alterations."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:30
+msgid ""
+"`<foo if=\"{{condition}}\" repeat=\"{{list}}\">` will process `repeat` first "
+"and `if` the second. In another way, it will walk through each item in list, "
+"if the item's condition value is true, a `<foo>` element will be cloned and "
+"attached with this certain item value."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/how-data-binding-works.md:31
+msgid ""
+"Compared with virtual DOM diff algorithm, we just \"diff\" the data and only "
+"calculate/update the virtual DOM with minimum alterations for each user "
+"interaction or data-change operation. So it's more lightweight and fast "
+"especially for small views in mobile devices."
+msgstr ""

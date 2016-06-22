@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:1
+#, no-wrap
+msgid "&lt;switch&gt;"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:3
+#, no-wrap
+msgid "Summary"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:6
+msgid ""
+"The weex builtin component `switch` is used to create and manage a IOS "
+"styled On/Off buttons used, for example, in the Settings app for options "
+"such as 'muted' and 'toggle color'."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:7
+#, no-wrap
+msgid "Child Components"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:10
+msgid "This component supports no child components."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:11
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:14
+msgid ""
+"- `checked`: &lt;boolean&gt; `true` | `false`. The initial value of whether "
+"the status of this button is On or Off."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:16
+msgid ""
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:17
+#, no-wrap
+msgid "Styles"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:20
+#, no-wrap
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:25
+msgid ""
+"- support flexbox related styles - support box model related styles - "
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:27
+#, no-wrap
+msgid ""
+"**Notes:** The `width` and `height` is not configurable and the size of this "
+"component is fixed to `100x60` (for the design width 750px).\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:28
+#, no-wrap
+msgid "Events"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:31
+msgid "- `click`: check out [common events](../references/common-event.md)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:33
+#, no-wrap
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:36
+msgid ""
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:37
+#, no-wrap
+msgid "Parameters of events' object"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:42
+#, no-wrap
+msgid ""
+"- for `change` event:\n"
+"  - value: the value of the component who dispatched this event, which is "
+"the boolean value ``true`` or ``false``.\n"
+"  - timestamp: the time stamp of the event.\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:43
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/components/switch.md:50
+#, no-wrap
+msgid ""
+"```html\n"
+"<div>\n"
+"  <text>muted:</text>\n"
+"  <switch checked=\"true\"></switch>\n"
+"</div>\n"
+"```\n"
+msgstr ""

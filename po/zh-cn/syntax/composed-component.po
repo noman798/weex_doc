@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:1
+#, no-wrap
+msgid "Composed Component"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:4
+msgid ""
+"if some part of weex file is repeated often , you could create a composed "
+"component represent these part."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:6
+#, no-wrap
+msgid ""
+"you can use `<we-element>` tag to create composed component, the value of "
+"`name` attribute is the component name.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:25
+#, no-wrap
+msgid ""
+"```html\n"
+"<we-element name=\"foo\">\n"
+"  <template>\n"
+"    <container style=\"flex-direction: row;\">\n"
+"      <image src=\"{{image}}\"></image>\n"
+"      <text>{{title}}</text>\n"
+"    </container>\n"
+"  </template>\n"
+"  <script>\n"
+"    module.exports = {\n"
+"      data: {\n"
+"        title: null,\n"
+"        image: null\n"
+"      }\n"
+"    }\n"
+"  </script>\n"
+"</we-element>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:27
+#, no-wrap
+msgid ""
+"Content of `<we-element>` tag is the same as normal weex file, consists of "
+"`<template>`, `<style>` and `<script>` .\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:29
+msgid "Once composed component been defined, you can use it like following."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:47 /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:76
+#, no-wrap
+msgid ""
+"```html\n"
+"<we-element name=\"foo\">\n"
+"  <template>\n"
+"    <container style=\"flex-direction: row;\">\n"
+"      <image src=\"{{image}}\"></image>\n"
+"      <text>{{title}}</text>\n"
+"    </container>\n"
+"  </template>\n"
+"  <script>\n"
+"    module.exports = {\n"
+"      data: {\n"
+"        title: null,\n"
+"        image: null\n"
+"      }\n"
+"    }\n"
+"  </script>\n"
+"</we-element>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:52
+#, no-wrap
+msgid ""
+"<template>\n"
+"  <foo title=\"...\" image=\"...\"></foo>\n"
+"</template>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:53
+#, no-wrap
+msgid "Nesting Component"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:56
+msgid ""
+"Composed component supports nesting. For easy access nesting component, you "
+"should name nesting component with \"parent name and hyphen\" prefix."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:58
+msgid "for example:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:93
+#, no-wrap
+msgid ""
+"<we-element name=\"foo-list\">\n"
+"  <template>\n"
+"    <container>\n"
+"      <text>{{description}}</text>\n"
+"      <foo repeat=\"{{list}}\" title=\"{{text}}\" image=\"{{img}}\"></foo>\n"
+"    </container>\n"
+"  </template>\n"
+"  <script>\n"
+"    module.exports = {\n"
+"      data: {\n"
+"        description: '',\n"
+"        list: []\n"
+"      }\n"
+"    }\n"
+"  </script>\n"
+"</we-element>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:97
+#, no-wrap
+msgid ""
+"<template>\n"
+"  <foo-list list=\"{{list}}\"></foo-list>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:111
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      list: [\n"
+"        {text: '...', img: '...'},\n"
+"        {text: '...', img: '...'},\n"
+"        {text: '...', img: '...'},\n"
+"        ...\n"
+"      ]\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:113
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
+msgid "Every composed component have an independent `<style>` work scope."
+msgstr ""
+
+#. type: Bullet: '- '
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
+msgid ""
+"If child component have `id` attribute, you can access the context of the "
+"child component by `this.$vm(id)`. See more about [find an "
+"element](./id.md)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:118
+msgid ""
+"Please refer to [communicate between components](./comm.md) for more "
+"communication issues."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/composed-component.md:119
+msgid "Next is how to [find an element](./id.md)."
+msgstr ""

@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:1
+#, no-wrap
+msgid "Integrate Weex HTML5 to your project"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:3
+#, no-wrap
+msgid "Intro"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:6
+msgid ""
+"Weex is a extendable cross-platform solution for dynamic programming and "
+"publishing projects, which is for developers to write code once and run the "
+"code everywhere."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:8
+msgid ""
+"The bundle transformed from the source can currently run on android, ios and "
+"web platform. Weex HTML5 is a renderer for weex bundle to run on a webview "
+"or a modern browser etc."
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:9
+#, no-wrap
+msgid "Get Weex HTML5"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:12
+msgid ""
+"Use npm to install the latest version of Weex HTML5, require it in your code "
+"by CommonJS and use it as a npm package. You should require Weex JS "
+"Framework as well, which is as a dependency to Weex HTML5, or you can "
+"require a whole javascript file with path "
+"`./node_modules/weex-html5/dist/bundle.js`. In this way you don't need to "
+"require Weex JS Framework manually anymore since it is already embeded."
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:13
+#, no-wrap
+msgid "Install from npm"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:16
+msgid ""
+"Make sure you get the latest version by `npm install` or `npm update`. For "
+"more informations of npm, please visit the [npm official "
+"site](https://docs.npmjs.com/)."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:21
+msgid "``` npm install weex-jsframework npm install weex-html5 ```"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:22
+#, no-wrap
+msgid "1. require weex-jsframework and weex-html5."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:28
+msgid "``` require('weex-jsframework')  var weex = require('weex-html5')  ```"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:29
+#, no-wrap
+msgid "2. require the total-bundle."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:34
+msgid "``` var weex = require('weex-html5/dist/bundle')  ```"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:35
+#, no-wrap
+msgid "Initialize and run"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:38
+msgid ""
+"You can initialize weex through the API `init`. This method takes a config "
+"object as the first argument to confirm the runtime infomation and "
+"environment. Following parameters can be set by this config object:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:46
+msgid "`appId`: app instance id, can be either a string or a number"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:46
+msgid "`source`: the requested url of weex bundle, or the transformed code it self."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:46
+#, no-wrap
+msgid ""
+"* `loader`: the loader type to load the weex bundle, which value is 'xhr' or "
+"'jsonp' or 'source'.\n"
+"  * `xhr`: load the source (weex bundle url) by XHR\n"
+"  * `jsonp`: load the source bundle by JSONP\n"
+"  * `source`: the source parameter above should be a weex bundle content "
+"(transformed bundle).\n"
+"* `rootId`: the id of the root element. Default value is 'weex'.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:48
+msgid "Here is a example to do the initialzation:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:56
+#, no-wrap
+msgid ""
+"```\n"
+"function weexInit() {\n"
+"  function getUrlParam (key) {\n"
+"    var reg = new RegExp('[?|&]' + key + '=([^&]+)')\n"
+"    var match = location.search.match(reg)\n"
+"    return match && match[1]\n"
+"  }\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:59
+#, no-wrap
+msgid ""
+"  var loader = getUrlParam('loader') || 'xhr'\n"
+"  var page = getUrlParam('page')\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:63
+#, no-wrap
+msgid ""
+"  // jsonp callback name should be specified or be the default\n"
+"  // value 'weexJsonpCallback' if the 'jsonp' loader is used.\n"
+"  var JSONP_CALLBACK_NAME = 'weexJsonpCallback'\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:72
+#, no-wrap
+msgid ""
+"  window.weex.init({\n"
+"    jsonpCallback: JSONP_CALLBACK_NAME,\n"
+"    appId: location.href,\n"
+"    source: page,\n"
+"    loader: loader,\n"
+"    rootId: 'weex'\n"
+"  })\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:75
+msgid "weexInit()  ```"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:76
+#, no-wrap
+msgid "github repo"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-html5.md:78
+#, no-wrap
+msgid "links"
+msgstr ""

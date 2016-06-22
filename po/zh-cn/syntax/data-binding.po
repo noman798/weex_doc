@@ -1,0 +1,406 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:1
+#, no-wrap
+msgid "Data-Binding"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:4
+#, no-wrap
+msgid ""
+"In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` "
+"which are defined in `<script>`. Once data and template is bound, the data "
+"changes will influence the corresponding template content immediately and "
+"automatically.\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:5
+#, no-wrap
+msgid "Binding data path"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:13
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <text style=\"font-size: {{size}}\">{{title}}</text>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:23
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      size: 48,\n"
+"      title: 'Alibaba Weex Team'\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:25
+msgid "The code above will bind the `title` and `size` data field to `template`."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:27
+msgid ""
+"We can also use `.` syntax to bind cascading data structure. Let's look at "
+"the following code snippet:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:34
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <text style=\"font-size: {{title.size}}\">{{title.value}}</text>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:46
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      title: {\n"
+"        size: 48,\n"
+"        value: 'Alibaba Weex Team'\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:47
+#, no-wrap
+msgid "In-template expression"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:50
+msgid "Inside data bindings, Weex supports simply javascript expressions, e.g."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:57
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container style=\"flex-direction: row;\">\n"
+"    <text>{{firstName + ' ' + lastName}}</text>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:67
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      firstName: 'John',\n"
+"      lastName: 'Smith'\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:69
+msgid "The expression will be evaluated in the data scope of current context."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:71
+#, no-wrap
+msgid "**NOTE: EACH BINDING CAN ONLY CONTAIN ONE SINGLE EXPRESSION**\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:72
+#, no-wrap
+msgid "Computed Properties"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:75
+msgid ""
+"According to simple operations, in-template expressions are very "
+"convenient. But if you want to put more logic into the template, you should "
+"use a computed property."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:84
+#, no-wrap
+msgid ""
+"e.g.\n"
+"```html\n"
+"<template>\n"
+"  <container style=\"flex-direction: row;\">\n"
+"    <text>{{fullName}}</text>\n"
+"    <text onclick=\"changeName\"></text>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:96
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      firstName: 'John',\n"
+"      lastName: 'Smith'\n"
+"    },\n"
+"    computed: {\n"
+"      fullName: {\n"
+"        get: function() {\n"
+"          return this.firstName + ' ' + this.lastName\n"
+"        },\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:112
+#, no-wrap
+msgid ""
+"        set: function(v) {\n"
+"          var s = v.split(' ')\n"
+"          this.firstName = s[0]\n"
+"          this.lastName = s[1]\n"
+"        }\n"
+"      }\n"
+"    },\n"
+"    methods: {\n"
+"      changeName: function() {\n"
+"        this.fullName = 'Terry King'\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:114
+msgid ""
+"Here we have declared a computed property fullName. The function we provided "
+"will be used as the getter function for concating firstName and lastName."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:116
+msgid ""
+"Otherwise when you call `changeName` after click, the setter will be invoked "
+"and this.firstName and this.lastName will be updated accordingly."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:118
+#, no-wrap
+msgid ""
+"**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the "
+"execution context -- `this`, we can access both of them.**\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:119
+#, no-wrap
+msgid "Usage of some special attributes in Data-Binding"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:121
+#, no-wrap
+msgid "Styles: `style` or `class`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:124
+msgid "the style of a component can be bind using the `style` attribute:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:130
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <text style=\"font-size: {{size}}; color: {{color}}; ...\">...</text>\n"
+"</template>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:132
+msgid ""
+"while style can also get bound with `class` attribute, multiple classnames "
+"can be split by spaces:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:141
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <text class=\"{{size}}\"></text>\n"
+"    <text class=\"title {{status}}\"></text>\n"
+"  </container>\n"
+"</template>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:143
+msgid ""
+"here if `{{size}}` and `{{status}}` have empty value, then only "
+"`class=\"title\"` will be rendered."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:145
+msgid "[See more about style and class](./style-n-class.md)"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:146
+#, no-wrap
+msgid "Event Handler: `on...`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:149
+msgid ""
+"The event handler is an attribute which name has a prefix `on...`. The other "
+"part of attribute name is event type and the value is event handler name. We "
+"don't need to add mustache around the method name or add parentheses to call "
+"it."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:154
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <text onclick=\"toggle\">Toggle</text>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:165
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    methods: {\n"
+"      toggle: function () {\n"
+"        // todo\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:166
+#, no-wrap
+msgid "`if` & `repeat`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:169
+msgid ""
+"`if` attribute can control the display of a component by a truthy/falsy "
+"value."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:177
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container style=\"flex-direction: column;\">\n"
+"    <text onclick=\"toggle\">Toggle</text>\n"
+"    <image src=\"...\" if=\"{{shown}}\"></image>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:191
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      shown: true\n"
+"    },\n"
+"    methods: {\n"
+"      toggle: function () {\n"
+"        this.shown = !this.shown\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:193
+msgid "We can also use `repeat` attribute to generate a list."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:195
+msgid "[See more about display logic control](./display-logic.md)"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:197
+msgid "Next, let's have a look at [style and class](./style-n-class.md)."
+msgstr ""

@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-06-22 18:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:1
+#, no-wrap
+msgid "Display Logic Control"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:4
+msgid ""
+"There are two attributes for display logic control: `if` and `repeat`. We "
+"can create Weex page structure and effects more flexible with them."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:5
+#, no-wrap
+msgid "`if`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:8
+msgid ""
+"`if` attribute can control the display of a component by a truthy/falsy "
+"value. If the value is truthy, then the component will generated, otherwise "
+"it will be removed."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:16
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <text onclick=\"toggle\">Toggle</text>\n"
+"    <image src=\"...\" if=\"{{shown}}\"></image>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:30
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      shown: true\n"
+"    },\n"
+"    methods: {\n"
+"      toggle: function () {\n"
+"        this.shown = !this.shown\n"
+"      }\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:31
+#, no-wrap
+msgid "`repeat`"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:34
+msgid ""
+"`repeat` statement is just for array rendering. Every item in an array is "
+"also a structed data. This means in `repeat`ed component, you can bind their "
+"item properties directly."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:44
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <container repeat=\"{{list}}\" class=\"{{gender}}\">\n"
+"      <image src=\"{{avatar}}\"></image>\n"
+"      <text>{{nickname}}</text>\n"
+"    </container>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:49 /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:79
+#, no-wrap
+msgid ""
+"<style>\n"
+"  .male {...}\n"
+"  .female {...}\n"
+"</style>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:62
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      list: [\n"
+"        {gender: 'male', nickname: 'Li Lei', avatar: '...'},\n"
+"        {gender: 'female', nickname: 'Han Meimei', avatar: '...'},\n"
+"        ...\n"
+"      ]\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:64
+msgid ""
+"The origin data properties which not belongs to the array will also be "
+"bound:"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:74
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <container repeat=\"{{list}}\" class=\"{{gender}}\">\n"
+"      <image src=\"{{avatar}}\"></image>\n"
+"      <text>{{nickname}} - {{group}}</text>\n"
+"    </container>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:93
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: {\n"
+"      group: '...',\n"
+"      list: [\n"
+"        {gender: 'male', nickname: 'Li Lei', avatar: '...'},\n"
+"        {gender: 'female', nickname: 'Han Meimei', avatar: '...'},\n"
+"        ...\n"
+"      ]\n"
+"    }\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ###
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:94
+#, no-wrap
+msgid "A extension of repeat syntax"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:96
+#, no-wrap
+msgid "use default `$index` for the index of array."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:99 /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:109
+msgid "e.g."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:105
+#, no-wrap
+msgid ""
+"```html\n"
+"<div repeat=\"{{list}}\">\n"
+"  <text>No. {{$index + 1}}</text>\n"
+"<div>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:106
+#, no-wrap
+msgid "specify the key and value of array."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:115
+#, no-wrap
+msgid ""
+"```html\n"
+"<div repeat=\"{{v in list}}\">\n"
+"  <text>No. {{$index + 1}}, {{v.nickname}}</text>\n"
+"</div>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:121
+#, no-wrap
+msgid ""
+"```html\n"
+"<div repeat=\"{{(k, v) in list}}\">\n"
+"  <text>No. {{k + 1}}, {{v.nickname}}</text>\n"
+"</div>\n"
+"```\n"
+msgstr ""
+
+#. type: Title ####
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:122
+#, no-wrap
+msgid "use `track-by` to specify unique attribute"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:125
+msgid ""
+"By default when replacing an array, `repeat` will cause the entire list to "
+"be re-rendered. However you can use `track-by` to specify an unique "
+"attribute as a hint, so that weex can reuse existing elements as much as "
+"possible."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:127
+#, no-wrap
+msgid "**NOTE: DO NOT USE DATA-BINDING SYNTAX FOR `track-by`**\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:139
+#, no-wrap
+msgid ""
+"e.g.\n"
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <container repeat=\"{{list}}\" track-by=\"nickname\" "
+"class=\"{{gender}}\">\n"
+"      <image src=\"{{avatar}}\"></image>\n"
+"      <text>{{nickname}} - {{group}}</text>\n"
+"    </container>\n"
+"  </container>\n"
+"</template>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:141
+msgid ""
+"Later on, when you replace the array including an item of the same nickname, "
+"it knows it can reuse the existing scope and DOM elements associated with "
+"the same nickname."
+msgstr ""
+
+#. type: Title ##
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:142
+#, no-wrap
+msgid "Omitted mustach wrapper"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:145
+msgid ""
+"Particularly for the `if` and `repeat` attribute, the mustache wrapper in "
+"values could be omitted: just the same as data-binding syntax."
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:153
+#, no-wrap
+msgid ""
+"```html\n"
+"<template>\n"
+"  <container>\n"
+"    <text if=\"shown\">Hello</text>\n"
+"    <text if=\"{{shown}}\">Hello</text>\n"
+"  </container>\n"
+"</template>\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:160
+#, no-wrap
+msgid ""
+"<script>\n"
+"  module.exports = {\n"
+"    data: function () {return {shown: true}}\n"
+"  }\n"
+"</script>\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:162
+#, no-wrap
+msgid "The two `<text>` components are both displayed.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:163
+msgid "Next is [render logic control](./render-logic.md)."
+msgstr ""
