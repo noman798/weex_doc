@@ -1,19 +1,19 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:1
 #, no-wrap
 msgid "Find an Element"
-msgstr ""
+msgstr "找到一个元素 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:4
 msgid ""
 "In Weex, we may set the `id` property for a particular element, just as "
 "unique identification of a particular element."
-msgstr ""
+msgstr "在weex，我们可以设置为一个特定的元素`id`财产，就像一个特定元素的唯一标识。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:6
@@ -21,6 +21,8 @@ msgid ""
 "`id` can be used by `this.$(id)` to find an element with a certain id. Take "
 "`$scrollTo()` For example:"
 msgstr ""
+"`id`` can be used by ``this.$(id)`` to find an element with a certain id. "
+"Take ``$scrollTo()`例如： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:28
@@ -56,6 +58,9 @@ msgid ""
 "control](./display-logic.md), and ensure repetitive elements with different "
 "`id`:"
 msgstr ""
+"`id`` can also work with ``repeat`` attribute [See more about display "
+"logical control](./display-logic.md), and ensure repetitive elements with "
+"different ``id`： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:55
@@ -64,8 +69,7 @@ msgid ""
 "```\n"
 "  <template>\n"
 "    <container>\n"
-"      <image id=\"{{imgId}}\" src=\"{{imgUrl}}\" onclick=\"getImageId\" "
-"repeat=\"{{images}}\"></image>\n"
+"      <image id=\"{{imgId}}\" src=\"{{imgUrl}}\" onclick=\"getImageId\" repeat=\"{{images}}\"></image>\n"
 "    </container>\n"
 "  </template>\n"
 "  <script>\n"
@@ -94,8 +98,9 @@ msgid ""
 "Additionally, in the [composed components](./composed-component.md), we can "
 "get the corresponding sub component through `this.$vm(id)` APIs."
 msgstr ""
+"此外，在[](./composed-component.md)组成成分，我们可以通过`this.$vm(id)`API得到相应的子组件。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:58
 msgid "Next is how to [send messages between composed components](./comm.md)."
-msgstr ""
+msgstr "二是如何[发送](./comm.md)组成成分之间的消息。 ???"
