@@ -91,7 +91,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:49 /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:79
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:49
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:79
 #, no-wrap
 msgid ""
 "<style>\n"
@@ -121,8 +122,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:64
 msgid ""
-"The origin data properties which not belongs to the array will also be "
-"bound:"
+"The origin data properties which not belongs to the array will also be bound:"
 msgstr ""
 
 #. type: Plain text
@@ -172,7 +172,8 @@ msgid "use default `$index` for the index of array."
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:99 /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:109
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:99
+#: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:109
 msgid "e.g."
 msgstr ""
 
@@ -244,8 +245,7 @@ msgid ""
 "```html\n"
 "<template>\n"
 "  <container>\n"
-"    <container repeat=\"{{list}}\" track-by=\"nickname\" "
-"class=\"{{gender}}\">\n"
+"    <container repeat=\"{{list}}\" track-by=\"nickname\" class=\"{{gender}}\">\n"
 "      <image src=\"{{avatar}}\"></image>\n"
 "      <text>{{nickname}} - {{group}}</text>\n"
 "    </container>\n"

@@ -22,7 +22,8 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:10
-msgid "```javascript var gulp = require('gulp')  var weex = require('gulp-weex')"
+msgid ""
+"```javascript var gulp = require('gulp')  var weex = require('gulp-weex')"
 msgstr ""
 
 #. type: Plain text

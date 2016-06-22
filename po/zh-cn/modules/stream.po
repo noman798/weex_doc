@@ -46,8 +46,7 @@ msgid ""
 "  * `url`*(string)*: the request url.\n"
 "  * `header`*(object)*: the HTTP request header.\n"
 "  * `body`*(string)*: the HTTP body.\n"
-"* `callback`*(function)*: A callback function whose argument is the response "
-"string of the request.\n"
+"* `callback`*(function)*: A callback function whose argument is the response string of the request.\n"
 msgstr ""
 
 #. type: Title ###

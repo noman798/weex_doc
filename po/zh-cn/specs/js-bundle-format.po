@@ -22,8 +22,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:8
 msgid ""
-"A JS Bundle is actually a JavaScript file which follows **ES5** "
-"standard. The code is organized by several modules with AMD-like format:"
+"A JS Bundle is actually a JavaScript file which follows **ES5** standard. "
+"The code is organized by several modules with AMD-like format:"
 msgstr ""
 
 #. type: Plain text
@@ -85,8 +85,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:36
 msgid ""
-"As the sample above, the component name should be hyphenated (a-z, 0-9, "
-"\"-\"). Other characters are not allowed."
+"As the sample above, the component name should be hyphenated (a-z, 0-9, \"-"
+"\"). Other characters are not allowed."
 msgstr ""
 
 #. type: Plain text
@@ -106,8 +106,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:42
 msgid ""
 "A module of composed component contains 3 parts: whole options definition, "
-"additional template option definition and additional style option "
-"definition."
+"additional template option definition and additional style option definition."
 msgstr ""
 
 #. type: Plain text
@@ -115,10 +114,10 @@ msgstr ""
 msgid ""
 "- whole options is a piece of JavaScript code to put component options "
 "(except `template` option and `style` option) into `module.exports` - "
-"`template` option is a piece of JSON-like object assigned to "
-"`module.exports.template` which describes the display structure of this "
-"component - `style` option is a piece of JSON object assigned to "
-"`module.exports.style` which describes the reusable styles in this component"
+"`template` option is a piece of JSON-like object assigned to `module.exports."
+"template` which describes the display structure of this component - `style` "
+"option is a piece of JSON object assigned to `module.exports.style` which "
+"describes the reusable styles in this component"
 msgstr ""
 
 #. type: Plain text
@@ -224,7 +223,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:69 /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:90
+#: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:69
+#: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:90
 #, no-wrap
 msgid "**Corresponding Keys to Weex Transformer:**\n"
 msgstr ""
@@ -245,8 +245,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:81
 msgid ""
-"All tag names, attr names are case-insensitive and transformed to "
-"lower-cased. But the attr values are case-sensitive."
+"All tag names, attr names are case-insensitive and transformed to lower-"
+"cased. But the attr values are case-sensitive."
 msgstr ""
 
 #. type: Title ###

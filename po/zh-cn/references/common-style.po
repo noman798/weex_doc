@@ -21,7 +21,8 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:8
-msgid "![box model](http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png)"
+msgid ""
+"![box model](http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png)"
 msgstr ""
 
 #. type: Plain text
@@ -53,8 +54,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:42
 #, no-wrap
 msgid ""
-"- padding (space around content, between element content and the element "
-"border)\n"
+"- padding (space around content, between element content and the element border)\n"
 "  - padding-left\n"
 "  - padding-right\n"
 "  - padding-top\n"
@@ -76,8 +76,7 @@ msgid ""
 "    - border-top-color\n"
 "    - border-right-color\n"
 "    - border-bottom-color\n"
-"  - border-radius  ( rounded borders to elements , default value is 0 "
-"meaning right angle )\n"
+"  - border-radius  ( rounded borders to elements , default value is 0 meaning right angle )\n"
 "    - border-bottom-left-radius\n"
 "    - border-bottom-right-radius\n"
 "    - border-top-left-radius\n"
@@ -87,10 +86,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:44
 #, no-wrap
-msgid ""
-"Notes: The rule of border-radius for a specific corner such as "
-"`border-top-left-radius` is not currently supported for component `<image>` "
-"and `<text>`.\n"
+msgid "Notes: The rule of border-radius for a specific corner such as `border-top-left-radius` is not currently supported for component `<image>` and `<text>`.\n"
 msgstr ""
 
 #. type: Plain text
@@ -113,8 +109,7 @@ msgid ""
 "```html\n"
 "<template>\n"
 "  <div>\n"
-"    <image src=\"...\" style=\"width: 400; height: 200; margin-left: "
-"20;\"></image>\n"
+"    <image src=\"...\" style=\"width: 400; height: 200; margin-left: 20;\"></image>\n"
 "  </div>\n"
 "</template>\n"
 "```\n"
@@ -146,9 +141,9 @@ msgstr ""
 msgid ""
 "Notice that the old version of flexbox specification has differences with "
 "the new ones, such as whether or not to support wrapping. This is described "
-"at w3c's working drafts, and you should notice the differences among "
-"them. Also notice that the old version is only supported below the 4.4 "
-"version of android."
+"at w3c's working drafts, and you should notice the differences among them. "
+"Also notice that the old version is only supported below the 4.4 version of "
+"android."
 msgstr ""
 
 #. type: Title ###
@@ -178,24 +173,26 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:74
-msgid "- `justify-content`: `flex-start` | `flex-end` | `center` | `space-between`"
+msgid ""
+"- `justify-content`: `flex-start` | `flex-end` | `center` | `space-between`"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:76
 msgid ""
 "The justify-content property horizontally aligns the flexible container's "
-"items when the items do not use all available space on the "
-"main-axis. Default value is `flex-start` meaning the flex items are "
-"positioned at the beginning of the container. `flex-end` means the items are "
-"positioned at the end of the container. `center` means the items are "
-"positioned at the center of the container. `space-between` means the items "
-"are positioned with space between the lines."
+"items when the items do not use all available space on the main-axis. "
+"Default value is `flex-start` meaning the flex items are positioned at the "
+"beginning of the container. `flex-end` means the items are positioned at the "
+"end of the container. `center` means the items are positioned at the center "
+"of the container. `space-between` means the items are positioned with space "
+"between the lines."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:78
-msgid "![justify-content](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)"
+msgid ""
+"![justify-content](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)"
 msgstr ""
 
 #. type: Plain text
@@ -208,16 +205,18 @@ msgstr ""
 msgid ""
 "The align-items property vertically aligns the flexible container's items "
 "when the items do not use all available space on the cross-axis. Default "
-"value is `stretch` meaning the items are stretched to fit the "
-"container. `flex-start` means the items are positioned at the top of the "
-"container; `flex-end` means the items are positioned at the bottom of the "
-"container; `center` means items are positioned at the center of the "
-"container (vertically)."
+"value is `stretch` meaning the items are stretched to fit the container. "
+"`flex-start` means the items are positioned at the top of the container; "
+"`flex-end` means the items are positioned at the bottom of the container; "
+"`center` means items are positioned at the center of the container "
+"(vertically)."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:84
-msgid "![align-items](http://gtms02.alicdn.com/tps/i2/TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)"
+msgid ""
+"![align-items](http://gtms02.alicdn.com/tps/i2/"
+"TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)"
 msgstr ""
 
 #. type: Title ###
@@ -245,7 +244,8 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: /home/dev/download/weex_doc/weex/doc/references/common-style.md:92 /home/dev/download/weex_doc/weex/doc/references/common-style.md:144
+#: /home/dev/download/weex_doc/weex/doc/references/common-style.md:92
+#: /home/dev/download/weex_doc/weex/doc/references/common-style.md:144
 #, no-wrap
 msgid "Examples"
 msgstr ""
@@ -332,12 +332,12 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:138
 msgid ""
-"`relative` means the item is positioned relative to its normal "
-"position. `absolute` means the item is positioned relative to its "
-"container. `fixed` keeps the elements position fixed when the page is "
-"scrolling. `sticky` keeps elements positioned inside the viewport as "
-"\"stuck\" at the top or \"relative\" at its original place depending on "
-"whether does it about to scroll out of the view."
+"`relative` means the item is positioned relative to its normal position. "
+"`absolute` means the item is positioned relative to its container. `fixed` "
+"keeps the elements position fixed when the page is scrolling. `sticky` keeps "
+"elements positioned inside the viewport as \"stuck\" at the top or \"relative"
+"\" at its original place depending on whether does it about to scroll out of "
+"the view."
 msgstr ""
 
 #. type: Plain text
@@ -363,8 +363,7 @@ msgid ""
 "      <image src=\"...\" style=\"position: sticky; ...\"></image>\n"
 "    </div>\n"
 "    <div style=\"height: 3000;\">\n"
-"      <image src=\"...\" style=\"position: absolute; top: 50; left: 50; "
-"...\"></image>\n"
+"      <image src=\"...\" style=\"position: absolute; top: 50; left: 50; ...\"></image>\n"
 "    </div>\n"
 "  </div>\n"
 "</template>\n"
@@ -416,7 +415,8 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:178
-msgid "These up-to-down steps may help you to plan the whole style of weex pages."
+msgid ""
+"These up-to-down steps may help you to plan the whole style of weex pages."
 msgstr ""
 
 #. type: Bullet: '1. '

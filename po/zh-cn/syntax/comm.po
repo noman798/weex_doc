@@ -26,7 +26,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8 /home/dev/download/weex_doc/weex/doc/syntax/comm.md:100 /home/dev/download/weex_doc/weex/doc/syntax/comm.md:174
+#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8
+#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:100
+#: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:174
 msgid "eg:"
 msgstr ""
 
@@ -75,8 +77,7 @@ msgid ""
 "  module.exports = {\n"
 "    created: function () {\n"
 "      this.$on('notify', function(e) {\n"
-"        //  when <foo> image tag  be clicked ,the function will be "
-"executing.\n"
+"        //  when <foo> image tag  be clicked ,the function will be executing.\n"
 "        // e.detail is  `{a: 1}`\n"
 "      })\n"
 "    }\n"
@@ -267,8 +268,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:172
 msgid ""
-"siblings components can using common parent as bridge for passing "
-"information"
+"siblings components can using common parent as bridge for passing information"
 msgstr ""
 
 #. type: Plain text

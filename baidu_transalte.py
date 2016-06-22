@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 import polib
-from config import LANG, PATH
-from _util import walk_md
+from pyutil.config import LANG, PATH
+from pyutil._util import walk_md
 from os.path import join
-from _baidu import translate
+from pyutil._baidu import translate
 
 
 def translate_po(lang, po):

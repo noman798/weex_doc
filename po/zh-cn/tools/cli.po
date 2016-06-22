@@ -39,8 +39,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex "
-"foo/bar/your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
+"your_next_best_weex_script_file.we [options]"
 msgstr ""
 
 #. type: Plain text
@@ -48,12 +48,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "Options:\n"
-"  --qr    display QR code for Weex Playground app, default action.               "
-"\n"
-"  -o      transform weex JS bundle only, specify bundle file name using the "
-"option\n"
-"  -s      start a http file server, weex .we file will be transformed on the "
-"server. specify local root path using the option\n"
+"  --qr    display QR code for Weex Playground app, default action.               \n"
+"  -o      transform weex JS bundle only, specify bundle file name using the option\n"
+"  -s      start a http file server, weex .we file will be transformed on the server. specify local root path using the option\n"
 "  --help  Show help                                                       \n"
 "```\n"
 msgstr ""

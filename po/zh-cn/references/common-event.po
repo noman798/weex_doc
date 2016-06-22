@@ -24,13 +24,13 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:8
 #, no-wrap
-msgid ""
-"**Notes:** The component `input` and `switch` do not currently support this "
-"event, please use `change` or `input` event instead.\n"
+msgid "**Notes:** The component `input` and `switch` do not currently support this event, please use `change` or `input` event instead.\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10 /home/dev/download/weex_doc/weex/doc/references/common-event.md:20 /home/dev/download/weex_doc/weex/doc/references/common-event.md:31
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:20
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:31
 #, no-wrap
 msgid "**event object**\n"
 msgstr ""
@@ -46,7 +46,9 @@ msgid "`target`: The target component where the event is triggered"
 msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14 /home/dev/download/weex_doc/weex/doc/references/common-event.md:25 /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`timestamp`: Timestamp when event is triggered."
 msgstr ""
 

@@ -32,7 +32,8 @@ msgid "push(options, callback)"
 msgstr ""
 
 #. type: Title ####
-#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:11 /home/dev/download/weex_doc/weex/doc/modules/navigator.md:35
+#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:11
+#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:35
 #, no-wrap
 msgid "Arguments"
 msgstr ""
@@ -43,14 +44,13 @@ msgstr ""
 msgid ""
 "* `options`*(object)*: some options.\n"
 "  * `url`*(stirng)*: The URL of the weex page to push.\n"
-"  * `animated`*(string)*:  `true`if the weex page is push through animation, "
-"otherwise, `false`.\n"
-"* `callback`*(object)*: the callback function after executing this action.  "
-"\n"
+"  * `animated`*(string)*:  `true`if the weex page is push through animation, otherwise, `false`.\n"
+"* `callback`*(object)*: the callback function after executing this action.  \n"
 msgstr ""
 
 #. type: Title #####
-#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:18 /home/dev/download/weex_doc/weex/doc/modules/navigator.md:40
+#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:18
+#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:40
 #, no-wrap
 msgid "Example"
 msgstr ""
@@ -82,10 +82,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* `options`*(object)*: some options.\n"
-"  * `animated`*(string)*:  `true` if the weex page is pop through animation; "
-"otherwise, `false`.\n"
-"* `callback`*(object)*: the callback function after executing this action.  "
-"\n"
+"  * `animated`*(string)*:  `true` if the weex page is pop through animation; otherwise, `false`.\n"
+"* `callback`*(object)*: the callback function after executing this action.  \n"
 msgstr ""
 
 #. type: Plain text

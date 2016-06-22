@@ -44,17 +44,10 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:16
 #, no-wrap
 msgid ""
-"- `tab-items`: This attribute contains an array of tabitem objects, each of "
-"which corresponds to the radio-style selection. The order of the items in "
-"this attribute corresponds to the order of the items onscreen. You can "
-"configure the appearance of tabbar by setting tabitem. Each tabitem "
-"properties can be described as follows.\n"
-"  + index: &lt;integer&gt; This attribute must be set to identify the order "
-"of the item.\n"
-"  + title: &lt;string&gt; The item’s title. If null, a title is not "
-"displayed.\n"
-"  + titleColor: &lt;color&gt;The item’s titleColor. Default is black color.  "
-"\n"
+"- `tab-items`: This attribute contains an array of tabitem objects, each of which corresponds to the radio-style selection. The order of the items in this attribute corresponds to the order of the items onscreen. You can configure the appearance of tabbar by setting tabitem. Each tabitem properties can be described as follows.\n"
+"  + index: &lt;integer&gt; This attribute must be set to identify the order of the item.\n"
+"  + title: &lt;string&gt; The item’s title. If null, a title is not displayed.\n"
+"  + titleColor: &lt;color&gt;The item’s titleColor. Default is black color.  \n"
 msgstr ""
 
 #. type: Bullet: '  + '
@@ -80,17 +73,15 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
 #, no-wrap
 msgid ""
-"  + icon: &lt;string&gt;This is a special attribute. Be careful, You need to "
-"set the property even if it is empty.\n"
-"   + visibility: &lt;string&gt;`visible` | `hidden`. This attribute must be "
-"set to identify the display status. Default value is `visible`.\n"
+"  + icon: &lt;string&gt;This is a special attribute. Be careful, You need to set the property even if it is empty.\n"
+"   + visibility: &lt;string&gt;`visible` | `hidden`. This attribute must be set to identify the display status. Default value is `visible`.\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:24
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr ""
 
 #. type: Title ###
@@ -102,17 +93,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:28
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:33
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -137,9 +126,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:41
 msgid ""
-"`require('weex-components')` should be used with webpack, see "
-"[example](https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-demo.we) "
-"for more detail."
+"`require('weex-components')` should be used with webpack, see [example]"
+"(https://github.com/alibaba/weex/blob/example/examples/component/tabbar/"
+"tabbar-demo.we) for more detail."
 msgstr ""
 
 #. type: Plain text

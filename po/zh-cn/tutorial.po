@@ -48,7 +48,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/tutorial.md:22 /home/dev/download/weex_doc/weex/doc/tutorial.md:98
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:22
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:98
 #, no-wrap
 msgid ""
 "<style>\n"
@@ -58,7 +59,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/tutorial.md:25 /home/dev/download/weex_doc/weex/doc/tutorial.md:101
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:25
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:101
 #, no-wrap
 msgid ""
 "</style>\n"
@@ -75,9 +77,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:29
 msgid ""
-"The Weex CLI toolchain is Node JS based, so you need to install "
-"[Node](https://nodejs.org/en/download/stable/) first. Then you can install "
-"Weex CLI program using Node JS npm command."
+"The Weex CLI toolchain is Node JS based, so you need to install [Node]"
+"(https://nodejs.org/en/download/stable/) first. Then you can install Weex "
+"CLI program using Node JS npm command."
 msgstr ""
 
 #. type: Plain text
@@ -103,18 +105,12 @@ msgstr ""
 #, no-wrap
 msgid ""
 "Options:\n"
-"  --qr    display QR code for native runtime                           "
-"[boolean]\n"
-"  -o      transform weex JS bundle only, specify bundle file name using "
-"the\n"
-"          option                                 [default: \"no JSBundle "
-"output\"]\n"
-"  -s      start a http file server, weex .we file will be transformed on "
-"the\n"
-"          server, specify local root path using the option     [default: "
-"false]\n"
-"  --help  Show help                                                    "
-"[boolean]\n"
+"  --qr    display QR code for native runtime                           [boolean]\n"
+"  -o      transform weex JS bundle only, specify bundle file name using the\n"
+"          option                                 [default: \"no JSBundle output\"]\n"
+"  -s      start a http file server, weex .we file will be transformed on the\n"
+"          server, specify local root path using the option     [default: false]\n"
+"  --help  Show help                                                    [boolean]\n"
 "```\n"
 msgstr ""
 
@@ -130,29 +126,27 @@ msgstr ""
 #, no-wrap
 msgid ""
 "```\n"
-"weex tech_list.we   // Weex H5 renderer is not released , so , the commond "
-"not works now\n"
+"weex tech_list.we   // Weex H5 renderer is not released , so , the commond not works now\n"
 "```\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:55
-msgid "A browser window will open automatically to display something like below"
+msgid ""
+"A browser window will open automatically to display something like below"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:57
 msgid ""
-"![weex html5 "
-"render](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
+"![weex html5 render](http://gtms02.alicdn.com/tps/i2/"
+"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:60
 #, no-wrap
-msgid ""
-"**Weex H5 renderer is not released , So please using Weex Playground App "
-"based preview for a while**\n"
+msgid "**Weex H5 renderer is not released , So please using Weex Playground App based preview for a while**\n"
 msgstr ""
 
 #. type: Title ##
@@ -172,13 +166,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:66
 #, no-wrap
-msgid ""
-"Template is the skeleton that give weex structure, it composed by tags which "
-"surround content and apply meaning to it. Weex has two type of tag, opening "
-"tag & closing tag, we call every couple  of opening tag &  closing tag a "
-"Weex tag. Tag have *attributes*,  different attribute have different "
-"meaning,   class attribute makes it possible to define equal styles for "
-"multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
+msgid "Template is the skeleton that give weex structure, it composed by tags which surround content and apply meaning to it. Weex has two type of tag, opening tag & closing tag, we call every couple  of opening tag &  closing tag a Weex tag. Tag have *attributes*,  different attribute have different meaning,   class attribute makes it possible to define equal styles for multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
 msgstr ""
 
 #. type: Plain text
@@ -231,7 +219,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/tutorial.md:89 /home/dev/download/weex_doc/weex/doc/tutorial.md:145
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:89
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:145
 #, no-wrap
 msgid ""
 "       <text class=\"title\">JavaScript</text>\n"
@@ -245,7 +234,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/tutorial.md:94 /home/dev/download/weex_doc/weex/doc/tutorial.md:150
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:94
+#: /home/dev/download/weex_doc/weex/doc/tutorial.md:150
 #, no-wrap
 msgid ""
 "       <text class=\"title\">Objective C</text>\n"
@@ -275,8 +265,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:112
 msgid ""
-"![weex "
-"qr](http://gtms01.alicdn.com/tps/i1/TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
+"![weex qr](http://gtms01.alicdn.com/tps/i1/"
+"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
 msgstr ""
 
 #. type: Plain text
@@ -294,8 +284,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
 msgid ""
-"![list1 in "
-"Android](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
+"![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
+"TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 msgstr ""
 
 #. type: Plain text
@@ -316,11 +306,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:123
 #, no-wrap
-msgid ""
-"Beyond writing basic tag by yourself, Weex provide  a lot of build-in "
-"components.   For example,  Slider is common to many App/Mobile Web, So Weex "
-"include  a  build-in  Slider  and you can easily using the component in your "
-"script.  Let's open tech_list.we and update it's content like below.\n"
+msgid "Beyond writing basic tag by yourself, Weex provide  a lot of build-in components.   For example,  Slider is common to many App/Mobile Web, So Weex include  a  build-in  Slider  and you can easily using the component in your script.  Let's open tech_list.we and update it's content like below.\n"
 msgstr ""
 
 #. type: Plain text
@@ -330,10 +316,8 @@ msgid ""
 "```html\n"
 "<template>\n"
 "  <div style=\"flex-direction: column;\">\n"
-"    <slider class=\"slider\" interval=\"{{intervalValue}}\" "
-"auto-play=\"{{isAutoPlay}}\" >\n"
-"      <div class=\"slider-pages\" repeat=\"{{itemList}}\" "
-"onclick=\"goWeexSite\" >\n"
+"    <slider class=\"slider\" interval=\"{{intervalValue}}\" auto-play=\"{{isAutoPlay}}\" >\n"
+"      <div class=\"slider-pages\" repeat=\"{{itemList}}\" onclick=\"goWeexSite\" >\n"
 "        <image class=\"thumb\" src=\"{{pictureUrl}}\"></image>\n"
 "        <text class=\"title\">{{title}}</text>\n"
 "      </div>\n"
@@ -419,22 +403,21 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:198
 msgid ""
-"![slider "
-"demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000.gif)"
+"![slider demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
+"XUXXX-596-1000.gif)"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:201
 msgid ""
-"More information about Slider Component can be found "
-"[here](components/slider.md)."
+"More information about Slider Component can be found [here](components/"
+"slider.md)."
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:202
 msgid ""
 "Just as previous example, the slider can be rendering in native, easily in "
-"Weex playground,also in your App. Please refer [the "
-"document](advanced/integrate-to-android.md) for integrating Weex into your "
-"App."
+"Weex playground,also in your App. Please refer [the document](advanced/"
+"integrate-to-android.md) for integrating Weex into your App."
 msgstr ""

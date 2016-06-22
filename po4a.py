@@ -4,8 +4,8 @@ import envoy
 from os.path import join
 from shutil import rmtree, copytree
 from distutils.dir_util import mkpath
-from config import LANG, PATH, PATH_DOC
-from _util import walk_md
+from pyutil.config import LANG, PATH, PATH_DOC
+from pyutil._util import walk_md
 
 
 def print_exist(*args):

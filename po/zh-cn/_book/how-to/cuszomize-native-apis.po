@@ -12,11 +12,8 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/_book/how-to/cuszomize-native-apis.md:5
 #, no-wrap
 msgid ""
-"Weex SDK provides only rendering capabilities, rather than have other "
-"capabilities, such as network, picture, and URL redirection. If you want the "
-"these features, you need to implement it.   \n"
-"The example below will describe how to extend weex with native logic or "
-"'bridge' your existed native code.\n"
+"Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.   \n"
+"The example below will describe how to extend weex with native logic or 'bridge' your existed native code.\n"
 msgstr ""
 
 #. type: Title ##
@@ -37,8 +34,7 @@ msgstr ""
 msgid ""
 "```java\n"
 "public class URLHelperModule extends WXModule{\n"
-"\tprivate static final String "
-"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+"\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 "\t@WXModuleAnno\n"
 "\tpublic void openURL(String url){\n"
 "\t\tif (TextUtils.isEmpty(url)) {\n"
@@ -55,7 +51,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/_book/how-to/cuszomize-native-apis.md:27 /home/dev/download/weex_doc/weex/doc/_book/how-to/cuszomize-native-apis.md:64
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/cuszomize-native-apis.md:27
+#: /home/dev/download/weex_doc/weex/doc/_book/how-to/cuszomize-native-apis.md:64
 msgid "```"
 msgstr ""
 
@@ -83,8 +80,7 @@ msgid ""
 "\t\t//callback to javascript \n"
 "\t\tMap<String, Object> result = new HashMap<String, Object>();\n"
 "\t\tresult.put(\"ts\", System.currentTimeMillis());\n"
-"\t\tWXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId(), "
-"callbackId, result);\n"
+"\t\tWXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId(), callbackId, result);\n"
 "\t}\n"
 "}\n"
 "```\n"
@@ -102,8 +98,7 @@ msgstr ""
 msgid ""
 "```\n"
 "try {\n"
-"\t WXSDKEngine.registerModule(\"myURL\", URLHelperModule.class);//'myURL' is "
-"the name you'll use in javascript\n"
+"\t WXSDKEngine.registerModule(\"myURL\", URLHelperModule.class);//'myURL' is the name you'll use in javascript\n"
 "\t} catch (WXException e) {\n"
 "\t   WXLogUtils.e(e.getMessage());\n"
 "\t}\n"

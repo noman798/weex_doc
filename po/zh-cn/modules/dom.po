@@ -59,6 +59,6 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:23
 msgid ""
-"```javascript var dom = require('@weex-module/dom'); "
-"dom.scrollTo(this.$el('someId'), {offset: 10}); ```"
+"```javascript var dom = require('@weex-module/dom'); dom.scrollTo(this."
+"$el('someId'), {offset: 10}); ```"
 msgstr ""

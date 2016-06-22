@@ -3,7 +3,7 @@ import urllib.parse
 import requests
 import random
 try:
-    from _private import BAIDU
+    from ._private import BAIDU
 except:
     print("_private.py not exist ; please copy _private.py.example to _private.py , then edit this file add baidu transalte key")
 

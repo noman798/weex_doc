@@ -19,8 +19,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:6
 msgid ""
-"![weex "
-"demo](http://gtms01.alicdn.com/tps/i1/TB1U.vZMpXXXXakXXXXfoKlVpXX-278-474.gif)"
+"![weex demo](http://gtms01.alicdn.com/tps/i1/TB1U."
+"vZMpXXXXakXXXXfoKlVpXX-278-474.gif)"
 msgstr ""
 
 #. type: Title ##
@@ -32,6 +32,6 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:9
 msgid ""
-"See [list "
-"example](https://github.com/alibaba/weex/tree/master/examples/listDemo.we)."
+"See [list example](https://github.com/alibaba/weex/tree/master/examples/"
+"listDemo.we)."
 msgstr ""

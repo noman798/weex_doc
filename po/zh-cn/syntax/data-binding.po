@@ -11,11 +11,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:4
 #, no-wrap
-msgid ""
-"In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` "
-"which are defined in `<script>`. Once data and template is bound, the data "
-"changes will influence the corresponding template content immediately and "
-"automatically.\n"
+msgid "In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` which are defined in `<script>`. Once data and template is bound, the data changes will influence the corresponding template content immediately and automatically.\n"
 msgstr ""
 
 #. type: Title ##
@@ -53,7 +49,8 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:25
-msgid "The code above will bind the `title` and `size` data field to `template`."
+msgid ""
+"The code above will bind the `title` and `size` data field to `template`."
 msgstr ""
 
 #. type: Plain text
@@ -150,9 +147,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:75
 msgid ""
-"According to simple operations, in-template expressions are very "
-"convenient. But if you want to put more logic into the template, you should "
-"use a computed property."
+"According to simple operations, in-template expressions are very convenient. "
+"But if you want to put more logic into the template, you should use a "
+"computed property."
 msgstr ""
 
 #. type: Plain text
@@ -224,9 +221,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:118
 #, no-wrap
-msgid ""
-"**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the "
-"execution context -- `this`, we can access both of them.**\n"
+msgid "**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the execution context -- `this`, we can access both of them.**\n"
 msgstr ""
 
 #. type: Title ##
@@ -281,8 +276,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:143
 msgid ""
-"here if `{{size}}` and `{{status}}` have empty value, then only "
-"`class=\"title\"` will be rendered."
+"here if `{{size}}` and `{{status}}` have empty value, then only `class="
+"\"title\"` will be rendered."
 msgstr ""
 
 #. type: Bullet: '* '

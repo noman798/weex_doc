@@ -1,5 +1,5 @@
 from os import walk
-from config import PATH_DOC
+from .config import PATH_DOC
 
 _LEN_PREFIX = len(PATH_DOC) + 1
 

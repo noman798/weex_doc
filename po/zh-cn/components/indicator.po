@@ -65,17 +65,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:22
 #, no-wrap
-msgid ""
-"**common styles**: check out the [common "
-"styles](../references/common-attrs.md)\n"
+msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:27
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, "
-"``background-color`` etc."
+"support ``position`` related styles - support ``opacity``, ``background-"
+"color`` etc."
 msgstr ""
 
 #. type: Title ###
@@ -87,17 +85,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:31
 #, no-wrap
-msgid ""
-"**common events**: check out the [common "
-"events](../references/common-event.md)\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
 msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:34
 msgid ""
-"- support `click` event. Check out [common "
-"events](../references/common-event.md)  - support `appear` / `disappear` "
-"event. Check out [common events](../references/common-event.md)"
+"- support `click` event. Check out [common events](../references/common-"
+"event.md)  - support `appear` / `disappear` event. Check out [common events]"
+"(../references/common-event.md)"
 msgstr ""
 
 #. type: Title ###
@@ -134,8 +130,7 @@ msgstr ""
 msgid ""
 "<style>\n"
 "  .img {width: 150; height: 150;}\n"
-"  .title {flex: 1; color: #ff0000; font-size: 48; font-weight: bold; "
-"background-color: #eeeeee;}\n"
+"  .title {flex: 1; color: #ff0000; font-size: 48; font-weight: bold; background-color: #eeeeee;}\n"
 "  .slider {\n"
 "    flex-direction: row;\n"
 "    margin: 18;\n"
@@ -168,12 +163,9 @@ msgid ""
 "  module.exports = {\n"
 "    data: {\n"
 "      itemList: [\n"
-"        {itemId: '520421163634', title: 'item1', pictureUrl: "
-"'https://gd2.alicdn.com/bao/uploaded/i2/T14H1LFwBcXXXXXXXX_!!0-item_pic.jpg'},\n"
-"        {itemId: '522076777462', title: 'item2', pictureUrl: "
-"'https://gd1.alicdn.com/bao/uploaded/i1/TB1PXJCJFXXXXciXFXXXXXXXXXX_!!0-item_pic.jpg'},\n"
-"        {itemId: '522076777462', title: 'iten3', pictureUrl: "
-"'https://gd3.alicdn.com/bao/uploaded/i3/TB1x6hYLXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg'}\n"
+"        {itemId: '520421163634', title: 'item1', pictureUrl: 'https://gd2.alicdn.com/bao/uploaded/i2/T14H1LFwBcXXXXXXXX_!!0-item_pic.jpg'},\n"
+"        {itemId: '522076777462', title: 'item2', pictureUrl: 'https://gd1.alicdn.com/bao/uploaded/i1/TB1PXJCJFXXXXciXFXXXXXXXXXX_!!0-item_pic.jpg'},\n"
+"        {itemId: '522076777462', title: 'iten3', pictureUrl: 'https://gd3.alicdn.com/bao/uploaded/i3/TB1x6hYLXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg'}\n"
 "      ]\n"
 "    }\n"
 "  }\n"
