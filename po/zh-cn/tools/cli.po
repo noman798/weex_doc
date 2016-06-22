@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title =
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
@@ -39,11 +39,9 @@ msgstr "快 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
-"your_next_best_weex_script_file.we [options]"
-msgstr ""
-"热加载````使用长文件预览工具：快富/酒吧/ your_next_best_weex_script_file.we "
-"[选项] ???"
+"Weex file preview tool with hot reload ``` Usage: weex "
+"foo/bar/your_next_best_weex_script_file.we [options]"
+msgstr "热加载````使用长文件预览工具：快富/酒吧/ your_next_best_weex_script_file.we [选项] ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25
@@ -57,11 +55,11 @@ msgid ""
 "```\n"
 msgstr ""
 "选项： ???\n"
-"  --qr    display QR code for Weex Playground app, default action.               \n"
-"  -o      transform weex JS bundle only, specify bundle file name using the option\n"
-"  -s      start a http file server, weex .we file will be transformed on the server. specify local root path using the option\n"
-"  --help  Show help                                                       \n"
-"````\n"
+"——QR显示QR码长的操场上的应用程序，默认动作。 ???\n"
+"o变换快JS束，使用选项指定包文件名 ???\n"
+"-开始一个HTTP文件服务器，快。我们将文件服务器上的转化。使用选项指定本地根路径 ???\n"
+"-帮助显示帮助 ???\n"
+"````???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:27
@@ -72,7 +70,7 @@ msgstr "问题和反馈 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:30
 msgid "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
-msgstr "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
+msgstr "[问题](https://github.com/alibaba/weex_toolchain/issues)GitHub列表 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:31
@@ -120,8 +118,7 @@ msgstr "160223：添加-o选项变换快JS束直接 ???"
 msgid ""
 "160201 : adopt new weex JS bundle style(define / require) & output "
 "transformer Error/Warning logs"
-msgstr ""
-"160201：采用新长的JS捆绑式(define / require)和输出变压器的错误/警告日志 ???"
+msgstr "160201：采用新长的JS捆绑式(define / require)和输出变压器的错误/警告日志 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44

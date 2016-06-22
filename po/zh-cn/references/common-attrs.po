@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:1
@@ -27,13 +27,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:13
 #, no-wrap
-msgid "`id` gives weex tag a unique mark in `<template>` scope. With id attribute you can easily refer a weex tag.\n"
-msgstr "`id`` gives weex tag a unique mark in ``<template>` scope. With id attribute you can easily refer a weex tag.\n"
+msgid ""
+"`id` gives weex tag a unique mark in `<template>` scope. With id attribute "
+"you can easily refer a weex tag.\n"
+msgstr ""
+"` gives weex tag a unique mark in ``<template>``id`范围。ID属性你可以很容易地把长的标签。 "
+"???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:15
 msgid "[more information](../syntax/id.md)"
-msgstr "[more information](../syntax/id.md)"
+msgstr "[更多信息](../syntax/id.md)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:16
@@ -43,8 +47,7 @@ msgstr "风格 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:22
-msgid ""
-"``` style=\"width: 200; height: 200\" style=\"padding: {{x}}; margin: 0\" ```"
+msgid "``` style=\"width: 200; height: 200\" style=\"padding: {{x}}; margin: 0\" ```"
 msgstr ""
 
 #. type: Plain text
@@ -55,7 +58,7 @@ msgstr "长的内联样式。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:26
 msgid "[more information](../syntax/style-n-class.md)"
-msgstr "[more information](../syntax/style-n-class.md)"
+msgstr "[更多信息](../syntax/style-n-class.md)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:27
@@ -91,14 +94,13 @@ msgstr ""
 msgid ""
 "provide a list of data, using current tag as a template to repeatedly "
 "generate the same weex tags."
-msgstr ""
-"提供一个清单的数据，利用现有的标签作为一个模板重复产生相同的长标签。 ???"
+msgstr "提供一个清单的数据，利用现有的标签作为一个模板重复产生相同的长标签。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:45
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:55
 msgid "[more information](../syntax/display-logic.md)"
-msgstr "[more information](../syntax/display-logic.md)"
+msgstr "[更多信息](../syntax/display-logic.md)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:46
@@ -138,13 +140,13 @@ msgstr "通过提供` or ``tree``node`的值，它决定了渲染的进展。 ??
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:65
 msgid "[more information](../syntax/render-logic.md)"
-msgstr "[more information](../syntax/render-logic.md)"
+msgstr "[更多信息](../syntax/render-logic.md)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:66
 #, no-wrap
 msgid "Event Handing (on...)"
-msgstr "Event Handing (on...)"
+msgstr "事件处理(on...)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:72
@@ -159,7 +161,7 @@ msgstr "登记在长的标签事件处理程序 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:76
 msgid "[more information](../syntax/events.md)"
-msgstr "[more information](../syntax/events.md)"
+msgstr "[更多信息](../syntax/events.md)???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:77
@@ -170,10 +172,11 @@ msgstr "笔记! ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:79
 msgid ""
-"weex is basically following [HTML attribute](https://en.wikipedia.org/wiki/"
-"HTML_attribute) naming rule , so please **do not use CamelCase** in your "
-"attribute , **kebab-case** with “-” as delimiter is much better."
+"weex is basically following [HTML "
+"attribute](https://en.wikipedia.org/wiki/HTML_attribute) naming rule , so "
+"please **do not use CamelCase** in your attribute , **kebab-case** with “-” "
+"as delimiter is much better."
 msgstr ""
-"长的基本上是按照HTML属性] [(https://en.wikipedia.org/wiki/HTML_attribute)命名"
-"规则，所以请不要在你的属性使用CamelCase * *，* * * *“串案”作为分隔符是更好"
-"的。 ???"
+"长的基本上是按照HTML属性] "
+"[(https://en.wikipedia.org/wiki/HTML_attribute)命名规则，所以请不要在你的属性使用CamelCase * "
+"*，* * * *“串案”作为分隔符是更好的。 ???"

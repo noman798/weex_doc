@@ -1,24 +1,24 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:1
 #, no-wrap
 msgid "gulp-weex"
-msgstr ""
+msgstr "大口长 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:4
 #, no-wrap
 msgid "> gulp plugin for weex transformer\n"
-msgstr ""
+msgstr ">大口插件快变压器 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:5
 #, no-wrap
 msgid "Usage"
-msgstr ""
+msgstr "使用 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:10
@@ -37,41 +37,47 @@ msgid ""
 "})\n"
 "```\n"
 msgstr ""
+"gulp.task(){('default', function ()???\n"
+"返回gulp.src('src/*.html')???\n"
+"(weex({})管({})-) ???\n"
+"(gulp.dest('./dest')管('./dest')-) ???\n"
+"}) ???\n"
+"````???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:18
 #, no-wrap
 msgid "Options"
-msgstr ""
+msgstr "选项 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:20
 #, no-wrap
 msgid "oldFormat"
-msgstr ""
+msgstr "oldformat ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:23
 msgid "whether transform to old format."
-msgstr ""
+msgstr "是否转换为旧格式。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:25
 msgid "default: `false`."
-msgstr ""
+msgstr "默认值：`false`。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:26
 #, no-wrap
 msgid "isEntry"
-msgstr ""
+msgstr "isEntry ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:29
 msgid "whether is an entry module which has `bootstrap(...)`."
-msgstr ""
+msgstr "是否是一个输入模块，有`bootstrap(...)`个。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:30
 msgid "default: `true`."
-msgstr ""
+msgstr "默认值：`true`。 ???"

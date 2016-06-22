@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:1
 #, no-wrap
 msgid "##Extend to Android \n"
-msgstr "##Extend to Android \n"
+msgstr "# #延伸到Android ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:3
@@ -22,7 +22,7 @@ msgid ""
 "Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.  \n"
 msgstr ""
 "长的SDK支持模块扩展， ???\n"
-"Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.  \n"
+"长的SDK提供了唯一的渲染能力，而不是有其他的功能，如网络、图片、URL重定向。如果你想要这些功能，你需要实现它。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8
@@ -37,7 +37,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:68
 #, no-wrap
 msgid "Step to customize a module "
-msgstr "Step to customize a module "
+msgstr "自定义模块的一步 ???"
 
 #. type: Bullet: '1. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:9
@@ -103,15 +103,15 @@ msgid ""
 "    import android.net.Uri;\n"
 "     ……………………\n"
 msgstr ""
-"    import android.content.Intent;\n"
-"    import android.net.Uri;\n"
-"     ……………………\n"
+"进口android.content.intent; ???\n"
+"进口android.net.uri; ???\n"
+"........................ ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:26
 #, no-wrap
 msgid "    public class WXEventModule extends WXModule{\n"
-msgstr "    public class WXEventModule extends WXModule{\n"
+msgstr "公共课wxeventmodule延伸wxmodule { ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:28
@@ -145,11 +145,11 @@ msgstr ""
 "\t\tStringBuilder builder=new StringBuilder(\"http:\");\n"
 "\t\tbuilder.append(url);\n"
 "\t\tUri uri = Uri.parse(builder.toString()());\n"
-"        Intent intent = new Intent(Intent.ACTION_VIEW, uri);\n"
+"意向意向=新意图(Intent.ACTION_VIEW, uri); ???\n"
 "\t\tintent.addCategory(WEEX_CATEGORY);\n"
-"        mWXSDKInstance.getContext().startActivity(intent);\n"
+"mwxsdkinstance.getcontext startActivity(intent)(); ???\n"
 "\t   }\n"
-"    }\n"
+"} ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:44
@@ -186,7 +186,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:60
 #, no-wrap
 msgid "  WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
-msgstr "  WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
+msgstr "wxsdkengine.registermodule(\"event\", WXEventModule.class); ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:64
@@ -201,8 +201,8 @@ msgid ""
 "<font color=\"gray\">\n"
 "There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
 msgstr ""
-"<font color=\"gray\">\n"
-"There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
+"五千九百八十一亿三千一百二十二万八千四百七十六 ???\n"
+"有标签，图像，DIV，滚动，等。部件在长的，你也可以定制自己的组件。 ???\n"
 
 #. type: Bullet: '1. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:70
@@ -238,7 +238,7 @@ msgid ""
 "    ………………\n"
 msgstr ""
 "\tpackage com.taobao.weextest;\n"
-"    ………………\n"
+".................. ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:94
@@ -328,7 +328,7 @@ msgid ""
 "<font color=\"gray\">\n"
 "Weex SDK has no image download capability, you need to implement IWXImgLoaderAdapter. Refer to the following examples.\n"
 msgstr ""
-"<font color=\"gray\">\n"
+"五千九百八十一亿三千二百五十二万八千四百七十六 ???\n"
 "长的SDK没有图像的下载功能，你需要实现iwximgloaderadapter。参考下面的例子。 ???\n"
 
 #. type: Plain text

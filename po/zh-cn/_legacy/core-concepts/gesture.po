@@ -65,7 +65,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:27
 #, no-wrap
 msgid "The Event Types of Touch "
-msgstr "The Event Types of Touch "
+msgstr "事件类型的触摸 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:36

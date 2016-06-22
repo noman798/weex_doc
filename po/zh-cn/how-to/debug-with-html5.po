@@ -26,8 +26,8 @@ msgid ""
 "![chrome's debug tool](http://gw.alicdn.com/mt/"
 "TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
 msgstr ""
-"![chrome's debug tool](http://gw.alicdn.com/mt/"
-"TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
+"![铬的调试工具](http://gw.alicdn.com/mt/TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730."
+"png)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:7
@@ -156,5 +156,5 @@ msgid ""
 "More info about how to debug h5 pages on chrome devTools: [chrome's devTools "
 "docs](https://developers.google.com/web/tools/chrome-devtools/?hl=en)"
 msgstr ""
-"More info about how to debug h5 pages on chrome devTools: [chrome's devTools "
-"docs](https://developers.google.com/web/tools/chrome-devtools/?hl=en)"
+"更多信息关于如何调试Chrome DevTools H5页面：[Chrome DevTools文档](https://"
+"developers.google.com/web/tools/chrome-devtools/?hl=en)???"

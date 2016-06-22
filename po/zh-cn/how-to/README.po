@@ -11,61 +11,60 @@ msgstr "如何 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Manage Your File Structure](./manage-your-file-structure.md)"
-msgstr "[Manage Your File Structure](./manage-your-file-structure.md)"
+msgstr "[管理您的文件结构](./manage-your-file-structure.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Maintain Your Component Code](./maintain-your-component-code.md)"
-msgstr "[Maintain Your Component Code](./maintain-your-component-code.md)"
+msgstr "[维护您的组件代码](./maintain-your-component-code.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Require 3rd-party Libs](./require-3rd-party-libs.md)"
-msgstr "[Require 3rd-party Libs](./require-3rd-party-libs.md)"
+msgstr "[需要第三方库](./require-3rd-party-libs.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Transform Code Into JS Bundle](./transform-code-into-js-bundle.md)"
-msgstr "[Transform Code Into JS Bundle](./transform-code-into-js-bundle.md)"
+msgstr "[变换编码成JS束](./transform-code-into-js-bundle.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Preview in Browser](./preview-in-browser.md)"
-msgstr "[Preview in Browser](./preview-in-browser.md)"
+msgstr "[预览在浏览器](./preview-in-browser.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Preview in Playground App](./preview-in-playground-app.md)"
-msgstr "[Preview in Playground App](./preview-in-playground-app.md)"
+msgstr "[预览在操场的应用程序](./preview-in-playground-app.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Customize a Native Component](./customize-a-native-component.md)"
-msgstr "[Customize a Native Component](./customize-a-native-component.md)"
+msgstr "[自定义本地组件](./customize-a-native-component.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Customize Native APIs](./cuszomize-native-apis.md)"
-msgstr "[Customize Native APIs](./cuszomize-native-apis.md)"
+msgstr "[自定义本地的原料药](./cuszomize-native-apis.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Debug with HTML5](./debug-with-html5.md)"
-msgstr "[Debug with HTML5](./debug-with-html5.md)"
+msgstr "[调试HTML5](./debug-with-html5.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Debug with Native](./debug-with-native.md)"
-msgstr "[Debug with Native](./debug-with-native.md)"
+msgstr "[本地调试](./debug-with-native.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid "[Debug with Remote Tools](./debug-with-remote-tools.md)"
-msgstr "[Debug with Remote Tools](./debug-with-remote-tools.md)"
+msgstr "[使用远程工具调试](./debug-with-remote-tools.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/README.md:14
 msgid ""
 "[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
-msgstr ""
-"[Manage Data with a High-level CMS](./manage-data-with-a-high-level-cms.md)"
+msgstr "[管理高级管理数据的数据](./manage-data-with-a-high-level-cms.md)???"

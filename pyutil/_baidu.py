@@ -27,7 +27,7 @@ def translate(txt, to_lang="zh", from_lang="en"):
     r = requests.get("http://api.fanyi.baidu.com%s" % myurl)
     li = []
     for i in r.json()['trans_result']:
-        li.append((i['src'], i['dst']))
+        li.append((i['src'].strip(), i['dst']))
     return li
 
 if __name__ == "__main__":

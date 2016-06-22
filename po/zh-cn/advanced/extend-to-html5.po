@@ -126,8 +126,8 @@ msgid ""
 msgstr ""
 "你组件的构造函数。 ???\n"
 "功能的新型器件(data){ ???\n"
-"  this.someAttr = data.attr.someAttr\n"
-"  Component.call(this, data)\n"
+"this.someattr = data.attr.someattr ???\n"
+"component.call(this, data)???\n"
 "} ???\n"
 
 #. type: Plain text
@@ -136,8 +136,8 @@ msgid ""
 "// Extend from Weex.Component.  NewComponent.prototype = Object."
 "create(Component.prototype)"
 msgstr ""
-"// Extend from Weex.Component.  NewComponent.prototype = Object."
-"create(Component.prototype)"
+"/ /从weex.component。object.create newcomponent.prototype =(Component."
+"prototype)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:47
@@ -152,9 +152,9 @@ msgid ""
 msgstr ""
 "/重写为组件创建元素的“创建”方法。 ???\n"
 "newcomponent.prototype.create =功能(){ ???\n"
-"  var node = document.createElement('div')\n"
-"  node.setAttribute('data-someAttr', this.someAttr)\n"
-"  return node\n"
+"var node = document.createelement('div')???\n"
+"node.setattribute('data-someAttr', this.someAttr)???\n"
+"返回节点 ???\n"
 "} ???\n"
 
 #. type: Plain text
@@ -170,24 +170,22 @@ msgid ""
 msgstr ""
 "//设置者为可更新的属性。 ???\n"
 "newcomponent.prototype.attr = { ???\n"
-"  updatableAttr: function (value) {\n"
-"    this.node.setAttribute('data-updatableAttr', value)\n"
-"  }\n"
+"updatableattr：功能(value){ ???\n"
+"this.node.setattribute('data-updatableAttr', value)???\n"
+"} ???\n"
 "} ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:57
 msgid "module.exports = NewComponent ```"
-msgstr "module.exports = NewComponent ````"
+msgstr "module.exports =新型器件````???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:59
 msgid ""
 "Register your component in the init method of the installation module "
 "`installModule.js`"
-msgstr ""
-"Register your component in the init method of the installation module "
-"`installModule.js`"
+msgstr "登记您的安装模块`installModule.js`init方法组件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:68
@@ -221,7 +219,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:153
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:191
 msgid "Weex.install(installationModule)  ```"
-msgstr "Weex.install(installationModule)  ````"
+msgstr "weex.install(installationModule)````???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:78
@@ -312,15 +310,15 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
-"  logout: function (callbackId) {\n"
-"    var self = this\n"
-"    // your logic code, ex.\n"
-"    logout.then(function (res)(res) {\n"
-"      self.sender.performCallback(callbackId, res)\n"
-"    }).catch(function (err)(err) {\n"
-"      self.sender.performCallback(callbackId, err)\n"
-"    })\n"
-"  }\n"
+"注销：功能(callbackId){ ???\n"
+"自我=这个 ???\n"
+"/ /你的逻辑代码，如 ???\n"
+"logout.then(res){(function (res)???\n"
+"self.sender.performcallback(callbackId, res)???\n"
+"{ })捕获(err)个(function (err)???\n"
+"self.sender.performcallback(callbackId, err)???\n"
+"}) ???\n"
+"} ???\n"
 "} ???\n"
 
 #. type: Plain text
@@ -340,19 +338,19 @@ msgid ""
 msgstr ""
 "将元信息添加到用户模块。 ???\n"
 "_meta = {用户。 ???\n"
-"  user: [{\n"
-"    name: 'login',\n"
-"    args: ['function']\n"
-"  }, {\n"
-"    name: 'logout',\n"
-"    args: ['function']\n"
-"  }]\n"
+"用户：[{ ???\n"
+"姓名：“登录”， ???\n"
+"参数：['function] ???\n"
+"}，{ ???\n"
+"名称：“注销”， ???\n"
+"参数：['function] ???\n"
+"}] ???\n"
 "} ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:129
 msgid "module.exports = user ```"
-msgstr "module.exports = user ````"
+msgstr "module.exports =用户````???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:131
@@ -380,13 +378,13 @@ msgid ""
 "```\n"
 msgstr ""
 "module.exports = { ???\n"
-"  init: function (Weex) {\n"
-"    // Register your new module. The last parameter is your\n"
-"    // new API module's meta info.\n"
-"    Weex.registerApiModule('user', user, user._meta)\n"
-"  }\n"
+"初始化：功能(Weex){ ???\n"
+"/注册您的新模块。最后一个参数是你的 ???\n"
+"/ /新的原料药模块的元信息。 ???\n"
+"weex.registerapimodule('user', user, user._meta)???\n"
 "} ???\n"
-"````\n"
+"} ???\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:150
@@ -441,8 +439,7 @@ msgid ""
 "// Require your module file, which is pageInfo.js.  var pageInfo = "
 "require('./pageInfo')"
 msgstr ""
-"// Require your module file, which is pageInfo.js.  var pageInfo = "
-"require('./pageInfo')"
+"/ /需要你的模块文件，这是pageinfo.js。无功pageinfo =需要('./pageInfo')???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:182
@@ -457,12 +454,12 @@ msgid ""
 "```\n"
 msgstr ""
 "module.exports = { ???\n"
-"  init: function (Weex) {\n"
-"    // Register your new method. The last parameter is your API's meta info.\n"
-"    Weex.registerApi('pageInfo', 'setTitle', pageInfo.setTitle, ['string', 'string'])\n"
-"  }\n"
+"初始化：功能(Weex){ ???\n"
+"/注册你的新方法。最后的参数是您的接口的元数据。 ???\n"
+"weex.registerapi('pageInfo', 'setTitle', pageInfo.setTitle, ['string', 'string'])???\n"
 "} ???\n"
-"````\n"
+"} ???\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:184
@@ -513,9 +510,9 @@ msgid ""
 "```\n"
 msgstr ""
 "module.exports = { ???\n"
-"  loadByMyServe: loadByMyServe\n"
+"loadbymyserve：loadbymyserve ???\n"
 "} ???\n"
-"````\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:211
@@ -544,12 +541,12 @@ msgid ""
 "```\n"
 msgstr ""
 "module.exports = { ???\n"
-"  init: function (Weex) {\n"
-"    // Register your new loader.\n"
-"    Weex.registerLoader('myserve', loadByMyServe)\n"
-"  }\n"
+"初始化：功能(Weex){ ???\n"
+"/注册您的新的加载程序。 ???\n"
+"weex.registerloader('myserve', loadByMyServe)???\n"
 "} ???\n"
-"````\n"
+"} ???\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:225
@@ -566,4 +563,4 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:232
 msgid "Weex.install(loaderMod)  ```"
-msgstr "Weex.install(loaderMod)  ````"
+msgstr "weex.install(loaderMod)````???"

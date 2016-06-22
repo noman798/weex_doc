@@ -15,7 +15,7 @@ msgid ""
 "Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.   \n"
 "The example below will describe how to extend weex with native logic or 'bridge' your existed native code.\n"
 msgstr ""
-"Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.   \n"
+"长的SDK提供了唯一的渲染能力，而不是有其他的功能，如网络、图片、URL重定向。如果你想要这些功能，你需要实现它。 ???\n"
 "下面的示例将描述如何与本地逻辑或“桥”你的存在本地代码扩展快。 ???\n"
 
 #. type: Title ##
@@ -28,7 +28,7 @@ msgstr "一个urlhelper例子 ???"
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:7
 #, no-wrap
 msgid "Create your own `WXModule` in native:   "
-msgstr "Create your own `WXModule` in native:   "
+msgstr "创建你自己的`WXModule`： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:25
@@ -99,13 +99,13 @@ msgstr ""
 "\t\tWXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId()(), callbackId, result);\n"
 "\t}\n"
 "} ???\n"
-"````\n"
+"````???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:46
 #, no-wrap
 msgid "Register your module to engine:   "
-msgstr "Register your module to engine:   "
+msgstr "将您的模块注册到引擎： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:55
@@ -124,7 +124,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:55
 #, no-wrap
 msgid "Now, you can use eventModule in javascript like this:   "
-msgstr "Now, you can use eventModule in javascript like this:   "
+msgstr "现在，你可以在JavaScript中使用像这样的eventmodule： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:62

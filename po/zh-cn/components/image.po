@@ -20,8 +20,8 @@ msgid ""
 "`image` tag is used to render a specified picture, and it shouldn't contain "
 "any child component. You can use `img` as alias."
 msgstr ""
-"`image`` tag is used to render a specified picture, and it shouldn't contain "
-"any child component. You can use ``img` as alias."
+"` tag is used to render a specified picture, and it shouldn't contain any "
+"child component. You can use ``img`作为别名。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:8
@@ -33,7 +33,7 @@ msgstr "*注：* * * * *的风格，` and ``height``width`应该指定，否则�
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:10
 #, no-wrap
 msgid "alias: `<img>`\n"
-msgstr "alias: `<img>`\n"
+msgstr "别名：`<img>`???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:11
@@ -91,7 +91,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:28
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgstr "**共同的风格**：检查出[常见的风格](../references/common-attrs.md)???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:33
@@ -113,7 +113,7 @@ msgstr "事件 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:37
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "**common events**: check out the [common events](../references/common-event.md)\n"
+msgstr "**常见事件**：检查[常见事件](../references/common-event.md)???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:40
@@ -122,9 +122,9 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"- support `click`` event. Check out [common events](../references/common-"
-"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
-"events](../references/common-event.md)"
+"支持` event. Check out [common events](../references/common-event.md)  - "
+"support ``appear`` / ``disappear``click`事件。签出[常见事件](../references/"
+"common-event.md)???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/image.md:41

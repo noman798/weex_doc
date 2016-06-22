@@ -54,8 +54,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:17
 msgid ""
 "`Hot Reload` also work with Native Runtime in Weex Playground App , type"
-msgstr ""
-"`Hot Reload` also work with Native Runtime in Weex Playground App , type"
+msgstr "`Hot Reload`也与长的操场APP本地运行时类型 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:21

@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:1
@@ -18,9 +18,7 @@ msgstr "总结 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:6
 msgid ""
 "A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
-msgstr ""
-"一系列的模态对话框，如`toast`、`, `、`alert`、`, `、`confirm`、` and `、"
-"`prompt`、。 ???"
+msgstr "一系列的模态对话框，如`toast`、`, `、`alert`、`, `、`confirm`、` and `、`prompt`、。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:7
@@ -32,7 +30,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:9
 #, no-wrap
 msgid "toast(options)"
-msgstr "toast(options)"
+msgstr "(options)吐司 ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:11
@@ -67,15 +65,15 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:24
 msgid ""
-"```javascript var modal = require('@weex-module/modal'); modal."
-"toast({'message': 'I am toast!', 'duration': 1}); ```"
+"```javascript var modal = require('@weex-module/modal'); "
+"modal.toast({'message': 'I am toast!', 'duration': 1}); ```"
 msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:25
 #, no-wrap
 msgid "alert(options, callback)"
-msgstr "alert(options, callback)"
+msgstr "警报(options, callback)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:33
@@ -112,7 +110,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:48
 #, no-wrap
 msgid "confirm(options, callback)"
-msgstr "confirm(options, callback)"
+msgstr "确认(options, callback)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:57
@@ -170,7 +168,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:80
 #, no-wrap
 msgid "prompt(options, callback)"
-msgstr "prompt(options, callback)"
+msgstr "提示(options, callback)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:89

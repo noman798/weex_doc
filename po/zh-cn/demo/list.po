@@ -24,8 +24,8 @@ msgid ""
 "![weex demo](http://gtms01.alicdn.com/tps/i1/TB1U."
 "vZMpXXXXakXXXXfoKlVpXX-278-474.gif)"
 msgstr ""
-"![weex demo](http://gtms01.alicdn.com/tps/i1/TB1U."
-"vZMpXXXXakXXXXfoKlVpXX-278-474.gif)"
+"![快](http://gtms01.alicdn.com/tps/i1/TB1U.vZMpXXXXakXXXXfoKlVpXX-278-474."
+"gif)演示 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:7

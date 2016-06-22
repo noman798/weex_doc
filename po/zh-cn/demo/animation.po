@@ -20,8 +20,8 @@ msgid ""
 "![weex demo](http://gtms02.alicdn.com/tps/i2/"
 "TB1B5L2MpXXXXXhXXXXp.9cVpXX-278-424.gif)"
 msgstr ""
-"![weex demo](http://gtms02.alicdn.com/tps/i2/"
-"TB1B5L2MpXXXXXhXXXXp.9cVpXX-278-424.gif)"
+"![快](http://gtms02.alicdn.com/tps/i2/TB1B5L2MpXXXXXhXXXXp.9cVpXX-278-424."
+"gif)演示 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/animation.md:7

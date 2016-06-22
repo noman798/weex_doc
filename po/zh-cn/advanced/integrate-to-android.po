@@ -59,7 +59,7 @@ msgstr ""
 #. type: Bullet: '3. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
 msgid "Android Support Repository >= 17 (for Android Support Library)"
-msgstr "Android Support Repository >= 17 (for Android Support Library)"
+msgstr "支持的安卓系统=(for Android Support Library)17 ???"
 
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
@@ -146,9 +146,9 @@ msgid ""
 "    rootProject.projectDir, '../weex_sdk_android')\n"
 "```\n"
 msgstr ""
-"project(':weex_sdk_android').projectDir = new File(\n"
-"    rootProject.projectDir, '../weex_sdk_android')\n"
-"````\n"
+"(':weex_sdk_android')项目。projectdir =新文件(\n"
+"    rootProject.projectDir, '../weex_sdk_android')???\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:53
@@ -175,7 +175,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:60
 #, no-wrap
 msgid "    compile project(':weex_sdk_android')\n"
-msgstr "    compile project(':weex_sdk_android')\n"
+msgstr "编制项目(':weex_sdk_android')???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:64
@@ -185,9 +185,9 @@ msgid ""
 "}\n"
 "```\n"
 msgstr ""
-"    ...\n"
+"… ???\n"
 "} ???\n"
-"````\n"
+"````???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:65
@@ -307,7 +307,7 @@ msgstr "在你的应用程序的`build.gradle`个文件中添加的反应原生�
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:102
 #, no-wrap
 msgid "    compile 'com.taobao.weex:weex_sdk:1.3.+'\n"
-msgstr "    compile 'com.taobao.weex:weex_sdk:1.3.+'\n"
+msgstr "编译的COM。淘宝。快：weex_sdk：1.3。” ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:104
@@ -323,7 +323,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:106
 #, no-wrap
 msgid "    <uses-permission android:name=\"android.permission.INTERNET\" />\n"
-msgstr "    <uses-permission android:name=\"android.permission.INTERNET\" />\n"
+msgstr "五千九百八十一亿三千四百三十二万八千四百七十六 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:108
@@ -372,9 +372,9 @@ msgid ""
 "        WXSDKEngine.init(this);\n"
 "        try {\n"
 msgstr ""
-"        WXEnvironment.addCustomOptions(\"appName\",\"TBSample\");\n"
-"        WXSDKEngine.init(this);\n"
-"        try {\n"
+"wxenvironment.addcustomoptions(\"appName\",\"TBSample\"); ???\n"
+"wxsdkengine.init(this); ???\n"
+"尝试{ ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:126
@@ -383,8 +383,8 @@ msgid ""
 "            WXSDKEngine.registerComponent(\"wtRichText\", WTRichText.class);\n"
 "            ......\n"
 msgstr ""
-"            WXSDKEngine.registerComponent(\"wtRichText\", WTRichText.class);\n"
-"            ......\n"
+"wxsdkengine.registercomponent(\"wtRichText\", WTRichText.class); ???\n"
+"...... ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:134
@@ -398,13 +398,13 @@ msgid ""
 "}\n"
 "```\n"
 msgstr ""
-"            WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
-"        } catch (WXException e) {\n"
-"            e.printStackTrace();\n"
-"        }\n"
-"    }\n"
+"wxsdkengine.registermodule(\"event\", WXEventModule.class); ???\n"
+"}捕获(WXException e){ ???\n"
+"e.printstacktrace(); ???\n"
 "} ???\n"
-"````\n"
+"} ???\n"
+"} ???\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:136
@@ -451,10 +451,10 @@ msgstr "就是这样，你的活动是准备运行一些JavaScript代码。 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:165
 #, no-wrap
 msgid "Reference Example   "
-msgstr "Reference Example   "
+msgstr "参考例子 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:167
 msgid "[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)"
 msgstr ""
-"[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)"
+"[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)???"

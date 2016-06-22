@@ -220,8 +220,8 @@ msgid ""
 msgstr ""
 "`callNative`` sends commands from JavaScript to native. So it's called from "
 "JavaScript and implemented with native code. All commands are native APIs "
-"organized by modules, for example ``rendering``, ``networking``, "
-"``authorizing``, and other client-side features like ``toast` etc."
+"organized by modules, for example ``, ``networking``, ``, and other client-"
+"side features like ``toast``rendering`等。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:87
@@ -230,9 +230,8 @@ msgid ""
 "native and implemented by JS Framework. All commands are user interactions "
 "or native callbacks."
 msgstr ""
-"`callJS` sends commands from native to JavaScript. So it's called from "
-"native and implemented by JS Framework. All commands are user interactions "
-"or native callbacks."
+"`callJS`发送命令从本地JavaScript。所以它被称为从本地和JS框架实现。所有的命令"
+"都是用户交互或本机回调。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:88
@@ -281,7 +280,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:98
 #, no-wrap
 msgid "![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  \n"
-msgstr "![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  \n"
+msgstr "![拱门](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:100
@@ -331,7 +330,7 @@ msgstr "渲染流程 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:124
 #, no-wrap
 msgid "![render flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  \n"
-msgstr "![render flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  \n"
+msgstr "![渲染流](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:126

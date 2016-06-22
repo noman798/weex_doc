@@ -25,7 +25,7 @@ msgstr "元素作为内容分发outlest由组件模板。元素本身将被替�
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:8
 #, no-wrap
 msgid "alias: `<slot>`\n"
-msgstr "alias: `<slot>`\n"
+msgstr "别名：`<slot>`???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:9

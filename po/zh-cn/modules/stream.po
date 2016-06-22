@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:1
@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:9
 #, no-wrap
 msgid "sendHttp(params, callback)"
-msgstr "sendHttp(params, callback)"
+msgstr "sendhttp(params, callback)???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:11

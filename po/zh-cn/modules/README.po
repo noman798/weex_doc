@@ -44,29 +44,29 @@ msgstr "表的内容 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[dom](./dom.md)"
-msgstr "[dom](./dom.md)"
+msgstr "[唐](./dom.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[steam](./stream.md)"
-msgstr "[steam](./stream.md)"
+msgstr "[蒸汽](./stream.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[modal](./modal.md)"
-msgstr "[modal](./modal.md)"
+msgstr "[模态](./modal.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[animation](./animation.md)"
-msgstr "[animation](./animation.md)"
+msgstr "[动画](./animation.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[navigator](./navigator.md)"
-msgstr "[navigator](./navigator.md)"
+msgstr "[导航员](./navigator.md)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[webview](./webview.md)"
-msgstr "[webview](./webview.md)"
+msgstr "[使用](./webview.md)???"

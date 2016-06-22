@@ -75,7 +75,7 @@ msgstr "长的参数可以int，双，浮弦，图，表，自定义类实现wxo
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:16
 #, no-wrap
 msgid "Refer to the following example: "
-msgstr "Refer to the following example: "
+msgstr "参考下面的例子： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:20
@@ -91,7 +91,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:22
 #, no-wrap
 msgid "    public class  MyViewComponent extends WXComponent{\n"
-msgstr "    public class  MyViewComponent extends WXComponent{\n"
+msgstr "公共课myviewcomponent延伸wxcomponent { ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:27
@@ -102,10 +102,10 @@ msgid ""
 "               super(instance, node, parent, instanceId, lazy);\n"
 "            }\n"
 msgstr ""
-"           public MyViewComponent(WXSDKInstance instance, WXDomObject node, \n"
-"                        WXVContainer parent,  String instanceId, boolean lazy) {                \n"
-"               super(instance, node, parent, instanceId, lazy);\n"
-"            }\n"
+"公共myviewcomponent(WXSDKInstance instance, WXDomObject node, \n"
+"                        WXVContainer parent,  String instanceId, boolean lazy){ ???\n"
+"超(instance, node, parent, instanceId, lazy); ???\n"
+"} ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:32
@@ -116,10 +116,10 @@ msgid ""
 "              //TODO:your own code ……\n"
 "           }\n"
 msgstr ""
-"           @Override\n"
-"           protected void initView() {\n"
-"              //TODO:your own code ……\n"
-"           }\n"
+"@Override ???\n"
+"protected void initview(){ ???\n"
+"// TODO:您自己的代码...... ???\n"
+"} ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:41
@@ -134,11 +134,11 @@ msgid ""
 "\t         ((TextView)mHost).setText(value);\n"
 "\t      }\n"
 msgstr ""
-"          @Override\n"
-"          public WXFrameLayout getView() {\n"
-"             //TODO:your own code ………        \n"
-"          }\n"
-"          @WXComponentProp(name=WXDomPropConstant.WX_ATTR_VALUE)\n"
+"@Override ???\n"
+"公共wxframelayout getview(){ ???\n"
+"// TODO:您自己的代码......... ???\n"
+"} ???\n"
+"“wxcomponentprop(name=WXDomPropConstant.WX_ATTR_VALUE)???\n"
 "\t      public void setMyViewValue(String value) {\n"
 "\t         ((TextView)(TextView)mHost).setText(value);\n"
 "\t      }\n"
@@ -147,13 +147,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:43
 #, no-wrap
 msgid "    }\n"
-msgstr "    }\n"
+msgstr "} ???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:44
 #, no-wrap
 msgid "Component should be registered "
-msgstr "Component should be registered "
+msgstr "组件应注册 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/customize-a-native-component.md:47

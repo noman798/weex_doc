@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:1
@@ -20,16 +20,16 @@ msgid ""
 "Children component can use `this.$dispatch([String type], [Object detail])` "
 "method passing information to parent component. first argument meaning type "
 "of message , second argument is the message object. If any parent of the "
-"child component register the same type of listener using `$on([String type], "
-"[Function callback])` method , the callback will be execute with one "
+"child component register the same type of listener using `$on([String type],"
+" [Function callback])` method , the callback will be execute with one "
 "argument , the message object will be `detail` property of the the argument."
 msgstr ""
-"儿童组件可以使用` method passing information to parent component. first "
-"argument meaning type of message , second argument is the message object. If "
-"any parent of the child component register the same type of listener using ``"
-"$on([String type], [Function callback])`` method , the callback will be "
-"execute with one argument , the message object will be ``detail``this."
-"$dispatch([String type], [Object detail])`属性的参数。 ???"
+"儿童组件可以使用` method passing information to parent component. first argument "
+"meaning type of message , second argument is the message object. If any "
+"parent of the child component register the same type of listener using "
+"``$on([String type], [Function callback])`` method , the callback will be "
+"execute with one argument , the message object will be "
+"``detail``this.$dispatch([String type], [Object detail])`属性的参数。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:8
@@ -104,9 +104,7 @@ msgid ""
 "Parent component can using `this.$([String id])` get context of child "
 "component. you can access child component information using the context "
 "object."
-msgstr ""
-"父组件可以使用`this.$([String id])`获取子组件的上下文。您可以使用上下文对象访"
-"问子组件信息。 ???"
+msgstr "父组件可以使用`this.$([String id])`获取子组件的上下文。您可以使用上下文对象访问子组件信息。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:74
@@ -175,11 +173,10 @@ msgstr "亲子(multi-child)沟通 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:98
 msgid ""
-"Parent can using `this.$broadcast([String type], [Object detail])` broadcast "
-"message to all of children."
+"Parent can using `this.$broadcast([String type], [Object detail])` broadcast"
+" message to all of children."
 msgstr ""
-"家长可以使用`this.$broadcast([String type], [Object detail])`个广播信息给所有"
-"的孩子。 ???"
+"家长可以使用`this.$broadcast([String type], [Object detail])`个广播信息给所有的孩子。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:122
@@ -278,7 +275,8 @@ msgstr "兄弟姐妹的沟通 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/comm.md:172
 msgid ""
-"siblings components can using common parent as bridge for passing information"
+"siblings components can using common parent as bridge for passing "
+"information"
 msgstr "兄弟姐妹的组件可以使用共同的家长作为传递信息的桥梁 ???"
 
 #. type: Plain text

@@ -64,7 +64,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:20
 #, no-wrap
 msgid "  Options:\n"
-msgstr "  Options:\n"
+msgstr "选项： ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:27
@@ -77,12 +77,12 @@ msgid ""
 "    -o, --output [path]      the output file dirname\n"
 "```\n"
 msgstr ""
-"    -h, --help               output usage information\n"
-"    -V, --version            output the version number\n"
-"    -l, --oldFormat [value]  whether to transform to old format (default: false)\n"
-"    -e, --isEntry [value]    whether is an entry module which has `bootstrap`` (default: true)\n"
+"-帮助输出使用信息 ???\n"
+"- V，-版本输出版本号 ???\n"
+"我，——oldformat [价值]是否变换旧格式(default: false)???\n"
+"E——isEntry [价值]，是否是一个输入模块有`bootstrap`` (default: true)\n"
 "    -o, --output [path]      the output file dirname\n"
-"`````\n"
+"`````???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:28
@@ -111,26 +111,24 @@ msgstr "参数： ???"
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:46
 msgid "`name`: string, current bundle name"
-msgstr "`name`: string, current bundle name"
+msgstr "`name`：字符串，当前包名称 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:46
 msgid "`code`: string, source code"
-msgstr "`code`: string, source code"
+msgstr "`code`：字符串，源代码 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:46
 msgid ""
 "`path`: string *optional*, useful when find custom component in a certain "
 "path"
-msgstr ""
-"`path`: string *optional*, useful when find custom component in a certain "
-"path"
+msgstr "`path`：字符串*可选*，有用的时候找到自定义组件在一定的路径 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:46
 msgid "`elements`: object *optional*, existed custom component map"
-msgstr "`elements`: object *optional*, existed custom component map"
+msgstr "`elements`：对象*可选*，存在自定义组件地图 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:46
@@ -140,9 +138,9 @@ msgid ""
 "    * `oldFormat`: whether to transform to old format (default: false)\n"
 "    * `isEntry`: whether is an entry module which has `bootstrap` (default: true)\n"
 msgstr ""
-"- `config``: object *optional*\n"
+"-`: object *optional*\n"
 "    * ``oldFormat``: whether to transform to old format (default: false)\n"
-"    * ``isEntry``: whether is an entry module which has ``bootstrap` (default: true)\n"
+"    * ``isEntry``: whether is an entry module which has ``bootstrap`(default: true)`config`???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:48
@@ -158,8 +156,8 @@ msgid ""
 "    * `logs`: array, corresponding warning & error logs\n"
 msgstr ""
 "-带有键的对象 ???\n"
-"    * `result``: string, all custom components ``define()`` and final ``bootstrap()``\n"
-"    * ``logs`: array, corresponding warning & error logs\n"
+"*`: string, all custom components ``result``define()`` and final ``bootstrap()``\n"
+"    * ``logs`：阵列，相应的警告和错误日志 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:53
@@ -190,11 +188,11 @@ msgid ""
 "```\n"
 msgstr ""
 "gulp.task(){('default', function ()???\n"
-"  return gulp.src('src/*.html')\n"
-"    .pipe(weex({})({}))\n"
-"    .pipe(gulp.dest('./dest')('./dest'))\n"
+"返回gulp.src('src/*.html')???\n"
+"(weex({})管({})-) ???\n"
+"(gulp.dest('./dest')管('./dest')-) ???\n"
 "}) ???\n"
-"````\n"
+"````???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/transform-code-into-js-bundle.md:71
@@ -207,6 +205,6 @@ msgid ""
 "- `oldFormat`: whether to transform to old format (default: false)  - "
 "`isEntry`: whether is an entry module which has `bootstrap` (default: true)"
 msgstr ""
-"- `oldFormat``: whether to transform to old format (default: false)  - "
-"``isEntry``: whether is an entry module which has ``bootstrap` (default: "
-"true)"
+"-`: whether to transform to old format (default: false)  - ``isEntry``: "
+"whether is an entry module which has ``bootstrap`(default: "
+"true)`oldFormat`???"
