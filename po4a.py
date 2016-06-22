@@ -62,12 +62,18 @@ def _update(lang, path):
 
 
 def _build(lang, path):
-    # po4a-translate -f text -m %s -M utf8 -p %s.po -l %s -k 0
+    outfile = "%s/doc/%s/%s" % (
+        PATH, lang, path
+    )
     bash(
-        "po4a-translate -M utf-8 -f text -o markdown -m %s/%s -p %s/po/%s/%s.po -l %s/doc/%s/%s -k 0" % (
-            PATH_DOC, path, PATH, lang, path[:-3], PATH, lang, path
+        "po4a-translate -M utf-8 -f text -o markdown -m %s/%s -p %s/po/%s/%s.po -l %s -k 0" % (
+            PATH_DOC, path, PATH, lang, path[:-3], outfile
         )
     )
+    with open(outfile) as f:
+        txt = f.read()
+    with open(outfile, "w") as f:
+        f.write(txt.replace("``` ", "```\n"))
 
 
 def scan():
