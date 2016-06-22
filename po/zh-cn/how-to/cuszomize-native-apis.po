@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:1
@@ -63,12 +63,12 @@ msgstr ""
 msgid ""
 "Notice the `@WXModuleAnno`, use this annotation to mark the methods you "
 "wanna expose to javascript.  If your also want to callback to javascript, "
-"you should define a `callbackId` parameter to received 'JS callback function"
-" id':"
+"you should define a `callbackId` parameter to received 'JS callback function "
+"id':"
 msgstr ""
-"注意 `@WXModuleAnno`, use this annotation to mark the methods you wanna expose"
-" to javascript.  If your also want to callback to javascript, you should "
-"define a `callbackId`  `callbackId` 参数接收的js回调函数的ID： ???"
+"注意 `@WXModuleAnno`, use this annotation to mark the methods you wanna "
+"expose to javascript.  If your also want to callback to javascript, you "
+"should define a `callbackId`  `callbackId` 参数接收的js回调函数的ID： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:33
@@ -180,6 +180,6 @@ msgstr "模块方法将在用户界面线程中调用，不要在那里投入耗
 #. type: Bullet: '7. '
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:73
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class"
-" that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"
 msgstr "长的参数可以int，双，浮弦，图，表，自定义类实现wxobject接口 ???"
