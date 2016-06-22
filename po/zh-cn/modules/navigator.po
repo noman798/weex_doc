@@ -1,42 +1,41 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:1
 #, no-wrap
 msgid "navigator"
-msgstr "领航员 ???"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:2
 #, no-wrap
 msgid "Summary"
-msgstr "总结 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:5
 msgid "A series of navigator operation apis like `push`, `pop`."
-msgstr "一系列的导航操作API像`push``, ``pop`。 ???"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:6
 #, no-wrap
 msgid "API"
-msgstr "美国石油学会 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:8
 #, no-wrap
 msgid "push(options, callback)"
-msgstr "推(options, callback) ???"
+msgstr ""
 
 #. type: Title ####
-#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:11
-#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:35
+#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:11 /home/dev/download/weex_doc/weex/doc/modules/navigator.md:35
 #, no-wrap
 msgid "Arguments"
-msgstr "争论 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:16
@@ -44,20 +43,17 @@ msgstr "争论 ???"
 msgid ""
 "* `options`*(object)*: some options.\n"
 "  * `url`*(stirng)*: The URL of the weex page to push.\n"
-"  * `animated`*(string)*:  `true`if the weex page is push through animation, otherwise, `false`.\n"
-"* `callback`*(object)*: the callback function after executing this action.  \n"
+"  * `animated`*(string)*:  `true`if the weex page is push through animation, "
+"otherwise, `false`.\n"
+"* `callback`*(object)*: the callback function after executing this action.  "
+"\n"
 msgstr ""
-"*`options``*(_4_)*: some options.\n"
-"  * ``url``*(_5_)*: The URL of the weex page to push.\n"
-"  * ``animated``*(_6_)*:  ``true``if the weex page is push through animation, otherwise, ``false``.\n"
-"* ``callback`*(object)：执行此动作后的回调函数。 ???\n"
 
 #. type: Title #####
-#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:18
-#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:40
+#: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:18 /home/dev/download/weex_doc/weex/doc/modules/navigator.md:40
 #, no-wrap
 msgid "Example"
-msgstr "例子 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:30
@@ -74,34 +70,23 @@ msgid ""
 "});\n"
 "```\n"
 msgstr ""
-"```js\n"
-"var params = {\n"
-"    'url': 'navigator-demo.js',\n"
-"    'animated' : 'true',\n"
-"}\n"
-"var navigator = require(_19_);\n"
-"navigator.push(_20_)(_21_) {\n"
-"\t//callback\n"
-"});\n"
-"``` ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:31
 #, no-wrap
 msgid "pop(options, callback)"
-msgstr "流行(options, callback) ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:39
 #, no-wrap
 msgid ""
 "* `options`*(object)*: some options.\n"
-"  * `animated`*(string)*:  `true` if the weex page is pop through animation; otherwise, `false`.\n"
-"* `callback`*(object)*: the callback function after executing this action.  \n"
+"  * `animated`*(string)*:  `true` if the weex page is pop through animation; "
+"otherwise, `false`.\n"
+"* `callback`*(object)*: the callback function after executing this action.  "
+"\n"
 msgstr ""
-"*`options``*(_24_)*: some options.\n"
-"  * ``animated``*(_25_)*:  ``true`` if the weex page is pop through animation; otherwise, ``false``.\n"
-"* ``callback`*(object)：执行此动作后的回调函数。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/navigator.md:50
@@ -117,12 +102,3 @@ msgid ""
 "});\n"
 "```\n"
 msgstr ""
-"```js\n"
-"var params = {\n"
-"    'animated' : 'true',\n"
-"}\n"
-"var navigator = require(_36_);\n"
-"navigator.pop(_37_)(_38_) {\n"
-"\t//callback\n"
-"});\n"
-"``` ???\n"

@@ -1,18 +1,18 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:1
 #, no-wrap
 msgid "&lt;wxc-tabbar&gt;"
-msgstr "&lt;WXC TabBar & gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "总结 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:6
@@ -22,80 +22,82 @@ msgid ""
 "for selecting between the different modes and for displaying different weex "
 "pages for that mode."
 msgstr ""
-"“WXC TabBar”的标签，实现了一个专门的组件对应的广播方式的选择。它显示标签，在窗口的底部选择不同模式之间和显示模式不同的长页。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:7
 #, no-wrap
 msgid "Child Components"
-msgstr "子组件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:10
 msgid "This component supports no child components."
-msgstr "此组件不支持子组件。 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:11
 #, no-wrap
 msgid "Attributes"
-msgstr "属性 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:16
 #, no-wrap
 msgid ""
-"- `tab-items`: This attribute contains an array of tabitem objects, each of which corresponds to the radio-style selection. The order of the items in this attribute corresponds to the order of the items onscreen. You can configure the appearance of tabbar by setting tabitem. Each tabitem properties can be described as follows.\n"
-"  + index: &lt;integer&gt; This attribute must be set to identify the order of the item.\n"
-"  + title: &lt;string&gt; The item’s title. If null, a title is not displayed.\n"
-"  + titleColor: &lt;color&gt;The item’s titleColor. Default is black color.  \n"
+"- `tab-items`: This attribute contains an array of tabitem objects, each of "
+"which corresponds to the radio-style selection. The order of the items in "
+"this attribute corresponds to the order of the items onscreen. You can "
+"configure the appearance of tabbar by setting tabitem. Each tabitem "
+"properties can be described as follows.\n"
+"  + index: &lt;integer&gt; This attribute must be set to identify the order "
+"of the item.\n"
+"  + title: &lt;string&gt; The item’s title. If null, a title is not "
+"displayed.\n"
+"  + titleColor: &lt;color&gt;The item’s titleColor. Default is black color.  "
+"\n"
 msgstr ""
-"-`tab-items`：这个属性包含TabItem对象的数组，其中每一个对应于广播方式的选择。在这个属性项的顺序对应于屏幕上的项目顺序。你可以通过设置配置TabBar TabItem外观。每个TabItem特性可以描述如下。 ???\n"
-"+指数：&lt;整数&gt;这个属性必须设置为识别项目订单。 ???\n"
-"+标题：&lt;字符串&gt;商品的标题。如果为空，则不显示标题。 ???\n"
-"+ titlecolor：&lt;彩色&gt;项目的titlecolor。默认是黑色。 ???\n"
 
 #. type: Bullet: '  + '
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
 msgid ""
 "image: &lt;string&gt;The icon displayed when the tabitem is unselected. If "
 "null, the icon is not displayed."
-msgstr "图像：&lt;字符串&gt;的图标显示在选中的TabItem。如果为空，则不显示该图标。 ???"
+msgstr ""
 
 #. type: Bullet: '  + '
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
 msgid ""
 "selectedImage: &lt;string&gt;The icon displayed when the tabitem is "
 "selected. If null, the icon is not displayed."
-msgstr "SelectedImage：&lt;字符串&gt;图标上时显示的TabItem选择。如果为空，则不显示该图标。 ???"
+msgstr ""
 
 #. type: Bullet: '  + '
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
 msgid "src: &lt;string&gt;The custom weex page to display."
-msgstr "SRC：&lt;字符串&gt;自定义页面显示快。 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:22
 #, no-wrap
 msgid ""
-"  + icon: &lt;string&gt;This is a special attribute. Be careful, You need to set the property even if it is empty.\n"
-"   + visibility: &lt;string&gt;`visible` | `hidden`. This attribute must be set to identify the display status. Default value is `visible`.\n"
+"  + icon: &lt;string&gt;This is a special attribute. Be careful, You need to "
+"set the property even if it is empty.\n"
+"   + visibility: &lt;string&gt;`visible` | `hidden`. This attribute must be "
+"set to identify the display status. Default value is `visible`.\n"
 msgstr ""
-"+图标：&lt;字符串&gt;这是一个特殊的属性。小心，你需要设置属性，即使它是空的。 ???\n"
-"+能见度：&lt;字符串&gt;`visible`` | ``hidden``. This attribute must be set to identify the display status. Default value is ``visible`。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:24
 msgid ""
 "Other attributes please check out the [common "
 "attributes](../references/common-attrs.md)."
-msgstr "其他属性，请查看[共同属性](../references/common-attrs.md)。 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:25
 #, no-wrap
 msgid "Styles"
-msgstr "款式 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:28
@@ -103,46 +105,42 @@ msgstr "款式 ???"
 msgid ""
 "**common styles**: check out [common styles for "
 "components](../references/common-style.md)\n"
-msgstr "* * *：常见的方式检查[组件]常见的风格(../references/common-style.md) ???\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:33
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles - support "
-"````opacity````, ````background-color```等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:34
 #, no-wrap
 msgid "Events"
-msgstr "事件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:37
 msgid ""
 "- `tabBar.onClick`: triggered when the tabitem is selected. You need to "
 "register the observer in ready or create block."
-msgstr "-`tabBar.onClick`：触发时TabItem选择。您需要注册准备就绪或创建块的观察者。 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:38
 #, no-wrap
 msgid "Example"
-msgstr "例子 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:41
 msgid ""
 "`require('weex-components')` should be used with webpack, see "
-"[example](https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-"
-"demo.we) for more detail."
+"[example](https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-demo.we) "
+"for more detail."
 msgstr ""
-"`require(_20_)`应采用WebPACK，见[例](https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-"
-"demo.we)的更多细节。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:48
@@ -155,12 +153,6 @@ msgid ""
 "  </div>\n"
 "</template>\n"
 msgstr ""
-"````HTML ???\n"
-"<模板> ???\n"
-"＜div style=“弯曲方向：柱;”> ???\n"
-"< WXC TabBar选项卡项目= { { } } > < / WXC TabItem TabBar > ???\n"
-"< / DIV > ???\n"
-"< /模板> ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:87
@@ -206,42 +198,3 @@ msgid ""
 "</script>\n"
 "```\n"
 msgstr ""
-"<脚本> ???\n"
-"要求('weex-components'); ???\n"
-"module.exports = { ???\n"
-"数据：{ ???\n"
-"TabItem：[???\n"
-"{ ???\n"
-"指数：0， ???\n"
-"标题：“……”， ???\n"
-"titlecolor：“# 000000， ???\n"
-"图标：“”， ???\n"
-"图像：“……”， ???\n"
-"SelectedImage：'…'， ???\n"
-"SRC：'…'， ???\n"
-"可见性：“可见”， ???\n"
-"}， ???\n"
-"{ ???\n"
-"指数：1， ???\n"
-"标题：“……”， ???\n"
-"titlecolor：“# 000000， ???\n"
-"图标：“”， ???\n"
-"图像：“……”， ???\n"
-"SelectedImage：'…'， ???\n"
-"SRC：'…'， ???\n"
-"可见性：“隐藏”， ???\n"
-"} ???\n"
-"]， ???\n"
-"}， ???\n"
-"方法：{ ???\n"
-"准备：功能(e){ ???\n"
-"虚拟机=这个; ???\n"
-"VM。美元('tabBar.onClick',function(e)(e){ ???\n"
-"VaR指标= e.detail.index; ???\n"
-"的… ???\n"
-"}); ???\n"
-"}， ???\n"
-"} ???\n"
-"} ???\n"
-"< /脚本> ???\n"
-"```` ???\n"
