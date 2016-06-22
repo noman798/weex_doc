@@ -79,11 +79,11 @@ def scan():
     count = 1
     for dirpath, md_li in walk_md():
         for lang in LANG:
-            mkpath(join(PATH, "po", lang, dirpath[len(PATH_DOC) + 1:]))
+            mkpath(join(PATH, "po", lang, dirpath))
         for i in md_li:
             for lang in LANG:
                 for func in (_update, _build):
-                    f = join(dirpath, i)[len(PATH_DOC) + 1:]
+                    f = join(dirpath, i)
                     print(count, f)
                     count += 1
                     func(lang, f)

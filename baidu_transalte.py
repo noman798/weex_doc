@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 
-from os import walk
 import polib
-from config import LANG, PATH, PATH_DOC
+from config import LANG, PATH
 from _util import walk_md
-    
+from os.path import join
 
 def main():
-    for (dirpath, dirnames, filenames) in walk(PATH_DOC):
-        for i in filenames:
-            if i.endswith(".md"):
-                md_li.append(i)
-
-    po = polib.pofile()
+    for dirpath, md_li in walk_md():
+        for i in md_li:
+            for lang in LANG:
+                f = join(PATH, "po", lang, dirpath, i)
+                print(f)
+                #po = polib.pofile()
 
 
 if __name__ == "__main__":
