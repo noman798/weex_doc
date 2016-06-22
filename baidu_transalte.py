@@ -21,7 +21,7 @@ class HideBracket:
     def hide(self, txt):
         txt = extract_map("(", ")", txt, self._hide)
         txt = extract_map("```", "```", txt, self._hide)
-        txt = extract_map("`", "`", txt, self._hide)
+        txt = extract_map(" `", "` ", txt, self._hide)
         return txt
 
     def _restore(self, txt):
