@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:1
@@ -19,13 +19,14 @@ msgstr "简介 ???"
 msgid ""
 "Weex is a extendable cross-platform solution for dynamic programming and "
 "publishing projects. You can build your own components on web platform or "
-"native platform by extending the components system. Also you can extend weex"
-" by adding new methods for one module, new moudles or new bundle loaders. "
+"native platform by extending the components system. Also you can extend weex "
+"by adding new methods for one module, new moudles or new bundle loaders. "
 "Follow the steps bellow you can dive into the journy of creating multiple "
 "builtin components, APIs and loaders."
 msgstr ""
-"长的是一个动态规划和出版项目可扩展的跨平台解决方案。通过扩展组件系统，可以在Web平台或本地平台上构建自己的组件。你也可以通过一个模块添加新方法扩展快，新模块或新束装载机。按照步骤你可以潜入创建多个内置组件的旅程，API和装载机。"
-" ???"
+"长的是一个动态规划和出版项目可扩展的跨平台解决方案。通过扩展组件系统，可以在"
+"Web平台或本地平台上构建自己的组件。你也可以通过一个模块添加新方法扩展快，新模"
+"块或新束装载机。按照步骤你可以潜入创建多个内置组件的旅程，API和装载机。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:7
@@ -55,7 +56,9 @@ msgstr "扩展`快。成分`，重写组件类的方法。 ???"
 msgid ""
 "Use `Weex.registerComponent` to register your customized component in the "
 "`init` method of the installation module."
-msgstr "使用 `Weex.registerComponent` 在登记您的自定义组件 `init` 的安装模块的方法。 ???"
+msgstr ""
+"使用 `Weex.registerComponent` 在登记您的自定义组件 `init` 的安装模块的方"
+"法。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:16
@@ -63,7 +66,9 @@ msgid ""
 "You can override any method of class `Component` to customize your "
 "component's behavior. The typical methods of class `Component` you should "
 "override are:"
-msgstr "你可以重写任何方法类 `Component` 自定义组件的行为。类的典型方法 `Component` 你应该重写了： ???"
+msgstr ""
+"你可以重写任何方法类 `Component` 自定义组件的行为。类的典型方法 `Component` "
+"你应该重写了： ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:22
@@ -127,10 +132,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:40
 msgid ""
-"// Extend from Weex.Component.  NewComponent.prototype = "
-"Object.create(Component.prototype)"
+"// Extend from Weex.Component.  NewComponent.prototype = Object."
+"create(Component.prototype)"
 msgstr ""
-"/ /从weex.component。newcomponent.prototype =(Component.prototype)创建对象。 ???"
+"/ /从weex.component。newcomponent.prototype =(Component.prototype)创建对"
+"象。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:47
@@ -227,16 +233,15 @@ msgid ""
 "modules. For example, you can add a new module `user` with APIs like "
 "'login', 'logout' etc. Or you can just add a single new method such as "
 "`setTitle` for the exsiting module `pageInfo`. Whichever way you use, the "
-"developer can invoke the API by using `require('@weex-"
-"module/moduleName)[methodName](arg1, arg2, ...)` ([Module "
-"APIs](../references/api.md))."
+"developer can invoke the API by using `require('@weex-module/moduleName)"
+"[methodName](arg1, arg2, ...)` ([Module APIs](../references/api.md))."
 msgstr ""
-"您可以添加新的接口模块，或者只是为现有的任何现有的接口模块添加一个新的。例如，您可以添加一个新的模块 `user` "
-"与API如“登录”、“退出”等，或者你可以添加一个新的方法，如 `setTitle` 对已有的模块 `pageInfo`. Whichever way "
-"you use, the developer can invoke the API by using "
-"`require(bb0160dd)[methodName](bb0170dd)`  "
-"`require(bb0160dd)[methodName](bb0170dd)` ([Module "
-"APIs](../references/api.md)(../references/api.md))。 ???"
+"您可以添加新的接口模块，或者只是为现有的任何现有的接口模块添加一个新的。例"
+"如，您可以添加一个新的模块 `user` 与API如“登录”、“退出”等，或者你可以添加一个"
+"新的方法，如 `setTitle` 对已有的模块 `pageInfo`. Whichever way you use, the "
+"developer can invoke the API by using `require(bb0160dd)[methodName]"
+"(bb0170dd)`  `require(bb0160dd)[methodName](bb0170dd)` ([Module APIs](../"
+"references/api.md)(../references/api.md))。 ???"
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
@@ -248,14 +253,16 @@ msgstr "需要你的接口模块。 ???"
 msgid ""
 "Use `Weex.registerAPIModules` to register your API modules in the init "
 "method of your installation module."
-msgstr "使用 `Weex.registerAPIModules` 在你安装模块的init方法登记您的API模块。 ???"
+msgstr ""
+"使用 `Weex.registerAPIModules` 在你安装模块的init方法登记您的API模块。 ???"
 
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
 msgid ""
 "Or use `Weex.registerAPI` to register your API for existing API modules in "
 "the init method of your installation module."
-msgstr "或使用 `Weex.registerAPI` 为你安装模块的init方法现有的API模块API登记。 ???"
+msgstr ""
+"或使用 `Weex.registerAPI` 为你安装模块的init方法现有的API模块API登记。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:90
@@ -266,9 +273,11 @@ msgstr "这里有一个注册一个新的接口模块的例子 ???\n"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:92
 msgid ""
-"First create a file named `user.js` for a new module, then define "
-"`login/logout` methods."
-msgstr "首先创建一个文件名为 `user.js` 一个新的模块，然后定义 `login/logout` 方法。 ???"
+"First create a file named `user.js` for a new module, then define `login/"
+"logout` methods."
+msgstr ""
+"首先创建一个文件名为 `user.js` 一个新的模块，然后定义 `login/logout` 方"
+"法。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:104
@@ -394,9 +403,10 @@ msgstr "*另一个例子为登记一个API，一个现有的API模块* ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:158
-msgid ""
-"First create a file named `pageInfo.js`, then define `setTitle` method:"
-msgstr "首先创建一个文件名为 `pageInfo.js`, then define `setTitle`  `setTitle` 方法： ???"
+msgid "First create a file named `pageInfo.js`, then define `setTitle` method:"
+msgstr ""
+"首先创建一个文件名为 `pageInfo.js`, then define `setTitle`  `setTitle` 方"
+"法： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:166
@@ -416,7 +426,8 @@ msgstr ""
 msgid ""
 "Register `setTitle` method to the `pageInfo` module in the "
 "`installationModule.js`:"
-msgstr "登记 `setTitle` 方法对 `pageInfo` 在` JS ` installationmodule模块： ???"
+msgstr ""
+"登记 `setTitle` 方法对 `pageInfo` 在` JS ` installationmodule模块： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:171
@@ -428,7 +439,8 @@ msgstr ""
 msgid ""
 "// Require your module file, which is pageInfo.js.  var pageInfo = "
 "require('./pageInfo')"
-msgstr "/ /需要你的模块文件，这是pageinfo.js。无功pageinfo =需要('./pageInfo') ???"
+msgstr ""
+"/ /需要你的模块文件，这是pageinfo.js。无功pageinfo =需要('./pageInfo') ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:182
@@ -470,9 +482,10 @@ msgid ""
 "`myServe.getWeexBundle`, which can load a weex bundle file throught some "
 "magical tunnel:"
 msgstr ""
-"加载快束建筑装载机类型 `loadByXHR`, `loadByJsonp`  `loadByJsonp` 和` loadbysourcecode "
-"`。你可以用`快登记自己的装载机。registerloader `。例如，你有一个服务的方法命名为` myserve。getweexbundle "
-"`，它可以加载文件快束通过神奇的隧道： ???"
+"加载快束建筑装载机类型 `loadByXHR`, `loadByJsonp`  `loadByJsonp` 和` "
+"loadbysourcecode `。你可以用`快登记自己的装载机。registerloader `。例如，你有"
+"一个服务的方法命名为` myserve。getweexbundle `，它可以加载文件快束通过神奇的"
+"隧道： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:204
@@ -512,8 +525,8 @@ msgstr "在你安装模块登记你的装载机 `loaderMod.js` ，然后安装�
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:215
 msgid ""
-"```javascript // Require your new loader.  var loadByMyServe = "
-"require('./loader').loadByMyServe"
+"```javascript // Require your new loader.  var loadByMyServe = require('./"
+"loader').loadByMyServe"
 msgstr ""
 
 #. type: Plain text
