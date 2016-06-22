@@ -6,28 +6,26 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:2
 #, no-wrap
 msgid "Weex Hello World\n"
-msgstr "长的世界你好 ???\n"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:4
 #, no-wrap
 msgid "snapshot"
-msgstr "快照 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:6
 msgid ""
-"![weex hello world](http://gtms01.alicdn.com/tps/i1/"
-"TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920.png)"
+"![weex hello "
+"world](http://gtms01.alicdn.com/tps/i1/TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920.png)"
 msgstr ""
-"![长](http://gtms01.alicdn.com/tps/i1/TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920."
-"png)你好世界 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:7
 #, no-wrap
 msgid "weex code"
-msgstr "长的代码 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:16

@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:1
 #, no-wrap
 msgid "Common Events"
-msgstr "常见的事件 ???"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:3
 #, no-wrap
 msgid "Click event"
-msgstr "单击事件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:6
@@ -20,44 +20,41 @@ msgid ""
 "If a `click` event is bound to a component, the event will be triggered when "
 "the user clicks on it."
 msgstr ""
-"如果一个`click`事件绑定到一个组件，事件将被触发时，用户点击就可以了。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:8
 #, no-wrap
-msgid "**Notes:** The component `input` and `switch` do not currently support this event, please use `change` or `input` event instead.\n"
-msgstr "*注：*组件`input`` and ``switch`` do not currently support this event, please use ``change`` or ``input`事件相反。 ???\n"
+msgid ""
+"**Notes:** The component `input` and `switch` do not currently support this "
+"event, please use `change` or `input` event instead.\n"
+msgstr ""
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:20
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:31
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10 /home/dev/download/weex_doc/weex/doc/references/common-event.md:20 /home/dev/download/weex_doc/weex/doc/references/common-event.md:31
 #, no-wrap
 msgid "**event object**\n"
-msgstr "**事件对象** ???\n"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
 msgid "`type`: `click`"
-msgstr "`type``: ``click`???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
 msgid "`target`: The target component where the event is triggered"
-msgstr "`target`：目标组件的事件触发 ???"
+msgstr ""
 
 #. type: Bullet: '* '
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
-#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
+#: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14 /home/dev/download/weex_doc/weex/doc/references/common-event.md:25 /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`timestamp`: Timestamp when event is triggered."
-msgstr "`timestamp`：当事件被触发的时间戳。 ???"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:15
 #, no-wrap
 msgid "Appear event"
-msgstr "出现的事件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:18
@@ -65,18 +62,16 @@ msgid ""
 "If a `appear` event is bound to a component inside a scroller, the event "
 "will be triggered when the component comes to be visible."
 msgstr ""
-"如果一个`appear`事件必然在一个滚动的一个组成部分，该事件将被触发时，该组件是"
-"可见的。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
 msgid "`type`: `appear`"
-msgstr "`type``: ``appear`???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
 msgid "`target`: The target component where event is triggered"
-msgstr "`target`：目标组件的事件触发 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
@@ -84,14 +79,12 @@ msgid ""
 "`direction`: The direction in which the scroller is scrolling. Should be "
 "`up` or `down`."
 msgstr ""
-"`direction``: The direction in which the scroller is scrolling. Should be "
-"``up`` or ``down`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:26
 #, no-wrap
 msgid "Disappear event"
-msgstr "消失事件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:29
@@ -100,18 +93,16 @@ msgid ""
 "will be triggered when the component scrolls out of viewport and disappears "
 "from your sight."
 msgstr ""
-"如果一个`disappear`事件必然在一个滚动的一个组成部分，该事件将被触发时，组件卷"
-"轴了视口和消失在你的视线里。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`type`: `disappear`"
-msgstr "`type``: ``disappear`???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`target`: The object where event is triggered"
-msgstr "`target`：对象的事件触发 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
@@ -119,5 +110,3 @@ msgid ""
 "`direction`: The direction in which the scroller is scrolling. Should be "
 "`up` or `down`"
 msgstr ""
-"`direction``: The direction in which the scroller is scrolling. Should be "
-"``up`` or ``down`???"

@@ -9,35 +9,29 @@ msgid ""
 "Weex List Demo\n"
 "===============\n"
 msgstr ""
-"长的列表演示 ???\n"
-"=============== ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:4
 #, no-wrap
 msgid "snapshot"
-msgstr "快照 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:6
 msgid ""
-"![weex demo](http://gtms01.alicdn.com/tps/i1/TB1U."
-"vZMpXXXXakXXXXfoKlVpXX-278-474.gif)"
+"![weex "
+"demo](http://gtms01.alicdn.com/tps/i1/TB1U.vZMpXXXXakXXXXfoKlVpXX-278-474.gif)"
 msgstr ""
-"![长](http://gtms01.alicdn.com/tps/i1/TB1U.vZMpXXXXakXXXXfoKlVpXX-278-474."
-"gif)演示 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:7
 #, no-wrap
 msgid "weex code"
-msgstr "长的代码 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/demo/list.md:9
 msgid ""
-"See [list example](https://github.com/alibaba/weex/tree/master/examples/"
-"listDemo.we)."
+"See [list "
+"example](https://github.com/alibaba/weex/tree/master/examples/listDemo.we)."
 msgstr ""
-"看到[例](https://github.com/alibaba/weex/tree/master/examples/listDemo.we)列"
-"表。 ???"

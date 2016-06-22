@@ -6,28 +6,26 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:1
 #, no-wrap
 msgid "&lt;slider&gt;"
-msgstr "&lt;滑块&gt; ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:3
 #, no-wrap
 msgid "Summary"
-msgstr "总结 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:6
 msgid ""
-"A slide's player to show slides (mostly as pictures) one page by another. "
-"The default interval between two slides is 3 seconds."
+"A slide's player to show slides (mostly as pictures) one page by "
+"another. The default interval between two slides is 3 seconds."
 msgstr ""
-"幻灯片的播放幻灯片(mostly as pictures)另一页。两个幻灯片之间的默认间隔为3"
-"秒。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:7
 #, no-wrap
 msgid "Child Components"
-msgstr "子组件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:10
@@ -36,60 +34,55 @@ msgid ""
 "`indicator` component which can be used only as a child component of "
 "`slider`."
 msgstr ""
-"它支持各种长的元件为幻灯片，尤其是`indicator`` component which can be used "
-"only as a child component of ``slider`。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:11
 #, no-wrap
 msgid "Attributes"
-msgstr "属性 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:14
 msgid ""
 "- `auto-play`: &lt;boolean&gt; `true` | `false`. This value determines "
-"whether the slides plays automatically after the page rendering finished. "
-"The default value is `false`."
+"whether the slides plays automatically after the page rendering "
+"finished. The default value is `false`."
 msgstr ""
-"-`auto-play``: &lt;boolean&gt; ``true`` | ``false``. This value determines "
-"whether the slides plays automatically after the page rendering finished. "
-"The default value is ``false`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:16
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
-msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:17
 #, no-wrap
 msgid "Styles"
-msgstr "款式 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:20
 #, no-wrap
-msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
-msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:25
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support ``position`` related styles - support ``opacity``, "
+"``background-color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:26
 #, no-wrap
 msgid "Events"
-msgstr "事件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:29
@@ -98,31 +91,28 @@ msgid ""
 "contains the attribute of `index`, which is the index number of the "
 "currently shown slide."
 msgstr ""
-"-`change``: triggerd when the slide's index is changed. The event object "
-"contains the attribute of ``index`，这是当前显示的幻灯片的指数。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:31
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
+msgid ""
+"**common events**: check out the [common "
+"events](../references/common-event.md)\n"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:34
 msgid ""
-"- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"- support `click` event. Check out [common "
+"events](../references/common-event.md)  - support `appear` / `disappear` "
+"event. Check out [common events](../references/common-event.md)"
 msgstr ""
-"支持`click`` event. Check out [common events](../references/common-event."
-"md)  - support ``appear`` / ``disappear`事件。查看[事件](../references/"
-"common-event.md)常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:35
 #, no-wrap
 msgid "Example"
-msgstr "例子 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:46
@@ -132,7 +122,8 @@ msgid ""
 "<template>\n"
 "  <div>\n"
 "    <slider auto-play=\"true\" onchange=\"change\" style=\"...\">\n"
-"      <image repeat=\"{{imageList}}\" src=\"{{src}}\" style=\"...\"></image>\n"
+"      <image repeat=\"{{imageList}}\" src=\"{{src}}\" "
+"style=\"...\"></image>\n"
 "      <indicator></indicator>\n"
 "    </slider>\n"
 "  </div>\n"

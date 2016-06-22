@@ -6,24 +6,23 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:1
 #, no-wrap
 msgid "gulp-weex"
-msgstr "大口长 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:4
 #, no-wrap
 msgid "> gulp plugin for weex transformer\n"
-msgstr ">大口插件快变压器 ???\n"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:5
 #, no-wrap
 msgid "Usage"
-msgstr "使用 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:10
-msgid ""
-"```javascript var gulp = require('gulp')  var weex = require('gulp-weex')"
+msgid "```javascript var gulp = require('gulp')  var weex = require('gulp-weex')"
 msgstr ""
 
 #. type: Plain text
@@ -37,47 +36,41 @@ msgid ""
 "})\n"
 "```\n"
 msgstr ""
-"gulp.task('default', function ()(){ ???\n"
-"返回gulp.src('src/*.html')???\n"
-"管(weex({})({}))。 ???\n"
-"管(gulp.dest('./dest')('./dest'))。 ???\n"
-"}) ???\n"
-"````???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:18
 #, no-wrap
 msgid "Options"
-msgstr "选项 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:20
 #, no-wrap
 msgid "oldFormat"
-msgstr "oldformat ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:23
 msgid "whether transform to old format."
-msgstr "是否转换为旧格式。 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:25
 msgid "default: `false`."
-msgstr "默认值：`false`。 ???"
+msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:26
 #, no-wrap
 msgid "isEntry"
-msgstr "isEntry ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:29
 msgid "whether is an entry module which has `bootstrap(...)`."
-msgstr "无论是输入模块具有`bootstrap(...)`。 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:30
 msgid "default: `true`."
-msgstr "默认值：`true`。 ???"
+msgstr ""
