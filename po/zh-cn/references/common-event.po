@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:1
@@ -17,19 +17,16 @@ msgstr "单击事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:6
 msgid ""
-"If a `click` event is bound to a component, the event will be triggered when"
-" the user clicks on it."
-msgstr "如果一个((bb000dd))事件绑定到一个组件，事件将被触发时，用户点击就可以了。 ???"
+"If a `click` event is bound to a component, the event will be triggered when "
+"the user clicks on it."
+msgstr ""
+"如果一个`click`事件绑定到一个组件，事件将被触发时，用户点击就可以了。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:8
 #, no-wrap
-msgid ""
-"**Notes:** The component `input` and `switch` do not currently support this "
-"event, please use `change` or `input` event instead.\n"
-msgstr ""
-"*注：*组件((bb020dd))((bb030dd))((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))事件而。"
-" ???\n"
+msgid "**Notes:** The component `input` and `switch` do not currently support this event, please use `change` or `input` event instead.\n"
+msgstr "*注：*组件`input`` and ``switch`` do not currently support this event, please use ``change`` or ``input`事件相反。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10
@@ -42,19 +39,19 @@ msgstr "**事件对象** ???\n"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
 msgid "`type`: `click`"
-msgstr "((bb0160dd))((bb0170dd))((bb0180dd)) ???"
+msgstr "`type``: ``click`"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
 msgid "`target`: The target component where the event is triggered"
-msgstr "((bb0220dd))：目标组件的事件触发 ???"
+msgstr "`target`: The target component where the event is triggered"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:14
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`timestamp`: Timestamp when event is triggered."
-msgstr "((bb0240dd))：当事件被触发的时间戳。 ???"
+msgstr "`timestamp`: Timestamp when event is triggered."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:15
@@ -67,24 +64,28 @@ msgstr "出现的事件 ???"
 msgid ""
 "If a `appear` event is bound to a component inside a scroller, the event "
 "will be triggered when the component comes to be visible."
-msgstr "如果一个((bb0260dd))事件必然在滚动的一个组成部分，该事件将被触发时，该组件是可见的。 ???"
+msgstr ""
+"如果一个`appear`事件必然在一个滚动的一个组成部分，该事件将被触发时，该组件是"
+"可见的。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
 msgid "`type`: `appear`"
-msgstr "((bb0280dd))((bb0290dd))((bb0300dd)) ???"
+msgstr "`type``: ``appear`"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
 msgid "`target`: The target component where event is triggered"
-msgstr "((bb0340dd))：目标组件的事件触发 ???"
+msgstr "`target`: The target component where event is triggered"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:25
 msgid ""
 "`direction`: The direction in which the scroller is scrolling. Should be "
 "`up` or `down`."
-msgstr "((bb0360dd))((bb0370dd))((bb0380dd))((bb0390dd))((bb0400dd))。 ???"
+msgstr ""
+"`direction``: The direction in which the scroller is scrolling. Should be "
+"``up`` or ``down`."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:26
@@ -98,21 +99,25 @@ msgid ""
 "If a `disappear` event is bound to a component inside a scroller, the event "
 "will be triggered when the component scrolls out of viewport and disappears "
 "from your sight."
-msgstr "如果一个((bb0460dd))事件必然在滚动的一个组成部分，该事件将被触发时，组件卷轴了视口和消失在你的视线里。 ???"
+msgstr ""
+"如果一个`disappear`事件必然在一个滚动的一个组成部分，该事件将被触发时，组件卷"
+"轴了视口和消失在你的视线里。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`type`: `disappear`"
-msgstr "((bb0480dd))((bb0490dd))((bb0500dd)) ???"
+msgstr "`type``: ``disappear`"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid "`target`: The object where event is triggered"
-msgstr "((bb0540dd))：对象的事件触发 ???"
+msgstr "`target`: The object where event is triggered"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:36
 msgid ""
 "`direction`: The direction in which the scroller is scrolling. Should be "
 "`up` or `down`"
-msgstr "((bb0560dd))((bb0570dd))((bb0580dd))((bb0590dd))((bb0600dd)) ???"
+msgstr ""
+"`direction``: The direction in which the scroller is scrolling. Should be "
+"``up`` or ``down`"

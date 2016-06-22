@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:1
@@ -15,22 +15,24 @@ msgid ""
 "tool , it be designed to help you quickly preview Weex `we file` and debug "
 "your `we file`."
 msgstr ""
-"[长]((../tools/cli.md)工具包)是一种多功能的命令行界面工具，它被设计来帮助你快速预览快((bb000dd))((bb010dd))((bb020dd))。"
-" ???"
+"[长](../tools/cli.md)工具包是一个多功能的命令行界面工具，它被设计来帮助你快速"
+"预览快`we file`` and debug your ``we file`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:6
 msgid ""
 "At present the only debug assist function of Weex toolkit is `Hot reload` , "
 "we will add more utility debug function soon."
-msgstr "目前唯一的调试辅助工具功能(长(bb070dd))，我们将添加更多的实用调试功能很快。 ???"
+msgstr ""
+"目前唯一的调试辅助工具`Hot reload`长的功能，我们将添加更多的实用调试功能很"
+"快。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:8
 msgid ""
-"After install weex toolkit， open your terminal and navigate to the directory"
-" where you save `we` file. then type"
-msgstr "安装快工具包后，打开终端，导航到你保存的文件目录((bb090dd))。然后键入 ???"
+"After install weex toolkit， open your terminal and navigate to the "
+"directory where you save `we` file. then type"
+msgstr "安装快工具包后，打开终端，导航到您保存文件的目录`we`。然后键入 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:12
@@ -41,17 +43,18 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:14
 msgid ""
 "A browser window will open automatically to display render result of your "
-"`we` file. Trying to change some content of your `we` file and save the file"
-" .  your browser will immediately display these changes."
+"`we` file. Trying to change some content of your `we` file and save the "
+"file .  your browser will immediately display these changes."
 msgstr ""
-"一个浏览器窗口将自动打开，显示渲染结果你((bb0110dd))((bb0120dd))((bb0130dd))文件和保存文件。您的浏览器将立即显示这些更改。"
-" ???"
+"一个浏览器窗口会自动打开显示渲染你的`we`` file. Trying to change some "
+"content of your ``we`文件和保存文件。您的浏览器将立即显示这些更改。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:17
 msgid ""
 "`Hot Reload` also work with Native Runtime in Weex Playground App , type"
-msgstr "((bb0170dd))在操场上本地运行应用程序的工作也快，型 ???"
+msgstr ""
+"`Hot Reload` also work with Native Runtime in Weex Playground App , type"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:21
@@ -65,4 +68,5 @@ msgid ""
 "Playground App ,your `we` file will be render in playground App. Update the "
 "file the render result will be update automaticly."
 msgstr ""
-"一个二维码会在终端窗口显示，扫描使用长的操场应用QR，你((bb0190dd))文件将在应用程序渲染的操场。更新文件的渲染结果会自动更新。 ???"
+"一个二维码会在终端窗口显示，扫描使用长的操场应用QR，你`we`文件将在应用程序渲"
+"染的操场。更新文件的渲染结果会自动更新。 ???"

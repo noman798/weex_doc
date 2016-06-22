@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:1
@@ -11,14 +11,14 @@ msgstr "服务和工具 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[CLI](./cli.md)"
-msgstr "[气候]((./cli.md)) ???"
+msgstr "[CLI](./cli.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[Transformer](./transformer.md)"
-msgstr "[器]((./transformer.md)) ???"
+msgstr "[Transformer](./transformer.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/README.md:5
 msgid "[Playground App](./playground-app.md)"
-msgstr "[应用]((./playground-app.md))操场 ???"
+msgstr "[Playground App](./playground-app.md)"

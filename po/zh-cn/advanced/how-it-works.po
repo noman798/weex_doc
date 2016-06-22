@@ -18,7 +18,7 @@ msgstr "概述 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:6
 #, no-wrap
 msgid "Weex is a extendable cross-platform solution for dynamic programming and publishing projects. In the source code you can write pages or components with `<template>`, `<style>` and `<script>` tags, and then transform them into bundles for deploying. In server-side we can use these JS bundles for client request. When client get a bundle from server, it will be processed by client-side JavaScript engine and manages the native view rendering, the native API invoking and user interactions.\n"
-msgstr "长的是一个动态规划和出版项目可扩展的跨平台解决方案。在源代码中你可以写页或组件((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))标签，然后变换成束的部署。在服务器端，我们可以使用这些JS捆绑客户请求。当客户端从服务器得到一束，它将通过客户端JavaScript引擎处理和管理本地视图渲染，本地API调用和用户交互。 ???\n"
+msgstr "长的是一个动态规划和出版项目可扩展的跨平台解决方案。在源代码中你可以写页或组件与`<template>``, ``<style>`` and ``<script>`标签，然后变换成束的部署。在服务器端，我们可以使用这些JS捆绑客户请求。当客户端从服务器得到一束，它将通过客户端JavaScript引擎处理和管理本地视图渲染，本地API调用和用户交互。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:7
@@ -91,14 +91,20 @@ msgid ""
 "example: `<foo a=\"{% raw %}{{x}}{% endraw %}\" b=\"1\" />` will be "
 "transformed into `{type: \"foo\", attr: {a: function () {return this.x}, b: "
 "1}}`."
-msgstr "变换((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))。 ???"
+msgstr ""
+"变换`<template>`` into a JSON-like tree and transform data-binding attribute "
+"into a function prop which return the correct data value. For example: "
+"``<foo a=\"{% raw %}{{x}}{% endraw %}\" b=\"1\" />`` will be transformed "
+"into ``{type: \"foo\", attr: {a: function () {return this.x}, b: 1}}`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:34
 msgid ""
 "Transform `<style>` into a JSON tree. For example: `.classname {name: value;}"
 "` will be transformed into `{classname: {name: value}}`."
-msgstr "变换((bb0200dd))((bb0210dd))((bb0220dd))((bb0230dd))((bb0240dd))。 ???"
+msgstr ""
+"变换`<style>`` into a JSON tree. For example: ``.classname {name: value;}`` "
+"will be transformed into ``{classname: {name: value}}`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:34
@@ -106,13 +112,13 @@ msgid ""
 "Join the two above with `<script>` content. The three parts will be joined "
 "together and wrapped into a JavaScript AMD module."
 msgstr ""
-"加入两个以上((bb0300dd))含量。三部分将结合在一起，包裹成一个JavaScript AMD模"
+"加入两个以上`<script>`内容。三部分将结合在一起，包裹成一个JavaScript AMD模"
 "块。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:36
 msgid "A whole example (`main.we`):"
-msgstr "一个完整的范例(((bb0320dd))((bb0320dd)))： ???"
+msgstr "一个完整的案例( bbb0160ddd )： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:52
@@ -193,9 +199,11 @@ msgid ""
 "will start compiling main component into virtual DOM and send rendering "
 "calls to native."
 msgstr ""
-"js框架将运行在本地JavaScript引擎在开始准备阶段。它((bb0350dd))((bb0360dd))"
-"((bb0370dd))((bb0380dd))((bb0390dd))((bb0400dd))((bb0410dd))将开始编制主要成"
-"分为虚拟DOM和发送绘制调用本地。 ???"
+"js框架将运行在本地JavaScript引擎在开始准备阶段。它有`define()`` and "
+"``bootstrap()`` functions for each the bunlde code. Once a JS bundle "
+"requested from server, the code will be executed. ``define()`` will register "
+"all modules first, then ``bootstrap()`将开始编制主要成分为虚拟DOM和发送绘制调"
+"用本地。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:84
@@ -210,8 +218,10 @@ msgid ""
 "organized by modules, for example `rendering`, `networking`, `authorizing`, "
 "and other client-side features like `toast` etc."
 msgstr ""
-"((bb0490dd))((bb0500dd))((bb0510dd))((bb0520dd))((bb0530dd))((bb0540dd))"
-"((bb0550dd))((bb0560dd))((bb0570dd))等。 ???"
+"`callNative`` sends commands from JavaScript to native. So it's called from "
+"JavaScript and implemented with native code. All commands are native APIs "
+"organized by modules, for example ``rendering``, ``networking``, "
+"``authorizing``, and other client-side features like ``toast` etc."
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:87
@@ -220,8 +230,9 @@ msgid ""
 "native and implemented by JS Framework. All commands are user interactions "
 "or native callbacks."
 msgstr ""
-"((bb0670dd))发送命令从本地JavaScript。所以它被称为从本地和JS框架实现。所有的"
-"命令都是用户交互或本机回调。 ???"
+"`callJS` sends commands from native to JavaScript. So it's called from "
+"native and implemented by JS Framework. All commands are user interactions "
+"or native callbacks."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:88
@@ -240,7 +251,7 @@ msgstr "本地renderengine将呼叫提供许多本地组件和模块。 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:93
 #, no-wrap
 msgid "**Component** is an element in the screen which have a certain view and behavior. It could be configured with some attributes and style properties, and could response user interactions. There are some common components like `<div>`, `<text>`, `<image>` etc.\n"
-msgstr "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *。它可以配置一些属性和样式属性，并可以响应用户交互。有一些共同的成分((bb0690dd))((bb0700dd))((bb0710dd))((bb0720dd))((bb0730dd))等。 ???\n"
+msgstr "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *。它可以配置一些属性和样式属性，并可以响应用户交互。有一些常见的成分如`<div>``, ``<text>``, ``<image>`等 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:95
@@ -261,15 +272,16 @@ msgid ""
 "native RenderEngines."
 msgstr ""
 "一个长的工程实例中，本土renderengine接收各种模块API调用的js框架。这些调用会创"
-"建或更新视图和使用客户端功能部件((bb0790dd))((bb0800dd))((bb0810dd))从JS框"
-"架。这些工作可以通过步行快实例生命周期直到实例被销毁。正如在建筑图所示，是一"
-"个特殊的renderengine H5 renderengine几乎相同的功能作为本土renderengines。 ???"
+"建或更新视图和使用客户端功能`toast``. When a user interaction or module API "
+"callback happens, It will call ``callJS()`从JS框架组件。这些工作可以通过步行"
+"快实例生命周期直到实例被销毁。正如在建筑图所示，是一个特殊的renderengine H5 "
+"renderengine几乎相同的功能作为本土renderengines。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:98
 #, no-wrap
 msgid "![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  \n"
-msgstr "![arch]((http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png))  \n"
+msgstr "![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:100
@@ -319,7 +331,7 @@ msgstr "渲染流程 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:124
 #, no-wrap
 msgid "![render flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  \n"
-msgstr "![render flow]((http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png))  \n"
+msgstr "![render flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:126
@@ -334,7 +346,7 @@ msgstr "输入虚拟DOM。 ???"
 #. type: Bullet: '0. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:135
 msgid "**Build Tree**. Parse JSON data (virtual dom) to a Render Tree (RT)."
-msgstr "* *建立树。解析JSON数据((virtual dom))来渲染树((RT))。 ???"
+msgstr "* *建立树。解析JSON数据(virtual dom)来渲染树(RT)。 ???"
 
 #. type: Bullet: '0. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:135
@@ -357,8 +369,8 @@ msgid ""
 "**CSS Layout**. Use [css-layout](https://github.com/facebook/css-layout) to "
 "calculate the layout of each view."
 msgstr ""
-"* * * * CSS布局。使用CSS布局] [((https://github.com/facebook/css-layout))计算"
-"每个视图的布局。 ???"
+"* * * * CSS布局。使用CSS布局] [(https://github.com/facebook/css-layout)计算每"
+"个视图的布局。 ???"
 
 #. type: Bullet: '0. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:135
@@ -376,5 +388,5 @@ msgid ""
 "In H5 Render Flow, `CSS Layout` and `Update Frame` are implemented by "
 "browser engine like webkit."
 msgstr ""
-"在H5的渲染流程，((bb0900dd))((bb0910dd))((bb0920dd))是由浏览器引擎WebKit实"
-"现。 ???"
+"在H5渲染流程，`CSS Layout`` and ``Update Frame`浏览器引擎WebKit实现这样"
+"的。 ???"

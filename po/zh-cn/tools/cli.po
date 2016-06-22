@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title =
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
@@ -39,11 +39,11 @@ msgstr "快 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex "
-"foo/bar/your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
+"your_next_best_weex_script_file.we [options]"
 msgstr ""
-"热加载快文件预览工具((bb000dd))((bb010dd))用法：快富/酒吧/ your_next_best_weex_script_file.we"
-" [选项] ???"
+"热加载````使用长文件预览工具：快富/酒吧/ your_next_best_weex_script_file.we "
+"[选项] ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25
@@ -61,7 +61,7 @@ msgstr ""
 "  -o      transform weex JS bundle only, specify bundle file name using the option\n"
 "  -s      start a http file server, weex .we file will be transformed on the server. specify local root path using the option\n"
 "  --help  Show help                                                       \n"
-"((bb040dd))((bb050dd)) ???\n"
+"````\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:27
@@ -72,7 +72,7 @@ msgstr "问题和反馈 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:30
 msgid "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
-msgstr "[GitHub的问题清单]((https://github.com/alibaba/weex_toolchain/issues)) ???"
+msgstr "[Github Issue List](https://github.com/alibaba/weex_toolchain/issues)"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:31
@@ -120,7 +120,8 @@ msgstr "160223：添加-o选项变换快JS束直接 ???"
 msgid ""
 "160201 : adopt new weex JS bundle style(define / require) & output "
 "transformer Error/Warning logs"
-msgstr "160201：采用新长的JS捆绑式((define / require))与输出变压器的错误/警告日志 ???"
+msgstr ""
+"160201：采用新长的JS捆绑式(define / require)输出变压器的错误/警告日志 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44

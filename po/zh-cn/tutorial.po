@@ -59,7 +59,7 @@ msgid ""
 "  .thumb {width: 200; height: 200; }\n"
 "  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  \n"
 msgstr ""
-"(<style>) ???\n"
+"<style>\n"
 "  .cell{margin-top:10 ; margin-left:10 ; flex-direction: row; }\n"
 "  .thumb {width: 200; height: 200; }\n"
 "  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  \n"
@@ -79,8 +79,8 @@ msgid ""
 "You can copy and paste above code to a Weex file named `tech_list.we` (`.we` "
 "is our recommended the file extension name)"
 msgstr ""
-"你可以复制和粘贴上面的代码到一个长文件名((bb010dd))((bb020dd))((bb030dd))是我"
-"们推荐的文件扩展名) ???"
+"你可以复制和粘贴上面的代码来命名的`tech_list.we`` (``.we`长的文件是我们推荐的"
+"文件扩展名) ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:29
@@ -89,8 +89,8 @@ msgid ""
 "(https://nodejs.org/en/download/stable/) first. Then you can install Weex "
 "CLI program using Node JS npm command."
 msgstr ""
-"这个长的CLI工具链是节点基于js的，所以你需要安装[点]((https://nodejs.org/en/"
-"download/stable/))第一。然后你可以安装长的CLI程序使用节点JS NPM命令。 ???"
+"这个长的CLI工具链是节点基于js的，所以你需要安装[节点](https://nodejs.org/en/"
+"download/stable/)第一。然后你可以安装长的CLI程序使用节点JS NPM命令。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:33
@@ -132,7 +132,7 @@ msgstr ""
 "  -s      start a http file server, weex .we file will be transformed on the\n"
 "          server, specify local root path using the option     [default: false]\n"
 "  --help  Show help                                                    [boolean]\n"
-"((bb080dd))((bb090dd)) ???\n"
+"````\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:49
@@ -162,8 +162,8 @@ msgid ""
 "![weex html5 render](http://gtms02.alicdn.com/tps/i2/"
 "TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 msgstr ""
-"![长的HTML5渲染]((http://gtms02.alicdn.com/tps/i2/"
-"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)) ???"
+"![weex html5 render](http://gtms02.alicdn.com/tps/i2/"
+"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:60
@@ -203,7 +203,7 @@ msgid ""
 msgstr ""
 "风格描述长的标签将显示。我们喜欢你，爱的CSS，所以我们尽量用CSS标准尽可能保持"
 "一致。长的方式支持很多CSS的功能，如：边缘、填充、固定......更好的是，flexbox"
-"布局((flex))是很好的支持，在长的风格。 ???"
+"布局(flex)很支持长的风格。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:70
@@ -223,7 +223,7 @@ msgid ""
 "More complete information about Weex syntax can be found in our [Syntax "
 "chapter](syntax/main.md)."
 msgstr ""
-"关于长的语法更完整的信息，可以在我们的[语法]发现章((syntax/main.md))。 ???"
+"关于长的语法更完整的信息，可以在我们的[语法](syntax/main.md)发现章。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:73
@@ -303,8 +303,8 @@ msgid ""
 "![weex qr](http://gtms01.alicdn.com/tps/i1/"
 "TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
 msgstr ""
-"![长](QR (http://gtms01.alicdn.com/tps/i1/"
-"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)) ???"
+"![weex qr](http://gtms01.alicdn.com/tps/i1/"
+"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:115
@@ -317,12 +317,11 @@ msgid ""
 "the list is render using native widget ( no webkit ), so your app get faster "
 "loading and less memory overhead than common embedded webkit renderer."
 msgstr ""
-"QR码将与长的操场的应用程序一起工作，你可以在这里下载应用程序[]((http://"
-"alibaba.github.io/weex/download.html))。安装成功后，打开应用程序，然后单击快"
-"操场右上角扫描图标，然后扫描QR码在你的终端。如果一切顺利，一个漂亮的列表将显"
-"示在您的手机。在这里，我要强调的是，这份名单是渲染使用本地widget(( no "
-"webkit ))，所以你的应用程序获得更快的加载速度和更少的内存开销比常见的嵌入式"
-"WebKit渲染。 ???"
+"QR码将与长的操场的应用程序一起工作，你可以下载应用程序[这里](http://alibaba."
+"github.io/weex/download.html)。安装成功后，打开应用程序，然后单击快操场右上角"
+"扫描图标，然后扫描QR码在你的终端。如果一切顺利，一个漂亮的列表将显示在您的手"
+"机。在这里，我要强调的是，这份名单是渲染使用本地widget( no webkit )，所以你的"
+"应用程序获得更快的加载速度和更少的内存开销比常见的嵌入式WebKit渲染。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
@@ -330,8 +329,8 @@ msgid ""
 "![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
 "TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 msgstr ""
-"![表](Android (http://gtms04.alicdn.com/tps/i4/"
-"TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)) ???"
+"![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
+"TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:119
@@ -400,7 +399,7 @@ msgid ""
 "        height: 200;\n"
 "  }  \n"
 msgstr ""
-"(<style>) ???\n"
+"<style>\n"
 "  .cell{margin-top:10 ; margin-left:10 ; flex-direction: row; }\n"
 "  .thumb {width: 200; height: 200; }\n"
 "  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }\n"
@@ -468,15 +467,15 @@ msgid ""
 "![slider demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
 "XUXXX-596-1000.gif)"
 msgstr ""
-"![滑块演示]((http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
-"XUXXX-596-1000.gif)) ???"
+"![slider demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
+"XUXXX-596-1000.gif)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:201
 msgid ""
 "More information about Slider Component can be found [here](components/"
 "slider.md)."
-msgstr "关于滑块组件的更多信息可以在[这里]((components/slider.md))。 ???"
+msgstr "关于滑块组件的更多信息可以在[这里](components/slider.md)。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:202
@@ -486,4 +485,4 @@ msgid ""
 "integrate-to-android.md) for integrating Weex into your App."
 msgstr ""
 "就像前面的例子，滑块可以绘制在本地，容易长的操场，也在你的应用程序。请参阅[文"
-"件]((advanced/integrate-to-android.md))集成到您的应用程序快。 ???"
+"件](advanced/integrate-to-android.md)整合快到你的应用程序。 ???"

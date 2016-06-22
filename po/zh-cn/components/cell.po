@@ -1,12 +1,12 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:1
 #, no-wrap
 msgid "&lt;<cell>&gt;"
-msgstr "&lt;(<cell>)&gt; ???"
+msgstr "&lt;<cell>&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:3
@@ -19,7 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "This component must be used as a subcomponent of a [`list`](list.md) "
 "component, which is for the performance optimizing during scrolling."
-msgstr "这部分必须作为子一[((bb010dd))]((list.md))组成，这是性能优化在滚动。 ???"
+msgstr "这部分必须作为子一[`list`](list.md)组成，这是性能优化在滚动。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:7
@@ -45,19 +45,15 @@ msgstr "属性 ???"
 msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
-msgstr "在这个组件以外的[共同属性]没有特定的属性((../references/common-attrs.md))。 ???"
+msgstr ""
+"在这个组件以外的共同属性] [(../references/common-attrs.md)没有特定的属"
+"性。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:16
 #, no-wrap
-msgid ""
-"**Notes:** you can't give `<cell>` a `flex` value. Width of `<cell>` is "
-"equal to the width of its parent component `<list>`, and you don't need to "
-"specify its height.\n"
-msgstr ""
-"*注：* "
-"*你不能给((bb050dd))((bb060dd))((bb070dd))((bb080dd))((bb090dd))((bb0100dd))((bb0110dd))，你不需要指定它的高度。"
-" ???\n"
+msgid "**Notes:** you can't give `<cell>` a `flex` value. Width of `<cell>` is equal to the width of its parent component `<list>`, and you don't need to specify its height.\n"
+msgstr "*注：* *你不能给`<cell>`` a ``flex`` value. Width of ``<cell>`` is equal to the width of its parent component ``<list>`，你不需要指定它的高度。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:17
@@ -68,10 +64,8 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:20
 #, no-wrap
-msgid ""
-"**common styles**: check out the [common styles](../references/common-"
-"attrs.md)\n"
-msgstr "* * *：常见的方式查看[普通样式]((../references/common-attrs.md)) ???\n"
+msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgstr "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:25
@@ -80,8 +74,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持((bb0200dd))((bb0210dd))((bb0220dd))((bb0230dd))((bb0240dd))((bb0250dd))((bb0260dd))((bb0270dd))((bb0280dd))((bb0290dd))((bb0300dd))等。"
-" ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
+"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:26
@@ -92,20 +86,19 @@ msgstr "事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:29
 #, no-wrap
-msgid ""
-"**common events**: check out the [common events](../references/common-"
-"event.md)\n"
-msgstr "* * *：常见的事件查看[事件]((../references/common-event.md))共同 ???\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgstr "**common events**: check out the [common events](../references/common-event.md)\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:32
 msgid ""
 "- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common "
-"events](../references/common-event.md)"
+"event.md)  - support `appear` / `disappear` event. Check out [common events]"
+"(../references/common-event.md)"
 msgstr ""
-"支持((bb0430dd))((bb0440dd))((bb0450dd))((bb0460dd))((bb0470dd))事件。查看[事件]((../references/common-"
-"event.md))共同 ???"
+"- support `click`` event. Check out [common events](../references/common-"
+"event.md)  - support ``appear`` / ``disappear` event. Check out [common "
+"events](../references/common-event.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:33
@@ -116,4 +109,4 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:35
 msgid "please refer to [List](list.md)"
-msgstr "请参阅[表]((list.md)) ???"
+msgstr "please refer to [List](list.md)"

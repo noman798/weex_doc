@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:1
@@ -19,8 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
 msgstr ""
-"一系列的模态对话框API类((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))((bb050dd))((bb060dd))。"
-" ???"
+"一系列的模态对话框API像`toast``, ``alert``, ``confirm`` and ``prompt`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:7
@@ -32,7 +31,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:9
 #, no-wrap
 msgid "toast(options)"
-msgstr "吐司((options)) ???"
+msgstr "toast(options)"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:11
@@ -51,8 +50,9 @@ msgid ""
 "  * `message`*(string)*: the message that the toast shows.\n"
 "  * `duration`*(number)*: the duration(seconds) that the toast shows.\n"
 msgstr ""
-"*((bb0150dd))((bb0160dd))((bb0170dd))((bb0180dd))((bb0190dd))*((number))*时间((seconds))，土司显示。"
-" ???\n"
+"*`options``*(object)*: some options.\n"
+"  * ``message``*(string)*: the message that the toast shows.\n"
+"  * ``duration`*(number)*：时间(seconds)，土司显示。 ???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:18
@@ -66,15 +66,15 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:24
 msgid ""
-"```javascript var modal = require('@weex-module/modal'); "
-"modal.toast({'message': 'I am toast!', 'duration': 1}); ```"
+"```javascript var modal = require('@weex-module/modal'); modal."
+"toast({'message': 'I am toast!', 'duration': 1}); ```"
 msgstr ""
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:25
 #, no-wrap
 msgid "alert(options, callback)"
-msgstr "警报((options, callback)) ???"
+msgstr "alert(options, callback)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:33
@@ -85,8 +85,10 @@ msgid ""
 "  * `okTitle`*(string)*: the title of alert button.\n"
 "* `callback`*(function)*: callback when complete.\n"
 msgstr ""
-"*((bb0280dd))((bb0290dd))((bb0300dd))((bb0310dd))((bb0320dd))((bb0330dd))((bb0340dd))*((function))*：回调时完成。"
-" ???\n"
+"*`options``*(object)*: some options.\n"
+"  * ``message``*(string)*: the message that the alert shows.\n"
+"  * ``okTitle``*(string)*: the title of alert button.\n"
+"* ``callback`*(function)*：回调时完成。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:47
@@ -109,7 +111,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:48
 #, no-wrap
 msgid "confirm(options, callback)"
-msgstr "确认((options, callback)) ???"
+msgstr "confirm(options, callback)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:57
@@ -121,8 +123,11 @@ msgid ""
 "  * `cancelTitle`*(string)*: the title of cancel button.\n"
 "* `callback`*(function)*: callback when complete.\n"
 msgstr ""
-"*((bb0440dd))((bb0450dd))((bb0460dd))((bb0470dd))((bb0480dd))((bb0490dd))((bb0500dd))((bb0510dd))((bb0520dd))*((function))*：回调时完成。"
-" ???\n"
+"*`options``*(object)*: some options.\n"
+"  * ``message``*(string)*: the message that the confirm shows.\n"
+"  * ``okTitle``*(string)*: the title of confirm button.\n"
+"  * ``cancelTitle``*(string)*: the title of cancel button.\n"
+"* ``callback`*(function)*：回调时完成。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:59
@@ -136,7 +141,9 @@ msgstr "此方法有一个回调函数，该函数的参数将是： ???"
 msgid ""
 "* `e`*(object)*: a event object.\n"
 "  * `status`*(string)*: the title of the button that clicked by user.\n"
-msgstr "*((bb0630dd))((bb0640dd))((bb0650dd))*(*：(string))的按钮，点击用户名称。 ???\n"
+msgstr ""
+"* * *：`e``*(object)*: a event object.\n"
+"  * ``status`(string)的按钮，点击用户名称。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:79
@@ -162,7 +169,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:80
 #, no-wrap
 msgid "prompt(options, callback)"
-msgstr "提示((options, callback)) ???"
+msgstr "prompt(options, callback)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:89
@@ -174,8 +181,11 @@ msgid ""
 "  * `cancelTitle`*(string)*: the title of cancel button.\n"
 "* `callback`*(function)*: callback when complete.\n"
 msgstr ""
-"*((bb0710dd))((bb0720dd))((bb0730dd))((bb0740dd))((bb0750dd))((bb0760dd))((bb0770dd))((bb0780dd))((bb0790dd))*((function))*：回调时完成。"
-" ???\n"
+"*`options``*(object)*: some options.\n"
+"  * ``message``*(string)*: the message that the prompt shows.\n"
+"  * ``okTitle``*(string)*: the title of confirm button.\n"
+"  * ``cancelTitle``*(string)*: the title of cancel button.\n"
+"* ``callback`*(function)*：回调时完成。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:95
@@ -185,8 +195,9 @@ msgid ""
 "  * `status`*(string)*: the title of the button that clicked by user.\n"
 "  * `data`*(string)*: the value of the text that entered by user.\n"
 msgstr ""
-"*((bb0900dd))((bb0910dd))((bb0920dd))((bb0930dd))((bb0940dd))*((string))*：对用户输入的文本的价值。"
-" ???\n"
+"*`e``*(object)*: a event object.\n"
+"  * ``status``*(string)*: the title of the button that clicked by user.\n"
+"  * ``data`(string)*：*，用户输入的文本的价值。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:112

@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:1
@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:9
 #, no-wrap
 msgid "scrollTo(node, options)"
-msgstr "scrollto((node, options)) ???"
+msgstr "scrollTo(node, options)"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:11
@@ -40,7 +40,7 @@ msgstr "争论 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:16
 msgid "`node`*(Node)*: an element that scrolled into the view."
-msgstr "((bb010dd))*((Node))*：一种元素，滚动到视图。 ???"
+msgstr "`node`*(Node)*: an element that scrolled into the view."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:16
@@ -48,7 +48,9 @@ msgstr "((bb010dd))*((Node))*：一种元素，滚动到视图。 ???"
 msgid ""
 "* `options`*(object)*: some options.\n"
 "  * `offset`*(number)*: An offset to the visible position, default is `0`.\n"
-msgstr "*((bb040dd))((bb050dd))((bb060dd))((bb070dd))((bb080dd))。 ???\n"
+msgstr ""
+"*`options``*(object)*: some options.\n"
+"  * ``offset``*(number)*: An offset to the visible position, default is ``0`。 ???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:17
@@ -59,6 +61,6 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:23
 msgid ""
-"```javascript var dom = require('@weex-module/dom'); "
-"dom.scrollTo(this.$el('someId'), {offset: 10}); ```"
+"```javascript var dom = require('@weex-module/dom'); dom.scrollTo(this."
+"$el('someId'), {offset: 10}); ```"
 msgstr ""

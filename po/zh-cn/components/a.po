@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:1
@@ -18,11 +18,11 @@ msgstr "# # #总结 ???\n"
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:4
 msgid ""
 "&lt;a&gt; defines a hyperlink to a page in the web. Its purpose and syntax "
-"is very simliar to [&lt;a&gt;](https://developer.mozilla.org/en-"
-"US/docs/Web/HTML/Element/a) in HTML5."
+"is very simliar to [&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/"
+"HTML/Element/a) in HTML5."
 msgstr ""
-"&lt;一&gt;定义了一个超链接到一个网页的网页。其目的和语法非常类似于[&lt;一&gt;]((https://developer.mozilla.org/en-"
-"US/docs/Web/HTML/Element/a))在HTML5。 ???"
+"&lt;一&gt;定义了一个超链接到一个网页的网页。其目的和语法非常类似于[&lt;一"
+"&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)HTML5。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:5
@@ -63,10 +63,8 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:15
 #, no-wrap
-msgid ""
-"**common styles**: check out the [common styles](../references/common-"
-"attrs.md)\n"
-msgstr "* * *：常见的方式查看[普通样式]((../references/common-attrs.md)) ???\n"
+msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgstr "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:16
@@ -77,10 +75,8 @@ msgstr "事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:18
 #, no-wrap
-msgid ""
-"**common events**: check out the [common events](../references/common-"
-"event.md)\n"
-msgstr "* * *：常见的事件查看[事件]((../references/common-event.md))共同 ???\n"
+msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgstr "**common events**: check out the [common events](../references/common-event.md)\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:19

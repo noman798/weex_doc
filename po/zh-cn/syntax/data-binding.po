@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:1
@@ -11,14 +11,8 @@ msgstr "数据绑定 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:4
 #, no-wrap
-msgid ""
-"In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>`"
-" which are defined in `<script>`. Once data and template is bound, the data "
-"changes will influence the corresponding template content immediately and "
-"automatically.\n"
-msgstr ""
-"在长的，我们使用*胡子*语法((bb000dd))((bb010dd))((bb020dd))((bb030dd))((bb040dd))。一旦数据和模板绑定，数据的更改将立即和自动地影响相应的模板内容。"
-" ???\n"
+msgid "In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` which are defined in `<script>`. Once data and template is bound, the data changes will influence the corresponding template content immediately and automatically.\n"
+msgstr "在长的，我们使用*胡子*语法`{{...}}`` to bind data in ``<template>`` which are defined in ``<script>`。一旦数据和模板绑定，数据的更改将立即和自动地影响相应的模板内容。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:5
@@ -57,15 +51,14 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:25
 msgid ""
 "The code above will bind the `title` and `size` data field to `template`."
-msgstr ""
-"上面的代码将绑定((bb0100dd))((bb0110dd))((bb0120dd))((bb0130dd))((bb0140dd))。 ???"
+msgstr "上面的代码会将`title`` and ``size`` data field to ``template`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:27
 msgid ""
 "We can also use `.` syntax to bind cascading data structure. Let's look at "
 "the following code snippet:"
-msgstr "我们也可以使用((bb0200dd))语法绑定级联数据结构。让我们来看看下面的代码片段： ???"
+msgstr "我们也可以用`.`语法绑定级联数据结构。让我们来看看下面的代码片段： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:34
@@ -104,8 +97,7 @@ msgstr "模板中的表达 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:50
-msgid ""
-"Inside data bindings, Weex supports simply javascript expressions, e.g."
+msgid "Inside data bindings, Weex supports simply javascript expressions, e.g."
 msgstr "在数据绑定支持简单的JavaScript，长的表达式，例如 ???"
 
 #. type: Plain text
@@ -155,10 +147,12 @@ msgstr "计算机性能 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:75
 msgid ""
-"According to simple operations, in-template expressions are very convenient."
-" But if you want to put more logic into the template, you should use a "
+"According to simple operations, in-template expressions are very convenient. "
+"But if you want to put more logic into the template, you should use a "
 "computed property."
-msgstr "根据简单的操作，在模板表达式中非常方便。但是如果你想把更多的逻辑放在模板中，你应该使用一个计算属性。 ???"
+msgstr ""
+"根据简单的操作，在模板表达式中非常方便。但是如果你想把更多的逻辑放在模板中，"
+"你应该使用一个计算属性。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:84
@@ -190,7 +184,7 @@ msgid ""
 "          return this.firstName + ' ' + this.lastName\n"
 "        },\n"
 msgstr ""
-"(<script>) ???\n"
+"<script>\n"
 "  module.exports = {\n"
 "    data: {\n"
 "      firstName: 'John',\n"
@@ -198,7 +192,7 @@ msgstr ""
 "    },\n"
 "    computed: {\n"
 "      fullName: {\n"
-"        get: function(()) {\n"
+"        get: function() {\n"
 "          return this.firstName + ' ' + this.lastName\n"
 "        },\n"
 
@@ -226,27 +220,26 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:114
 msgid ""
-"Here we have declared a computed property fullName. The function we provided"
-" will be used as the getter function for concating firstName and lastName."
-msgstr "在这里，我们已经宣布计算机性能表。我们提供的功能将作为getter函数连铸FirstName和LastName。 ???"
+"Here we have declared a computed property fullName. The function we provided "
+"will be used as the getter function for concating firstName and lastName."
+msgstr ""
+"在这里，我们已经宣布计算机性能表。我们提供的功能将作为getter函数连铸FirstName"
+"和LastName。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:116
 msgid ""
-"Otherwise when you call `changeName` after click, the setter will be invoked"
-" and this.firstName and this.lastName will be updated accordingly."
+"Otherwise when you call `changeName` after click, the setter will be invoked "
+"and this.firstName and this.lastName will be updated accordingly."
 msgstr ""
-"否则当你调用((bb0240dd))单击后，会调用setter和this.firstname和this.lastname会相应的更新。 ???"
+"否则，当你打电话`changeName`点击之后，会调用setter和this.firstname和this."
+"lastname会相应的更新。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:118
 #, no-wrap
-msgid ""
-"**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the "
-"execution context -- `this`, we can access both of them.**\n"
-msgstr ""
-"*注：((bb0260dd))((bb0270dd))((bb0280dd))((bb0290dd))((bb0300dd))，我们可以访问他们的**。"
-" ???\n"
+msgid "**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the execution context -- `this`, we can access both of them.**\n"
+msgstr "*注：`data`` and ``methods`` can't have duplicate fields. 'Cause in the execution context -- ``this`，我们可以访问他们的**。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:119
@@ -258,12 +251,12 @@ msgstr "一些特殊属性在数据绑定中的应用 ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:121
 #, no-wrap
 msgid "Styles: `style` or `class`"
-msgstr "款式：((bb0360dd))((bb0370dd))((bb0380dd)) ???"
+msgstr "Styles: `style`` or ``class`"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:124
 msgid "the style of a component can be bind using the `style` attribute:"
-msgstr "一个组件的形式可以结合使用((bb0420dd))属性： ???"
+msgstr "一个组件的风格可以用`style`属性绑定： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:130
@@ -281,7 +274,7 @@ msgstr ""
 msgid ""
 "while style can also get bound with `class` attribute, multiple classnames "
 "can be split by spaces:"
-msgstr "而风格也可以绑定((bb0440dd))属性，多类名称可以分割的空间： ???"
+msgstr "而风格也能得到一定`class`属性，多类名称可分空间： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:141
@@ -300,32 +293,33 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:143
 msgid ""
-"here if `{{size}}` and `{{status}}` have empty value, then only "
-"`class=\"title\"` will be rendered."
+"here if `{{size}}` and `{{status}}` have empty value, then only `class="
+"\"title\"` will be rendered."
 msgstr ""
-"在这里，如果((bb0460dd))((bb0470dd))((bb0480dd))((bb0490dd))((bb0500dd))将呈现。 ???"
+"在这里，如果`{{size}}`` and ``{{status}}`` have empty value, then only "
+"``class=\"title\"`将呈现。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:145
 msgid "[See more about style and class](./style-n-class.md)"
-msgstr "[见更多的样式和类]((./style-n-class.md)) ???"
+msgstr "[See more about style and class](./style-n-class.md)"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:146
 #, no-wrap
 msgid "Event Handler: `on...`"
-msgstr "事件处理程序：((bb0570dd)) ???"
+msgstr "Event Handler: `on...`"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:149
 msgid ""
-"The event handler is an attribute which name has a prefix `on...`. The other"
-" part of attribute name is event type and the value is event handler name. "
-"We don't need to add mustache around the method name or add parentheses to "
-"call it."
+"The event handler is an attribute which name has a prefix `on...`. The other "
+"part of attribute name is event type and the value is event handler name. We "
+"don't need to add mustache around the method name or add parentheses to call "
+"it."
 msgstr ""
-"事件处理程序是一个属性的名称前缀((bb0590dd))。属性名称的另一部分是事件类型，值是事件处理程序名。我们不需要添加胡子在方法名称或加括号来调用它。"
-" ???"
+"事件处理程序是一个属性的名称前缀`on...`。属性名称的另一部分是事件类型，值是事"
+"件处理程序名。我们不需要添加胡子在方法名称或加括号来调用它。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:154
@@ -357,14 +351,16 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:166
 #, no-wrap
 msgid "`if` & `repeat`"
-msgstr "((bb0610dd))((bb0620dd))((bb0630dd)) ???"
+msgstr "`if`` & ``repeat`"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:169
 msgid ""
 "`if` attribute can control the display of a component by a truthy/falsy "
 "value."
-msgstr "((bb0670dd))属性可以控制显示组件的一个真实性/ falsy价值。 ???"
+msgstr ""
+"`if` attribute can control the display of a component by a truthy/falsy "
+"value."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:177
@@ -401,14 +397,14 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:193
 msgid "We can also use `repeat` attribute to generate a list."
-msgstr "我们也可以使用((bb0690dd))属性生成一个列表。 ???"
+msgstr "我们也可以用`repeat`属性生成一个列表。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:195
 msgid "[See more about display logic control](./display-logic.md)"
-msgstr "[看更多关于显示逻辑控制]((./display-logic.md)) ???"
+msgstr "[See more about display logic control](./display-logic.md)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:197
 msgid "Next, let's have a look at [style and class](./style-n-class.md)."
-msgstr "接下来，让我们看看[风格]((./style-n-class.md))类。 ???"
+msgstr "接下来，让我们在[样式和类](./style-n-class.md)一看。 ???"
