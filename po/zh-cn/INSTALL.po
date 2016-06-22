@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/INSTALL.md:1
 #, no-wrap
 msgid "Install Book"
-msgstr "安装书 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/INSTALL.md:9
@@ -20,10 +20,3 @@ msgid ""
 "    0. `gitbook build`\n"
 "    0. `open _book/index.html`\n"
 msgstr ""
-"0。先决条件 ???\n"
-"    0. Install [Node.js]bb00z0dd 4.0+\n"
-"    0. `npm install -g gitbook-cli`\n"
-"    0. `gitbook install`\n"
-"0。建书 ???\n"
-"    0. `gitbook build`\n"
-"    0. `open _book/index.html`\n"

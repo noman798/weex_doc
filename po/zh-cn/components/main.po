@@ -6,56 +6,56 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:1
 #, no-wrap
 msgid "Build-in Components"
-msgstr "建立在组件 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:4
 msgid ""
 "Before see all built-in components, let's have a look at the common things "
 "about component."
-msgstr "在看到所有的内置组件之前，让我们看看关于组件的常见的事情。 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:8
 msgid "[Common Attributes](../references/common-attrs.md)"
-msgstr "[属性] bb00z0dd常见 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:8
 msgid "[Common Style](../references/common-style.md)"
-msgstr "[共同] bb01z0dd风格 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:8
 msgid "[Common Event](../references/common-event.md)"
-msgstr "[事件] bb02z0dd常见 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:10
 #, no-wrap
 msgid "**Special Element**\n"
-msgstr "**特殊元素 ???\n"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:12
 msgid "[&lt;content&gt; / &lt;slot&gt;](./special-element.md)"
-msgstr "[&lt;内容&gt;、&lt;槽&gt;] bb03z0dd ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:14
 #, no-wrap
 msgid "**Component List**\n"
-msgstr "**组件列表** ???\n"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:25
 msgid "[&lt;div&gt;](./div.md)"
-msgstr "[&lt;div &gt;] bb04z0dd ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:25
 msgid "[&lt;scroller&gt;](./scroller.md)"
-msgstr "[&lt;上卷&gt;] bb05z0dd ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/main.md:25
@@ -71,12 +71,3 @@ msgid ""
 "    * [&lt;indicator&gt;](./indicator.md)\n"
 "* [&lt;video&gt;](./video.md)\n"
 msgstr ""
-"* [&lt;列表&gt;] bb06z0dd ???\n"
-"    * [&lt;cell&gt;]bb07z0dd\n"
-"* [&lt;文本&gt;] bb08z0dd ???\n"
-"* [&lt;图像&gt;] bb09z0dd ???\n"
-"* [&lt;输入&gt;] bb010z0dd ???\n"
-"* [&lt;开关&gt;] bb011z0dd ???\n"
-"* [&lt;滑块&gt;] bb012z0dd ???\n"
-"    * [&lt;indicator&gt;]bb013z0dd\n"
-"* [&lt;视频&gt;] bb014z0dd ???\n"

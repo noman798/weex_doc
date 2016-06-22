@@ -6,44 +6,44 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:1
 #, no-wrap
 msgid "Advanced"
-msgstr "先进的 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[How It Works](./how-it-works.md)"
-msgstr "[如何] bb00z0dd ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[How Data Binding Works](./how-data-binding-works.md)"
-msgstr "[如何] bb01z0dd数据绑定的工作 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[Integrate to iOS](./integrate-to-ios.md)"
-msgstr "[综合] bb02z0dd iOS ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[Extend to iOS](./extend-to-ios.md)"
-msgstr "[延伸] bb03z0dd iOS ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[Integrate to Android](./integrate-to-android.md)"
-msgstr "[综合] bb04z0dd Android ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[Extend to Android](./extend-to-android.md)"
-msgstr "[延伸] bb05z0dd Android ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[Integrate to HTML5](./integrate-to-html5.md)"
-msgstr "[综合] bb06z0dd HTML5 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/README.md:10
 msgid "[Extend to HTML5](./extend-to-html5.md)"
-msgstr "[延伸] bb07z0dd HTML5 ???"
+msgstr ""
