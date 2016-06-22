@@ -6,13 +6,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/faq.md:1
 #, no-wrap
 msgid "FAQ"
-msgstr "常见问题解答 ???"
+msgstr ""
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:3
 #, no-wrap
 msgid "Command errors in Windows"
-msgstr "窗口中的命令错误 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:6
@@ -21,14 +21,12 @@ msgid ""
 "see [For Windows](https://github.com/alibaba/weex/tree/dev#for-windows) for "
 "more information."
 msgstr ""
-"请安装Windows] [GIT(https://git-scm.com/download/win)首先，看到[窗口]"
-"(https://github.com/alibaba/weex/tree/dev#for-windows)更多信息。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:8
 #, no-wrap
 msgid "Gradle errors in Android Studio"
-msgstr "在Android Studio工具误差 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:11
@@ -37,5 +35,3 @@ msgid ""
 "reset` or `peer not authenticated`.  Maybe a network problem, try a proxy or "
 "VPN."
 msgstr ""
-"下载 `license-gradle-plugin.jar` 可能引发的错误，如 `Connection reset` 或`同"
-"伴没有认证`。可能是网络问题，尝试代理或VPN。 ???"

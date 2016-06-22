@@ -6,14 +6,14 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/_legacy/integrating.md:1
 #, no-wrap
 msgid "Integrating Weex Into Your App"
-msgstr "快到你的应用程序集成 ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/_legacy/integrating.md:3
 msgid "[Android](./advanced/integrate-to-android.md)"
-msgstr "[安卓](./advanced/integrate-to-android.md) ???"
+msgstr ""
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/_legacy/integrating.md:3
 msgid "[HTML5](./advanced/integrate-to-html5.md)"
-msgstr "[HTML5](./advanced/integrate-to-html5.md) ???"
+msgstr ""

@@ -19,11 +19,11 @@ class HideBracket:
         return "(bb0%s0dd)" % l
 
     def hide(self, txt):
-        txt = extract_map("(", ")", txt, self._hide)
-        txt = extract_map("<", ">", txt, self._hide)
-        txt = extract_map("![", "]", txt, self._hide)
+        # txt = extract_map("![", "]", txt, self._hide)
         txt = extract_map("```", "```", txt, self._hide)
         txt = extract_map(" `", "` ", txt, self._hide)
+        txt = extract_map("(", ")", txt, self._hide)
+        txt = extract_map("<", ">", txt, self._hide)
         return txt
 
     def _restore(self, txt):
@@ -39,7 +39,7 @@ class HideBracket:
             .replace("【", "[")\
             .replace("！", "!")\
             .replace("）", ")").replace("& lt;", "&lt;").replace("& gt;", "&gt;")
-        return extract_map("(bb0", "0dd)", txt, self._restore)
+        return extract_map(" bb0", "0dd ", txt, self._restore)
 
 
 def translate_po(lang, po):

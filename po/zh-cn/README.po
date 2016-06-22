@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/README.md:1
 #, no-wrap
 msgid "Weex"
-msgstr "快 ???"
+msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/README.md:9
@@ -15,5 +15,3 @@ msgid ""
 "[References](./references/main.md)  * [Examples](./demo/main.md)  * [Service "
 "& Tools](./tools/main.md)"
 msgstr ""
-"目录* [教程](./tutorial.md)* [指南](./guide.md)* [引用](./references/main."
-"md)* [例](./demo/main.md)* [工具](./tools/main.md)服务 ???"
