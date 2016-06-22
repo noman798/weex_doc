@@ -84,6 +84,13 @@ def scan():
             for lang in LANG:
                 for func in (_update, _build):
                     f = join(dirpath, i)
+                    fp = join(PATH_DOC, f)
+                    with open(fp) as fin:
+                        txt = fin.read()
+                    txt2 = txt.replace("\r\n", "\n").replace("\r", "\n")
+                    if txt != txt2:
+                        with open(fp, "w"):
+                            fp.write(txt2)
                     print(count, f)
                     count += 1
                     func(lang, f)
