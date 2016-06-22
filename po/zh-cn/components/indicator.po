@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:1
 #, no-wrap
 msgid "&lt;indicator&gt;"
-msgstr "&lt;指标& gt; ???"
+msgstr "&lt;指标&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:3

@@ -31,8 +31,10 @@ class HideBracket:
         return txt
 
     def restore(self, txt):
-        txt = txt.replace("[ ", "[").replace("；", ";").replace(" ]", "]").replace(
-            "（", "(").replace("）", ")")
+        txt = txt.replace("[ ", "[")\
+            .replace("；", ";").replace(" ]", "]")\
+            .replace("（", "(")\
+            .replace("）", ")").replace("& lt;", "&lt;").replace("& gt;", "&gt;")
         return extract_map("(_", "_)", txt, self._restore)
 
 

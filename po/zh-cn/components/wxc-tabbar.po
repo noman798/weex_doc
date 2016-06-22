@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:1
 #, no-wrap
 msgid "&lt;wxc-tabbar&gt;"
-msgstr "&lt;WXC TabBar & gt; ???"
+msgstr "&lt;WXC TabBar &gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:3

@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:1
 #, no-wrap
 msgid "&lt;<cell>&gt;"
-msgstr "& lt;<细胞> & gt; ???"
+msgstr "&lt;<细胞> &gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/cell.md:3

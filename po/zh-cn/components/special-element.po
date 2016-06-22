@@ -12,7 +12,7 @@ msgstr "特殊的元素 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:3
 #, no-wrap
 msgid "&lt;content&gt;"
-msgstr "&lt;内容& gt; ???"
+msgstr "&lt;内容&gt; ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/special-element.md:6

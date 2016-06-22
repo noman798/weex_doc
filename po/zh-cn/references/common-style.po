@@ -287,7 +287,7 @@ msgstr "Flex项目 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:88
 msgid "- flex : &lt;number&gt;"
-msgstr "挠：&lt;数& gt; ???"
+msgstr "挠：&lt;数&gt; ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:90

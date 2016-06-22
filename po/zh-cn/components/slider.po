@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:1
 #, no-wrap
 msgid "&lt;slider&gt;"
-msgstr "&lt;滑块& gt; ???"
+msgstr "&lt;滑块&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:3

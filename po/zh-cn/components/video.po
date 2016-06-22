@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:1
 #, no-wrap
 msgid "&lt;video&gt;"
-msgstr "&lt;视频& gt; ???"
+msgstr "&lt;视频&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/video.md:3

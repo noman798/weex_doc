@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:1
 #, no-wrap
 msgid "&lt;input&gt;"
-msgstr "&lt;输入& gt; ???"
+msgstr "&lt;输入&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:3

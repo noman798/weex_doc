@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:1
 #, no-wrap
 msgid "&lt;wxc-navpage&gt;"
-msgstr "&lt;WXC navpage & gt; ???"
+msgstr "&lt;WXC navpage &gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-navpage.md:3

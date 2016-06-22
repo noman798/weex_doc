@@ -6,7 +6,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:1
 #, no-wrap
 msgid "&lt;switch&gt;"
-msgstr "&lt;开关& gt; ???"
+msgstr "&lt;开关&gt; ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/switch.md:3
