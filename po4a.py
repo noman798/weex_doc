@@ -3,6 +3,7 @@
 import envoy
 from os import walk
 from os.path import dirname, abspath, join
+from shutil import rmtree, copytree
 from distutils.dir_util import mkpath
 
 PATH = abspath(dirname(__file__))
@@ -20,9 +21,10 @@ def print_exist(*args):
 
 
 def bash(cmd):
-    r = envoy.run(cmd)
-    print(cmd)
-    print_exist(r.std_out, r.std_err)
+    r = envoy.run(cmd, timeout=300)
+    if r.status_code:
+        print(cmd)
+        print_exist(r.std_out, r.std_err)
 
 
 def _update(lang, path):
@@ -43,6 +45,12 @@ def _build(lang, path):
 
 
 def scan():
+    doc_path = join(PATH, "doc")
+    rmtree(doc_path, ignore_errors=True)
+    for i in LANG:
+        copytree(PATH_DOC, join(doc_path, i))
+
+    count = 1
     for (dirpath, dirnames, filenames) in walk(PATH_DOC):
         for lang in LANG:
             for i in ("po", "doc"):
@@ -51,8 +59,12 @@ def scan():
             if i.endswith(".md"):
                 for lang in LANG:
                     for func in (_update, _build):
-                        func(lang, join(dirpath, i)[len(PATH_DOC) + 1:])
+                        f = join(dirpath, i)[len(PATH_DOC) + 1:]
+                        print(count, f)
+                        count += 1
+                        func(lang, f)
 
 
 if __name__ == "__main__":
     scan()
+
