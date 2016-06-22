@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:1
@@ -19,7 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "A slide's player to show slides (mostly as pictures) one page by another. "
 "The default interval between two slides is 3 seconds."
-msgstr "幻灯片的播放幻灯片bb00z0dd一页一。两个幻灯片之间的默认间隔为3秒。 ???"
+msgstr "幻灯片的播放幻灯片(mostly as pictures)的另一页。两个幻灯片之间的默认间隔为3秒。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:7
@@ -33,9 +33,7 @@ msgid ""
 "It supports all kinds of weex components as its slides, especially the "
 "`indicator` component which can be used only as a child component of "
 "`slider`."
-msgstr ""
-"它支持各种长的元件为幻灯片，尤其是thebb01z0ddcomponent可仅作为一个孩子的` `滑"
-"块组件。 ???"
+msgstr "它支持各种长的元件为幻灯片，尤其是 `indicator` 组件，只能作为一个孩子的` `滑块组件。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:11
@@ -50,15 +48,15 @@ msgid ""
 "whether the slides plays automatically after the page rendering finished. "
 "The default value is `false`."
 msgstr ""
-"- bb02z0ddbb03z0dd | `假`。此值确定幻灯片是否在页面渲染完成后自动播放。默认值"
-"是“假”。 ???"
+"- `auto-play`: &lt;boolean&gt; `true`  `true` | "
+"`假`。此值确定幻灯片是否在页面渲染完成后自动播放。默认值是“假”。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:16
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
-msgstr "其他属性，请查看[共性] bb04z0dd。 ???"
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
+msgstr "其他属性，请查看[共同属性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:17
@@ -69,8 +67,10 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:20
 #, no-wrap
-msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
-msgstr "* * *：常见的方式检查[组件] bb05z0dd常见的风格 ???\n"
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
+msgstr "* * *：常见的方式检查[组件]常见的风格(../references/common-style.md) ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:25
@@ -79,8 +79,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格- supportbb06z0ddrelated风格"
-"supportbb07z0ddbb08z0ddetc。 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持 ``position`` 相关的风格支持 ``opacity``, ``background-"
+"color``  ``background-color`` 等。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:26
@@ -94,25 +94,25 @@ msgid ""
 "- `change`: triggerd when the slide's index is changed. The event object "
 "contains the attribute of `index`, which is the index number of the "
 "currently shown slide."
-msgstr ""
-"- `改变`：触发时，幻灯片的指数变化。事件对象包含“索引”的属性，该属性是当前显"
-"示的幻灯片的索引号。 ???"
+msgstr "- `改变`：触发时，幻灯片的指数变化。事件对象包含“索引”的属性，该属性是当前显示的幻灯片的索引号。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:31
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "* * *：常见的事件查看[事件] bb09z0dd常见 ???\n"
+msgid ""
+"**common events**: check out the [common events](../references/common-"
+"event.md)\n"
+msgstr "* * *：常见的事件查看[事件](../references/common-event.md)共同 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:34
 msgid ""
 "- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"event.md)  - support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
-"- supportbb012z0ddevent。查看[事件]常见bb010z0dd - supportbb013z0dd / "
-"bb014z0ddevent。查看[事件] bb011z0dd常见 ???"
+"支持 `click` 事件。查看[事件]常见(../references/common-event.md)支持 `appear` / "
+"`disappear` 事件。查看[事件](../references/common-event.md)共同 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/slider.md:35

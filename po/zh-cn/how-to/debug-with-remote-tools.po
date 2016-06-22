@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:1
@@ -15,24 +15,22 @@ msgid ""
 "tool , it be designed to help you quickly preview Weex `we file` and debug "
 "your `we file`."
 msgstr ""
-"[长] bb00z0dd工具包是一个多功能的命令行界面工具，它被设计来帮助你快速预览"
-"weexbb01z0ddand调试你的`我们文件`。 ???"
+"[长](bb000dd工具包)是一种多功能的命令行界面工具，它被设计来帮助你快速预览快(bb010dd) `we file` 和调试您的`我们文件`。 "
+"???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:6
 msgid ""
 "At present the only debug assist function of Weex toolkit is `Hot reload` , "
 "we will add more utility debug function soon."
-msgstr ""
-"目前唯一的调试辅助工具isbb02z0dd长的功能，我们将添加更多的实用调试功能很"
-"快。 ???"
+msgstr "目前唯一的调试辅助工具功能(长bb020dd)，我们将添加更多的实用调试功能很快。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:8
 msgid ""
-"After install weex toolkit， open your terminal and navigate to the "
-"directory where you save `we` file. then type"
-msgstr "安装快工具包后，打开终端，浏览目录到你savebb03z0ddfile。然后键入 ???"
+"After install weex toolkit， open your terminal and navigate to the directory"
+" where you save `we` file. then type"
+msgstr "安装快工具包后，打开终端，导航到你保存的文件目录 `we` 。然后键入 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:12
@@ -43,11 +41,10 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:14
 msgid ""
 "A browser window will open automatically to display render result of your "
-"`we` file. Trying to change some content of your `we` file and save the "
-"file .  your browser will immediately display these changes."
+"`we` file. Trying to change some content of your `we` file and save the file"
+" .  your browser will immediately display these changes."
 msgstr ""
-"一个浏览器窗口会自动打开显示渲染结果yourbb04z0ddfile。试图改变"
-"yourbb05z0ddfile一些内容并保存文件。您的浏览器将立即显示这些更改。 ???"
+"一个浏览器窗口将自动打开，显示渲染结果你 `we` 文件。试图改变你的一些内容 `we` 文件和保存文件。您的浏览器将立即显示这些更改。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-remote-tools.md:17
@@ -66,6 +63,4 @@ msgid ""
 "An QR code will be display in the terminal window, scan the QR using Weex "
 "Playground App ,your `we` file will be render in playground App. Update the "
 "file the render result will be update automaticly."
-msgstr ""
-"一个二维码会在终端窗口显示，扫描使用长的操场应用QR，yourbb06z0ddfile将在操场"
-"上APP渲染。更新文件的渲染结果会自动更新。 ???"
+msgstr "一个二维码会在终端窗口显示，扫描使用长的操场应用QR，你 `we` 文件将在应用程序渲染的操场。更新文件的渲染结果会自动更新。 ???"

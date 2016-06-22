@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:1
@@ -21,13 +21,12 @@ msgid ""
 "rendering effect. But it determines whether this component should be "
 "rendered as a whole tree or a single node with child nodes appended after."
 msgstr ""
-"attributebb00z0dddo没有数据绑定。它不会改变最终的渲染效果。但它决定了这个组件"
-"是否应该被渲染为一个完整的树或一个单一的节点后添加的子节点。 ???"
+"属性 `append` 没有数据绑定。它不会改变最终的渲染效果。但它决定了这个组件是否应该被渲染为一个完整的树或一个单一的节点后添加的子节点。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:8
 msgid "`append` has two key attributes, `tree` and `node`, the usage is:"
-msgstr "`追加`有两个重要属性，bb01z0ddand `节点`，使用： ???"
+msgstr "`追加`有两个重要属性， `tree` 和`节点`，使用： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:21
@@ -50,23 +49,21 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:23
 msgid ""
-"In the code snippet above, the element with id 'world' will wait for all its "
-"children to be rendered then it will be rendered entiely, while the element "
-"with id 'weex' will only render itself to the page, then its child elements "
-"will be rendered to page one by one."
+"In the code snippet above, the element with id 'world' will wait for all its"
+" children to be rendered then it will be rendered entiely, while the element"
+" with id 'weex' will only render itself to the page, then its child elements"
+" will be rendered to page one by one."
 msgstr ""
-"在上面的代码片段中，ID为“世界”的元素将等待所有的孩子被渲染，然后将呈现完全，"
-"而ID为“快”的元素只会使自己的网页，然后它的子元素将由一个页面渲染。 ???"
+"在上面的代码片段中，ID为“世界”的元素将等待所有的孩子被渲染，然后将呈现完全，而ID为“快”的元素只会使自己的网页，然后它的子元素将由一个页面渲染。 "
+"???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:25
 msgid ""
 "The rendering result is obvious, The latter statement will render the "
-"element a bit faster on the first-paint, but the total time might be longger "
-"than `append=\"tree\"` case."
-msgstr ""
-"渲染效果明显，后者的声明将使元快一点在第一漆，但总的时间可能会更长"
-"thanbb02z0ddcase。 ???"
+"element a bit faster on the first-paint, but the total time might be longger"
+" than `append=\"tree\"` case."
+msgstr "渲染效果明显，后者的声明将使元快一点在第一漆，但总的时间可能会更长 `append=\"tree\"` 比例。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:27
@@ -74,11 +71,9 @@ msgid ""
 "By default, elements are rendered as `node` mode. Once an element is in "
 "`tree` rendering mode, its children elements will always be rendered in "
 "`tree` mode."
-msgstr ""
-"默认情况下，元素都呈现asbb03z0ddmode。一旦一个元素是inbb04z0ddrendering模式，"
-"其子元素始终呈现inbb05z0ddmode。 ???"
+msgstr "默认情况下，元素呈现为 `node` 模式。曾经在一个元素 `tree` 渲染模式，其子元素始终呈现在 `tree` 模式。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/render-logic.md:28
 msgid "Next we will introduce [composed component](./composed-component.md)."
-msgstr "接下来我们将介绍[组成] bb06z0dd。 ???"
+msgstr "接下来我们将介绍[组成](./composed-component.md)。 ???"

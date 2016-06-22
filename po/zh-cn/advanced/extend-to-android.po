@@ -1,90 +1,96 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:1
 #, no-wrap
 msgid "##Extend to Android \n"
-msgstr ""
+msgstr "##Extend to Android \n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:3
 #, no-wrap
 msgid "Module extend"
-msgstr ""
+msgstr "扩展模块 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:5
 #, no-wrap
 msgid ""
 "weex sdk support Moulde extend,\n"
-"Weex SDK provides only rendering capabilities, rather than have other "
-"capabilities, such as network, picture, and URL redirection. If you want the "
-"these features, you need to implement it.  \n"
+"Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.  \n"
 msgstr ""
+"长的SDK支持模块扩展， ???\n"
+"Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.  \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8
 msgid ""
 "For example: If you want to implement an address jumping function, you can "
 "achieve a Module Follow the steps below."
-msgstr ""
+msgstr "例如：如果你想实现一个地址跳转功能，你可以实现一个模块按照下面的步骤。 ???"
 
 #. type: Title ####
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:68
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:8
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:68
 #, no-wrap
 msgid "Step to customize a module "
-msgstr ""
+msgstr "Step to customize a module "
 
 #. type: Bullet: '1. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:9
 msgid "Customize module must extend WXModule"
-msgstr ""
+msgstr "自定义模块必须延伸wxmodule ???"
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:10
 msgid ""
 "@WXModuleAnno annotation must be added, as it is the only the way to "
 "recognized by Weex"
-msgstr ""
+msgstr "“wxmoduleanno注释必须补充说，这是唯一的方式得到快 ???"
 
 #. type: Bullet: '3. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:11 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:11
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
 msgid "The access levels of mehtod must be **public**"
-msgstr ""
+msgstr "访问级别的方法必须是**公共** ???"
 
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:12
 msgid "The module class also can not be an inner class"
-msgstr ""
+msgstr "模块类也不能是一个内部类 ???"
 
 #. type: Bullet: '5. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:74
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:74
 msgid "Customize can not be obfuscated by tools like ProGuard"
-msgstr ""
+msgstr "自定义不能模糊工具如混淆器 ???"
 
 #. type: Bullet: '6. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
 msgid ""
 "Module methods will be invoked in UI thread, do not put time consuming "
 "operation there"
-msgstr ""
+msgstr "模块方法将在用户界面线程中调用，不要在那里投入耗时的操作 ???"
 
 #. type: Bullet: '7. '
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class "
-"that implements WXObject interface"
-msgstr ""
+"Weex params can be int, double, float, String, Map, List, self-defined class"
+" that implements WXObject interface"
+msgstr "长的参数可以int，双，浮弦，图，表，自定义类实现wxobject接口 ???"
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:18 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:80
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:18
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:80
 msgid "Refer to the following example"
-msgstr ""
+msgstr "参考下面的例子 ???"
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:20 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:82
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:20
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:82
 msgid "```java"
 msgstr ""
 
@@ -96,12 +102,15 @@ msgid ""
 "    import android.net.Uri;\n"
 "     ……………………\n"
 msgstr ""
+"    import android.content.Intent;\n"
+"    import android.net.Uri;\n"
+"     ……………………\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:26
 #, no-wrap
 msgid "    public class WXEventModule extends WXModule{\n"
-msgstr ""
+msgstr "    public class WXEventModule extends WXModule{\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:28
@@ -110,6 +119,8 @@ msgid ""
 "\tprivate static final String "
 "WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 msgstr ""
+"\tprivate static final String "
+"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:42
@@ -129,9 +140,25 @@ msgid ""
 "\t   }\n"
 "    }\n"
 msgstr ""
+"\t@WXModuleAnno\n"
+"\tpublic void openURL(String url){\n"
+"\t\tif (TextUtils.isEmpty(url)(url)) {\n"
+"\t\t\treturn;\n"
+"\t\t}\n"
+"\t\tStringBuilder builder=new StringBuilder(\"http:\");\n"
+"\t\tbuilder.append(url);\n"
+"\t\tUri uri = Uri.parse(builder.toString()());\n"
+"        Intent intent = new Intent(Intent.ACTION_VIEW, uri);\n"
+"\t\tintent.addCategory(WEEX_CATEGORY);\n"
+"        mWXSDKInstance.getContext().startActivity(intent);\n"
+"\t   }\n"
+"    }\n"
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:44 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:62 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:108 /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:178
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:44
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:62
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:108
+#: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:178
 msgid "```"
 msgstr ""
 
@@ -139,7 +166,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:45
 #, no-wrap
 msgid "Register the moulde"
-msgstr ""
+msgstr "登记的模具 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:58
@@ -162,27 +189,28 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:60
 #, no-wrap
 msgid "  WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
-msgstr ""
+msgstr "  WXSDKEngine.registerModule(\"event\", WXEventModule.class);\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:64
 #, no-wrap
 msgid "Component extend"
-msgstr ""
+msgstr "组件扩展 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:66
 #, no-wrap
 msgid ""
 "<font color=\"gray\">\n"
-"There are label, image, div, scroll, ect. components in weex, you can also "
-"customize your own components.  \n"
+"There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
 msgstr ""
+"<font color=\"gray\"> ???\n"
+"There are label, image, div, scroll, ect. components in weex, you can also customize your own components.  \n"
 
 #. type: Bullet: '1. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:70
 msgid "Customize components must extend WXComponent or WXContainer"
-msgstr ""
+msgstr "自定义组件必须延伸wxcomponent或wxcontainer ???"
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
@@ -190,18 +218,20 @@ msgid ""
 "@WXComponentProp(name=value(value is attr or style of dsl)) for it be "
 "recognized by weex SDK."
 msgstr ""
+"“wxcomponentprop(name=value(value is attr or style of dsl)(value is attr or "
+"style of dsl))它被公认长的SDK。 ???"
 
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:73
 msgid "The component class can not be an inner class"
-msgstr ""
+msgstr "组件类不能是内部类 ???"
 
 #. type: Bullet: '6. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:75
 msgid ""
 "Component methods will be invoked in UI thread, do not put time consuming "
 "operation there."
-msgstr ""
+msgstr "组件方法将在用户界面线程中调用，不要在那里投入耗时的操作。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:85
@@ -210,6 +240,8 @@ msgid ""
 "\tpackage com.taobao.weextest;\n"
 "    ………………\n"
 msgstr ""
+"\tpackage com.taobao.weextest;\n"
+"    ………………\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:94
@@ -217,14 +249,21 @@ msgstr ""
 msgid ""
 "\tpublic class MyViewComponent extends WXComponent{ \n"
 "\tpublic MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
-"\t                   WXVContainer parent, String instanceId, boolean isLazy) "
-"\n"
+"\t                   WXVContainer parent, String instanceId, boolean isLazy) \n"
 "\t { \n"
 "\t public MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
 "\t   WXVContainer parent, String instanceId, boolean isLazy) {\n"
 "\t  super(instance, dom, parent, instanceId, isLazy);\n"
 "\t }\n"
 msgstr ""
+"\tpublic class MyViewComponent extends WXComponent{ \n"
+"\tpublic MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
+"\t                   WXVContainer parent, String instanceId, boolean isLazy) \n"
+"\t { \n"
+"\t public MyViewComponent(WXSDKInstance instance, WXDomObject dom,\n"
+"\t   WXVContainer parent, String instanceId, boolean isLazy) {\n"
+"\t  super(instance, dom, parent, instanceId, isLazy);\n"
+"\t }\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:105
@@ -240,12 +279,21 @@ msgid ""
 "\t }\n"
 "\t}\n"
 msgstr ""
+"\t @Override\n"
+"\t protected void initView() {\n"
+"\t    mHost = new TextView(mContext);\n"
+"\t }\n"
+"\t @WXComponentProp(name=WXDomPropConstant.WX_ATTR_VALUE)\n"
+"\t public void setMyViewValue(String value) {\n"
+"\t    ((TextView)(TextView)mHost).setText(value);\n"
+"\t }\n"
+"\t}\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:109
 #, no-wrap
 msgid "Register the Component"
-msgstr ""
+msgstr "登记的组成部分 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:123
@@ -253,8 +301,7 @@ msgstr ""
 msgid ""
 "```java\n"
 "  /**\n"
-"   * Register component. The registration is singleton in {@link "
-"WXSDKEngine} level\n"
+"   * Register component. The registration is singleton in {@link WXSDKEngine} level\n"
 "   * @param type name of component. Same as type filed in the JS.\n"
 "   * @param clazz the class of the {@link WXComponent} to be registered.\n"
 "   * @param appendTree true for appendTree flag\n"
@@ -269,22 +316,23 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:124
 #, no-wrap
 msgid "Adapter extend"
-msgstr ""
+msgstr "适配器扩展 ???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:126
 #, no-wrap
 msgid "ImagedownloadAdapter"
-msgstr ""
+msgstr "imagedownloadadapter ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:129
 #, no-wrap
 msgid ""
 "<font color=\"gray\">\n"
-"Weex SDK has no image download capability, you need to implement "
-"IWXImgLoaderAdapter. Refer to the following examples.\n"
+"Weex SDK has no image download capability, you need to implement IWXImgLoaderAdapter. Refer to the following examples.\n"
 msgstr ""
+"<font color=\"gray\"> ???\n"
+"长的SDK没有图像的下载功能，你需要实现iwximgloaderadapter。参考下面的例子。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:132
@@ -297,6 +345,8 @@ msgid ""
 "import android.app.Activity; import android.text.TextUtils; import "
 "android.widget.ImageView;"
 msgstr ""
+"进口android.app.activity;进口android.text.textutils;进口android.widget.imageview; "
+"???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:142
@@ -306,17 +356,19 @@ msgid ""
 "com.taobao.weex.common.WXImageStrategy; import "
 "com.taobao.weex.dom.WXImageQuality;"
 msgstr ""
+"进口com.squareup.picasso.picasso;进口com.taobao.weex.wxenvironment;进口com.taobao.weex.adapter.iwximgloaderadapter;进口com.taobao.weex.common.wximagestrategy;进口com.taobao.weex.dom.wximagequality;"
+" ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:144
 msgid "public class ImageAdapter implements IWXImgLoaderAdapter {"
-msgstr ""
+msgstr "公共类图片适配器实现了iwximgloaderadapter { ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:146
 #, no-wrap
 msgid "\tprivate Activity mContext;\n"
-msgstr ""
+msgstr "\tprivate Activity mContext;\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:150
@@ -326,6 +378,9 @@ msgid ""
 "\t\tmContext = activity;\n"
 "\t}\n"
 msgstr ""
+"\tpublic ImageAdapter(Activity activity) {\n"
+"\t\tmContext = activity;\n"
+"\t}\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:155
@@ -336,6 +391,10 @@ msgid ""
 "\t\t\tWXImageQuality quality, WXImageStrategy strategy) {\n"
 "\t\tmContext.runOnUiThread(new Runnable() {\n"
 msgstr ""
+"\t@Override\n"
+"\tpublic void setImage(final String url, final ImageView view,\n"
+"\t\t\tWXImageQuality quality, WXImageStrategy strategy) {\n"
+"\t\tmContext.runOnUiThread(new Runnable()() {\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:177
@@ -351,8 +410,7 @@ msgid ""
 "\t\t\t\tif (url.startsWith(\"//\")){\n"
 "\t\t\t\t\ttemp = \"http:\" + url;\n"
 "\t\t\t\t}\n"
-"\t\t\t\tif (view.getLayoutParams().width<=0 || "
-"view.getLayoutParams().height<=0) {\n"
+"\t\t\t\tif (view.getLayoutParams().width<=0 || view.getLayoutParams().height<=0) {\n"
 "\t\t\t\t\treturn;\n"
 "\t\t\t\t}\n"
 "\t\t\t\tPicasso.with(WXEnvironment.getApplication())\n"
@@ -364,3 +422,24 @@ msgid ""
 "\t}\n"
 "}\n"
 msgstr ""
+"\t\t\t@Override\n"
+"\t\t\tpublic void run() {\n"
+"\t\t\t\tif (TextUtils.isEmpty(url)(url)) {\n"
+"\t\t\t\t\tview.setImageBitmap(null);\n"
+"\t\t\t\t\treturn;\n"
+"\t\t\t\t}\n"
+"\t\t\t\tString temp = url;\n"
+"\t\t\t\tif (url.startsWith(\"//\")(\"//\")){\n"
+"\t\t\t\t\ttemp = \"http:\" + url;\n"
+"\t\t\t\t}\n"
+"\t\t\t\tif (view.getLayoutParams()().width<=0 || view.getLayoutParams().height<=0) {\n"
+"\t\t\t\t\treturn;\n"
+"\t\t\t\t}\n"
+"\t\t\t\tPicasso.with(WXEnvironment.getApplication()())\n"
+"\t\t\t\t\t\t.load(temp)\n"
+"\t\t\t\t\t\t.resize(view.getLayoutParams()().width,\n"
+"\t\t\t\t\t\t\t\tview.getLayoutParams().height).into(view);\n"
+"\t\t\t}\n"
+"\t\t});\n"
+"\t}\n"
+"} ???\n"

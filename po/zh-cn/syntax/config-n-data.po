@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:1
@@ -11,18 +11,18 @@ msgstr "页面配置和数据 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:4
 #, no-wrap
-msgid "You can write some instance config and data in some additional `<script>` at the **top-level** Weex component.\n"
-msgstr "你可以写一些实例配置和数据在一些additionalbb01z0ddat ** **长顶层组件。 ???\n"
+msgid ""
+"You can write some instance config and data in some additional `<script>` at"
+" the **top-level** Weex component.\n"
+msgstr "你可以在一些额外的写一些实例配置和数据 `(bb000dd)` 在××××长的顶层组件。 ???\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:7
 msgid ""
-"the instance config could declare some meta informations like which sdk/"
-"client version it supports or \"downgrade\" to HTML5 renderer. This part "
-"would be extended more in the future."
-msgstr ""
-"实例配置可以宣布一些元信息喜欢SDK /客户端版本支持或“降级”的HTML5渲染。这一部"
-"分将在未来扩展更多。 ???"
+"the instance config could declare some meta informations like which "
+"sdk/client version it supports or \"downgrade\" to HTML5 renderer. This part"
+" would be extended more in the future."
+msgstr "实例配置可以宣布一些元信息喜欢SDK /客户端版本支持或“降级”的HTML5渲染。这一部分将在未来扩展更多。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:7
@@ -93,8 +93,13 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:48
 #, no-wrap
-msgid "Notice that these two additional `<script>` are both optinal and have `type=\"config|data\"` attribute and only works when it's the top-level component of a Weex instance.\n"
-msgstr "请注意这两个additionalbb03z0ddare既优化和havebb04z0ddattribute，只有当它是一个长的实例顶层组件。 ???\n"
+msgid ""
+"Notice that these two additional `<script>` are both optinal and have "
+"`type=\"config|data\"` attribute and only works when it's the top-level "
+"component of a Weex instance.\n"
+msgstr ""
+"请注意这两个额外的 `(bb020dd)` 都是最佳的， `type=\"config|data\"` 属性，只有当它是一个长的实例顶层组件。 "
+"???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:50
@@ -104,9 +109,9 @@ msgstr "那是所有关于长的语法。更多的阅读，请检查： ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:52
 msgid "[how-tos](../how-to/main.md) articles and"
-msgstr "[如何] bb05z0dd文章 ???"
+msgstr "[如何](../how-to/main.md)的文章， ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:52
 msgid "[advanced](../advanced/main.md) topics."
-msgstr "[高级] bb06z0dd主题。 ???"
+msgstr "[高级](../advanced/main.md)主题。 ???"

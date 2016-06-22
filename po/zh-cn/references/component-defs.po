@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:1
@@ -11,8 +11,10 @@ msgstr "组件定义 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:4
 #, no-wrap
-msgid "A component definition is a set of options to describe a component. It's always assigned to `module.exports` in `<script>`.\n"
-msgstr "组件定义是描述一个组件的一组选项。它总是给tobb01z0ddin ` bb00z0dd `。 ???\n"
+msgid ""
+"A component definition is a set of options to describe a component. It's "
+"always assigned to `module.exports` in `<script>`.\n"
+msgstr "组件定义是描述一个组件的一组选项。它总是分配 `module.exports` 在`<script>`。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:10
@@ -56,18 +58,17 @@ msgid ""
 "this ViewModel.  The `methods` option is a map which contains all ViewModel "
 "methods."
 msgstr ""
-"thebb02z0ddoption是一个函数，返回该ViewModel观测的数据对象。thebb03z0ddoption"
-"是地图包含ViewModel方法。 ???"
+" `data` 的选择是一个函数，返回该ViewModel观测的数据对象。 `methods` 的选择是一个地图包含ViewModel方法。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:30
 msgid ""
-"Each `data` or `methods` property will be proxied to the ViewModel instance. "
-"So you can read and write data with `this.x`, also you can call methods with "
-"`this.doThis(...)`."
+"Each `data` or `methods` property will be proxied to the ViewModel instance."
+" So you can read and write data with `this.x`, also you can call methods "
+"with `this.doThis(...)`."
 msgstr ""
-"eachbb05z0ddorbb06z0ddproperty将代理到ViewModel实例。所以你可以用`这写数据。"
-"X `，你也可以用这种方法` dothisbb04z0dd `呼叫。 ???"
+"每个 `data` 或 `methods` 的财产将被代理到ViewModel实例。所以你可以用`这写数据。X "
+"`，你也可以用这种方法`电话。这样做(...)`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:32
@@ -132,14 +133,13 @@ msgid ""
 "The `events` options could allow you to add custom event listeners when "
 "ViewModel created. Then it will listen these type of events and handle them "
 "by the function-type value."
-msgstr ""
-"thebb07z0ddoptions可能允许您添加自定义事件侦听器时创建的视图模型。然后，它会"
-"听这些类型的事件，并处理它们的函数类型值。 ???"
+msgstr "的 `events` 选项可以让你添加自定义事件侦听器时创建的视图模型。然后，它会听这些类型的事件，并处理它们的函数类型值。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:74
 msgid ""
-"The first argument is a event object which contains event data in `e.detail`."
+"The first argument is a event object which contains event data in "
+"`e.detail`."
 msgstr "第一个参数是一个事件对象包含事件数据的` e.detail `。 ???"
 
 #. type: Title ##

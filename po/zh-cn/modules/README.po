@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:1
@@ -19,7 +19,7 @@ msgstr "如何使用 ???"
 msgid ""
 "You can use a simply way like `require('@weex-module/name')` to access the "
 "apis of module. e.g."
-msgstr "你可以使用一个简单的方式likebb01z0ddto接入模块的API。例如 ???"
+msgstr "你可以使用一个简单的方式 `require(bb000dd)` 访问模块的API。例如 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:13
@@ -42,29 +42,29 @@ msgstr "表的内容 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[dom](./dom.md)"
-msgstr "[唐] bb02z0dd ???"
+msgstr "[唐](./dom.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[steam](./stream.md)"
-msgstr "[蒸汽] bb03z0dd ???"
+msgstr "[蒸汽](./stream.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[modal](./modal.md)"
-msgstr "[模式] bb04z0dd ???"
+msgstr "[模式](./modal.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[animation](./animation.md)"
-msgstr "[动画] bb05z0dd ???"
+msgstr "[动画](./animation.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[navigator](./navigator.md)"
-msgstr "[导航] bb06z0dd ???"
+msgstr "[导航](./navigator.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:21
 msgid "[webview](./webview.md)"
-msgstr "[使用] bb07z0dd ???"
+msgstr "[使用](./webview.md) ???"

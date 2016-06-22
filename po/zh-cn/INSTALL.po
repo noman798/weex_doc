@@ -1,12 +1,12 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/INSTALL.md:1
 #, no-wrap
 msgid "Install Book"
-msgstr ""
+msgstr "安装书 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/INSTALL.md:9
@@ -20,3 +20,10 @@ msgid ""
 "    0. `gitbook build`\n"
 "    0. `open _book/index.html`\n"
 msgstr ""
+"0。先决条件 ???\n"
+"    0. Install [Node.js](http://nodejs.org/) 4.0+\n"
+"    0. `npm install -g gitbook-cli`\n"
+"    0. `gitbook install`\n"
+"0。建书 ???\n"
+"    0. `gitbook build`\n"
+"    0. `open _book/index.html`\n"

@@ -27,7 +27,7 @@ class HideBracket:
         return txt
 
     def _restore(self, txt):
-        x = txt[2:-2]
+        x = txt[4:-4]
         if x.isdigit():
             return self._hideed[int(x)]
         return txt

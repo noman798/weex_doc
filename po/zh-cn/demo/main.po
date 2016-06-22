@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/demo/main.md:1
@@ -11,4 +11,4 @@ msgstr "实例 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/demo/main.md:3
 msgid "[Hello World](./hello-world.md)"
-msgstr "[世界] bb00z0dd你好 ???"
+msgstr "[世界](./hello-world.md)你好 ???"

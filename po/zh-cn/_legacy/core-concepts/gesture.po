@@ -1,30 +1,30 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:1
 #, no-wrap
 msgid "Touch Events"
-msgstr ""
+msgstr "触摸事件 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:4
 msgid ""
 "Weex provides the way of setting `on` attributes on a node to listen some "
 "touch events."
-msgstr ""
+msgstr "快提供设置方式 `on` 节点上听一些触摸事件属性。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:5
 #, no-wrap
 msgid "How to use"
-msgstr ""
+msgstr "如何使用 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:8
 msgid "Example:"
-msgstr ""
+msgstr "例子: ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:13
@@ -55,15 +55,15 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:26
 msgid ""
-"According to above code, a `touchstart` event is fired when a touch point is "
-"placed on the touch surface."
-msgstr ""
+"According to above code, a `touchstart` event is fired when a touch point is"
+" placed on the touch surface."
+msgstr "根据上面的代码，一个 `touchstart` 事件被触发时，触摸点在触摸表面。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:27
 #, no-wrap
 msgid "The Event Types of Touch "
-msgstr ""
+msgstr "The Event Types of Touch "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:36
@@ -71,19 +71,23 @@ msgid ""
 "- The `touchstart` event - fired when a touch point is placed on the touch "
 "surface.  - The `touchmove` event - fired when a touch point is moved along "
 "the touch surface.  - The `touchend` event - fired when a touch point is "
-"removed from the touch surface.  - The `panstart` event - fired when a first "
-"touch moved of 10px or more occurs within 10 ms duration.  - The `panmove` "
+"removed from the touch surface.  - The `panstart` event - fired when a first"
+" touch moved of 10px or more occurs within 10 ms duration.  - The `panmove` "
 "event - fired when a touch moved of 10px or more occurs within 10 ms "
 "duration.  - The `panend` event - fired when a touch point is removed from "
 "the touch surface after `panstart`.  - The `longpress` event - fired when a "
 "touch point is sustained of 500 ms or more."
 msgstr ""
+"- `touchstart` 事件时触发触摸点放置在触摸表面。- `touchmove` 事件时触发触摸点在触摸表面移动。- `touchend` "
+"事件时触发点是从触摸表面移除。- `panstart` 事件时触发的第一次接触移动10px或更多发生在10毫秒的时间。- `panmove` "
+"事件时触发触摸移动10px或更多发生在10毫秒的时间。- `panend` 事件时触发触点脱离接触表面后 `panstart`.  - The "
+"`longpress`  `longpress` 事件时触发点是持续500毫秒或更多。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:37
 #, no-wrap
 msgid "The Event Properties"
-msgstr ""
+msgstr "事件属性 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:43
@@ -92,26 +96,31 @@ msgid ""
 "`timestamp` property - - The `changedTouches` property - A list of touches "
 "for every point of contact which contributed to the event."
 msgstr ""
+"- `type` 财产的事件类型。- `target` 财产的财产 `timestamp` - `changedTouches` "
+"财产用于接触导致了事件的每一点触动列表。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:44
 #, no-wrap
 msgid "The Touch Properties"
-msgstr ""
+msgstr "触摸性能 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:51
 msgid ""
 "- The `identifier` property - A unique identifier for this Touch object.  - "
 "The `pageX` property - The X coordinate of the touch point relative to the "
-"left edge of the document.  - The `pageY` property - The Y coordinate of the "
-"touch point relative to the top of the document.  - The `screenX` property - "
-"The X coordinate of the touch point relative to the left edge of the "
+"left edge of the document.  - The `pageY` property - The Y coordinate of the"
+" touch point relative to the top of the document.  - The `screenX` property "
+"- The X coordinate of the touch point relative to the left edge of the "
 "screen.  - The `screenY` property - The Y coordinate of the touch point "
 "relative to the top edge of the screen."
 msgstr ""
+"- `identifier` 这种触摸对象唯一标识符的属性。- `pageX` 财产的X坐标的触摸点相对于文档的左边缘。- `pageY` "
+"财产的Y坐标的触摸点相对于该文件的顶部。- `screenX` 财产的X坐标的触摸点相对于屏幕左边缘。- `screenY` "
+"财产的Y坐标的触摸点相对于屏幕的顶部边缘。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/gesture.md:52
 msgid "For more information, please visite [Common Events](events.md)."
-msgstr ""
+msgstr "有关更多信息，请访问[事件](events.md)共同。 ???"
