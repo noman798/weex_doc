@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:1
@@ -33,8 +33,8 @@ msgid ""
 "`type` is one of `container`, `list` or `scroller`, and the `props` may "
 "contain `attr` and `style`."
 msgstr ""
-"`createBody(type, props)`` Create body with a certian type and props. The ``"
-" is one of ``container``, `` or ``scroller``, and the ``props`` may contain "
+"`createBody(type, props)`` Create body with a certian type and props. The `` "
+"is one of ``container``, `` or ``scroller``, and the ``props`` may contain "
 "``style``attr``type`` and ``list`。 ???"
 
 #. type: Bullet: '* '
@@ -54,21 +54,25 @@ msgstr "`createComment(text)`创建一个具有一定注释文本的注释节点
 msgid ""
 "`setListener(listener)` Set a dom listener which listens each dom updates "
 "and tells the rendering engine"
-msgstr "`setListener(listener)`集一个DOM的听众听的每一个DOM更新和告诉渲染引擎 ???"
+msgstr ""
+"`setListener(listener)`集一个DOM的听众听的每一个DOM更新和告诉渲染引擎 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
 "`open()` Set a flag which means init rendering start, so each dom update "
 "will be called immediately"
-msgstr "`open()`设置一个标志，这意味着初始化渲染的开始，所以每个DOM更新会被立刻 ???"
+msgstr ""
+"`open()`设置一个标志，这意味着初始化渲染的开始，所以每个DOM更新会被立刻 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
-"`close()` Set a flag which means init rendering finished, so the dom updates"
-" later will be batched in each task."
-msgstr "`close()`设置一个标志，这意味着初始化渲染完成，所以DOM更新后将分批在每个任务。 ???"
+"`close()` Set a flag which means init rendering finished, so the dom updates "
+"later will be batched in each task."
+msgstr ""
+"`close()`设置一个标志，这意味着初始化渲染完成，所以DOM更新后将分批在每个任"
+"务。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -187,8 +191,8 @@ msgid ""
 "`removeChild(node, preserved)` Removes a child. The parameter `preserved` "
 "means whether destroy the removed node immediately or preserve it."
 msgstr ""
-"` Removes a child. The parameter ``preserved``removeChild(node, "
-"preserved)`意味着是否立即销毁被删除的节点或保存它。 ???"
+"` Removes a child. The parameter ``preserved``removeChild(node, preserved)`意"
+"味着是否立即销毁被删除的节点或保存它。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53

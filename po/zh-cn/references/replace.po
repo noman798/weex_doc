@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:1
@@ -11,14 +11,8 @@ msgstr "替换选项 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:4
 #, no-wrap
-msgid ""
-"The `replace` option is boolean type. It determined whether this composed "
-"component will be replaced with the `<template>` content or just as a normal"
-" `<div>` element which include the `<template>` content.\n"
-msgstr ""
-"` option is boolean type. It determined whether this composed component will"
-" be replaced with the ``<template>`` content or just as a normal ``<div>`` "
-"element which include the ``<template>`含量。 ???\n"
+msgid "The `replace` option is boolean type. It determined whether this composed component will be replaced with the `<template>` content or just as a normal `<div>` element which include the `<template>` content.\n"
+msgstr "` option is boolean type. It determined whether this composed component will be replaced with the ``<template>`` content or just as a normal ``<div>`` element which include the ``<template>`含量。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/replace.md:6

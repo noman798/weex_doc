@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:1
@@ -10,8 +10,7 @@ msgstr "API ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:4
-msgid ""
-"You can access these apis through `this`(Vm) context in script methods."
+msgid "You can access these apis through `this`(Vm) context in script methods."
 msgstr "您可以通过脚本方法中的(Vm)个`this`上下文访问这些原料药。 ???"
 
 #. type: Plain text
@@ -99,15 +98,18 @@ msgid ""
 "id is only guaranteed to be unique within the current (page)components, if "
 "you are looking for the parent components or child components, you can make "
 "use of the communication mode between components."
-msgstr "身份证是唯一保证是唯一的在当前的(page)个组成部分，如果你正在寻找的父组件或子组件，您可以利用组件之间的通信模式。 ???"
+msgstr ""
+"身份证是唯一保证是唯一的在当前的(page)个组成部分，如果你正在寻找的父组件或子"
+"组件，您可以利用组件之间的通信模式。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:38
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:54
 msgid ""
-"Further reading: [id](../syntax/id.md), [Communicate Between "
-"Components](../syntax/comm.md)"
-msgstr "进一步阅读：[标识](../syntax/id.md)，[组件之间的通信](../syntax/comm.md)???"
+"Further reading: [id](../syntax/id.md), [Communicate Between Components](../"
+"syntax/comm.md)"
+msgstr ""
+"进一步阅读：[标识](../syntax/id.md)，[组件之间的通信](../syntax/comm.md)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:39
@@ -184,9 +186,5 @@ msgstr "打电话给(module, method, ...args)美元 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:77
 #, no-wrap
-msgid ""
-"**Deprecated**, please use `require('@weex-module/module')[method](...args)`"
-" instead. See [modules](../modules/REAME.md) for more information\n"
-msgstr ""
-"*不* *，请改为使用`require('@weex-"
-"module/module')[method](...args)`。参见[模块](../modules/REAME.md)的更多信息 ???\n"
+msgid "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
+msgstr "*不* *，请改为使用`require('@weex-module/module')[method](...args)`。参见[模块](../modules/REAME.md)的更多信息 ???\n"

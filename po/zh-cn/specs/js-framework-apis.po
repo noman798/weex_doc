@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:1
@@ -45,14 +45,14 @@ msgid ""
 "Foramt](js-bundle-format.md)"
 msgstr ""
 "`code``: The JS bundle code send from Native Engine. It will be executed by "
-"``new Function(code)`在JS框架。代码的格式取决于[格式](js-bundle-format.md)JS束 ???"
+"``new Function(code)`在JS框架。代码的格式取决于[格式](js-bundle-format.md)JS"
+"束 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:15
 msgid ""
 "`options`: *Optional*. An options object. *Currently it supports `debug` "
-"flag which enable printing log and `bundleUrl` flag which the url of "
-"bundle.*"
+"flag which enable printing log and `bundleUrl` flag which the url of bundle.*"
 msgstr ""
 "`: *Optional*. An options object. *Currently it supports ``debug`` flag "
 "which enable printing log and ``bundleUrl`旗的网址捆绑的网址 ???"
@@ -178,17 +178,14 @@ msgid ""
 msgstr ""
 "`: A map that collects all module definitions. Each module definition is a "
 "list which has several API definitions. And each API definition has a "
-"``name`` string and a ``args``modules`数组，其中包含一个每个参数的类型列表。 ???"
+"``name`` string and a ``args``modules`数组，其中包含一个每个参数的类型列"
+"表。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:67
 #, no-wrap
-msgid ""
-"**NOTE: if the parameter's type is `node` or `function`, then it will "
-"automatically transfer to a string of `node reference` or `function id`**\n"
-msgstr ""
-"注：如果参数的类型是` or ``function``, then it will automatically transfer to a string"
-" of `` or ``function id`* * ???\n"
+msgid "**NOTE: if the parameter's type is `node` or `function`, then it will automatically transfer to a string of `node reference` or `function id`**\n"
+msgstr "注：如果参数的类型是` or ``function``, then it will automatically transfer to a string of `` or ``function id`* * ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:78
@@ -212,8 +209,7 @@ msgstr "五千九百八十一亿三千三百五十二万八千四百七十六 ??
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:82
-msgid ""
-"Fire events or callbacks to an existed Weex instance from Native Engine"
+msgid "Fire events or callbacks to an existed Weex instance from Native Engine"
 msgstr "火灾事件或回调存在长的实例从原生引擎 ???"
 
 #. type: Plain text
@@ -247,7 +243,8 @@ msgstr "五千九百八十一亿三千六百三十二万八千四百七十六 ??
 msgid ""
 "Return a JSON object which describes the whole virtual DOM body of an "
 "existed Weex instance, which designed for debugging"
-msgstr "返回一个JSON对象，它描述了一个长的实例存在整个虚拟DOM的身体，调试设计 ???"
+msgstr ""
+"返回一个JSON对象，它描述了一个长的实例存在整个虚拟DOM的身体，调试设计 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:104
@@ -279,8 +276,8 @@ msgid ""
 "`tasks[]`: A task list. Each task has a `module` name, a `method` name, and "
 "a `args[]` list."
 msgstr ""
-"`: A task list. Each task has a ``module`` name, a ``method`` name, and a "
-"`列`args[]`。 ???"
+"`: A task list. Each task has a ``module`` name, a ``method`` name, and a `列"
+"`args[]`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:122

@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:1
@@ -16,8 +16,7 @@ msgstr "总结 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:6
-msgid ""
-"A series of web operation api like `goBack`, `goForward`, and `reload`."
+msgid "A series of web operation api like `goBack`, `goForward`, and `reload`."
 msgstr "一系列的Web操作的像`goBack``, ``goForward``, and ``reload`。 ???"
 
 #. type: Title ##
@@ -71,8 +70,8 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:26
 msgid ""
-"```js var webview = require('@weex-module/webview'); var webElement = "
-"this.$el('webview'); webview.goBack(webElement.ref); ```"
+"```js var webview = require('@weex-module/webview'); var webElement = this."
+"$el('webview'); webview.goBack(webElement.ref); ```"
 msgstr ""
 
 #. type: Title ###
@@ -89,8 +88,8 @@ msgstr "加载历史堆栈中的下一个位置。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:43
 msgid ""
-"```js var webview = require('@weex-module/webview'); var webElement = "
-"this.$el('webview'); webview.goForward(webElement.ref); ```"
+"```js var webview = require('@weex-module/webview'); var webElement = this."
+"$el('webview'); webview.goForward(webElement.ref); ```"
 msgstr ""
 
 #. type: Title ###
@@ -107,6 +106,6 @@ msgstr "重新载入当前网页。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:59
 msgid ""
-"```js var webview = require('@weex-module/webview'); var webElement = "
-"this.$el('webview'); webview.reload(webElement.ref); ```"
+"```js var webview = require('@weex-module/webview'); var webElement = this."
+"$el('webview'); webview.reload(webElement.ref); ```"
 msgstr ""
