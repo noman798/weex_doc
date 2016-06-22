@@ -42,12 +42,12 @@ def translate_po(lang, po):
     msgid_li = []
     for i in po:
         if not i.msgstr:
+            if i.msgid.strip("\n ").startswith("```"):
+                continue
             msgid = hide_bracket.hide(i.msgid)
             msgid_li.append((msgid, i))
 
     for msgid, _ in msgid_li:
-        if msgid.strip("\n ").startswith("```"):
-            continue
         for j in msgid.split("\n"):
             j = j.strip()
             if j:
@@ -78,6 +78,8 @@ def main():
         for i in md_li:
             for lang in LANG:
                 f = join(PATH, "po", lang, dirpath, i)[:-2] + "po"
+                if "display-logi" not in f:
+                    continue
                 print(lang, f)
                 po = polib.pofile(f)
                 translate_po(lang.split("-")[0], po)
