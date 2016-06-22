@@ -201,8 +201,9 @@ msgid ""
 "support a lot of CSS features, eg: margin, padding, fixed...... Better yet, "
 "flexbox layout (flex) is well supported in Weex Style."
 msgstr ""
-"样式决定了weex的标签将如何显示。人人都喜欢CSS，所以我们尽量与CSS保持一致。weex 的"
-"样式支持很多CSS中的特性，如：margin、padding、fixed ……  以及 flexbox 布局。 "
+"样式决定了weex的标签将如何显示。人人都喜欢CSS，所以我们尽量与CSS保持一致。"
+"weex 的样式支持很多CSS中的特性，如：margin、padding、fixed ……  以及 flexbox "
+"布局。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:70
@@ -315,12 +316,11 @@ msgid ""
 "the list is render using native widget ( no webkit ), so your app get faster "
 "loading and less memory overhead than common embedded webkit renderer."
 msgstr ""
-"二维码将与weex playground app一起工作，你可以用手机[到这里下载](http://alibaba.github.io/weex/download.html)应用程序"
-"。安装成功后，打开应用程序，然后"
-"单击 Weex playground App 右上角的扫描图标，扫描二维码。如果顺利，一个漂亮的列"
-"表将显示在您的手机。此时，我要强调的是，这份列表的渲染使用的是原生组件( no "
-"webkit )，所以比起用WebKit渲染内嵌网页，你的应用程序加载速度更快、使用内存更"
-"少。 "
+"你可以用手机[到这里下载](http://alibaba.github.io/weex/download.html) Weex "
+"Playground App 应用。安装后，打开应用程序，然后单击 Weex playground App 右上"
+"角的扫描图标，扫描二维码。如果顺利，一个漂亮的列表将显示在您的手机。此时，我"
+"要强调的是，这份列表的渲染使用的是原生组件( no webkit )，所以比起用WebKit渲染"
+"内嵌网页，你的应用程序加载速度更快、使用内存更少。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
@@ -328,7 +328,7 @@ msgid ""
 "![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
 "TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 msgstr ""
-"![Android 中的列表](http://gtms04.alicdn.com/tps/i4/"
+"![Android中的列表](http://gtms04.alicdn.com/tps/i4/"
 "TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 
 #. type: Plain text
