@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:1
@@ -96,11 +96,11 @@ msgstr "引导('@weex-component/b')````???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:36
 msgid ""
-"As the sample above, the component name should be hyphenated (a-z, 0-9, "
-"\"-\"). Other characters are not allowed."
+"As the sample above, the component name should be hyphenated (a-z, 0-9, \"-"
+"\"). Other characters are not allowed."
 msgstr ""
-"As the sample above, the component name should be hyphenated (a-z, 0-9, "
-"\"-\"). Other characters are not allowed."
+"As the sample above, the component name should be hyphenated (a-z, 0-9, \"-"
+"\"). Other characters are not allowed."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:38
@@ -121,30 +121,27 @@ msgstr "Content of Composed Components"
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:42
 msgid ""
 "A module of composed component contains 3 parts: whole options definition, "
-"additional template option definition and additional style option "
-"definition."
+"additional template option definition and additional style option definition."
 msgstr ""
 "A module of composed component contains 3 parts: whole options definition, "
-"additional template option definition and additional style option "
-"definition."
+"additional template option definition and additional style option definition."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:46
 msgid ""
 "- whole options is a piece of JavaScript code to put component options "
 "(except `template` option and `style` option) into `module.exports` - "
-"`template` option is a piece of JSON-like object assigned to "
-"`module.exports.template` which describes the display structure of this "
-"component - `style` option is a piece of JSON object assigned to "
-"`module.exports.style` which describes the reusable styles in this component"
+"`template` option is a piece of JSON-like object assigned to `module.exports."
+"template` which describes the display structure of this component - `style` "
+"option is a piece of JSON object assigned to `module.exports.style` which "
+"describes the reusable styles in this component"
 msgstr ""
 "- whole options is a piece of JavaScript code to put component options "
 "(except `template`` option and ``style`` option) into ``module.exports`` - "
-"``template`` option is a piece of JSON-like object assigned to "
-"``module.exports.template`` which describes the display structure of this "
-"component - ``style`` option is a piece of JSON object assigned to "
-"``module.exports.style` which describes the reusable styles in this "
-"component"
+"``template`` option is a piece of JSON-like object assigned to ``module."
+"exports.template`` which describes the display structure of this component - "
+"``style`` option is a piece of JSON object assigned to ``module.exports."
+"style` which describes the reusable styles in this component"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:48
@@ -206,13 +203,15 @@ msgid ""
 "`attr`: an optional k-v pairs which contains all attributes of an element, "
 "the value could be a string, number, boolean or a function that bind some "
 "data value"
-msgstr "`attr`：可选K-V对包含一个元素的所有属性的值可以是一个字符串，数字，布尔值或一个函数，结合一些数据值 ???"
+msgstr ""
+"`attr`：可选K-V对包含一个元素的所有属性的值可以是一个字符串，数字，布尔值或一"
+"个函数，结合一些数据值 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
-"`style`: an optional k-v pairs which contains all styles of an element, just"
-" the same format as the `attr`"
+"`style`: an optional k-v pairs which contains all styles of an element, just "
+"the same format as the `attr`"
 msgstr ""
 "`style``: an optional k-v pairs which contains all styles of an element, "
 "just the same format as the ``attr`???"
@@ -239,13 +238,13 @@ msgstr "`children`：子部件的一个可选的阵列信息 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
 msgid ""
-"`append`: an optional string which determines a compiling workflow strategy:"
-" append node-by-node singly or a whole node tree just one time. the defualt "
+"`append`: an optional string which determines a compiling workflow strategy: "
+"append node-by-node singly or a whole node tree just one time. the defualt "
 "value is `node` and another supported value is `tree`."
 msgstr ""
 "`append``: an optional string which determines a compiling workflow "
-"strategy: append node-by-node singly or a whole node tree just one time. the"
-" defualt value is ``node`` and another supported value is ``tree`。 ???"
+"strategy: append node-by-node singly or a whole node tree just one time. the "
+"defualt value is ``node`` and another supported value is ``tree`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:67
@@ -274,9 +273,9 @@ msgid ""
 "- tag `name` in Weex file corresponds to `type` - attr `if` in Weex file "
 "corresponds to `shown` - attr `repeat` in Weex file corresponds to `repeat` "
 "- attr `append` in Weex file corresponds to `append` - attr `style` in Weex "
-"file with CSS syntax corresponds to `style` - attr `class` in Weex file with"
-" class names separated by blanks corresponds to `classList` - attr `on***` "
-"in Weex file with prefix `on` corresponds to a k-v pair in `events` - other "
+"file with CSS syntax corresponds to `style` - attr `class` in Weex file with "
+"class names separated by blanks corresponds to `classList` - attr `on***` in "
+"Weex file with prefix `on` corresponds to a k-v pair in `events` - other "
 "attributes in Weex file corresponds to `attr` - Child nodes in Weex file "
 "corresponds to `children`"
 msgstr ""
@@ -317,11 +316,11 @@ msgstr "The first levels are class names."
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:88
 msgid ""
-"The second levels are k-v pairs which describes style names & properties for"
-" each class name."
+"The second levels are k-v pairs which describes style names & properties for "
+"each class name."
 msgstr ""
-"The second levels are k-v pairs which describes style names & properties for"
-" each class name."
+"The second levels are k-v pairs which describes style names & properties for "
+"each class name."
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-bundle-format.md:93

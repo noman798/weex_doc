@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:1
@@ -94,11 +94,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:24
 msgid ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 msgstr ""
-"Other attributes please check out the [common "
-"attributes](../references/common-attrs.md)."
+"Other attributes please check out the [common attributes](../references/"
+"common-attrs.md)."
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:25
@@ -109,9 +109,7 @@ msgstr "Styles"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:28
 #, no-wrap
-msgid ""
-"**common styles**: check out [common styles for "
-"components](../references/common-style.md)\n"
+msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
 msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
 
 #. type: Plain text
@@ -121,8 +119,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles - support "
-"````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
+"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:34
@@ -148,13 +146,13 @@ msgstr "Example"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:41
 msgid ""
-"`require('weex-components')` should be used with webpack, see "
-"[example](https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-"
-"demo.we) for more detail."
+"`require('weex-components')` should be used with webpack, see [example]"
+"(https://github.com/alibaba/weex/blob/example/examples/component/tabbar/"
+"tabbar-demo.we) for more detail."
 msgstr ""
-"`require('weex-"
-"components')`应该用WebPACK，看到更详细的例子(https://github.com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-"
-"demo.we)[]。 ???"
+"`require('weex-components')`应该用WebPACK，看到更详细的例子(https://github."
+"com/alibaba/weex/blob/example/examples/component/tabbar/tabbar-demo.we)"
+"[]。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/wxc-tabbar.md:48

@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:1
@@ -63,8 +63,8 @@ msgstr ""
 msgid ""
 "Notice the `@WXModuleAnno`, use this annotation to mark the methods you "
 "wanna expose to javascript.  If your also want to callback to javascript, "
-"you should define a `callbackId` parameter to received 'JS callback function"
-" id':"
+"you should define a `callbackId` parameter to received 'JS callback function "
+"id':"
 msgstr ""
 "Notice the `@WXModuleAnno``, use this annotation to mark the methods you "
 "wanna expose to javascript.  If your also want to callback to javascript, "
@@ -185,8 +185,8 @@ msgstr ""
 #. type: Bullet: '7. '
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:73
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class"
-" that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"
 msgstr ""
-"Weex params can be int, double, float, String, Map, List, self-defined class"
-" that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"

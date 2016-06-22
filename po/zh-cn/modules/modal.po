@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:1
@@ -67,8 +67,8 @@ msgstr "Example"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:24
 msgid ""
-"```javascript var modal = require('@weex-module/modal'); "
-"modal.toast({'message': 'I am toast!', 'duration': 1}); ```"
+"```javascript var modal = require('@weex-module/modal'); modal."
+"toast({'message': 'I am toast!', 'duration': 1}); ```"
 msgstr ""
 
 #. type: Title ###

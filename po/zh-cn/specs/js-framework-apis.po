@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:1
@@ -47,15 +47,14 @@ msgid ""
 "Foramt](js-bundle-format.md)"
 msgstr ""
 "`code``: The JS bundle code send from Native Engine. It will be executed by "
-"``new Function(code)` in JS Framework. The code format depends on [JS Bundle"
-" Foramt](js-bundle-format.md)"
+"``new Function(code)` in JS Framework. The code format depends on [JS Bundle "
+"Foramt](js-bundle-format.md)"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:15
 msgid ""
 "`options`: *Optional*. An options object. *Currently it supports `debug` "
-"flag which enable printing log and `bundleUrl` flag which the url of "
-"bundle.*"
+"flag which enable printing log and `bundleUrl` flag which the url of bundle.*"
 msgstr ""
 "`options``: *Optional*. An options object. *Currently it supports ``debug`` "
 "flag which enable printing log and ``bundleUrl`旗，管束的URL。* ???"
@@ -185,18 +184,14 @@ msgid ""
 msgstr ""
 "`modules``: A map that collects all module definitions. Each module "
 "definition is a list which has several API definitions. And each API "
-"definition has a ``name`` string and a ``args`阵列包含一个列表的每个参数的类型。 ???"
+"definition has a ``name`` string and a ``args`阵列包含一个列表的每个参数的类"
+"型。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:67
 #, no-wrap
-msgid ""
-"**NOTE: if the parameter's type is `node` or `function`, then it will "
-"automatically transfer to a string of `node reference` or `function id`**\n"
-msgstr ""
-"**NOTE: if the parameter's type is `node`` or ``function``, then it will "
-"automatically transfer to a string of ``node reference`` or ``function "
-"id`**\n"
+msgid "**NOTE: if the parameter's type is `node` or `function`, then it will automatically transfer to a string of `node reference` or `function id`**\n"
+msgstr "**NOTE: if the parameter's type is `node`` or ``function``, then it will automatically transfer to a string of ``node reference`` or ``function id`**\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:78
@@ -220,8 +215,7 @@ msgstr "`callJS(instanceId, tasks)`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:82
-msgid ""
-"Fire events or callbacks to an existed Weex instance from Native Engine"
+msgid "Fire events or callbacks to an existed Weex instance from Native Engine"
 msgstr ""
 "Fire events or callbacks to an existed Weex instance from Native Engine"
 
@@ -290,8 +284,8 @@ msgid ""
 "`tasks[]`: A task list. Each task has a `module` name, a `method` name, and "
 "a `args[]` list."
 msgstr ""
-"`tasks[]``: A task list. Each task has a ``module`` name, a ``method`` name,"
-" and a ``args[]`列表。 ???"
+"`tasks[]``: A task list. Each task has a ``module`` name, a ``method`` name, "
+"and a ``args[]`列表。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/js-framework-apis.md:122

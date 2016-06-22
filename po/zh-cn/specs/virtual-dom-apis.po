@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:1
@@ -74,11 +74,11 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
-"`close()` Set a flag which means init rendering finished, so the dom updates"
-" later will be batched in each task."
+"`close()` Set a flag which means init rendering finished, so the dom updates "
+"later will be batched in each task."
 msgstr ""
-"`close()` Set a flag which means init rendering finished, so the dom updates"
-" later will be batched in each task."
+"`close()` Set a flag which means init rendering finished, so the dom updates "
+"later will be batched in each task."
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -197,8 +197,8 @@ msgid ""
 "`removeChild(node, preserved)` Removes a child. The parameter `preserved` "
 "means whether destroy the removed node immediately or preserve it."
 msgstr ""
-"`removeChild(node, preserved)`` Removes a child. The parameter "
-"``preserved`是否意味着破坏删除节点或立即保存它。 ???"
+"`removeChild(node, preserved)`` Removes a child. The parameter ``preserved`是"
+"否意味着破坏删除节点或立即保存它。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
@@ -325,5 +325,5 @@ msgid ""
 "`fire(el, type, e)` Fires a certain event to `el` with `type` and event "
 "object `e`"
 msgstr ""
-"`fire(el, type, e)`` Fires a certain event to ``el`` with ``type`` and event"
-" object ``e`???"
+"`fire(el, type, e)`` Fires a certain event to ``el`` with ``type`` and event "
+"object ``e`???"

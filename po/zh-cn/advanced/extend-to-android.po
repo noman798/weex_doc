@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:1
@@ -84,11 +84,11 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:16
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:77
 msgid ""
-"Weex params can be int, double, float, String, Map, List, self-defined class"
-" that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"
 msgstr ""
-"Weex params can be int, double, float, String, Map, List, self-defined class"
-" that implements WXObject interface"
+"Weex params can be int, double, float, String, Map, List, self-defined class "
+"that implements WXObject interface"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:18
@@ -123,12 +123,8 @@ msgstr "    public class WXEventModule extends WXModule{\n"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:28
 #, no-wrap
-msgid ""
-"\tprivate static final String "
-"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
-msgstr ""
-"\tprivate static final String "
-"WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgid "\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
+msgstr "\tprivate static final String WEEX_CATEGORY=\"com.taobao.android.intent.category.WEEX\";\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:42
@@ -352,24 +348,22 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:136
 msgid ""
-"import android.app.Activity; import android.text.TextUtils; import "
-"android.widget.ImageView;"
+"import android.app.Activity; import android.text.TextUtils; import android."
+"widget.ImageView;"
 msgstr ""
-"import android.app.Activity; import android.text.TextUtils; import "
-"android.widget.ImageView;"
+"import android.app.Activity; import android.text.TextUtils; import android."
+"widget.ImageView;"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:142
 msgid ""
 "import com.squareup.picasso.Picasso; import com.taobao.weex.WXEnvironment; "
-"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import "
-"com.taobao.weex.common.WXImageStrategy; import "
-"com.taobao.weex.dom.WXImageQuality;"
+"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import com.taobao.weex."
+"common.WXImageStrategy; import com.taobao.weex.dom.WXImageQuality;"
 msgstr ""
 "import com.squareup.picasso.Picasso; import com.taobao.weex.WXEnvironment; "
-"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import "
-"com.taobao.weex.common.WXImageStrategy; import "
-"com.taobao.weex.dom.WXImageQuality;"
+"import com.taobao.weex.adapter.IWXImgLoaderAdapter; import com.taobao.weex."
+"common.WXImageStrategy; import com.taobao.weex.dom.WXImageQuality;"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-android.md:144

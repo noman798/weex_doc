@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:1
@@ -11,13 +11,13 @@ msgstr "import Weex Android to your project"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:4
 msgid ""
-"You will need to build Weex from source if you want to work on a new "
-"feature/bug fix, try out the latest features which are not released yet, or "
-"maintain your own fork with patches that cannot be merged to the core."
+"You will need to build Weex from source if you want to work on a new feature/"
+"bug fix, try out the latest features which are not released yet, or maintain "
+"your own fork with patches that cannot be merged to the core."
 msgstr ""
-"You will need to build Weex from source if you want to work on a new "
-"feature/bug fix, try out the latest features which are not released yet, or "
-"maintain your own fork with patches that cannot be merged to the core."
+"You will need to build Weex from source if you want to work on a new feature/"
+"bug fix, try out the latest features which are not released yet, or maintain "
+"your own fork with patches that cannot be merged to the core."
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:5
@@ -42,20 +42,22 @@ msgstr "Make sure you have the following installed:"
 #. type: Bullet: '1. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
 msgid ""
-"Android SDK version 23 (compileSdkVersion in "
-"[`build.gradle`](https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
+"Android SDK version 23 (compileSdkVersion in [`build.gradle`](https://github."
+"com/alibaba/weex/blob/master/android/sdk/build.gradle))"
 msgstr ""
-"Android SDK version 23 (compileSdkVersion in [ z59813128476z "
-"](https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle)(https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
+"Android SDK version 23 (compileSdkVersion in [ z59813128476z ](https://"
+"github.com/alibaba/weex/blob/master/android/sdk/build.gradle)(https://github."
+"com/alibaba/weex/blob/master/android/sdk/build.gradle))"
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
 msgid ""
-"SDK build tools version 23.0.1 (buildToolsVersion in "
-"[`build.gradle`](https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
+"SDK build tools version 23.0.1 (buildToolsVersion in [`build.gradle`]"
+"(https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
 msgstr ""
-"SDK build tools version 23.0.1 (buildToolsVersion in [ z59813428476z "
-"](https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle)(https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
+"SDK build tools version 23.0.1 (buildToolsVersion in [ z59813428476z ]"
+"(https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle)"
+"(https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
 
 #. type: Bullet: '3. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
@@ -65,28 +67,29 @@ msgstr "Android Support Repository >= 17 (for Android Support Library)"
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
 msgid ""
-"Android NDK (download & extraction instructions "
-"[here](http://developer.android.com/ndk/downloads/index.html))"
+"Android NDK (download & extraction instructions [here](http://developer."
+"android.com/ndk/downloads/index.html))"
 msgstr ""
-"Android NDK (download & extraction instructions "
-"[here](http://developer.android.com/ndk/downloads/index.html)(http://developer.android.com/ndk/downloads/index.html))"
+"Android NDK (download & extraction instructions [here](http://developer."
+"android.com/ndk/downloads/index.html)(http://developer.android.com/ndk/"
+"downloads/index.html))"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:17
 msgid ""
-"Point Gradle to your Android SDK: either have `$ANDROID_SDK` and "
-"`$ANDROID_NDK ` defined, or create a local.properties file in the root of "
+"Point Gradle to your Android SDK: either have `$ANDROID_SDK` and `"
+"$ANDROID_NDK ` defined, or create a local.properties file in the root of "
 "your react-native checkout with the following contents:"
 msgstr ""
-"Point Gradle to your Android SDK: either have `$ANDROID_SDK`` and "
-"``$ANDROID_NDK ` defined, or create a local.properties file in the root of "
+"Point Gradle to your Android SDK: either have `$ANDROID_SDK`` and ``"
+"$ANDROID_NDK ` defined, or create a local.properties file in the root of "
 "your react-native checkout with the following contents:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:22
 msgid ""
-"``` sdk.dir=absolute_path_to_android_sdk "
-"ndk.dir=absolute_path_to_android_ndk ```"
+"``` sdk.dir=absolute_path_to_android_sdk ndk."
+"dir=absolute_path_to_android_ndk ```"
 msgstr ""
 
 #. type: Plain text
@@ -97,8 +100,8 @@ msgstr "Example:"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:29
 msgid ""
-"``` sdk.dir=/Users/your_unix_name/android-sdk-macosx "
-"ndk.dir=/Users/your_unix_name/android-ndk/android-ndk-r10e ```"
+"``` sdk.dir=/Users/your_unix_name/android-sdk-macosx ndk.dir=/Users/"
+"your_unix_name/android-ndk/android-ndk-r10e ```"
 msgstr ""
 
 #. type: Title ##
@@ -155,14 +158,13 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:53
 msgid ""
 "Modify your `android/app/build.gradle` to use the `:weex_sdk_android` "
-"project instead of the pre-compiled library, e.g. - replace `compile "
-"'com.taobao.android:weex_sdk:1.3.+'` with `compile "
-"project(':weex_sdk_android')`:"
+"project instead of the pre-compiled library, e.g. - replace `compile 'com."
+"taobao.android:weex_sdk:1.3.+'` with `compile project(':weex_sdk_android')`:"
 msgstr ""
 "Modify your `android/app/build.gradle`` to use the ``:weex_sdk_android`` "
-"project instead of the pre-compiled library, e.g. - replace ``compile "
-"'com.taobao.android:weex_sdk:1.3.+'`` with ``compile "
-"project(':weex_sdk_android')`:"
+"project instead of the pre-compiled library, e.g. - replace ``compile 'com."
+"taobao.android:weex_sdk:1.3.+'`` with ``compile project(':"
+"weex_sdk_android')`:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:58
@@ -203,13 +205,13 @@ msgstr "3. Making 3rd-party modules use your fork"
 msgid ""
 "If you use 3rd-party weex modules, you need to override their dependencies "
 "so that they don't build the pre-compiled library. Otherwise you'll get an "
-"error while compiling - `Error: more than one library with package name "
-"'com.taobao.weex'`."
+"error while compiling - `Error: more than one library with package name 'com."
+"taobao.weex'`."
 msgstr ""
 "If you use 3rd-party weex modules, you need to override their dependencies "
 "so that they don't build the pre-compiled library. Otherwise you'll get an "
-"error while compiling - `Error: more than one library with package name "
-"'com.taobao.weex'`."
+"error while compiling - `Error: more than one library with package name 'com."
+"taobao.weex'`."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:70
@@ -217,8 +219,8 @@ msgid ""
 "Modify your `android/app/build.gradle` and replace `compile project(':weex-"
 "custom-module')` with:"
 msgstr ""
-"Modify your `android/app/build.gradle`` and replace ``compile "
-"project(':weex-custom-module')` with:"
+"Modify your `android/app/build.gradle`` and replace ``compile project(':weex-"
+"custom-module')` with:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:76
@@ -248,8 +250,7 @@ msgstr ""
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:82
-msgid ""
-"You should be able to use the _Run_ button to run your app on a device."
+msgid "You should be able to use the _Run_ button to run your app on a device."
 msgstr ""
 "You should be able to use the _Run_ button to run your app on a device."
 
@@ -280,8 +281,8 @@ msgid ""
 "Gradle build fails in `ndk-build`. See the section about `local.properties` "
 "file above."
 msgstr ""
-"Gradle build fails in `ndk-build``. See the section about "
-"``local.properties` file above."
+"Gradle build fails in `ndk-build``. See the section about ``local."
+"properties` file above."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:91
@@ -466,7 +467,6 @@ msgstr "Reference Example   "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:167
-msgid ""
-"[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)"
+msgid "[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)"
 msgstr ""
 "[`Weex Examples`](https://github.com/alibaba/weex/tree/master/examples)???"

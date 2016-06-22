@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:1
@@ -76,22 +76,22 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:27
 msgid ""
-"You can copy and paste above code to a Weex file named `tech_list.we` (`.we`"
-" is our recommended the file extension name)"
+"You can copy and paste above code to a Weex file named `tech_list.we` (`.we` "
+"is our recommended the file extension name)"
 msgstr ""
-"You can copy and paste above code to a Weex file named `tech_list.we`` "
-"(``.we` is our recommended the file extension name)"
+"You can copy and paste above code to a Weex file named `tech_list.we`` (``."
+"we` is our recommended the file extension name)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:29
 msgid ""
-"The Weex CLI toolchain is Node JS based, so you need to install "
-"[Node](https://nodejs.org/en/download/stable/) first. Then you can install "
-"Weex CLI program using Node JS npm command."
+"The Weex CLI toolchain is Node JS based, so you need to install [Node]"
+"(https://nodejs.org/en/download/stable/) first. Then you can install Weex "
+"CLI program using Node JS npm command."
 msgstr ""
-"The Weex CLI toolchain is Node JS based, so you need to install "
-"[Node](https://nodejs.org/en/download/stable/) first. Then you can install "
-"Weex CLI program using Node JS npm command."
+"The Weex CLI toolchain is Node JS based, so you need to install [Node]"
+"(https://nodejs.org/en/download/stable/) first. Then you can install Weex "
+"CLI program using Node JS npm command."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:33
@@ -102,12 +102,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:35
 msgid ""
 "After Weex CLI program install finished, you should test to ensure the Weex "
-"CLI is properly installed by typing weex on the command line. You should see"
-" the following help text displayed:"
+"CLI is properly installed by typing weex on the command line. You should see "
+"the following help text displayed:"
 msgstr ""
 "After Weex CLI program install finished, you should test to ensure the Weex "
-"CLI is properly installed by typing weex on the command line. You should see"
-" the following help text displayed:"
+"CLI is properly installed by typing weex on the command line. You should see "
+"the following help text displayed:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:38
@@ -164,21 +164,17 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:57
 msgid ""
-"![weex html5 "
-"render](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
+"![weex html5 render](http://gtms02.alicdn.com/tps/i2/"
+"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)"
 msgstr ""
-"![weex "
-"HTML5渲染](http://gtms02.alicdn.com/tps/i2/TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)???"
+"![weex HTML5渲染](http://gtms02.alicdn.com/tps/i2/"
+"TB1y151LVXXXXXXaXXXoRYgWVXX-495-584.jpg)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:60
 #, no-wrap
-msgid ""
-"**Weex H5 renderer is not released , So please using Weex Playground App "
-"based preview for a while**\n"
-msgstr ""
-"**Weex H5 renderer is not released , So please using Weex Playground App "
-"based preview for a while**\n"
+msgid "**Weex H5 renderer is not released , So please using Weex Playground App based preview for a while**\n"
+msgstr "**Weex H5 renderer is not released , So please using Weex Playground App based preview for a while**\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:62
@@ -189,31 +185,19 @@ msgstr "Intro Weex Syntax"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:64
 msgid ""
-"So it's time for some \"boring syntax\", as content of tech_list.we showing,"
-" Weex source code is written in three parts -- *template*, *style*, *script*"
-" just like html,css,javascript for the Web."
+"So it's time for some \"boring syntax\", as content of tech_list.we showing, "
+"Weex source code is written in three parts -- *template*, *style*, *script* "
+"just like html,css,javascript for the Web."
 msgstr ""
-"So it's time for some \"boring syntax\", as content of tech_list.we showing,"
-" Weex source code is written in three parts -- *template*, *style*, *script*"
-" just like html,css,javascript for the Web."
+"So it's time for some \"boring syntax\", as content of tech_list.we showing, "
+"Weex source code is written in three parts -- *template*, *style*, *script* "
+"just like html,css,javascript for the Web."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:66
 #, no-wrap
-msgid ""
-"Template is the skeleton that give weex structure, it composed by tags which"
-" surround content and apply meaning to it. Weex has two type of tag, opening"
-" tag & closing tag, we call every couple  of opening tag &  closing tag a "
-"Weex tag. Tag have *attributes*,  different attribute have different "
-"meaning,   class attribute makes it possible to define equal styles for "
-"multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
-msgstr ""
-"Template is the skeleton that give weex structure, it composed by tags which"
-" surround content and apply meaning to it. Weex has two type of tag, opening"
-" tag & closing tag, we call every couple  of opening tag &  closing tag a "
-"Weex tag. Tag have *attributes*,  different attribute have different "
-"meaning,   class attribute makes it possible to define equal styles for "
-"multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
+msgid "Template is the skeleton that give weex structure, it composed by tags which surround content and apply meaning to it. Weex has two type of tag, opening tag & closing tag, we call every couple  of opening tag &  closing tag a Weex tag. Tag have *attributes*,  different attribute have different meaning,   class attribute makes it possible to define equal styles for multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
+msgstr "Template is the skeleton that give weex structure, it composed by tags which surround content and apply meaning to it. Weex has two type of tag, opening tag & closing tag, we call every couple  of opening tag &  closing tag a Weex tag. Tag have *attributes*,  different attribute have different meaning,   class attribute makes it possible to define equal styles for multiple tags,  onclick attribute makes the tag  responds to click  event.\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:68
@@ -326,11 +310,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:112
 msgid ""
-"![weex "
-"qr](http://gtms01.alicdn.com/tps/i1/TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
+"![weex qr](http://gtms01.alicdn.com/tps/i1/"
+"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)"
 msgstr ""
-"![weex "
-"QR](http://gtms01.alicdn.com/tps/i1/TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)???"
+"![weex QR](http://gtms01.alicdn.com/tps/i1/"
+"TB1ggfiLVXXXXbPXXXXELJK6FXX-334-379.jpg)???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:115
@@ -340,25 +324,25 @@ msgid ""
 "successful installation, open Weex playground App then click scan icon at "
 "top right corner, then scan the Qr code in your terminal.If all works well, "
 "a beautiful list will be displayed in your phone. Here, i must stress that "
-"the list is render using native widget ( no webkit ), so your app get faster"
-" loading and less memory overhead than common embedded webkit renderer."
+"the list is render using native widget ( no webkit ), so your app get faster "
+"loading and less memory overhead than common embedded webkit renderer."
 msgstr ""
 "The QR code will work together with Weex playground App, you can download "
 "the app [here](http://alibaba.github.io/weex/download.html).  After "
 "successful installation, open Weex playground App then click scan icon at "
 "top right corner, then scan the Qr code in your terminal.If all works well, "
 "a beautiful list will be displayed in your phone. Here, i must stress that "
-"the list is render using native widget ( no webkit ), so your app get faster"
-" loading and less memory overhead than common embedded webkit renderer."
+"the list is render using native widget ( no webkit ), so your app get faster "
+"loading and less memory overhead than common embedded webkit renderer."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
 msgid ""
-"![list1 in "
-"Android](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
+"![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
+"TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 msgstr ""
-"![list1 in "
-"Android](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
+"![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
+"TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:119
@@ -382,16 +366,8 @@ msgstr "Add Build-in Component"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:123
 #, no-wrap
-msgid ""
-"Beyond writing basic tag by yourself, Weex provide  a lot of build-in "
-"components.   For example,  Slider is common to many App/Mobile Web, So Weex"
-" include  a  build-in  Slider  and you can easily using the component in "
-"your script.  Let's open tech_list.we and update it's content like below.\n"
-msgstr ""
-"Beyond writing basic tag by yourself, Weex provide  a lot of build-in "
-"components.   For example,  Slider is common to many App/Mobile Web, So Weex"
-" include  a  build-in  Slider  and you can easily using the component in "
-"your script.  Let's open tech_list.we and update it's content like below.\n"
+msgid "Beyond writing basic tag by yourself, Weex provide  a lot of build-in components.   For example,  Slider is common to many App/Mobile Web, So Weex include  a  build-in  Slider  and you can easily using the component in your script.  Let's open tech_list.we and update it's content like below.\n"
+msgstr "Beyond writing basic tag by yourself, Weex provide  a lot of build-in components.   For example,  Slider is common to many App/Mobile Web, So Weex include  a  build-in  Slider  and you can easily using the component in your script.  Let's open tech_list.we and update it's content like below.\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:134
@@ -501,30 +477,28 @@ msgstr "You should see a slider prepend to our list."
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:198
 msgid ""
-"![slider "
-"demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000.gif)"
+"![slider demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
+"XUXXX-596-1000.gif)"
 msgstr ""
-"![演示](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000.gif)滑块"
-" ???"
+"![演示](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000."
+"gif)滑块 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:201
 msgid ""
-"More information about Slider Component can be found "
-"[here](components/slider.md)."
+"More information about Slider Component can be found [here](components/"
+"slider.md)."
 msgstr ""
-"More information about Slider Component can be found "
-"[here](components/slider.md)."
+"More information about Slider Component can be found [here](components/"
+"slider.md)."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:202
 msgid ""
 "Just as previous example, the slider can be rendering in native, easily in "
-"Weex playground,also in your App. Please refer [the "
-"document](advanced/integrate-to-android.md) for integrating Weex into your "
-"App."
+"Weex playground,also in your App. Please refer [the document](advanced/"
+"integrate-to-android.md) for integrating Weex into your App."
 msgstr ""
 "Just as previous example, the slider can be rendering in native, easily in "
-"Weex playground,also in your App. Please refer [the "
-"document](advanced/integrate-to-android.md) for integrating Weex into your "
-"App."
+"Weex playground,also in your App. Please refer [the document](advanced/"
+"integrate-to-android.md) for integrating Weex into your App."

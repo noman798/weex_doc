@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:1
@@ -11,16 +11,8 @@ msgstr "Data-Binding"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:4
 #, no-wrap
-msgid ""
-"In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>`"
-" which are defined in `<script>`. Once data and template is bound, the data "
-"changes will influence the corresponding template content immediately and "
-"automatically.\n"
-msgstr ""
-"In Weex, we use the *mustache* syntax `{{...}}`` to bind data in "
-"``<template>`` which are defined in ``<script>`. Once data and template is "
-"bound, the data changes will influence the corresponding template content "
-"immediately and automatically.\n"
+msgid "In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` which are defined in `<script>`. Once data and template is bound, the data changes will influence the corresponding template content immediately and automatically.\n"
+msgstr "In Weex, we use the *mustache* syntax `{{...}}`` to bind data in ``<template>`` which are defined in ``<script>`. Once data and template is bound, the data changes will influence the corresponding template content immediately and automatically.\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:5
@@ -60,8 +52,7 @@ msgstr ""
 msgid ""
 "The code above will bind the `title` and `size` data field to `template`."
 msgstr ""
-"The code above will bind the `title`` and ``size`` data field to "
-"``template`."
+"The code above will bind the `title`` and ``size`` data field to ``template`."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:27
@@ -109,8 +100,7 @@ msgstr "In-template expression"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:50
-msgid ""
-"Inside data bindings, Weex supports simply javascript expressions, e.g."
+msgid "Inside data bindings, Weex supports simply javascript expressions, e.g."
 msgstr ""
 "Inside data bindings, Weex supports simply javascript expressions, e.g."
 
@@ -144,8 +134,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:69
 msgid "The expression will be evaluated in the data scope of current context."
-msgstr ""
-"The expression will be evaluated in the data scope of current context."
+msgstr "The expression will be evaluated in the data scope of current context."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:71
@@ -162,12 +151,12 @@ msgstr "Computed Properties"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:75
 msgid ""
-"According to simple operations, in-template expressions are very convenient."
-" But if you want to put more logic into the template, you should use a "
+"According to simple operations, in-template expressions are very convenient. "
+"But if you want to put more logic into the template, you should use a "
 "computed property."
 msgstr ""
-"According to simple operations, in-template expressions are very convenient."
-" But if you want to put more logic into the template, you should use a "
+"According to simple operations, in-template expressions are very convenient. "
+"But if you want to put more logic into the template, you should use a "
 "computed property."
 
 #. type: Plain text
@@ -236,30 +225,26 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:114
 msgid ""
-"Here we have declared a computed property fullName. The function we provided"
-" will be used as the getter function for concating firstName and lastName."
+"Here we have declared a computed property fullName. The function we provided "
+"will be used as the getter function for concating firstName and lastName."
 msgstr ""
-"Here we have declared a computed property fullName. The function we provided"
-" will be used as the getter function for concating firstName and lastName."
+"Here we have declared a computed property fullName. The function we provided "
+"will be used as the getter function for concating firstName and lastName."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:116
 msgid ""
-"Otherwise when you call `changeName` after click, the setter will be invoked"
-" and this.firstName and this.lastName will be updated accordingly."
+"Otherwise when you call `changeName` after click, the setter will be invoked "
+"and this.firstName and this.lastName will be updated accordingly."
 msgstr ""
-"Otherwise when you call `changeName` after click, the setter will be invoked"
-" and this.firstName and this.lastName will be updated accordingly."
+"Otherwise when you call `changeName` after click, the setter will be invoked "
+"and this.firstName and this.lastName will be updated accordingly."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:118
 #, no-wrap
-msgid ""
-"**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the "
-"execution context -- `this`, we can access both of them.**\n"
-msgstr ""
-"**NOTE: `data`` and ``methods`` can't have duplicate fields. 'Cause in the "
-"execution context -- ``this`, we can access both of them.**\n"
+msgid "**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the execution context -- `this`, we can access both of them.**\n"
+msgstr "**NOTE: `data`` and ``methods`` can't have duplicate fields. 'Cause in the execution context -- ``this`, we can access both of them.**\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:119
@@ -313,8 +298,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:143
 msgid ""
-"here if `{{size}}` and `{{status}}` have empty value, then only "
-"`class=\"title\"` will be rendered."
+"here if `{{size}}` and `{{status}}` have empty value, then only `class="
+"\"title\"` will be rendered."
 msgstr ""
 "在这里，如果`{{size}}`` and ``{{status}}`` have empty value, then only "
 "``class=\"title\"`将呈现。 ???"
@@ -333,15 +318,15 @@ msgstr "Event Handler: `on...`"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:149
 msgid ""
-"The event handler is an attribute which name has a prefix `on...`. The other"
-" part of attribute name is event type and the value is event handler name. "
-"We don't need to add mustache around the method name or add parentheses to "
-"call it."
+"The event handler is an attribute which name has a prefix `on...`. The other "
+"part of attribute name is event type and the value is event handler name. We "
+"don't need to add mustache around the method name or add parentheses to call "
+"it."
 msgstr ""
-"The event handler is an attribute which name has a prefix `on...`. The other"
-" part of attribute name is event type and the value is event handler name. "
-"We don't need to add mustache around the method name or add parentheses to "
-"call it."
+"The event handler is an attribute which name has a prefix `on...`. The other "
+"part of attribute name is event type and the value is event handler name. We "
+"don't need to add mustache around the method name or add parentheses to call "
+"it."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:154

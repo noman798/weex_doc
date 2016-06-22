@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:1
@@ -76,11 +76,12 @@ msgstr "`repeat`???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:34
 msgid ""
 "`repeat` statement is just for array rendering. Every item in an array is "
-"also a structed data. This means in `repeat`ed component, you can bind their"
-" item properties directly."
+"also a structed data. This means in `repeat`ed component, you can bind their "
+"item properties directly."
 msgstr ""
 "`repeat`` statement is just for array rendering. Every item in an array is "
-"also a structed data. This means in ``repeat`组件，你可以把他们的项目属性直接。 ???"
+"also a structed data. This means in ``repeat`组件，你可以把他们的项目属性直"
+"接。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:44
@@ -129,11 +130,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:64
 msgid ""
-"The origin data properties which not belongs to the array will also be "
-"bound:"
+"The origin data properties which not belongs to the array will also be bound:"
 msgstr ""
-"The origin data properties which not belongs to the array will also be "
-"bound:"
+"The origin data properties which not belongs to the array will also be bound:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:74
@@ -271,12 +270,12 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:141
 msgid ""
-"Later on, when you replace the array including an item of the same nickname,"
-" it knows it can reuse the existing scope and DOM elements associated with "
+"Later on, when you replace the array including an item of the same nickname, "
+"it knows it can reuse the existing scope and DOM elements associated with "
 "the same nickname."
 msgstr ""
-"Later on, when you replace the array including an item of the same nickname,"
-" it knows it can reuse the existing scope and DOM elements associated with "
+"Later on, when you replace the array including an item of the same nickname, "
+"it knows it can reuse the existing scope and DOM elements associated with "
 "the same nickname."
 
 #. type: Title ##

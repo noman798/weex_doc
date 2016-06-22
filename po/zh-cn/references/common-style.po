@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:1
@@ -119,14 +119,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:44
 #, no-wrap
-msgid ""
-"Notes: The rule of border-radius for a specific corner such as `border-top-"
-"left-radius` is not currently supported for component `<image>` and "
-"`<text>`.\n"
-msgstr ""
-"Notes: The rule of border-radius for a specific corner such as `border-top-"
-"left-radius`` is not currently supported for component ``<image>`` and "
-"``<text>`.\n"
+msgid "Notes: The rule of border-radius for a specific corner such as `border-top-left-radius` is not currently supported for component `<image>` and `<text>`.\n"
+msgstr "Notes: The rule of border-radius for a specific corner such as `border-top-left-radius`` is not currently supported for component ``<image>`` and ``<text>`.\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:46
@@ -241,10 +235,10 @@ msgid ""
 "The justify-content property horizontally aligns the flexible container's "
 "items when the items do not use all available space on the main-axis. "
 "Default value is `flex-start` meaning the flex items are positioned at the "
-"beginning of the container. `flex-end` means the items are positioned at the"
-" end of the container. `center` means the items are positioned at the center"
-" of the container. `space-between` means the items are positioned with space"
-" between the lines."
+"beginning of the container. `flex-end` means the items are positioned at the "
+"end of the container. `center` means the items are positioned at the center "
+"of the container. `space-between` means the items are positioned with space "
+"between the lines."
 msgstr ""
 "The justify-content property horizontally aligns the flexible container's "
 "items when the items do not use all available space on the main-axis. "
@@ -258,7 +252,8 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:78
 msgid ""
 "![justify-content](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)"
-msgstr "![内容](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)辩解 ???"
+msgstr ""
+"![内容](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)辩解 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:80
@@ -288,11 +283,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:84
 msgid ""
-"![align-"
-"items](http://gtms02.alicdn.com/tps/i2/TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)"
+"![align-items](http://gtms02.alicdn.com/tps/i2/"
+"TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)"
 msgstr ""
-"![项目](http://gtms02.alicdn.com/tps/i2/TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)对齐"
-" ???"
+"![项目](http://gtms02.alicdn.com/tps/i2/TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502."
+"jpg)对齐 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:85
@@ -313,8 +308,8 @@ msgid ""
 "set `flex: 1`, they will have equal width or height on direction of flex "
 "container's `flex-direction`. If there are two flex items, with one setting "
 "`flex: 1`, and the other setting `flex: 2`, the first one will take 1/3 "
-"container space, and the second one will take 2/3 container space. If all of"
-" flex items don't set `flex`, they will be aligned depending on the "
+"container space, and the second one will take 2/3 container space. If all of "
+"flex items don't set `flex`, they will be aligned depending on the "
 "container's `justify-content` property."
 msgstr ""
 "the flex property specifies the length of the flex item, relative to the "
@@ -408,8 +403,8 @@ msgstr "我们可以使用性能低于控制weex标签位置 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:136
 msgid ""
-"- `position`: `relative` | `absolute` | `fixed` | `sticky`, default value is"
-" `relative`."
+"- `position`: `relative` | `absolute` | `fixed` | `sticky`, default value is "
+"`relative`."
 msgstr ""
 "-`position``: ``relative`` | ``absolute`` | ``fixed`` | ``sticky``, default "
 "value is ``relative`。 ???"
@@ -419,15 +414,16 @@ msgstr ""
 msgid ""
 "`relative` means the item is positioned relative to its normal position. "
 "`absolute` means the item is positioned relative to its container. `fixed` "
-"keeps the elements position fixed when the page is scrolling. `sticky` keeps"
-" elements positioned inside the viewport as \"stuck\" at the top or "
-"\"relative\" at its original place depending on whether does it about to "
-"scroll out of the view."
+"keeps the elements position fixed when the page is scrolling. `sticky` keeps "
+"elements positioned inside the viewport as \"stuck\" at the top or \"relative"
+"\" at its original place depending on whether does it about to scroll out of "
+"the view."
 msgstr ""
 "`relative`` means the item is positioned relative to its normal position. "
 "``absolute`` means the item is positioned relative to its container. "
 "``fixed`` keeps the elements position fixed when the page is scrolling. "
-"``sticky`保持元素放置在视图为“卡”在顶部或“相对”在原处，取决于它能否对滚动的视图。 ???"
+"``sticky`保持元素放置在视图为“卡”在顶部或“相对”在原处，取决于它能否对滚动的视"
+"图。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:143
@@ -472,13 +468,13 @@ msgstr "Other Common Style"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:166
 msgid ""
-"- `opacity`: &lt;number&gt;, value within range 0 to 1. 1 is not transparent"
-" at all, 0.5 is 50% see-through, and 0 is completely transparent, default "
+"- `opacity`: &lt;number&gt;, value within range 0 to 1. 1 is not transparent "
+"at all, 0.5 is 50% see-through, and 0 is completely transparent, default "
 "value is 1.  - `background-color`: &lt;colors&gt; sets the background color "
 "of an element, default value is `transparent`."
 msgstr ""
-"-`opacity``: &lt;number&gt;, value within range 0 to 1. 1 is not transparent"
-" at all, 0.5 is 50% see-through, and 0 is completely transparent, default "
+"-`opacity``: &lt;number&gt;, value within range 0 to 1. 1 is not transparent "
+"at all, 0.5 is 50% see-through, and 0 is completely transparent, default "
 "value is 1.  - ``background-color``: &lt;colors&gt; sets the background "
 "color of an element, default value is ``transparent`。 ???"
 
@@ -497,10 +493,10 @@ msgid ""
 "hexadecimal (`#f00`), named color (`red`).  - enumerated values: a limited "
 "number of string values."
 msgstr ""
-"长度：长度单位数依次`px``, ``px`` can be omitted.  - colors: support multiple formats "
-"of values, including rgb (``rgb(255, 0, 0)``), rgba (``rgba(255, 0, 0, "
-"0.5)``), hexadecimal (``#ff0000``), short hexadecimal (``#f00``), named "
-"color (``red`)。枚举值：数量有限的字符串值。 ???"
+"长度：长度单位数依次`px``, ``px`` can be omitted.  - colors: support "
+"multiple formats of values, including rgb (``rgb(255, 0, 0)``), rgba "
+"(``rgba(255, 0, 0, 0.5)``), hexadecimal (``#ff0000``), short hexadecimal "
+"(``#f00``), named color (``red`)。枚举值：数量有限的字符串值。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:174

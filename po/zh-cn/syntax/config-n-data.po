@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:1
@@ -11,23 +11,19 @@ msgstr "Page Config & Data"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:4
 #, no-wrap
-msgid ""
-"You can write some instance config and data in some additional `<script>` at"
-" the **top-level** Weex component.\n"
-msgstr ""
-"You can write some instance config and data in some additional `<script>` at"
-" the **top-level** Weex component.\n"
+msgid "You can write some instance config and data in some additional `<script>` at the **top-level** Weex component.\n"
+msgstr "You can write some instance config and data in some additional `<script>` at the **top-level** Weex component.\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:7
 msgid ""
-"the instance config could declare some meta informations like which "
-"sdk/client version it supports or \"downgrade\" to HTML5 renderer. This part"
-" would be extended more in the future."
+"the instance config could declare some meta informations like which sdk/"
+"client version it supports or \"downgrade\" to HTML5 renderer. This part "
+"would be extended more in the future."
 msgstr ""
-"the instance config could declare some meta informations like which "
-"sdk/client version it supports or \"downgrade\" to HTML5 renderer. This part"
-" would be extended more in the future."
+"the instance config could declare some meta informations like which sdk/"
+"client version it supports or \"downgrade\" to HTML5 renderer. This part "
+"would be extended more in the future."
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:7
@@ -100,14 +96,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:48
 #, no-wrap
-msgid ""
-"Notice that these two additional `<script>` are both optinal and have "
-"`type=\"config|data\"` attribute and only works when it's the top-level "
-"component of a Weex instance.\n"
-msgstr ""
-"Notice that these two additional `<script>`` are both optinal and have "
-"``type=\"config|data\"` attribute and only works when it's the top-level "
-"component of a Weex instance.\n"
+msgid "Notice that these two additional `<script>` are both optinal and have `type=\"config|data\"` attribute and only works when it's the top-level component of a Weex instance.\n"
+msgstr "Notice that these two additional `<script>`` are both optinal and have ``type=\"config|data\"` attribute and only works when it's the top-level component of a Weex instance.\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/config-n-data.md:50

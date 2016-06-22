@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/animation.md:1
@@ -70,8 +70,8 @@ msgid ""
 "callback function."
 msgstr ""
 "First, provide the id of the node. Second, provide some properties of "
-"`styles``, ``duration``, ``timingFunction`` and ``delay`. At last, provide a"
-" callback function."
+"`styles``, ``duration``, ``timingFunction`` and ``delay`. At last, provide a "
+"callback function."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/animation.md:33

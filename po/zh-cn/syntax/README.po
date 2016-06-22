@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:1
@@ -11,14 +11,8 @@ msgstr "Syntax"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:4
 #, no-wrap
-msgid ""
-"A simple Weex page sample is just a piece of `<template>` code, a piece of "
-"`<style>` code and a piece of `<script>` code. The three parts together "
-"describe a whole Weex page.\n"
-msgstr ""
-"A simple Weex page sample is just a piece of `<template>`` code, a piece of "
-"``<style>`` code and a piece of ``<script>` code. The three parts together "
-"describe a whole Weex page.\n"
+msgid "A simple Weex page sample is just a piece of `<template>` code, a piece of `<style>` code and a piece of `<script>` code. The three parts together describe a whole Weex page.\n"
+msgstr "A simple Weex page sample is just a piece of `<template>`` code, a piece of ``<style>`` code and a piece of ``<script>` code. The three parts together describe a whole Weex page.\n"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:8
@@ -34,11 +28,11 @@ msgstr ""
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:8
 msgid ""
-"`<style>`: *optional*. Describes the presetation details, and the content is"
-" based on CSS syntax."
+"`<style>`: *optional*. Describes the presetation details, and the content is "
+"based on CSS syntax."
 msgstr ""
-"`<style>`: *optional*. Describes the presetation details, and the content is"
-" based on CSS syntax."
+"`<style>`: *optional*. Describes the presetation details, and the content is "
+"based on CSS syntax."
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:8
@@ -87,12 +81,8 @@ msgstr "`<template>`???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:26
 #, no-wrap
-msgid ""
-"We describe page structure in `<template>` tag like the following "
-"definition:\n"
-msgstr ""
-"We describe page structure in `<template>` tag like the following "
-"definition:\n"
+msgid "We describe page structure in `<template>` tag like the following definition:\n"
+msgstr "We describe page structure in `<template>` tag like the following definition:\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:35
@@ -180,15 +170,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:55
 #, no-wrap
-msgid ""
-"First we could write inline `style` attribute in `<template>` element. "
-"Second we could use the `class` attribute to apply stylesheets, which are "
-"defined with single-class selectors in `<style>` code. Here is an example:\n"
-msgstr ""
-"First we could write inline `style`` attribute in ``<template>`` element. "
-"Second we could use the ``class`` attribute to apply stylesheets, which are "
-"defined with single-class selectors in ``<style>` code. Here is an "
-"example:\n"
+msgid "First we could write inline `style` attribute in `<template>` element. Second we could use the `class` attribute to apply stylesheets, which are defined with single-class selectors in `<style>` code. Here is an example:\n"
+msgstr "First we could write inline `style`` attribute in ``<template>`` element. Second we could use the ``class`` attribute to apply stylesheets, which are defined with single-class selectors in ``<style>` code. Here is an example:\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:63
@@ -282,27 +265,12 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:105
 #, no-wrap
-msgid ""
-"This piece of `<script>` code will generate some component options and "
-"assign it to `module.exports`. The three text components above respectively "
-"shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the "
-"`<script>` code stores component data which could be used for [data-"
-"binding](./data-binding.md) in the `<template>`. When data changes, the "
-"bound value will be updated automatically. Also it could be read and written"
-" by `this.x` in its methods.\n"
-msgstr ""
-"This piece of `<script>`` code will generate some component options and "
-"assign it to ``module.exports``. The three text components above "
-"respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The "
-"``data`` in the ``<script>`` code stores component data which could be used "
-"for [data-binding](./data-binding.md) in the ``<template>``. When data "
-"changes, the bound value will be updated automatically. Also it could be "
-"read and written by ``this.x` in its methods.\n"
+msgid "This piece of `<script>` code will generate some component options and assign it to `module.exports`. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the `<script>` code stores component data which could be used for [data-binding](./data-binding.md) in the `<template>`. When data changes, the bound value will be updated automatically. Also it could be read and written by `this.x` in its methods.\n"
+msgstr "This piece of `<script>`` code will generate some component options and assign it to ``module.exports``. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The ``data`` in the ``<script>`` code stores component data which could be used for [data-binding](./data-binding.md) in the ``<template>``. When data changes, the bound value will be updated automatically. Also it could be read and written by ``this.x` in its methods.\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/README.md:107
-msgid ""
-"[See component definitions references](../references/component-defs.md)"
+msgid "[See component definitions references](../references/component-defs.md)"
 msgstr ""
 "[See component definitions references](../references/component-defs.md)"
 

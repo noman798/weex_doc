@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/README.md:1
@@ -9,12 +9,31 @@ msgid "Weex"
 msgstr "Weex"
 
 #. type: Plain text
-#: /home/dev/download/weex_doc/weex/doc/README.md:9
-msgid ""
-"Table of Contents * [Tutorial](./tutorial.md)  * [Guide](./guide.md)  * "
-"[References](./references/main.md)  * [Examples](./demo/main.md)  * [Service"
-" & Tools](./tools/main.md)"
-msgstr ""
-"Table of Contents * [Tutorial](./tutorial.md)  * [Guide](./guide.md)  * "
-"[References](./references/main.md)  * [Examples](./demo/main.md)  * [Service"
-" & Tools](./tools/main.md)"
+#: /home/dev/download/weex_doc/weex/doc/README.md:4
+msgid "Table of Contents"
+msgstr "Table of Contents"
+
+#. type: Bullet: '    * '
+#: /home/dev/download/weex_doc/weex/doc/README.md:10
+msgid "[Tutorial](./tutorial.md)"
+msgstr "[Tutorial](./tutorial.md)"
+
+#. type: Bullet: '    * '
+#: /home/dev/download/weex_doc/weex/doc/README.md:10
+msgid "[Guide](./guide.md)"
+msgstr "[Guide](./guide.md)"
+
+#. type: Bullet: '    * '
+#: /home/dev/download/weex_doc/weex/doc/README.md:10
+msgid "[References](./references/main.md)"
+msgstr "[References](./references/main.md)"
+
+#. type: Bullet: '    * '
+#: /home/dev/download/weex_doc/weex/doc/README.md:10
+msgid "[Examples](./demo/main.md)"
+msgstr "[Examples](./demo/main.md)"
+
+#. type: Bullet: '    * '
+#: /home/dev/download/weex_doc/weex/doc/README.md:10
+msgid "[Service & Tools](./tools/main.md)"
+msgstr "[Service & Tools](./tools/main.md)"

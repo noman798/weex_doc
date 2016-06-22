@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:1
@@ -20,8 +20,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:6
 msgid ""
-"`id` can be used by `this.$(id)` to find an element with a certain id. Take "
-"`$scrollTo()` For example:"
+"`id` can be used by `this.$(id)` to find an element with a certain id. Take `"
+"$scrollTo()` For example:"
 msgstr ""
 "`id`` can be used by ``this.$(id)`` to find an element with a certain id. "
 "Take ``$scrollTo()` For example:"
@@ -106,5 +106,4 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:58
 msgid "Next is how to [send messages between composed components](./comm.md)."
-msgstr ""
-"Next is how to [send messages between composed components](./comm.md)."
+msgstr "Next is how to [send messages between composed components](./comm.md)."

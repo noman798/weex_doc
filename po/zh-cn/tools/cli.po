@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title =
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
@@ -39,11 +39,11 @@ msgstr "weex ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex "
-"foo/bar/your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
+"your_next_best_weex_script_file.we [options]"
 msgstr ""
-"Weex file preview tool with hot reload ```` Usage: weex "
-"foo/bar/your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ```` Usage: weex foo/bar/"
+"your_next_best_weex_script_file.we [options]"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25

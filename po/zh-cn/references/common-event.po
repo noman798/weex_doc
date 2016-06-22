@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:1
@@ -17,21 +17,17 @@ msgstr "Click event"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:6
 msgid ""
-"If a `click` event is bound to a component, the event will be triggered when"
-" the user clicks on it."
+"If a `click` event is bound to a component, the event will be triggered when "
+"the user clicks on it."
 msgstr ""
-"If a `click` event is bound to a component, the event will be triggered when"
-" the user clicks on it."
+"If a `click` event is bound to a component, the event will be triggered when "
+"the user clicks on it."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:8
 #, no-wrap
-msgid ""
-"**Notes:** The component `input` and `switch` do not currently support this "
-"event, please use `change` or `input` event instead.\n"
-msgstr ""
-"**Notes:** The component `input`` and ``switch`` do not currently support "
-"this event, please use ``change`` or ``input` event instead.\n"
+msgid "**Notes:** The component `input` and `switch` do not currently support this event, please use `change` or `input` event instead.\n"
+msgstr "**Notes:** The component `input`` and ``switch`` do not currently support this event, please use ``change`` or ``input` event instead.\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-event.md:10

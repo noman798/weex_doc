@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:1
@@ -41,9 +41,9 @@ msgid ""
 msgstr ""
 "The format of key-value pairs is `prop-name: prop-value;``. The key name is "
 "``prop-name``, the value name is ``prop-value``.  Usually,the key name and "
-"the value name follow Horizontal connection nomenclature, the value may be a"
-" number(the default units is px); The key and the value must be separated by"
-" ``:``, between each key-value pairs must be separated by ``;`."
+"the value name follow Horizontal connection nomenclature, the value may be a "
+"number(the default units is px); The key and the value must be separated by "
+"``:``, between each key-value pairs must be separated by ``;`."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:14
@@ -87,12 +87,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:31
 #, no-wrap
-msgid ""
-"It is said that the width and height of `<container>` label is 400 pixels "
-"and 50 pixels respectively.\n"
-msgstr ""
-"It is said that the width and height of `<container>` label is 400 pixels "
-"and 50 pixels respectively.\n"
+msgid "It is said that the width and height of `<container>` label is 400 pixels and 50 pixels respectively.\n"
+msgstr "It is said that the width and height of `<container>` label is 400 pixels and 50 pixels respectively.\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:32
@@ -122,12 +118,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:45
 msgid ""
 "The stylesheets contain multiple style rules, each style rule has only one "
-"class which is contained by its style selector, a pair of curly braces "
-"`{...}`, and the styles of the curly braces. For example:"
+"class which is contained by its style selector, a pair of curly braces `{...}"
+"`, and the styles of the curly braces. For example:"
 msgstr ""
 "The stylesheets contain multiple style rules, each style rule has only one "
-"class which is contained by its style selector, a pair of curly braces "
-"`{...}`, and the styles of the curly braces. For example:"
+"class which is contained by its style selector, a pair of curly braces `{...}"
+"`, and the styles of the curly braces. For example:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:49
@@ -148,14 +144,8 @@ msgstr "Class attribute"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:55
 #, no-wrap
-msgid ""
-"The selectors of `<style>` label are matched with the class attribute of "
-"`<template>` label, we should use spaces to separate the class names. For "
-"example:\n"
-msgstr ""
-"The selectors of `<style>`` label are matched with the class attribute of "
-"``<template>` label, we should use spaces to separate the class names. For "
-"example:\n"
+msgid "The selectors of `<style>` label are matched with the class attribute of `<template>` label, we should use spaces to separate the class names. For example:\n"
+msgstr "The selectors of `<style>`` label are matched with the class attribute of ``<template>` label, we should use spaces to separate the class names. For example:\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:69
@@ -218,13 +208,13 @@ msgstr ""
 msgid ""
 "The CSS standard can support many types of length units, but now weex only "
 "support pixel, and the `px` unit could be ignored, you can write number "
-"directly. More details can be found in [commmon "
-"styles](../references/common-style.md)."
+"directly. More details can be found in [commmon styles](../references/common-"
+"style.md)."
 msgstr ""
 "The CSS standard can support many types of length units, but now weex only "
 "support pixel, and the `px` unit could be ignored, you can write number "
-"directly. More details can be found in [commmon "
-"styles](../references/common-style.md)."
+"directly. More details can be found in [commmon styles](../references/common-"
+"style.md)."
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/style-n-class.md:79

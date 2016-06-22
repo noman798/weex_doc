@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:1
@@ -19,15 +19,15 @@ msgstr "Intro"
 msgid ""
 "Weex is a extendable cross-platform solution for dynamic programming and "
 "publishing projects. You can build your own components on web platform or "
-"native platform by extending the components system. Also you can extend weex"
-" by adding new methods for one module, new moudles or new bundle loaders. "
+"native platform by extending the components system. Also you can extend weex "
+"by adding new methods for one module, new moudles or new bundle loaders. "
 "Follow the steps bellow you can dive into the journy of creating multiple "
 "builtin components, APIs and loaders."
 msgstr ""
 "Weex is a extendable cross-platform solution for dynamic programming and "
 "publishing projects. You can build your own components on web platform or "
-"native platform by extending the components system. Also you can extend weex"
-" by adding new methods for one module, new moudles or new bundle loaders. "
+"native platform by extending the components system. Also you can extend weex "
+"by adding new methods for one module, new moudles or new bundle loaders. "
 "Follow the steps bellow you can dive into the journy of creating multiple "
 "builtin components, APIs and loaders."
 
@@ -47,8 +47,7 @@ msgstr "Steps:"
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
 msgid "Require `weex-html5` package as `Weex` (or any other name you like)."
-msgstr ""
-"Require `weex-html5`` package as ``Weex` (or any other name you like)."
+msgstr "Require `weex-html5`` package as ``Weex` (or any other name you like)."
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:14
@@ -137,11 +136,11 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:40
 msgid ""
-"// Extend from Weex.Component.  NewComponent.prototype = "
-"Object.create(Component.prototype)"
+"// Extend from Weex.Component.  NewComponent.prototype = Object."
+"create(Component.prototype)"
 msgstr ""
-"// Extend from Weex.Component.  NewComponent.prototype = "
-"Object.create(Component.prototype)"
+"// Extend from Weex.Component.  NewComponent.prototype = Object."
+"create(Component.prototype)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:47
@@ -240,17 +239,16 @@ msgid ""
 "modules. For example, you can add a new module `user` with APIs like "
 "'login', 'logout' etc. Or you can just add a single new method such as "
 "`setTitle` for the exsiting module `pageInfo`. Whichever way you use, the "
-"developer can invoke the API by using `require('@weex-"
-"module/moduleName)[methodName](arg1, arg2, ...)` ([Module "
-"APIs](../references/api.md))."
+"developer can invoke the API by using `require('@weex-module/moduleName)"
+"[methodName](arg1, arg2, ...)` ([Module APIs](../references/api.md))."
 msgstr ""
 "You can add new API modules, or just add a new API for any existing API "
 "modules. For example, you can add a new module `user`` with APIs like "
 "'login', 'logout' etc. Or you can just add a single new method such as "
 "``setTitle`` for the exsiting module ``pageInfo``. Whichever way you use, "
-"the developer can invoke the API by using ``require('@weex-"
-"module/moduleName)[methodName](arg1, arg2, ...)` ([Module "
-"APIs](../references/api.md)(../references/api.md))."
+"the developer can invoke the API by using ``require('@weex-module/moduleName)"
+"[methodName](arg1, arg2, ...)` ([Module APIs](../references/api.md)(../"
+"references/api.md))."
 
 #. type: Bullet: '2. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:88
@@ -284,11 +282,11 @@ msgstr "**Here is a example for register a new API module**\n"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:92
 msgid ""
-"First create a file named `user.js` for a new module, then define "
-"`login/logout` methods."
+"First create a file named `user.js` for a new module, then define `login/"
+"logout` methods."
 msgstr ""
-"First create a file named `user.js`` for a new module, then define "
-"``login/logout` methods."
+"First create a file named `user.js`` for a new module, then define ``login/"
+"logout` methods."
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:104
@@ -414,8 +412,7 @@ msgstr "**Another example for register a API to a exsiting API module**\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:158
-msgid ""
-"First create a file named `pageInfo.js`, then define `setTitle` method:"
+msgid "First create a file named `pageInfo.js`, then define `setTitle` method:"
 msgstr ""
 "First create a file named `pageInfo.js``, then define ``setTitle` method:"
 
@@ -541,8 +538,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/extend-to-html5.md:215
 msgid ""
-"```javascript // Require your new loader.  var loadByMyServe = "
-"require('./loader').loadByMyServe"
+"```javascript // Require your new loader.  var loadByMyServe = require('./"
+"loader').loadByMyServe"
 msgstr ""
 
 #. type: Plain text
