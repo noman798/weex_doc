@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title =
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:2
@@ -39,11 +39,11 @@ msgstr "weex ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:18
 msgid ""
-"Weex file preview tool with hot reload ``` Usage: weex foo/bar/"
-"your_next_best_weex_script_file.we [options]"
+"Weex file preview tool with hot reload ``` Usage: weex "
+"foo/bar/your_next_best_weex_script_file.we [options]"
 msgstr ""
-"热加载````使用weex文件预览工具：weex foo /酒吧/ "
-"your_next_best_weex_script_file.we [选项] ???"
+"热加载````使用weex文件预览工具：weex foo /酒吧/ your_next_best_weex_script_file.we [选项] "
+"???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:25
@@ -57,11 +57,11 @@ msgid ""
 "```\n"
 msgstr ""
 "选项： ???\n"
-"——QR显示QR码weex操场APP，默认动作。 ???\n"
-"o变换weex JS束，使用选项指定包文件名 ???\n"
-"-开始一个HTTP文件服务器，weex。我们将文件服务器上的转化。使用选项指定本地根路径 ???\n"
-"-帮助显示帮助 ???\n"
-"````???\n"
+"  ——QR显示QR码weex操场APP，默认动作。 ???\n"
+"  o变换weex JS束，使用选项指定包文件名 ???\n"
+"  -开始一个HTTP文件服务器，weex。我们将文件服务器上的转化。使用选项指定本地根路径 ???\n"
+"  -帮助显示帮助 ???\n"
+" ````???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:27
@@ -120,8 +120,7 @@ msgstr "160223：添加-o选项weex JS束直接变换 ???"
 msgid ""
 "160201 : adopt new weex JS bundle style(define / require) & output "
 "transformer Error/Warning logs"
-msgstr ""
-"160201：采用新的weex JS捆绑式(define / require)输出变压器的错误/警告日志 ???"
+msgstr "160201：采用新的weex JS捆绑式(define / require)输出变压器的错误/警告日志 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/cli.md:44

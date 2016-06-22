@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:1
@@ -19,9 +19,7 @@ msgstr "如何使用 ???"
 msgid ""
 "You can use a simply way like `require('@weex-module/name')` to access the "
 "apis of module. e.g."
-msgstr ""
-"你可以使用一个简单的方式像`require('@weex-module/name')`访问模块的API。例"
-"如 ???"
+msgstr "你可以使用一个简单的方式像`require('@weex-module/name')`访问模块的API。例如 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/README.md:13

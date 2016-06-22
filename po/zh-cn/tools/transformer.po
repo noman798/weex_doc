@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:1
@@ -38,11 +38,11 @@ msgid ""
 "```\n"
 msgstr ""
 "gulp.task('default', function ()(){ ???\n"
-"返回gulp.src('src/*.html')???\n"
-"管(weex({})({}))。 ???\n"
-"管(gulp.dest('./dest')('./dest'))。 ???\n"
+"  返回gulp.src('src/*.html')???\n"
+"    管(weex({})({}))。 ???\n"
+"    管(gulp.dest('./dest')('./dest'))。 ???\n"
 "}) ???\n"
-"````???\n"
+" ````???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:18

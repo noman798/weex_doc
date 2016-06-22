@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/faq.md:1
@@ -21,8 +21,9 @@ msgid ""
 "see [For Windows](https://github.com/alibaba/weex/tree/dev#for-windows) for "
 "more information."
 msgstr ""
-"请安装Windows](https://git-scm.com/download/win)第一[Git，更多信息请看"
-"Windows(https://github.com/alibaba/weex/tree/dev#for-windows)[]。 ???"
+"请安装Windows](https://git-"
+"scm.com/download/win)第一[Git，更多信息请看Windows(https://github.com/alibaba/weex/tree/dev#for-"
+"windows)[]。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/faq.md:8
@@ -33,9 +34,9 @@ msgstr "在Android Studio工具误差 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/faq.md:11
 msgid ""
-"Downloading `license-gradle-plugin.jar` may trigger errors, like `Connection "
-"reset` or `peer not authenticated`.  Maybe a network problem, try a proxy or "
-"VPN."
+"Downloading `license-gradle-plugin.jar` may trigger errors, like `Connection"
+" reset` or `peer not authenticated`.  Maybe a network problem, try a proxy "
+"or VPN."
 msgstr ""
-"下载`license-gradle-plugin.jar`` may trigger errors, like ``Connection "
-"reset`` or ``peer not authenticated`。可能是网络问题，尝试代理或VPN。 ???"
+"下载`license-gradle-plugin.jar`` may trigger errors, like ``Connection reset``"
+" or ``peer not authenticated`。可能是网络问题，尝试代理或VPN。 ???"

@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:1
@@ -22,9 +22,9 @@ msgid ""
 "module to control some web operation such as goBack、goForward and reload, "
 "see [webview module](../modules/webview.md)."
 msgstr ""
-"使用Web组件在weex页面显示任何网页内容。的`src`` attribute is used to specify "
-"a special source. You also can use ``webview`模块控制一些网络操作如再、前进和"
-"重装，看到[模块](../modules/webview.md)WebView。 ???"
+"使用Web组件在weex页面显示任何网页内容。的`src`` attribute is used to specify a special "
+"source. You also can use "
+"``webview`模块控制一些网络操作如再、前进和重装，看到[模块](../modules/webview.md)WebView。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:8
@@ -52,8 +52,8 @@ msgstr "-`src`：&lt;字符串&gt;此属性指定要加载的页面源代码。 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:17
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
 msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
@@ -75,7 +75,9 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:24
 #, no-wrap
-msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
+msgid ""
+"**common styles**: check out the [common styles](../references/common-"
+"attrs.md)\n"
 msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
 
 #. type: Plain text
@@ -83,8 +85,7 @@ msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风�
 msgid ""
 "- support flexbox related styles - support box model related styles - "
 "support ``position`` related styles"
-msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```相关的风格 ???"
+msgstr "支持flexbox相关的风格支持盒模型相关的风格支持```position```相关的风格 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:29
@@ -106,19 +107,21 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:37
 #, no-wrap
-msgid "*common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"*common events**: check out the [common events](../references/common-"
+"event.md)\n"
 msgstr "*普通事件*：查看[事件](../references/common-event.md)常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:40
 msgid ""
 "- support `click` event. Check out [common events](../references/common-"
-"event.md)  - support `appear` / `disappear` event. Check out [common events]"
-"(../references/common-event.md)"
+"event.md)  - support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
-"支持`click`` event. Check out [common events](../references/common-event."
-"md)  - support ``appear`` / ``disappear`事件。查看[事件](../references/"
-"common-event.md)常见 ???"
+"支持`click`` event. Check out [common events](../references/common-event.md)  "
+"- support ``appear`` / ``disappear`事件。查看[事件](../references/common-"
+"event.md)常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/web.md:41

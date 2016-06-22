@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:1
@@ -40,7 +40,7 @@ msgstr "争论 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:16
 msgid "`node`*(Node)*: an element that scrolled into the view."
-msgstr "`node`*(Node)*：一元，滚动到视图。 ???"
+msgstr " `node`*(Node)*：一元，滚动到视图。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:16
@@ -61,6 +61,6 @@ msgstr "例子 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:23
 msgid ""
-"```javascript var dom = require('@weex-module/dom'); dom.scrollTo(this."
-"$el('someId'), {offset: 10}); ```"
+"```javascript var dom = require('@weex-module/dom'); "
+"dom.scrollTo(this.$el('someId'), {offset: 10}); ```"
 msgstr ""

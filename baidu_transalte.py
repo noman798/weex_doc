@@ -89,11 +89,14 @@ def translate_po(lang, po):
             t = []
             for j in msgid.split("\n"):
                 txt = lang_dict.get(j.strip("\n "), 0)
+
                 if txt:
                     txt = txt + " ???"
                 else:
                     txt = j
-                txt = hide_bracket.restore(txt)
+                txt = " " * (len(j) - len(j.lstrip())) + \
+                    hide_bracket.restore(txt).lstrip()
+
                 t.append(txt)
             i.msgstr = "\n".join(t)
     po.save()

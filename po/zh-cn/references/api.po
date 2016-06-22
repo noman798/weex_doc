@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:1
@@ -10,7 +10,8 @@ msgstr "API ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:4
-msgid "You can access these apis through `this`(Vm) context in script methods."
+msgid ""
+"You can access these apis through `this`(Vm) context in script methods."
 msgstr "你可以通过`this`(Vm)语境在脚本中的方法访问这些API。 ???"
 
 #. type: Plain text
@@ -69,7 +70,7 @@ msgstr "争论 ???"
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:30
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:46
 msgid "`id`*(string)*: the unique identifier."
-msgstr "`id`*(string)*：唯一标识符。 ???"
+msgstr " `id`*(string)*：唯一标识符。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:31
@@ -98,18 +99,15 @@ msgid ""
 "id is only guaranteed to be unique within the current (page)components, if "
 "you are looking for the parent components or child components, you can make "
 "use of the communication mode between components."
-msgstr ""
-"我只能保证当前(page)组件内是独特的，如果你正在寻找的父组件或子组件，你可以使"
-"用组件之间的通信方式。 ???"
+msgstr "我只能保证当前(page)组件内是独特的，如果你正在寻找的父组件或子组件，你可以使用组件之间的通信方式。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:38
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:54
 msgid ""
-"Further reading: [id](../syntax/id.md), [Communicate Between Components](../"
-"syntax/comm.md)"
-msgstr ""
-"延伸阅读：[] [](../syntax/comm.md)(../syntax/id.md)，组件之间的通信 ???"
+"Further reading: [id](../syntax/id.md), [Communicate Between "
+"Components](../syntax/comm.md)"
+msgstr "延伸阅读：[] [](../syntax/comm.md)(../syntax/id.md)，组件之间的通信 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:39
@@ -125,7 +123,7 @@ msgstr "返回由特定的标识引用的虚拟机对象。 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:50
 msgid "`vm`*(Vm)*: a Vm object referenced."
-msgstr "`vm`*(Vm)*：VM对象引用。 ???"
+msgstr " `vm`*(Vm)*：VM对象引用。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:55
@@ -142,17 +140,17 @@ msgstr "获取当前全局环境变量和配置信息。 ???"
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`config`*(object)*: the object of config."
-msgstr "`config`*(object)*：配置对象。 ???"
+msgstr " `config`*(object)*：配置对象。 ???"
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`bundleUrl`*(string)*: the url of bundle."
-msgstr "`bundleUrl`* *：(string)管束的URL。 ???"
+msgstr " `bundleUrl`* *：(string)管束的URL。 ???"
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`debug`*(boolean)*: if is debug mode."
-msgstr "`debug`*(boolean)*：如果是调试模式。 ???"
+msgstr " `debug`*(boolean)*：如果是调试模式。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
@@ -168,7 +166,7 @@ msgid ""
 "    * `deviceWidth`*(number)*: the width of device, default is `750`.\n"
 "    * `deviceHeight`*(number)*: the height of device.\n"
 msgstr ""
-"*`env``*(object)*: a object of envrioment.\n"
+" *`env``*(object)*: a object of envrioment.\n"
 "    * ``weexVersion``*(string)*: a version of weex sdk.\n"
 "    * ``appName``*(string)*: a name of app.\n"
 "    * ``appVersion``*(string)*: a version of app.\n"
@@ -187,5 +185,9 @@ msgstr "电话(module, method, ...args)美元 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:77
 #, no-wrap
-msgid "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
-msgstr "*不* *，请使用`require('@weex-module/module')[method](...args)`相反。看到[模块](../modules/REAME.md)更多信息 ???\n"
+msgid ""
+"**Deprecated**, please use `require('@weex-module/module')[method](...args)`"
+" instead. See [modules](../modules/REAME.md) for more information\n"
+msgstr ""
+"*不* *，请使用`require('@weex-"
+"module/module')[method](...args)`相反。看到[模块](../modules/REAME.md)更多信息 ???\n"

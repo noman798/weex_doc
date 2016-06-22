@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:1
@@ -40,7 +40,7 @@ msgstr "争论 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26
 msgid "`node`*(Node)*: An element that will be animated."
-msgstr "`node`*(Node)*：一个元素，将动画。 ???"
+msgstr " `node`*(Node)*：一个元素，将动画。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/animation.md:26

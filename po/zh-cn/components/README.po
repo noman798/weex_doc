@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:1
@@ -75,13 +75,13 @@ msgid ""
 "* [&lt;wxc-navbar&gt;](./wxc-navbar.md)\n"
 msgstr ""
 "* [&lt;列表&gt;](./list.md)???\n"
-"* [&lt;细胞&gt;](./cell.md)???\n"
+"    * [&lt;细胞&gt;](./cell.md)???\n"
 "* [&lt;文本&gt;](./text.md)???\n"
 "* [&lt;图像&gt;](./image.md)???\n"
 "* [&lt;输入&gt;](./input.md)???\n"
 "* [&lt;开关&gt;](./switch.md)???\n"
 "* [&lt;滑块&gt;](./slider.md)???\n"
-"* [&lt;指示&gt;](./indicator.md)???\n"
+"    * [&lt;指示&gt;](./indicator.md)???\n"
 "* [&lt;视频&gt;](./video.md)???\n"
 "* [&lt;Web &gt;](./web.md)???\n"
 "* [&lt;WXC navpage &gt;](./wxc-navpage.md)???\n"

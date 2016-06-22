@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:1
@@ -22,8 +22,8 @@ msgid ""
 "considerably depending on the value of its ``type`` attribute, such as "
 "``text``, ``password``, ``url``, ``email``, ``tel`` etc."
 msgstr ""
-"的weex内置组件```input```` is used to create interactive controls to accept "
-"data from users. How a ````input```` component works varies considerably "
+"的weex内置组件```input```` is used to create interactive controls to accept data "
+"from users. How a ````input```` component works varies considerably "
 "depending on the value of its ````type```` attribute, such as ````text````, "
 "````password````, ````url````, ````email````, ````tel```等 ???"
 
@@ -31,8 +31,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:8
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:55
 #, no-wrap
-msgid "**Notes:** `<input>` does not support the common-event `click`. Please listen to the `input` or `change` event instead.\n"
-msgstr "*注：* *`<input>`` does not support the common-event ``click``. Please listen to the ``input`` or ``change`事件相反。 ???\n"
+msgid ""
+"**Notes:** `<input>` does not support the common-event `click`. Please "
+"listen to the `input` or `change` event instead.\n"
+msgstr ""
+"*注：* *`<input>`` does not support the common-event ``click``. Please listen "
+"to the ``input`` or ``change`事件相反。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:9
@@ -68,21 +72,21 @@ msgid ""
 msgstr ""
 "-`type``: &lt;string&gt; the type of controls to display. The default value "
 "is ````text````, if this attribute is not specified. Possible values are "
-"````text````, ````password````, ````tel````, ````email````, ````url```` etc, "
-"each of which has the same meaning with w3c standard.  - ``value``: &lt;"
-"string&gt; the value of the control.  - ``placeholder``: &lt;string&gt; a "
-"hint to the user of which can be entered to the control. The placeholder "
-"text must have no carriage returns or line-feeds.  - ``disabled``: &lt;"
-"boolean&gt; a boolean attribute indicates that the form control is not "
+"````text````, ````password````, ````tel````, ````email````, ````url```` etc,"
+" each of which has the same meaning with w3c standard.  - ``value``: "
+"&lt;string&gt; the value of the control.  - ``placeholder``: &lt;string&gt; "
+"a hint to the user of which can be entered to the control. The placeholder "
+"text must have no carriage returns or line-feeds.  - ``disabled``: "
+"&lt;boolean&gt; a boolean attribute indicates that the form control is not "
 "available for interaction. In particular, the click event will not be "
-"dispatched on disabled controls.  - ``autofocus`：&lt;布尔&gt;布尔属性允许你"
-"指定一个窗体控件应该有输入焦点时，页面加载。 ???"
+"dispatched on disabled controls.  - "
+"``autofocus`：&lt;布尔&gt;布尔属性允许你指定一个窗体控件应该有输入焦点时，页面加载。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:22
 msgid ""
-"Other attributes please check out the [common attributes](../references/"
-"common-attrs.md)."
+"Other attributes please check out the [common "
+"attributes](../references/common-attrs.md)."
 msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
@@ -112,14 +116,15 @@ msgid ""
 "- support `color` style.  - support `font-size` style.  - support `font-"
 "style` style.  - support `font-weight` style.  - support `text-align` style."
 msgstr ""
-"支持`color`` style.  - support ``font-size`` style.  - support ``font-"
-"style`` style.  - support ``font-weight`` style.  - support ``text-align`风"
-"格。 ???"
+"支持`color`` style.  - support ``font-size`` style.  - support ``font-style`` "
+"style.  - support ``font-weight`` style.  - support ``text-align`风格。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:37
 #, no-wrap
-msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
+msgid ""
+"**common styles**: check out [common styles for "
+"components](../references/common-style.md)\n"
 msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
 
 #. type: Plain text
@@ -129,8 +134,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
-"- support ````opacity````, ````background-color```等 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles - support "
+"````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:43
@@ -141,8 +146,8 @@ msgstr "事件 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:49
 msgid ""
-"- `input`: the value of an element changes.  - `change`: the change event is "
-"fired when a change to the component's value is commited by the user. It "
+"- `input`: the value of an element changes.  - `change`: the change event is"
+" fired when a change to the component's value is commited by the user. It "
 "always come after a ``blur`` event.  - `focus`: a component has received "
 "focus.  - `blur`: a component has lost focus."
 msgstr ""
@@ -154,17 +159,18 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:51
 #, no-wrap
-msgid "**common events**: check out the [common events](../references/common-event.md)\n"
+msgid ""
+"**common events**: check out the [common events](../references/common-"
+"event.md)\n"
 msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:53
 msgid ""
-"- support `appear` / `disappear` event. Check out [common events](../"
-"references/common-event.md)"
+"- support `appear` / `disappear` event. Check out [common "
+"events](../references/common-event.md)"
 msgstr ""
-"支持`appear`` / ``disappear`事件。查看[事件](../references/common-event.md)常"
-"见 ???"
+"支持`appear`` / ``disappear`事件。查看[事件](../references/common-event.md)常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/input.md:56

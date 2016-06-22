@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:1
@@ -11,7 +11,9 @@ msgstr "组件定义 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:4
 #, no-wrap
-msgid "A component definition is a set of options to describe a component. It's always assigned to `module.exports` in `<script>`.\n"
+msgid ""
+"A component definition is a set of options to describe a component. It's "
+"always assigned to `module.exports` in `<script>`.\n"
 msgstr "组件定义是描述一个组件的一组选项。它总是给`module.exports`` in ``<script>`。 ???\n"
 
 #. type: Plain text
@@ -62,13 +64,13 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:30
 msgid ""
-"Each `data` or `methods` property will be proxied to the ViewModel instance. "
-"So you can read and write data with `this.x`, also you can call methods with "
-"`this.doThis(...)`."
+"Each `data` or `methods` property will be proxied to the ViewModel instance."
+" So you can read and write data with `this.x`, also you can call methods "
+"with `this.doThis(...)`."
 msgstr ""
-"每个`data`` or ``methods`` property will be proxied to the ViewModel "
-"instance. So you can read and write data with ``this.x``, also you can call "
-"methods with ``this.doThis(...)`。 ???"
+"每个`data`` or ``methods`` property will be proxied to the ViewModel instance."
+" So you can read and write data with ``this.x``, also you can call methods "
+"with ``this.doThis(...)`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:32
@@ -133,14 +135,13 @@ msgid ""
 "The `events` options could allow you to add custom event listeners when "
 "ViewModel created. Then it will listen these type of events and handle them "
 "by the function-type value."
-msgstr ""
-"的`events`选项可以让你添加自定义事件侦听器时创建的视图模型。然后，它会听这些"
-"类型的事件，并处理它们的函数类型值。 ???"
+msgstr "的`events`选项可以让你添加自定义事件侦听器时创建的视图模型。然后，它会听这些类型的事件，并处理它们的函数类型值。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:74
 msgid ""
-"The first argument is a event object which contains event data in `e.detail`."
+"The first argument is a event object which contains event data in "
+"`e.detail`."
 msgstr "第一个参数是一个事件对象包含事件数据的`e.detail`。 ???"
 
 #. type: Title ##
@@ -181,18 +182,18 @@ msgstr "weex ViewModel现在支持这些生命周期挂钩函数可写为组件�
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:98
 msgid "`init`: fired at the beginning of a ViewModel constructor call."
-msgstr "`init`：在ViewModel构造函数调用的开始了。 ???"
+msgstr " `init`：在ViewModel构造函数调用的开始了。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:98
 msgid ""
 "`created`: fired when ViewModel observes default data but not compile the "
 "template."
-msgstr "`created`：开枪时，ViewModel观察默认数据但不编译模板。 ???"
+msgstr " `created`：开枪时，ViewModel观察默认数据但不编译模板。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/component-defs.md:98
 msgid ""
 "`ready`: fired when ViewModel observes default data and compiles the "
 "template to generate virtual DOM finally."
-msgstr "`ready`：发射时观察数据和编写ViewModel默认模板来生成虚拟DOM最后。 ???"
+msgstr " `ready`：发射时观察数据和编写ViewModel默认模板来生成虚拟DOM最后。 ???"
