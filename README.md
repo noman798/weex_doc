@@ -11,7 +11,7 @@
 
 至于编辑工具，由于 po 文件本身就是一个文本文件，所以任何文本编辑器都可以使用。
 
-也可以用 [poedit](https://poedit.net/) 更方便的编辑po文件。 
+也可以用 [poedit](https://poedit.net/) 更方便的编辑po文件，参见 [Poedit 基础教程](http://teliute.laxjyj.com/TeacHtm/TePoedit/lesson4/lesson4.html)。 
 
 运行 baidu_transalte.py 可以通过百度翻译的API自动翻译未翻译的英文，自动翻译的英文都以 ??? 作为行的结尾，以便于修改。
 

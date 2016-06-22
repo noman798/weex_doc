@@ -6,19 +6,19 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:1
 #, no-wrap
 msgid "Service & Tools"
-msgstr ""
+msgstr "服务和工具 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:5
 msgid "[CLI](./cli.md)"
-msgstr ""
+msgstr "[气候](./cli.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:5
 msgid "[Transformer](./transformer.md)"
-msgstr ""
+msgstr "[器](./transformer.md) ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/tools/main.md:5
 msgid "[Playground App](./playground-app.md)"
-msgstr ""
+msgstr "[应用](./playground-app.md)操场 ???"
