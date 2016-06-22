@@ -57,7 +57,7 @@ msgid ""
 "  .thumb {width: 200; height: 200; }\n"
 "  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  \n"
 msgstr ""
-" <style>???\n"
+" <style>\n"
 "  .cell{margin-top:10 ; margin-left:10 ; flex-direction: row; }\n"
 "  .thumb {width: 200; height: 200; }\n"
 "  .title {text-align: center ; flex: 1; color: grey; font-size: 50; }  \n"
@@ -76,7 +76,7 @@ msgstr ""
 msgid ""
 "You can copy and paste above code to a Weex file named `tech_list.we` (`.we`"
 " is our recommended the file extension name)"
-msgstr "你可以复制和粘贴上面的代码到一个weex文件命名为`tech_list.we`` (``.we`是我们推荐的文件扩展名) "
+msgstr "你可以复制和粘贴上面的代码到一个weex文件，命名为`tech_list.we`` (``.we`是我们推荐的文件扩展名) "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:29
@@ -85,9 +85,7 @@ msgid ""
 "[Node](https://nodejs.org/en/download/stable/) first. Then you can install "
 "Weex CLI program using Node JS npm command."
 msgstr ""
-"weex "
-"CLI工具链的节点为基础，所以你需要安装[节点](https://nodejs.org/en/download/stable/)第一。然后你可以安装weex"
-" CLI程序使用节点JS NPM命令。 "
+"Weex 的命令行工具基于NodeJs，所以你需要安装[NodeJs](https://nodejs.org/en/download/stable/)。然后你可以使用NodeJs的 npm 命令来安装 weex"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:33

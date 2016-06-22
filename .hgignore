@@ -1,3 +1,4 @@
 syntax: glob
 doc/
+sync.sh
 _private.py
