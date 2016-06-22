@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:1
@@ -11,14 +11,8 @@ msgstr "数据绑定 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:4
 #, no-wrap
-msgid ""
-"In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>`"
-" which are defined in `<script>`. Once data and template is bound, the data "
-"changes will influence the corresponding template content immediately and "
-"automatically.\n"
-msgstr ""
-"在长的，我们使用*胡子*语法`{{...}}`` to bind data in ``<template>`` which are defined in"
-" ``<script>`。一旦数据和模板绑定，数据的更改将立即和自动地影响相应的模板内容。 ???\n"
+msgid "In Weex, we use the *mustache* syntax `{{...}}` to bind data in `<template>` which are defined in `<script>`. Once data and template is bound, the data changes will influence the corresponding template content immediately and automatically.\n"
+msgstr "在长的，我们使用*胡子*语法`{{...}}`` to bind data in ``<template>`` which are defined in ``<script>`。一旦数据和模板绑定，数据的更改将立即和自动地影响相应的模板内容。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:5
@@ -64,7 +58,8 @@ msgstr "上面的代码将绑定`title`` and ``size`` data field to ``template`�
 msgid ""
 "We can also use `.` syntax to bind cascading data structure. Let's look at "
 "the following code snippet:"
-msgstr "我们也可以使用`.`语法绑定级联数据结构。让我们来看看下面的代码片段： ???"
+msgstr ""
+"我们也可以使用`.`语法绑定级联数据结构。让我们来看看下面的代码片段： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:34
@@ -103,8 +98,7 @@ msgstr "模板中的表达 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:50
-msgid ""
-"Inside data bindings, Weex supports simply javascript expressions, e.g."
+msgid "Inside data bindings, Weex supports simply javascript expressions, e.g."
 msgstr "在数据绑定支持简单的JavaScript，长的表达式，例如 ???"
 
 #. type: Plain text
@@ -154,10 +148,12 @@ msgstr "计算机性能 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:75
 msgid ""
-"According to simple operations, in-template expressions are very convenient."
-" But if you want to put more logic into the template, you should use a "
+"According to simple operations, in-template expressions are very convenient. "
+"But if you want to put more logic into the template, you should use a "
 "computed property."
-msgstr "根据简单的操作，在模板表达式中非常方便。但是如果你想把更多的逻辑放在模板中，你应该使用一个计算属性。 ???"
+msgstr ""
+"根据简单的操作，在模板表达式中非常方便。但是如果你想把更多的逻辑放在模板中，"
+"你应该使用一个计算属性。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:84
@@ -225,27 +221,26 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:114
 msgid ""
-"Here we have declared a computed property fullName. The function we provided"
-" will be used as the getter function for concating firstName and lastName."
-msgstr "在这里，我们已经宣布计算机性能表。我们提供的功能将作为getter函数连铸FirstName和LastName。 ???"
+"Here we have declared a computed property fullName. The function we provided "
+"will be used as the getter function for concating firstName and lastName."
+msgstr ""
+"在这里，我们已经宣布计算机性能表。我们提供的功能将作为getter函数连铸FirstName"
+"和LastName。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:116
 msgid ""
-"Otherwise when you call `changeName` after click, the setter will be invoked"
-" and this.firstName and this.lastName will be updated accordingly."
+"Otherwise when you call `changeName` after click, the setter will be invoked "
+"and this.firstName and this.lastName will be updated accordingly."
 msgstr ""
-"否则当你调用`changeName`单击后，会调用setter和this.firstname和this.lastname会相应的更新。 ???"
+"否则当你调用`changeName`单击后，会调用setter和this.firstname和this.lastname会"
+"相应的更新。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:118
 #, no-wrap
-msgid ""
-"**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the "
-"execution context -- `this`, we can access both of them.**\n"
-msgstr ""
-"*注：`data`` and ``methods`` can't have duplicate fields. 'Cause in the "
-"execution context -- ``this`，我们可以访问他们的**。 ???\n"
+msgid "**NOTE: `data` and `methods` can't have duplicate fields. 'Cause in the execution context -- `this`, we can access both of them.**\n"
+msgstr "*注：`data`` and ``methods`` can't have duplicate fields. 'Cause in the execution context -- ``this`，我们可以访问他们的**。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:119
@@ -299,8 +294,8 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:143
 msgid ""
-"here if `{{size}}` and `{{status}}` have empty value, then only "
-"`class=\"title\"` will be rendered."
+"here if `{{size}}` and `{{status}}` have empty value, then only `class="
+"\"title\"` will be rendered."
 msgstr ""
 "在这里，如果`{{size}}`` and ``{{status}}`` have empty value, then only "
 "``class=\"title\"`将呈现。 ???"
@@ -319,12 +314,13 @@ msgstr "事件处理程序：`on...` ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:149
 msgid ""
-"The event handler is an attribute which name has a prefix `on...`. The other"
-" part of attribute name is event type and the value is event handler name. "
-"We don't need to add mustache around the method name or add parentheses to "
-"call it."
+"The event handler is an attribute which name has a prefix `on...`. The other "
+"part of attribute name is event type and the value is event handler name. We "
+"don't need to add mustache around the method name or add parentheses to call "
+"it."
 msgstr ""
-"事件处理程序是一个属性的名称前缀`on...`。属性名称的另一部分是事件类型，值是事件处理程序名。我们不需要添加胡子在方法名称或加括号来调用它。 ???"
+"事件处理程序是一个属性的名称前缀`on...`。属性名称的另一部分是事件类型，值是事"
+"件处理程序名。我们不需要添加胡子在方法名称或加括号来调用它。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/data-binding.md:154

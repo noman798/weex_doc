@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:1
@@ -13,7 +13,9 @@ msgstr "显示逻辑控制 ???"
 msgid ""
 "There are two attributes for display logic control: `if` and `repeat`. We "
 "can create Weex page structure and effects more flexible with them."
-msgstr "有两个属性：显示逻辑控制`if`` and ``repeat`。我们可以创造快的网页结构和作用更灵活。 ???"
+msgstr ""
+"有两个属性：显示逻辑控制`if`` and ``repeat`。我们可以创造快的网页结构和作用更"
+"灵活。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:5
@@ -27,7 +29,9 @@ msgid ""
 "`if` attribute can control the display of a component by a truthy/falsy "
 "value. If the value is truthy, then the component will generated, otherwise "
 "it will be removed."
-msgstr "`if`属性可以控制显示组件的一个真实性/ falsy价值。如果该值是真相，然后将生成的组件，否则将被删除。 ???"
+msgstr ""
+"`if`属性可以控制显示组件的一个真实性/ falsy价值。如果该值是真相，然后将生成的"
+"组件，否则将被删除。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:16
@@ -71,11 +75,12 @@ msgstr "`repeat` ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:34
 msgid ""
 "`repeat` statement is just for array rendering. Every item in an array is "
-"also a structed data. This means in `repeat`ed component, you can bind their"
-" item properties directly."
+"also a structed data. This means in `repeat`ed component, you can bind their "
+"item properties directly."
 msgstr ""
 "`repeat`` statement is just for array rendering. Every item in an array is "
-"also a structed data. This means in ``repeat`组件，你可以把他们的项目属性直接。 ???"
+"also a structed data. This means in ``repeat`组件，你可以把他们的项目属性直"
+"接。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:44
@@ -124,8 +129,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:64
 msgid ""
-"The origin data properties which not belongs to the array will also be "
-"bound:"
+"The origin data properties which not belongs to the array will also be bound:"
 msgstr "不属于数组的原始数据属性也将被绑定： ???"
 
 #. type: Plain text
@@ -233,8 +237,9 @@ msgid ""
 "attribute as a hint, so that weex can reuse existing elements as much as "
 "possible."
 msgstr ""
-"默认情况下，替换数组时，`repeat`` will cause the entire list to be re-rendered. However "
-"you can use ``track-by`指定一个独特的属性作为一个提示，这样长的可以重用现有的元素尽可能多的。 ???"
+"默认情况下，替换数组时，`repeat`` will cause the entire list to be re-"
+"rendered. However you can use ``track-by`指定一个独特的属性作为一个提示，这样"
+"长的可以重用现有的元素尽可能多的。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:127
@@ -262,10 +267,12 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:141
 msgid ""
-"Later on, when you replace the array including an item of the same nickname,"
-" it knows it can reuse the existing scope and DOM elements associated with "
+"Later on, when you replace the array including an item of the same nickname, "
+"it knows it can reuse the existing scope and DOM elements associated with "
 "the same nickname."
-msgstr "后来，当你更换阵列包括相同昵称的一个项目，它知道它可以重用现有的范围和DOM元素拥有相同的昵称相关。 ???"
+msgstr ""
+"后来，当你更换阵列包括相同昵称的一个项目，它知道它可以重用现有的范围和DOM元素"
+"拥有相同的昵称相关。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:142
@@ -278,7 +285,9 @@ msgstr "略胡子包装 ???"
 msgid ""
 "Particularly for the `if` and `repeat` attribute, the mustache wrapper in "
 "values could be omitted: just the same as data-binding syntax."
-msgstr "特别是对`if`` and ``repeat`属性，在价值观的小胡子的包装可以省略：作为数据绑定语法一样。 ???"
+msgstr ""
+"特别是对`if`` and ``repeat`属性，在价值观的小胡子的包装可以省略：作为数据绑定"
+"语法一样。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:153

@@ -1,6 +1,6 @@
-#
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:1
@@ -54,27 +54,31 @@ msgstr "`createComment(_21_)`创建一个带有一定的评论文本注释节点
 msgid ""
 "`setListener(listener)` Set a dom listener which listens each dom updates "
 "and tells the rendering engine"
-msgstr "`setListener(_23_)`设置一个DOM的听众听的每一个DOM更新和告诉渲染引擎 ???"
+msgstr ""
+"`setListener(_23_)`设置一个DOM的听众听的每一个DOM更新和告诉渲染引擎 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
 "`open()` Set a flag which means init rendering start, so each dom update "
 "will be called immediately"
-msgstr "`open(_25_)`设置一个标志，这意味着初始化渲染的开始，所以每个DOM更新会被立刻 ???"
+msgstr ""
+"`open(_25_)`设置一个标志，这意味着初始化渲染的开始，所以每个DOM更新会被立"
+"刻 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
-"`close()` Set a flag which means init rendering finished, so the dom updates"
-" later will be batched in each task."
-msgstr "`close(_27_)`设置一个标志，这意味着初始化渲染完成，所以DOM更新后将分批在每个任务。 ???"
+"`close()` Set a flag which means init rendering finished, so the dom updates "
+"later will be batched in each task."
+msgstr ""
+"`close(_27_)`设置一个标志，这意味着初始化渲染完成，所以DOM更新后将分批在每个"
+"任务。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`addRef(el)` Add a new ref to the internal node map for a `el`"
-msgstr ""
-"`addRef(_29_)`` Add a new ref to the internal node map for a ``el` ???"
+msgstr "`addRef(_29_)`` Add a new ref to the internal node map for a ``el` ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -188,8 +192,8 @@ msgid ""
 "`removeChild(node, preserved)` Removes a child. The parameter `preserved` "
 "means whether destroy the removed node immediately or preserve it."
 msgstr ""
-"`removeChild(_75_)`` Removes a child. The parameter "
-"``preserved`是否意味着破坏删除节点或立即保存它。 ???"
+"`removeChild(_75_)`` Removes a child. The parameter ``preserved`是否意味着破"
+"坏删除节点或立即保存它。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
