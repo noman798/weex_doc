@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:1
@@ -11,8 +11,13 @@ msgstr "语法 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:4
 #, no-wrap
-msgid "A simple Weex page sample is just a piece of `<template>` code, a piece of `<style>` code and a piece of `<script>` code. The three parts together describe a whole Weex page.\n"
-msgstr "一个简单的长页样本是一块`<template>`` code, a piece of ``<style>`` code and a piece of ``<script>`码。三部分描述了整个长的页面。 ???\n"
+msgid ""
+"A simple Weex page sample is just a piece of `<template>` code, a piece of "
+"`<style>` code and a piece of `<script>` code. The three parts together "
+"describe a whole Weex page.\n"
+msgstr ""
+"一个简单的长页样本是一块`<template>`` code, a piece of ``<style>`` code and a piece of "
+"``<script>`代码。三部分描述了整个长的页面。 ???\n"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:8
@@ -20,15 +25,13 @@ msgid ""
 "`<template>`: *required*. Just uses HTML syntax and describes the structure "
 "of a Weex page, which is build upon several tags. Each tag means a type of "
 "*component*."
-msgstr ""
-"`<template>`：*需要*。只使用HTML语法描述了一个长的页面结构，这是建立在多个标"
-"签。每个标签都意味着一个*组件*。 ???"
+msgstr "`<template>`：*需要*。只使用HTML语法描述了一个长的页面结构，这是建立在多个标签。每个标签都意味着一个*组件*。 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:8
 msgid ""
-"`<style>`: *optional*. Describes the presetation details, and the content is "
-"based on CSS syntax."
+"`<style>`: *optional*. Describes the presetation details, and the content is"
+" based on CSS syntax."
 msgstr "`<style>`：*可选*。描述表达的细节，和内容是基于CSS的语法。 ???"
 
 #. type: Bullet: '- '
@@ -36,9 +39,7 @@ msgstr "`<style>`：*可选*。描述表达的细节，和内容是基于CSS的�
 msgid ""
 "`<script>`: *optional*. Describes the data and behaiver with JavaScript "
 "syntax. It defines data and how these data are processed etc."
-msgstr ""
-"`<script>`：*可选*。介绍了数据与JavaScript语法举动中。它定义了数据和如何处理"
-"这些数据等。 ???"
+msgstr "`<script>`：*可选*。介绍了数据与JavaScript语法举动中。它定义了数据和如何处理这些数据等。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:13
@@ -73,13 +74,15 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:23
 #, no-wrap
 msgid "`<template>`"
-msgstr "五百九十八亿一千三百八十二万八千四百七十六 ???"
+msgstr "`<template>`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:26
 #, no-wrap
-msgid "We describe page structure in `<template>` tag like the following definition:\n"
-msgstr "我们描述页面结构在`<template>`个标签，如以下的定义： ???\n"
+msgid ""
+"We describe page structure in `<template>` tag like the following "
+"definition:\n"
+msgstr "我们描述了在`<template>`标签如以下定义页面结构： ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:35
@@ -101,17 +104,15 @@ msgid ""
 "Here `container` tag is the root element of the component. `image` tag "
 "describes a picture, while `text` tag means a paragraph of text."
 msgstr ""
-"这里有` tag is the root element of the component. `个`image`` tag describes "
-"a picture, while ``text`标签意味着一段文字。 ???"
+"这里`container`` tag is the root element of the component. ``image`` tag "
+"describes a picture, while ``text`标签意味着一段文字。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:39
 msgid ""
 "Just similar to HTML, each component could have its own attributes, some "
 "components also have children as their sub components."
-msgstr ""
-"只是类似于HTML，每个部件都可以有自己的属性，有些成分也有孩子作为他们的子组"
-"件。 ???"
+msgstr "只是类似于HTML，每个部件都可以有自己的属性，有些成分也有孩子作为他们的子组件。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:41
@@ -119,24 +120,22 @@ msgid ""
 "The root element of template: In a `template` tag, there could be only one "
 "root component which has no display logics directive. Here are three types "
 "of root component we support now:"
-msgstr ""
-"模板的根元素：在一个`template`标签中，只有一个没有显示逻辑指令的根组件。这里"
-"有三种类型的根组件，我们现在支持： ???"
+msgstr "模板的根元素：在一个`template`标签，只能有一个根组件没有显示逻辑指令。这里有三种类型的根组件，我们现在支持： ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:45
 msgid "`<container>`: a common native container"
-msgstr "`<container>`：一个普通的本地容器 ???"
+msgstr "`<container>`：常见的本地集装箱 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:45
 msgid "`<scroller>`: a native scroll view"
-msgstr "`<scroller>`：一个本地滚动视图 ???"
+msgstr "`<scroller>`：原生滚动视图 ???"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:45
 msgid "`<list>`: a native cell-reusable list view"
-msgstr "`<list>`：原生细胞可重复使用的列表视图 ???"
+msgstr "`<list>`：原生细胞的可重复使用的列表视图 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:47
@@ -146,13 +145,13 @@ msgstr "只有这些类型的组件被允许为根元素。 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:49
 msgid "[See all built-in components](../components/main.md)."
-msgstr "[见所有内置组件](../components/main.md)。 ???"
+msgstr "[看到](../components/main.md)内置组件。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:50
 #, no-wrap
 msgid "`<style>`"
-msgstr "五千九百八十一亿三千二百零二万八千四百七十六 ???"
+msgstr "`<style>`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:53
@@ -164,8 +163,14 @@ msgstr "你可以考虑长式语法的语法的一个子集，但仍有一定差
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:55
 #, no-wrap
-msgid "First we could write inline `style` attribute in `<template>` element. Second we could use the `class` attribute to apply stylesheets, which are defined with single-class selectors in `<style>` code. Here is an example:\n"
-msgstr "首先，我们可以写内联` attribute in ``style``<template>`` element. Second we could use the `` attribute to apply stylesheets, which are defined with single-class selectors in ``<style>`码。这里是一个例子： ???\n"
+msgid ""
+"First we could write inline `style` attribute in `<template>` element. "
+"Second we could use the `class` attribute to apply stylesheets, which are "
+"defined with single-class selectors in `<style>` code. Here is an example:\n"
+msgstr ""
+"首先我们可以写内联`style`` attribute in ``<template>`` element. Second we could use "
+"the ``class`` attribute to apply stylesheets, which are defined with single-"
+"class selectors in ``<style>`代码。这里是一个例子： ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:63
@@ -196,13 +201,12 @@ msgid ""
 "Both the two `text` components above have the same `font-size`, which is "
 "`64` pixel."
 msgstr ""
-"两个两个` components above have the same ``font-size``, which is ``64`像"
-"素。 ???"
+"两`text`` components above have the same ``font-size``, which is ``64`像素。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:72
 msgid "[See common styles in Weex](../references/common-style.md)"
-msgstr "[快](../references/common-style.md)看常见的风格 ???"
+msgstr "[快](../references/common-style.md)看到常见的风格 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:74
@@ -213,28 +217,27 @@ msgstr "笔记! ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:76
 msgid ""
-"weex is basically following [HTML attribute](https://en.wikipedia.org/wiki/"
-"HTML_attribute) naming rule , so please **do not use CamelCase** in your "
-"attribute , **long-name** with “-” as delimiter is much better."
+"weex is basically following [HTML "
+"attribute](https://en.wikipedia.org/wiki/HTML_attribute) naming rule , so "
+"please **do not use CamelCase** in your attribute , **long-name** with “-” "
+"as delimiter is much better."
 msgstr ""
-"长的基本上是按照HTML属性] [(https://en.wikipedia.org/wiki/HTML_attribute)命名"
-"规则，所以请不要在你的属性使用CamelCase * *，* * * *长的名字“”作为分隔符是更"
-"好的。 ???"
+"长的基本上是按照HTML属性] "
+"[(https://en.wikipedia.org/wiki/HTML_attribute)命名规则，所以请不要在你的属性使用CamelCase * "
+"*，* * * *长的名字“”作为分隔符是更好的。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:77
 #, no-wrap
 msgid "`<script>`"
-msgstr "五千九百八十一亿三千三百五十二万八千四百七十六 ???"
+msgstr "`<script>`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:80
 msgid ""
 "The syntax is JavaScript (ES5) and it describes data and behavior of a Weex "
 "page. Here we create three paragraphs:"
-msgstr ""
-"语法是JavaScript(ES5)，它描述了一个长的页面数据和行为。在这里，我们创建三个段"
-"落： ???"
+msgstr "语法是JavaScript(ES5)和描述了一个长的页面数据和行为。在这里，我们创建三个段落： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:89
@@ -276,15 +279,30 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:109
 #, no-wrap
-msgid "This piece of `<script>` code will generate some component options and assign it to `module.exports`. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the `<script>` code stores component data which could be used for [data-binding](./data-binding.md) in the `<template>`. When data changes, the bound value will be updated automatically. Also it could be read and written by `this.x` in its methods.\n"
-msgstr "这件` code will generate some component options and assign it to ``module.exports``. The three text components above respectively shows the current datetime, 'Alibaba' and 'Weex Team'. The ``data`` in the `` code stores component data which could be used for [data-binding](./data-binding.md) in the ``<template>``. When data changes, the bound value will be updated automatically. Also it could be read and written by `在它的方法。 ???\n"
+msgid ""
+"This piece of `<script>` code will generate some component options and "
+"assign it to `module.exports`. The three text components above respectively "
+"shows the current datetime, 'Alibaba' and 'Weex Team'. The `data` in the "
+"`<script>` code stores component data which could be used for [data-"
+"binding](./data-binding.md) in the `<template>`. When data changes, the "
+"bound value will be updated automatically. Also it could be read and written"
+" by `this.x` in its methods.\n"
+msgstr ""
+"这件`<script>`` code will generate some component options and assign it to "
+"``module.exports``. The three text components above respectively shows the "
+"current datetime, 'Alibaba' and 'Weex Team'. The ``data`` in the "
+"``<script>`` code stores component data which could be used for [data-"
+"binding](./data-binding.md) in the ``<template>``. When data changes, the "
+"bound value will be updated automatically. Also it could be read and written"
+" by ``this.x`的方法。 ???\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:111
-msgid "[See component definitions references](../references/component-defs.md)"
-msgstr "[参见组件定义引用](../references/component-defs.md)???"
+msgid ""
+"[See component definitions references](../references/component-defs.md)"
+msgstr "[参考](../references/component-defs.md)看到组件的定义 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/main.md:112
 msgid "Next, let's have a look at [data-binding](./data-binding.md)."
-msgstr "下一步，让我们看一看[数据绑定](./data-binding.md)。 ???"
+msgstr "接下来，让我们在[数据绑定](./data-binding.md)一看。 ???"

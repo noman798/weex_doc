@@ -14,8 +14,7 @@ msgid ""
 "Weex provides the way of calling `$transition(...args)` api to perform a "
 "custom animation of a set of CSS properties."
 msgstr ""
-"快打电话`$transition(...args)`提供的API来执行一组CSS属性的自定义动画的方"
-"法。 ???"
+"长`$transition(...args)`提供调用API来执行一组CSS属性的自定义动画的方法。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/animation.md:5
@@ -67,8 +66,8 @@ msgid ""
 "`styles`, `duration`, `timingFunction` and `delay`. At last, provide a "
 "callback function."
 msgstr ""
-"首先，提供节点的标识。第二，提供一些属性的`, ``duration``, "
-"``timingFunction`` and ``delay``styles`。最后，提供一个回调函数。 ???"
+"首先，提供节点的标识。其次，提供`styles``, ``duration``, ``timingFunction`` "
+"and ``delay`的一些性质。最后，提供一个回调函数。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/animation.md:33
@@ -80,11 +79,11 @@ msgid ""
 "transition.  - The `delay` property - A number determining how long the "
 "animation will delay."
 msgstr ""
-"-这` property - An object of CSS properties and values that the animation "
-"will move toward.  - The `个`styles``duration`` property - A number "
+"-`styles`` property - An object of CSS properties and values that the "
+"animation will move toward.  - The ``duration`` property - A number "
 "determining how long the animation will run.  - The ``timingFunction`` "
 "property - A string indicating which easing function to use for the "
-"transition.  - The ``delay`属性-一个数字确定动画将延迟多久。 ???"
+"transition.  - The ``delay`财产数量确定动画将延迟多久。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/_legacy/core-concepts/animation.md:34

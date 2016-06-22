@@ -104,7 +104,7 @@ msgid ""
 msgstr ""
 "公共myviewcomponent(WXSDKInstance instance, WXDomObject node, \n"
 "                        WXVContainer parent,  String instanceId, boolean lazy){ ???\n"
-"超(instance, node, parent, instanceId, lazy); ???\n"
+"超级(instance, node, parent, instanceId, lazy); ???\n"
 "} ???\n"
 
 #. type: Plain text

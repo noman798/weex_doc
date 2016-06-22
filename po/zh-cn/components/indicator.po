@@ -19,7 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "This component must be used as a subcomponent of a [`slider`](slider.md) "
 "component."
-msgstr "这部分必须作为子一[`slider`](slider.md)元。 ???"
+msgstr "这部分必须作为子一[`slider`](slider.md)组件。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:7
@@ -44,7 +44,7 @@ msgid ""
 "There is no specific attribute for this component other than the [common "
 "attributes](../references/common-attrs.md)."
 msgstr ""
-"除了[常见属性](../references/common-attrs.md)以外，没有这个组件的特定属"
+"在这个组件以外的共同属性] [(../references/common-attrs.md)没有特定的属"
 "性。 ???"
 
 #. type: Title ###
@@ -63,7 +63,7 @@ msgid ""
 "in the hexadecimal #RRGGBB format.  - `item-size`: &lt;length&gt; The size "
 "of the indicator elements, which is an float attribute."
 msgstr ""
-"`item-color``: &lt;colors&gt; This style attribute sets the normal item "
+"-`item-color``: &lt;colors&gt; This style attribute sets the normal item "
 "color using either a named color or a color specified in the hexadecimal "
 "#RRGGBB format.  - ``item-selectedColor``: &lt;colors&gt; This style "
 "attribute sets the selected item color using either a named color or a color "
@@ -74,7 +74,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:22
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "**共同的风格**：检查出[常见的风格](../references/common-attrs.md)???\n"
+msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:27
@@ -83,8 +83,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
-"- support ````opacity````, ````background-color```等。 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
+"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:28
@@ -96,7 +96,7 @@ msgstr "事件 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:31
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "**常见事件**：检查[常见事件](../references/common-event.md)???\n"
+msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:34
@@ -105,9 +105,9 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"支持` event. Check out [common events](../references/common-event.md)  - "
-"support ``appear`` / ``disappear``click`事件。签出[常见事件](../references/"
-"common-event.md)???"
+"支持`click`` event. Check out [common events](../references/common-event."
+"md)  - support ``appear`` / ``disappear`事件。查看[事件](../references/"
+"common-event.md)常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/indicator.md:35

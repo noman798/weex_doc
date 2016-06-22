@@ -11,7 +11,7 @@ msgstr "API ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:4
 msgid "You can access these apis through `this`(Vm) context in script methods."
-msgstr "您可以通过脚本方法中的(Vm)个`this`上下文访问这些原料药。 ???"
+msgstr "你可以通过`this`(Vm)语境在脚本中的方法访问这些API。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:6
@@ -45,7 +45,7 @@ msgstr "(id)美元 ???"
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:22
 #, no-wrap
 msgid "**Deprecated**, please use `$vm` instead.\n"
-msgstr "*不* *，请改为使用`$vm`。 ???\n"
+msgstr "*不* *，请使用`$vm`相反。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:23
@@ -69,7 +69,7 @@ msgstr "争论 ???"
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:30
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:46
 msgid "`id`*(string)*: the unique identifier."
-msgstr "`id`*(string)*：唯一的标识符。 ???"
+msgstr "`id`*(string)*：唯一标识符。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:31
@@ -82,7 +82,7 @@ msgstr "退换商品 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:34
 msgid "*(Element)*: an Element object referenced."
-msgstr "*(Element)*：一个引用的元素对象。 ???"
+msgstr "*(Element)*：一个元素对象引用。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:35
@@ -99,8 +99,8 @@ msgid ""
 "you are looking for the parent components or child components, you can make "
 "use of the communication mode between components."
 msgstr ""
-"身份证是唯一保证是唯一的在当前的(page)个组成部分，如果你正在寻找的父组件或子"
-"组件，您可以利用组件之间的通信模式。 ???"
+"我只能保证当前(page)组件内是独特的，如果你正在寻找的父组件或子组件，你可以使"
+"用组件之间的通信方式。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:38
@@ -109,13 +109,13 @@ msgid ""
 "Further reading: [id](../syntax/id.md), [Communicate Between Components](../"
 "syntax/comm.md)"
 msgstr ""
-"进一步阅读：[标识](../syntax/id.md)，[组件之间的通信](../syntax/comm.md)???"
+"延伸阅读：[] [](../syntax/comm.md)(../syntax/id.md)，组件之间的通信 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:39
 #, no-wrap
 msgid "$vm(id)"
-msgstr "虚拟机(id)美元 ???"
+msgstr "VM(id)美元 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:42
@@ -125,13 +125,13 @@ msgstr "返回由特定的标识引用的虚拟机对象。 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:50
 msgid "`vm`*(Vm)*: a Vm object referenced."
-msgstr "`vm`*(Vm)*：一个虚拟机对象引用。 ???"
+msgstr "`vm`*(Vm)*：VM对象引用。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:55
 #, no-wrap
 msgid "$getConfig()"
-msgstr "getconfig()美元 ???"
+msgstr "()getconfig美元 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:58
@@ -142,12 +142,12 @@ msgstr "获取当前全局环境变量和配置信息。 ???"
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`config`*(object)*: the object of config."
-msgstr "`config`*(object)*：配置的对象。 ???"
+msgstr "`config`*(object)*：配置对象。 ???"
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
 msgid "`bundleUrl`*(string)*: the url of bundle."
-msgstr "(string)*`bundleUrl`*：捆绑的网址。 ???"
+msgstr "`bundleUrl`* *：(string)管束的URL。 ???"
 
 #. type: Bullet: ' * '
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:73
@@ -168,23 +168,24 @@ msgid ""
 "    * `deviceWidth`*(number)*: the width of device, default is `750`.\n"
 "    * `deviceHeight`*(number)*: the height of device.\n"
 msgstr ""
-"*`*(object)*: a object of envrioment.\n"
+"*`env``*(object)*: a object of envrioment.\n"
 "    * ``weexVersion``*(string)*: a version of weex sdk.\n"
 "    * ``appName``*(string)*: a name of app.\n"
 "    * ``appVersion``*(string)*: a version of app.\n"
-"    * ``*(string)*: the platform, one of ``, ``Android``Web``*(string)*: the version of os.\n"
-"    * ``*(string)*: the model of device. **native only**\n"
-"    * ``*(number)*: the width of device, default is ``.\n"
-"    * ``deviceHeight`*：设备的高度。 ???\n"
+"    * ``platform``*(string)*: the platform, one of ``iOS``, ``Android`` and ``Web``.\n"
+"    * ``osVersion``*(string)*: the version of os.\n"
+"    * ``deviceModel``*(string)*: the model of device. **native only**\n"
+"    * ``deviceWidth``*(number)*: the width of device, default is ``750``.\n"
+"    * ``deviceHeight`*(number)*：设备高度。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:74
 #, no-wrap
 msgid "$call(module, method, ...args)"
-msgstr "打电话给(module, method, ...args)美元 ???"
+msgstr "电话(module, method, ...args)美元 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/api.md:77
 #, no-wrap
 msgid "**Deprecated**, please use `require('@weex-module/module')[method](...args)` instead. See [modules](../modules/REAME.md) for more information\n"
-msgstr "*不* *，请改为使用`require('@weex-module/module')[method](...args)`。参见[模块](../modules/REAME.md)的更多信息 ???\n"
+msgstr "*不* *，请使用`require('@weex-module/module')[method](...args)`相反。看到[模块](../modules/REAME.md)更多信息 ???\n"

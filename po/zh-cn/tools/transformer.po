@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:1
@@ -37,10 +37,10 @@ msgid ""
 "})\n"
 "```\n"
 msgstr ""
-"gulp.task(){('default', function ()???\n"
+"gulp.task('default', function ()(){ ???\n"
 "返回gulp.src('src/*.html')???\n"
-"(weex({})管({})-) ???\n"
-"(gulp.dest('./dest')管('./dest')-) ???\n"
+"管(weex({})({}))。 ???\n"
+"管(gulp.dest('./dest')('./dest'))。 ???\n"
 "}) ???\n"
 "````???\n"
 
@@ -75,7 +75,7 @@ msgstr "isEntry ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:29
 msgid "whether is an entry module which has `bootstrap(...)`."
-msgstr "是否是一个输入模块，有`bootstrap(...)`个。 ???"
+msgstr "无论是输入模块具有`bootstrap(...)`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tools/transformer.md:30

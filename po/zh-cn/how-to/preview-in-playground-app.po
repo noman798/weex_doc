@@ -45,7 +45,7 @@ msgid ""
 "![preview page](http://gtms01.alicdn.com/tps/i1/TB10Ox2MpXXXXXKXpXXA0gJJXXX-720-1280.png)\n"
 "5. Click the icon to the top right of the page to enter the two-dimensional code scanning  \n"
 msgstr ""
-"![预览页面](http://gtms01.alicdn.com/tps/i1/TB10Ox2MpXXXXXKXpXXA0gJJXXX-720-1280.png)???\n"
+"![预览](http://gtms01.alicdn.com/tps/i1/TB10Ox2MpXXXXXKXpXXA0gJJXXX-720-1280.png)???\n"
 "5。单击该图标的右上角的图标输入二维码扫描 ???\n"
 
 #. type: Plain text
@@ -57,7 +57,7 @@ msgid ""
 "7. you will see the page rended by Weex  \n"
 msgstr ""
 "![](http://gtms04.alicdn.com/tps/i4/TB1Ph05MpXXXXcHXXXX2YSA3pXX-540-960.jpg)???\n"
-"6。使用[`Weex-Toolkit`](https://github.com/alibaba/weex_toolchain/tree/master/toolkit/ )。我们一个QR码 ???\n"
+"6。使用[`Weex-Toolkit`](https://github.com/alibaba/weex_toolchain/tree/master/toolkit/ )做。我们一个QR码 ???\n"
 "7。你会看到页面的长发 ???\n"
 
 #. type: Plain text

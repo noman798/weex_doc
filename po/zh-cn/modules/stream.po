@@ -48,12 +48,12 @@ msgid ""
 "  * `body`*(string)*: the HTTP body.\n"
 "* `callback`*(function)*: A callback function whose argument is the response string of the request.\n"
 msgstr ""
-"*`*(object)*: the request parameters.\n"
-"  * `、`method`、`*(string)*: the HTTP method like `、`params`、`GET`、`, `、、`POST`、`.\n"
-"  * `、`url`、`*(string)*: the request url.\n"
-"  * `、`body`、`header`、`*(object)*: the HTTP request header.\n"
-"  * `、`*(string)*: the HTTP body.\n"
-"* `、`callback`、(function)××：一个回调函数，其参数是请求的响应字符串。 ???\n"
+"*`params``*(object)*: the request parameters.\n"
+"  * ``method``*(string)*: the HTTP method like ``GET``, ``POST``.\n"
+"  * ``url``*(string)*: the request url.\n"
+"  * ``header``*(object)*: the HTTP request header.\n"
+"  * ``body``*(string)*: the HTTP body.\n"
+"* ``callback`*(function)*：一个回调函数的参数是请求的响应字符串。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/modules/stream.md:20

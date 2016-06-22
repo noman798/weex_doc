@@ -18,7 +18,7 @@ msgstr "总结 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:6
 #, no-wrap
 msgid "Render text with specified style rule, `<text>` tag can contain text value only. You can use variable interpolation in the text content with the mark `{{}}`.\n"
-msgstr "渲染文本具有指定的样式规则，` tag can contain text value only. You can use variable interpolation in the text content with the mark ``<text>``{{}}`。 ???\n"
+msgstr "具有指定样式规则呈现文本，`<text>`` tag can contain text value only. You can use variable interpolation in the text content with the mark ``{{}}`。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:7
@@ -43,15 +43,15 @@ msgid ""
 "`value`: &lt;string&gt; text value of this component. This is equal to the "
 "content of `<text>`."
 msgstr ""
-"`: &lt;string&gt; text value of this component. This is equal to the content "
-"of ``<text>``value`。 ???"
+"`value``: &lt;string&gt; text value of this component. This is equal to the "
+"content of ``<text>`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:16
 msgid ""
 "Other attributes please check out the [common attributes](../references/"
 "common-attrs.md)."
-msgstr "其他属性请检查[常见属性](../references/common-attrs.md)。 ???"
+msgstr "其他属性，请查看[共性](../references/common-attrs.md)。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:17
@@ -62,13 +62,13 @@ msgstr "款式 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:20
 msgid "- `lines`: specify the text lines. Default value is `0` for unlimited."
-msgstr "-`: specify the text lines. Default value is ``0`无限。 ???"
+msgstr "-`lines``: specify the text lines. Default value is ``0`无限。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:22
 #, no-wrap
 msgid "**text styles**: checkout [text styles](../references/text-style.md)\n"
-msgstr "* *文本样式**：结帐[文本样式](../references/text-style.md)???\n"
+msgstr "* * * *：文本样式[文字样式](../references/text-style.md)结帐 ???\n"
 
 #. type: Bullet: '- '
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:33
@@ -89,21 +89,21 @@ msgid ""
 "- support `text-align` style.\n"
 "- support `text-overflow` style.\n"
 msgstr ""
-"-支持` style.\n"
-"\t+ iOS: default vlaue `个`32``32``\n"
+"支持`font-size`` style.\n"
+"\t+ iOS: default vlaue ``32``\n"
 "  + Android: platform specify\n"
-"  + HTML5: default value ``\n"
+"  + HTML5: default value ``32``\n"
 "- support ``font-style`` style.\n"
-"- support `` style.\n"
-"- support `` style.\n"
-"- support `` style.\n"
-"- support `风格。 ???\n"
+"- support ``font-weight`` style.\n"
+"- support ``text-decoration`` style.\n"
+"- support ``text-align`` style.\n"
+"- support ``text-overflow`风格。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:35
 #, no-wrap
 msgid "**common styles**: check out [common styles for components](../references/common-style.md)\n"
-msgstr "**常见的样式**：检查出[常见的组件样式](../references/common-style.md)???\n"
+msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常见的风格 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:40
@@ -112,8 +112,8 @@ msgid ""
 "support ``position`` related styles - support ``opacity``, ``background-"
 "color`` etc."
 msgstr ""
-"支持flexbox相关的风格支持盒模型相关的风格-支持```position```` related styles "
-"- support ````opacity````, ````background-color```等。 ???"
+"支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
+"- support ````opacity````, ````background-color```等 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:41
@@ -125,7 +125,7 @@ msgstr "事件 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:44
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "**常见事件**：检查[常见事件](../references/common-event.md)???\n"
+msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:47
@@ -134,9 +134,9 @@ msgid ""
 "event.md)  - support `appear` / `disappear` event. Check out [common events]"
 "(../references/common-event.md)"
 msgstr ""
-"支持` event. Check out [common events](../references/common-event.md)  - "
-"support ``appear`` / ``disappear``click`事件。签出[常见事件](../references/"
-"common-event.md)???"
+"支持`click`` event. Check out [common events](../references/common-event."
+"md)  - support ``appear`` / ``disappear`事件。查看[事件](../references/"
+"common-event.md)常见 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:48

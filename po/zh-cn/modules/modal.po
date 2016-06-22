@@ -19,8 +19,7 @@ msgstr "总结 ???"
 msgid ""
 "A series of modal dialog api like `toast`, `alert`, `confirm` and `prompt`."
 msgstr ""
-"一系列的模态对话框，如`toast`、`, `、`alert`、`, `、`confirm`、` and `、"
-"`prompt`、。 ???"
+"一系列的模态对话框API像`toast``, ``alert``, ``confirm`` and ``prompt`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:7
@@ -32,7 +31,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:9
 #, no-wrap
 msgid "toast(options)"
-msgstr "(options)吐司 ???"
+msgstr "烤面包(options)???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:11
@@ -51,9 +50,9 @@ msgid ""
 "  * `message`*(string)*: the message that the toast shows.\n"
 "  * `duration`*(number)*: the duration(seconds) that the toast shows.\n"
 msgstr ""
-"*`*(object)*: some options.\n"
+"*`options``*(object)*: some options.\n"
 "  * ``message``*(string)*: the message that the toast shows.\n"
-"  * ``duration`(number)*`options`*：持续时间(seconds)，烤面包片显示。 ???\n"
+"  * ``duration`*(number)*：时间(seconds)，土司显示。 ???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:18
@@ -86,10 +85,10 @@ msgid ""
 "  * `okTitle`*(string)*: the title of alert button.\n"
 "* `callback`*(function)*: callback when complete.\n"
 msgstr ""
-"*`*(object)*: some options.\n"
-"  * ``options``message``*(string)*: the message that the alert shows.\n"
-"  * ``*(string)*: the title of alert button.\n"
-"* ``callback`*：回叫当完成。 ???\n"
+"*`options``*(object)*: some options.\n"
+"  * ``message``*(string)*: the message that the alert shows.\n"
+"  * ``okTitle``*(string)*: the title of alert button.\n"
+"* ``callback`*(function)*：回调时完成。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:47
@@ -124,11 +123,11 @@ msgid ""
 "  * `cancelTitle`*(string)*: the title of cancel button.\n"
 "* `callback`*(function)*: callback when complete.\n"
 msgstr ""
-"*`*(object)*: some options.\n"
+"*`options``*(object)*: some options.\n"
 "  * ``message``*(string)*: the message that the confirm shows.\n"
 "  * ``okTitle``*(string)*: the title of confirm button.\n"
-"  * ``*(string)*: the title of cancel button.\n"
-"* ``callback`*：完成时的回调。 ???\n"
+"  * ``cancelTitle``*(string)*: the title of cancel button.\n"
+"* ``callback`*(function)*：回调时完成。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:59
@@ -143,8 +142,8 @@ msgid ""
 "* `e`*(object)*: a event object.\n"
 "  * `status`*(string)*: the title of the button that clicked by user.\n"
 msgstr ""
-"*`*(object)*: a event object.\n"
-"  * ``status``e`*(string)*：用户点击的按钮的标题。 ???\n"
+"* * *：`e``*(object)*: a event object.\n"
+"  * ``status`(string)的按钮，点击用户名称。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:79
@@ -182,11 +181,11 @@ msgid ""
 "  * `cancelTitle`*(string)*: the title of cancel button.\n"
 "* `callback`*(function)*: callback when complete.\n"
 msgstr ""
-"*`*(object)*: some options.\n"
+"*`options``*(object)*: some options.\n"
 "  * ``message``*(string)*: the message that the prompt shows.\n"
 "  * ``okTitle``*(string)*: the title of confirm button.\n"
-"  * ``*(string)*: the title of cancel button.\n"
-"* ``callback`*：完成时的回调。 ???\n"
+"  * ``cancelTitle``*(string)*: the title of cancel button.\n"
+"* ``callback`*(function)*：回调时完成。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:95
@@ -196,9 +195,9 @@ msgid ""
 "  * `status`*(string)*: the title of the button that clicked by user.\n"
 "  * `data`*(string)*: the value of the text that entered by user.\n"
 msgstr ""
-"*`*(object)*: a event object.\n"
-"  * ``status``e``*(string)*: the title of the button that clicked by user.\n"
-"  * ``data`*(string)*：由用户输入的文本的值。 ???\n"
+"*`e``*(object)*: a event object.\n"
+"  * ``status``*(string)*: the title of the button that clicked by user.\n"
+"  * ``data`(string)*：*，用户输入的文本的价值。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/modal.md:112

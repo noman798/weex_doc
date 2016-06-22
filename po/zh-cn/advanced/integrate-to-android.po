@@ -29,7 +29,7 @@ msgstr "先决条件 ???"
 msgid ""
 "Assuming you have the Android SDK installed, run `android` to open the "
 "Android SDK Manager."
-msgstr "假设你有Android SDK的安装，运行`android`打开Android SDK经理。 ???"
+msgstr "假设你有Android SDK的安装、运行`android`打开Android SDK经理。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:10
@@ -42,7 +42,7 @@ msgid ""
 "Android SDK version 23 (compileSdkVersion in [`build.gradle`](https://github."
 "com/alibaba/weex/blob/master/android/sdk/build.gradle))"
 msgstr ""
-"Android SDK版本23(compileSdkVersion in [ 59813128476 ](https://github.com/"
+"Android SDK 23版本(compileSdkVersion in [ z59813128476z ](https://github.com/"
 "alibaba/weex/blob/master/android/sdk/build.gradle)(https://github.com/"
 "alibaba/weex/blob/master/android/sdk/build.gradle)) ???"
 
@@ -52,14 +52,14 @@ msgid ""
 "SDK build tools version 23.0.1 (buildToolsVersion in [`build.gradle`]"
 "(https://github.com/alibaba/weex/blob/master/android/sdk/build.gradle))"
 msgstr ""
-"SDK构建工具23.0.1(buildToolsVersion in [ 59813428476 ](https://github.com/"
-"alibaba/weex/blob/master/android/sdk/build.gradle)版(https://github.com/"
-"alibaba/weex/blob/master/android/sdk/build.gradle)) ???"
+"SDK构建工具的版本23.0.1(buildToolsVersion in [ z59813428476z ](https://"
+"github.com/alibaba/weex/blob/master/android/sdk/build.gradle)(https://github."
+"com/alibaba/weex/blob/master/android/sdk/build.gradle)) ???"
 
 #. type: Bullet: '3. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
 msgid "Android Support Repository >= 17 (for Android Support Library)"
-msgstr "支持的安卓系统=(for Android Support Library)17 ???"
+msgstr "Android支持库> = 17(for Android Support Library)???"
 
 #. type: Bullet: '4. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:15
@@ -78,8 +78,8 @@ msgid ""
 "$ANDROID_NDK ` defined, or create a local.properties file in the root of "
 "your react-native checkout with the following contents:"
 msgstr ""
-"点你的Android SDK工具：要么有`$ANDROID_SDK`` and ``$ANDROID_NDK `定义，或创建"
-"在你的根本地检测反应local.properties文件中的以下内容： ???"
+"点你的Android SDK工具：要么`$ANDROID_SDK`` and ``$ANDROID_NDK `定义，或创建在"
+"你的根本地检测反应local.properties文件中的以下内容： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:22
@@ -115,7 +115,7 @@ msgstr "1。从GitHub的克隆源 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:36
 msgid "First, you need to git clone `weex` from github:"
-msgstr "首先，你需要从GitHub git clone`weex`： ???"
+msgstr "首先，你需要git clone`weex`从GitHub： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:40
@@ -126,12 +126,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:41
 #, no-wrap
 msgid "2. Adding the `:weex_sdk_android` project"
-msgstr "2。添加`:weex_sdk_android`个项目 ???"
+msgstr "2。添加`:weex_sdk_android`项目 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:44
 msgid "Add the `:weex_sdk_android` project in `android/settings.gradle`:"
-msgstr "添加` project in ``android/settings.gradle``:weex_sdk_android`： ???"
+msgstr "添加`:weex_sdk_android`` project in ``android/settings.gradle`： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:47
@@ -146,7 +146,7 @@ msgid ""
 "    rootProject.projectDir, '../weex_sdk_android')\n"
 "```\n"
 msgstr ""
-"(':weex_sdk_android')项目。projectdir =新文件(\n"
+"项目(':weex_sdk_android')。projectdir =新的文件(\n"
 "    rootProject.projectDir, '../weex_sdk_android')???\n"
 "````???\n"
 
@@ -157,9 +157,9 @@ msgid ""
 "project instead of the pre-compiled library, e.g. - replace `compile 'com."
 "taobao.android:weex_sdk:1.3.+'` with `compile project(':weex_sdk_android')`:"
 msgstr ""
-"修改你的` to use the ``:weex_sdk_android`` project instead of the pre-"
-"compiled library, e.g. - replace ``compile 'com.taobao.android:weex_sdk:1.3."
-"+'`` with ``compile project(':weex_sdk_android')`： ???"
+"修改你的`android/app/build.gradle`` to use the ``:weex_sdk_android`` project "
+"instead of the pre-compiled library, e.g. - replace ``compile 'com.taobao."
+"android:weex_sdk:1.3.+'`` with ``compile project(':weex_sdk_android')`： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:58
@@ -204,7 +204,7 @@ msgid ""
 "taobao.weex'`."
 msgstr ""
 "如果你使用第三方的长的模块，你需要重写他们的依赖使他们不建立预编译的库。否"
-"则，编译时您将获得一个错误-`Error: more than one library with package name "
+"则，你会得到一个错误在编译-`Error: more than one library with package name "
 "'com.taobao.weex'`。 ???"
 
 #. type: Plain text
@@ -213,8 +213,8 @@ msgid ""
 "Modify your `android/app/build.gradle` and replace `compile project(':weex-"
 "custom-module')` with:"
 msgstr ""
-"修改你的` and replace ``compile project(':weex-custom-module')``android/app/"
-"build.gradle`： ???"
+"修改你的`android/app/build.gradle`` and replace ``compile project(':weex-"
+"custom-module')`与： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:76
@@ -239,8 +239,7 @@ msgid ""
 "From the Welcome screen of Android Studio choose \"Import project\" and "
 "select the `android` folder of your app."
 msgstr ""
-"从安卓工作室的欢迎屏幕选择“导入项目”，并选择您的应用程序的`android`个文件"
-"夹。 ???"
+"从Android工作室欢迎屏幕上选择“导入”，选择你的应用程序的`android`文件夹。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:82
@@ -272,8 +271,8 @@ msgid ""
 "Gradle build fails in `ndk-build`. See the section about `local.properties` "
 "file above."
 msgstr ""
-"Gradle构建失败`ndk-build``. See the section about ``local.properties`档以"
-"上。 ???"
+"在`ndk-build`Gradle构建失败`. See the section about ``local.properties`文件上"
+"面。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:91
@@ -301,7 +300,7 @@ msgstr "准备你的应用程序 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:100
 msgid "In your app's `build.gradle` file add the React Native dependency:"
-msgstr "在你的应用程序的`build.gradle`个文件中添加的反应原生的依赖： ???"
+msgstr "在你的应用程序的`build.gradle`文件添加本地依赖性反应： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:102
@@ -316,14 +315,14 @@ msgid ""
 "Central](). Next, make sure you have the Internet permission in your "
 "`AndroidManifest.xml`:"
 msgstr ""
-"你可以找到当地图书馆的反应[中央] Maven()的最新版本。下一步，确保您有在您的"
-"`AndroidManifest.xml`的互联网权限： ???"
+"你可以找到当地图书馆的反应[中央]()Maven的最新版本。接下来，确保你有你的"
+"`AndroidManifest.xml`Internet权限： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:106
 #, no-wrap
 msgid "    <uses-permission android:name=\"android.permission.INTERNET\" />\n"
-msgstr "五千九百八十一亿三千四百三十二万八千四百七十六 ???\n"
+msgstr "<uses-permission android:name=\"android.permission.INTERNET\" />???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/integrate-to-android.md:108
@@ -399,7 +398,7 @@ msgid ""
 "```\n"
 msgstr ""
 "wxsdkengine.registermodule(\"event\", WXEventModule.class); ???\n"
-"}捕获(WXException e){ ???\n"
+"抓住(WXException e){ } ???\n"
 "e.printstacktrace(); ???\n"
 "} ???\n"
 "} ???\n"

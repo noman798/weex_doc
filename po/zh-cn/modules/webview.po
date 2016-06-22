@@ -17,7 +17,7 @@ msgstr "总结 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:6
 msgid "A series of web operation api like `goBack`, `goForward`, and `reload`."
-msgstr "一系列的Web操作的像`goBack``, ``goForward``, and ``reload`。 ???"
+msgstr "一系列的Web操作API像`goBack``, ``goForward``, and ``reload`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:7
@@ -29,7 +29,7 @@ msgstr "美国石油学会 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:9
 #, no-wrap
 msgid "goBack(ref)"
-msgstr "返回(ref)???"
+msgstr "再(ref)???"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:11
@@ -57,7 +57,7 @@ msgstr "争论 ???"
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:35
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:51
 msgid "`ref`*(string)*: the reference of the web component."
-msgstr "`ref`*(string)*：Web组件的参考。 ???"
+msgstr "`ref`* *：(string)的Web组件的引用。 ???"
 
 #. type: Title #####
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:19
@@ -78,7 +78,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:27
 #, no-wrap
 msgid "goForward(ref)"
-msgstr "前进(ref)???"
+msgstr "(ref)前进 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/webview.md:31

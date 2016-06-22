@@ -16,7 +16,7 @@ class HideBracket:
     def _hide(self, txt):
         l = len(self._hideed)
         self._hideed.append(txt)
-        return " 59813%s28476 " % l
+        return " z59813%s28476z " % l
 
     def hide(self, txt):
         # txt = extract_map("![", "]", txt, self._hide)
@@ -27,7 +27,7 @@ class HideBracket:
         return txt
 
     def _restore(self, txt):
-        x = txt[5:-5]
+        x = txt[6:-6]
         if x.isdigit():
             return self._hideed[int(x)]
         return txt
@@ -39,8 +39,8 @@ class HideBracket:
             .replace("【", "[")\
             .replace("！", "!")\
             .replace("）", ")").replace("& lt;", "&lt;")\
-            .replace("& gt;", "&gt;").replace(" 59813", "59813").replace("28476 ", "28476")
-        return extract_map("59813", "28476", txt, self._restore)
+            .replace("& gt;", "&gt;").replace(" z59813", "z59813").replace("28476z ", "28476z")
+        return extract_map("z59813", "28476z", txt, self._restore)
 
 
 def translate_po(lang, po):

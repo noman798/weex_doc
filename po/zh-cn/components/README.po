@@ -18,17 +18,17 @@ msgstr "在看到所有的内置组件之前，让我们看看关于组件的常
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:8
 msgid "[Common Attributes](../references/common-attrs.md)"
-msgstr "[常见属性](../references/common-attrs.md)???"
+msgstr "[属性](../references/common-attrs.md)常见 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:8
 msgid "[Common Style](../references/common-style.md)"
-msgstr "[普通风格](../references/common-style.md)???"
+msgstr "[共同](../references/common-style.md)风格 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:8
 msgid "[Common Event](../references/common-event.md)"
-msgstr "[常见事件](../references/common-event.md)???"
+msgstr "[事件](../references/common-event.md)常见 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/README.md:10

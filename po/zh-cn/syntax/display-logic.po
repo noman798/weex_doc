@@ -14,14 +14,14 @@ msgid ""
 "There are two attributes for display logic control: `if` and `repeat`. We "
 "can create Weex page structure and effects more flexible with them."
 msgstr ""
-"显示逻辑控制有两个属性：` and ``if``repeat`。我们可以创造快的网页结构和作用更"
+"有两个属性：显示逻辑控制`if`` and ``repeat`。我们可以创造快的网页结构和作用更"
 "灵活。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:5
 #, no-wrap
 msgid "`if`"
-msgstr "五百九十八亿一千三百三十二万八千四百七十六 ???"
+msgstr "`if`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:8
@@ -69,7 +69,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:31
 #, no-wrap
 msgid "`repeat`"
-msgstr "五百九十八亿一千三百五十二万八千四百七十六 ???"
+msgstr "`repeat`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:34
@@ -78,9 +78,9 @@ msgid ""
 "also a structed data. This means in `repeat`ed component, you can bind their "
 "item properties directly."
 msgstr ""
-"` statement is just for array rendering. Every item in an array is also a "
-"structed data. This means in ``repeat``repeat`版的组件，你可以直接绑定他们的"
-"项目属性。 ???"
+"`repeat`` statement is just for array rendering. Every item in an array is "
+"also a structed data. This means in ``repeat`组件，你可以把他们的项目属性直"
+"接。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:44
@@ -176,7 +176,7 @@ msgstr "重复语法的扩展 ???"
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:96
 #, no-wrap
 msgid "use default `$index` for the index of array."
-msgstr "使用默认的数组索引`$index`。 ???"
+msgstr "对数组的索引使用默认`$index`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:99
@@ -227,7 +227,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:122
 #, no-wrap
 msgid "use `track-by` to specify unique attribute"
-msgstr "使用`track-by`指定唯一属性 ???"
+msgstr "使用`track-by`指定唯一的属性 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:125
@@ -245,7 +245,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:127
 #, no-wrap
 msgid "**NOTE: DO NOT USE DATA-BINDING SYNTAX FOR `track-by`**\n"
-msgstr "*注意：不要用data-binding语法`track-by`* * ???\n"
+msgstr "*注意：不要用data-binding为`track-by`**语法 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:139
@@ -286,8 +286,8 @@ msgid ""
 "Particularly for the `if` and `repeat` attribute, the mustache wrapper in "
 "values could be omitted: just the same as data-binding syntax."
 msgstr ""
-"特别是`if`` and ``repeat`属性，在价值观的小胡子的包装可以省略：作为数据绑定语"
-"法一样。 ???"
+"特别是对`if`` and ``repeat`属性，在价值观的小胡子的包装可以省略：作为数据绑定"
+"语法一样。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:153
@@ -318,9 +318,9 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:162
 #, no-wrap
 msgid "The two `<text>` components are both displayed.\n"
-msgstr "这两个`<text>`个组件都显示。 ???\n"
+msgstr "两`<text>`组件都显示。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/display-logic.md:163
 msgid "Next is [render logic control](./render-logic.md)."
-msgstr "下一个是[渲染逻辑控件](./render-logic.md)。 ???"
+msgstr "其次是逻辑控制(./render-logic.md)[渲染]。 ???"

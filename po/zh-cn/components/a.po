@@ -22,8 +22,7 @@ msgid ""
 "HTML/Element/a) in HTML5."
 msgstr ""
 "&lt;一&gt;定义了一个超链接到一个网页的网页。其目的和语法非常类似于[&lt;一"
-"&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)在"
-"HTML5。 ???"
+"&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)HTML5。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:5
@@ -65,7 +64,7 @@ msgstr "款式 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:15
 #, no-wrap
 msgid "**common styles**: check out the [common styles](../references/common-attrs.md)\n"
-msgstr "**共同的风格**：检查出[常见的风格](../references/common-attrs.md)???\n"
+msgstr "* * *：常见的方式查看[共同](../references/common-attrs.md)风格 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:16
@@ -77,7 +76,7 @@ msgstr "事件 ???"
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:18
 #, no-wrap
 msgid "**common events**: check out the [common events](../references/common-event.md)\n"
-msgstr "**常见事件**：检查[常见事件](../references/common-event.md)???\n"
+msgstr "* * *：常见的事件查看[事件](../references/common-event.md)常见 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/components/a.md:19

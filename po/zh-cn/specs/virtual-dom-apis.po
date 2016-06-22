@@ -12,7 +12,7 @@ msgstr "虚拟的DOM API ???"
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:3
 #, no-wrap
 msgid "`Document`"
-msgstr "五百九十八亿一千三百零二万八千四百七十六 ???"
+msgstr "`Document`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:6
@@ -24,7 +24,7 @@ msgstr "每个实例都有一个相同的文件。一个文档有许多节点组
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`new Document(id)`"
-msgstr "五百九十八亿一千三百一十二万八千四百七十六 ???"
+msgstr "`new Document(id)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -33,29 +33,28 @@ msgid ""
 "`type` is one of `container`, `list` or `scroller`, and the `props` may "
 "contain `attr` and `style`."
 msgstr ""
-"`createBody(type, props)`` Create body with a certian type and props. The `` "
-"is one of ``container``, `` or ``scroller``, and the ``props`` may contain "
-"``style``attr``type`` and ``list`。 ???"
+"`createBody(type, props)`` Create body with a certian type and props. The "
+"``type`` is one of ``container``, ``list`` or ``scroller``, and the "
+"``props`` may contain ``attr`` and ``style`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
 "`createElement(tagName, props)` Create a certain type element with props."
-msgstr "`createElement(tagName, props)`创建一个特定类型的元素与道具。 ???"
+msgstr "`createElement(tagName, props)`创建一个道具一定类型的元素。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
 "`createComment(text)` Create a comment node with a certain comment text."
-msgstr "`createComment(text)`创建一个具有一定注释文本的注释节点。 ???"
+msgstr "`createComment(text)`创建一个注释节点具有一定的注释文本。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid ""
 "`setListener(listener)` Set a dom listener which listens each dom updates "
 "and tells the rendering engine"
-msgstr ""
-"`setListener(listener)`集一个DOM的听众听的每一个DOM更新和告诉渲染引擎 ???"
+msgstr "`setListener(listener)`设置听众听每个DOM DOM更新和告诉渲染引擎 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -82,17 +81,17 @@ msgstr "`addRef(el)`` Add a new ref to the internal node map for a ``el`???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`getRef(ref)` Get node by `ref` from the internal node map"
-msgstr "` Get node by ``ref``getRef(ref)`从内部节点图 ???"
+msgstr "`getRef(ref)`` Get node by ``ref`从内部节点图 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`removeRef(ref)` Removes the `ref` record from the internal node map"
-msgstr "` Removes the ``removeRef(ref)``ref`记录从内部节点图 ???"
+msgstr "`removeRef(ref)`` Removes the ``ref`记录从内部节点图 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`id` document id (also the instance id)"
-msgstr "`id`文档身份证(also the instance id)???"
+msgstr "`id`文档ID(also the instance id)???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
@@ -102,38 +101,38 @@ msgstr "`listener`DOM的倾听者 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`closed` flag which means rendering finished"
-msgstr "`closed`标志，这意味着渲染完成 ???"
+msgstr "`closed`旗即绘制完成 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`body` document body element"
-msgstr "`body`文档体元素 ???"
+msgstr "`body`文档体元 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:22
 msgid "`eventManager` document event manager"
-msgstr "`eventManager`文档事件管理器 ???"
+msgstr "`eventManager`文档项目经理 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:23
 #, no-wrap
 msgid "`Node`"
-msgstr "五千九百八十一亿三千三百七十二万八千四百七十六 ???"
+msgstr "`Node`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:31
 msgid "`create(instanceId)`"
-msgstr "五千九百八十一亿三千三百八十二万八千四百七十六 ???"
+msgstr "`create(instanceId)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:31
 msgid "`destroy()`"
-msgstr "五千九百八十一亿三千三百九十二万八千四百七十六 ???"
+msgstr "`destroy()`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:31
 msgid "`getRenderer()` Get dom listener of the owner document"
-msgstr "`getRenderer()`让听众主人的DOM文档 ???"
+msgstr "`getRenderer()`得到听众的主文档的DOM ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:31
@@ -143,18 +142,18 @@ msgstr "`next()`返回下一个兄弟姐妹或空 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:31
 msgid "`prev()` Returns the previous sibling or null"
-msgstr "`prev()`返回前一个兄弟姐妹或空 ???"
+msgstr "`prev()`返回以前的同辈或空 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:31
 msgid "`ref`"
-msgstr "五千九百八十一亿三千四百三十二万八千四百七十六 ???"
+msgstr "`ref`???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:32
 #, no-wrap
 msgid "`Element`"
-msgstr "五千九百八十一亿三千四百四十二万八千四百七十六 ???"
+msgstr "`Element`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:35
@@ -167,23 +166,23 @@ msgid ""
 "`new Element(type, props, ownerDocument)` Create an element and the `props` "
 "may contain `attr` and `style`."
 msgstr ""
-"`new Element(type, props, ownerDocument)`` Create an element and the `` may "
-"contain ``attr`` and ``style``props`。 ???"
+"`new Element(type, props, ownerDocument)`` Create an element and the "
+"``props`` may contain ``attr`` and ``style`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`appendChild(node)`"
-msgstr "五千九百八十一亿三千五百三十二万八千四百七十六 ???"
+msgstr "`appendChild(node)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`insertBefore(node, before)`"
-msgstr "五千九百八十一亿三千五百四十二万八千四百七十六 ???"
+msgstr "`insertBefore(node, before)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`insertAfter(node, after)`"
-msgstr "五千九百八十一亿三千五百五十二万八千四百七十六 ???"
+msgstr "`insertAfter(node, after)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
@@ -191,38 +190,38 @@ msgid ""
 "`removeChild(node, preserved)` Removes a child. The parameter `preserved` "
 "means whether destroy the removed node immediately or preserve it."
 msgstr ""
-"` Removes a child. The parameter ``preserved``removeChild(node, preserved)`意"
-"味着是否立即销毁被删除的节点或保存它。 ???"
+"`removeChild(node, preserved)`` Removes a child. The parameter ``preserved`是"
+"否意味着破坏删除节点或立即保存它。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`clear()`"
-msgstr "五千九百八十一亿三千五百九十二万八千四百七十六 ???"
+msgstr "`clear()`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`setAttr(key, value)`"
-msgstr "五千九百八十一亿三千六百零二万八千四百七十六 ???"
+msgstr "`setAttr(key, value)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`setStyle(key, value)`"
-msgstr "五千九百八十一亿三千六百一十二万八千四百七十六 ???"
+msgstr "`setStyle(key, value)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`setClassStyle(classStyle)`"
-msgstr "五千九百八十一亿三千六百二十二万八千四百七十六 ???"
+msgstr "`setClassStyle(classStyle)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`addEvent(type, handler)`"
-msgstr "五千九百八十一亿三千六百三十二万八千四百七十六 ???"
+msgstr "`addEvent(type, handler)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`removeEvent(type)`"
-msgstr "五千九百八十一亿三千六百四十二万八千四百七十六 ???"
+msgstr "`removeEvent(type)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
@@ -236,22 +235,22 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`type` Element type"
-msgstr "`type`单元类型 ???"
+msgstr "`type`元素类型 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`attr` Several attribuets for this element"
-msgstr "`attr`几attribuets这个元素 ???"
+msgstr "`attr`几个attribuets这个元素 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`style` Several style rules for this element"
-msgstr "此元素的`style`个样式规则 ???"
+msgstr "`style`几个样式规则这个元素 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
 msgid "`classStyle` Class style map, each class has several style rules"
-msgstr "`classStyle`类样式图，每个类都有几个样式规则 ???"
+msgstr "`classStyle`类风格的地图，每个班都有几个样式规则 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:53
@@ -262,17 +261,17 @@ msgstr "`event`事件类型列表 ???"
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:54
 #, no-wrap
 msgid "`Comment`"
-msgstr "五千九百八十一亿三千七百三十二万八千四百七十六 ???"
+msgstr "`Comment`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:57
 msgid "extends from `Node` and will not passed to rendering engine"
-msgstr "从`Node`扩展到不会传递给渲染引擎 ???"
+msgstr "从`Node`不会传递到渲染引擎 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:61
 msgid "`new Comment(value, ownerDocument)`"
-msgstr "五千九百八十一亿三千七百五十二万八千四百七十六 ???"
+msgstr "`new Comment(value, ownerDocument)`???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:61
@@ -282,13 +281,13 @@ msgstr "`type`返回“评论” ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:61
 msgid "`value`"
-msgstr "五千九百八十一亿三千七百七十二万八千四百七十六 ???"
+msgstr "`value`???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:62
 #, no-wrap
 msgid "`EventManager`"
-msgstr "五千九百八十一亿三千七百八十二万八千四百七十六 ???"
+msgstr "`EventManager`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:65
@@ -301,7 +300,8 @@ msgid ""
 "`add(el, type, handler)` Adds an event `handler` for certain `type` to a "
 "certain `el` element"
 msgstr ""
-"` Adds an event ``handler`` for certain ``type`` to a certain ``el`元素 ???"
+"`add(el, type, handler)`` Adds an event ``handler`` for certain ``type`` to "
+"a certain ``el`元 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:68
@@ -309,8 +309,8 @@ msgid ""
 "`remove(el, type)` Removes event handler for certain `type` to a certain "
 "`el` element"
 msgstr ""
-"` Removes event handler for certain ``type`` to a certain ``el``remove(el, "
-"type)`元素 ???"
+"`remove(el, type)`` Removes event handler for certain ``type`` to a certain "
+"``el`元 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/specs/virtual-dom-apis.md:68
@@ -318,5 +318,5 @@ msgid ""
 "`fire(el, type, e)` Fires a certain event to `el` with `type` and event "
 "object `e`"
 msgstr ""
-"`fire(el, type, e)`` Fires a certain event to `` with ``type`` and event "
-"object ``e``el`???"
+"`fire(el, type, e)`` Fires a certain event to ``el`` with ``type`` and event "
+"object ``e`???"

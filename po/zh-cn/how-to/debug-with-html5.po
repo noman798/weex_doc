@@ -26,8 +26,8 @@ msgid ""
 "![chrome's debug tool](http://gw.alicdn.com/mt/"
 "TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)"
 msgstr ""
-"![铬的调试工具](http://gw.alicdn.com/mt/TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730."
-"png)???"
+"![Chrome的调试工具](http://gw.alicdn.com/mt/"
+"TB1V1hIMpXXXXaHXVXXXXXXXXXX-983-730.png)???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:7
@@ -61,13 +61,13 @@ msgid ""
 "`console.log`, and you should make sure this code will not run on native "
 "platform (otherwise a exception or a crash will be caused)."
 msgstr ""
-"您可以使用` to log infomation on console, but it's hightly recommended to "
-"use `、`nativeLog`、` instead, since nativeLog can run on a native platform "
-"besides on a browser. The defect of `、、`nativeLog`、` is that it's not "
-"supported to trace it from the console to the source file which the `、"
-"`nativeLog`、` is called in, therefore in this situation you'd better use `、"
-"`console.log`、`console.log`，并且您应该确保本代码不会在本地平台(otherwise a "
-"exception or a crash will be caused)上运行。 ???"
+"你可以使用`console.log`` to log infomation on console, but it's hightly "
+"recommended to use ``nativeLog`` instead, since nativeLog can run on a "
+"native platform besides on a browser. The defect of ``nativeLog`` is that "
+"it's not supported to trace it from the console to the source file which the "
+"``nativeLog`` is called in, therefore in this situation you'd better use "
+"``console.log`，你应该确保这个代码将不能运行在本地平台(otherwise a exception "
+"or a crash will be caused)。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:15
@@ -94,7 +94,7 @@ msgid ""
 "`debugger` keyword in your code."
 msgstr ""
 "手动断点是您在特定的代码行上设置的单个断点。你可以把这些通过Chrome开发工具的"
-"图形用户界面，或通过在你的代码中插入`debugger`个关键词。 ???"
+"图形用户界面，或通过在你的代码中插入的`debugger`关键词。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:21
@@ -109,8 +109,8 @@ msgid ""
 "the renderer (weex-html5), the js-framework (weex-js-framework) and the "
 "transformer (gulp-weex)."
 msgstr ""
-"一般来说，有三种可能的错误可能发生层：渲染器(weex-html5)、JS框架(weex-js-"
-"framework)、变压器(gulp-weex)。 ???"
+"一般来说，有三种可能的错误可能发生层：渲染(weex-html5)，JS框架(weex-js-"
+"framework)和变压器(gulp-weex)。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:26
@@ -130,7 +130,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid "in bridge/receiver.js, whether the `callNative` function is called."
-msgstr "在桥梁/ receiver.js，是否`callNative`个函数被调用。 ???"
+msgstr "在桥梁/ receiver.js，是否`callNative`函数被调用。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
@@ -142,7 +142,7 @@ msgstr "是否应该被称为“调用”的方法实际上被调用和执行。
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:31
 msgid ""
 "whether the `callJS` method for event firing or callback executing is called."
-msgstr "是否调用了事件触发或回调执行的`callJS`种方法。 ???"
+msgstr "是否`callJS`方法称为事件触发或回调执行。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/how-to/debug-with-html5.md:32
@@ -156,5 +156,5 @@ msgid ""
 "More info about how to debug h5 pages on chrome devTools: [chrome's devTools "
 "docs](https://developers.google.com/web/tools/chrome-devtools/?hl=en)"
 msgstr ""
-"更多信息关于如何调试Chrome DevTools H5页面：[Chrome DevTools文档](https://"
-"developers.google.com/web/tools/chrome-devtools/?hl=en)???"
+"更多信息关于如何调试Chrome DevTools H5页面：[文件](https://developers.google."
+"com/web/tools/chrome-devtools/?hl=en)Chrome的开发工具 ???"

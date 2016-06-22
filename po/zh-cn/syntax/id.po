@@ -1,6 +1,6 @@
+#
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 #. type: Title #
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:1
@@ -13,18 +13,16 @@ msgstr "找到一个元素 ???"
 msgid ""
 "In Weex, we may set the `id` property for a particular element, just as "
 "unique identification of a particular element."
-msgstr ""
-"在长的，我们可以设置一个特定元素的`id`种特性，就像一个特定元素的唯一标"
-"识。 ???"
+msgstr "在长的，我们可以设置为一个特定的元素`id`财产，就像一个特定元素的唯一标识。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:6
 msgid ""
-"`id` can be used by `this.$(id)` to find an element with a certain id. Take `"
-"$scrollTo()` For example:"
+"`id` can be used by `this.$(id)` to find an element with a certain id. Take "
+"`$scrollTo()` For example:"
 msgstr ""
 "`id`` can be used by ``this.$(id)`` to find an element with a certain id. "
-"Take ``$scrollTo()`： ???"
+"Take ``$scrollTo()`例如： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:28
@@ -60,9 +58,9 @@ msgid ""
 "control](./display-logic.md), and ensure repetitive elements with different "
 "`id`:"
 msgstr ""
-"` can also work with ``id`` attribute [See more about display logical "
-"control](./display-logic.md), and ensure repetitive elements with different "
-"``id``repeat`： ???"
+"`id`` can also work with ``repeat`` attribute [See more about display "
+"logical control](./display-logic.md), and ensure repetitive elements with "
+"different ``id`： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:55
@@ -100,10 +98,9 @@ msgid ""
 "Additionally, in the [composed components](./composed-component.md), we can "
 "get the corresponding sub component through `this.$vm(id)` APIs."
 msgstr ""
-"此外，在[组成元件](./composed-component.md)中，我们可以通过`this.$vm(id)`个原"
-"料药得到相应的子组件。 ???"
+"此外，在[](./composed-component.md)组成成分，我们可以通过`this.$vm(id)`API得到相应的子组件。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/syntax/id.md:58
 msgid "Next is how to [send messages between composed components](./comm.md)."
-msgstr "下一步是如何[发送消息之间的组成组件](./comm.md)。 ???"
+msgstr "二是如何[发送](./comm.md)组成成分之间的消息。 ???"

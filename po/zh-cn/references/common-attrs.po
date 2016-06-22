@@ -28,12 +28,12 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:13
 #, no-wrap
 msgid "`id` gives weex tag a unique mark in `<template>` scope. With id attribute you can easily refer a weex tag.\n"
-msgstr "` gives weex tag a unique mark in ``<template>``id`范围。ID属性你可以很容易地把长的标签。 ???\n"
+msgstr "`id`` gives weex tag a unique mark in ``<template>`范围。ID属性你可以很容易地把长的标签。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:15
 msgid "[more information](../syntax/id.md)"
-msgstr "[更多信息](../syntax/id.md)???"
+msgstr "[](../syntax/id.md)更多信息 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:16
@@ -55,7 +55,7 @@ msgstr "长的内联样式。 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:26
 msgid "[more information](../syntax/style-n-class.md)"
-msgstr "[更多信息](../syntax/style-n-class.md)???"
+msgstr "[](../syntax/style-n-class.md)更多信息 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:27
@@ -98,7 +98,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:45
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:55
 msgid "[more information](../syntax/display-logic.md)"
-msgstr "[更多信息](../syntax/display-logic.md)???"
+msgstr "[](../syntax/display-logic.md)更多信息 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:46
@@ -133,12 +133,12 @@ msgstr ""
 msgid ""
 "by providing the value of `tree` or `node`, it determines the progress of "
 "rendering."
-msgstr "通过提供` or ``tree``node`的值，它决定了渲染的进展。 ???"
+msgstr "通过提供`tree`` or ``node`价值，它决定了绘制的进展。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:65
 msgid "[more information](../syntax/render-logic.md)"
-msgstr "[更多信息](../syntax/render-logic.md)???"
+msgstr "[](../syntax/render-logic.md)更多信息 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:66
@@ -159,7 +159,7 @@ msgstr "登记在长的标签事件处理程序 ???"
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:76
 msgid "[more information](../syntax/events.md)"
-msgstr "[更多信息](../syntax/events.md)???"
+msgstr "[](../syntax/events.md)更多信息 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/common-attrs.md:77

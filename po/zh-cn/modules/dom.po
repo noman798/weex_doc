@@ -40,7 +40,7 @@ msgstr "争论 ???"
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:16
 msgid "`node`*(Node)*: an element that scrolled into the view."
-msgstr "`node`*(Node)*：一种元素，滚动到视图。 ???"
+msgstr "`node`*(Node)*：一元，滚动到视图。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:16
@@ -49,8 +49,8 @@ msgid ""
 "* `options`*(object)*: some options.\n"
 "  * `offset`*(number)*: An offset to the visible position, default is `0`.\n"
 msgstr ""
-"*`*(object)*: some options.\n"
-"  * ``offset``*(number)*: An offset to the visible position, default is ``0``options`。 ???\n"
+"*`options``*(object)*: some options.\n"
+"  * ``offset``*(number)*: An offset to the visible position, default is ``0`。 ???\n"
 
 #. type: Title ####
 #: /home/dev/download/weex_doc/weex/doc/modules/dom.md:17

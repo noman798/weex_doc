@@ -28,7 +28,7 @@ msgstr "一个urlhelper例子 ???"
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:7
 #, no-wrap
 msgid "Create your own `WXModule` in native:   "
-msgstr "创建你自己的`WXModule`： ???"
+msgstr "创造你自己的`WXModule`本土： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/how-to/cuszomize-native-apis.md:25

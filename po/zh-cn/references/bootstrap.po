@@ -12,7 +12,7 @@ msgstr "自举 ???"
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:4
 #, no-wrap
 msgid "Besides its default meaning, `<script>` tag supports two more configuration with its `type` property *in the top level component of a page*.\n"
-msgstr "除了它的默认意义，` tag supports two more configuration with its `个`<script>`个`type`属性*在一个页面的顶级组成部分*。 ???\n"
+msgstr "除了默认的意思，`<script>`` tag supports two more configuration with its ``type`财产*在一页*顶层组件。 ???\n"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:7
@@ -20,13 +20,13 @@ msgid ""
 "`type=\"data\"`: For initial data configuration, the data defined here will "
 "overwrite the data definition in the `<script>`."
 msgstr ""
-"`: For initial data configuration, the data defined here will overwrite the "
-"data definition in the ``<script>``type=\"data\"`。 ???"
+"`type=\"data\"``: For initial data configuration, the data defined here will "
+"overwrite the data definition in the ``<script>`。 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:7
 msgid "`type=\"config\"`: For configuration definition."
-msgstr "`type=\"config\"`：用于配置定义。 ???"
+msgstr "`type=\"config\"`：配置定义。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:12
@@ -58,7 +58,7 @@ msgstr "初始数据定义 ???"
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:21
 #, no-wrap
 msgid "Sometimes, it is hard to maintain huge data structure in the default `<script>` tag. So Weex allows us to have a `<script type=\"data\">` tag to define initial data. The data defined in here will totally replace the data defined in the default `<script>` tag.\n"
-msgstr "有时，它是很难保持巨大的数据结构，在默认的` tag. So Weex allows us to have a ``<script type=\"data\">`` tag to define initial data. The data defined in here will totally replace the data defined in the default ``<script>``<script>`标签。 ???\n"
+msgstr "有时，很难在默认`<script>`` tag. So Weex allows us to have a ``<script type=\"data\">`` tag to define initial data. The data defined in here will totally replace the data defined in the default ``<script>`标签保持庞大的数据结构。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:23
@@ -89,7 +89,7 @@ msgstr "脚本配置 ???"
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:36
 #, no-wrap
 msgid "Weex also allows us to do some configuration with a `<script type=\"config\">`, So far, we only support the `downgrade` configs.\n"
-msgstr "快也让我们与`<script type=\"config\">``, So far, we only support the ``downgrade`配置做一些配置。 ???\n"
+msgstr "快也让我们有`<script type=\"config\">``, So far, we only support the ``downgrade`配置做一些配置。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/bootstrap.md:40
@@ -97,5 +97,5 @@ msgid ""
 "- `downgrade.osVersion` - `downgrade.appVersion` - `downgrade.weexVersion` - "
 "`downgrade.deviceModel`"
 msgstr ""
-"-` - ``downgrade.appVersion`` - ``downgrade.weexVersion`` - ``downgrade."
-"deviceModel``downgrade.osVersion`???"
+"-`downgrade.osVersion`` - ``downgrade.appVersion`` - ``downgrade."
+"weexVersion`` - ``downgrade.deviceModel`???"

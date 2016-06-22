@@ -18,7 +18,7 @@ msgstr "概述 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:6
 #, no-wrap
 msgid "Weex is a extendable cross-platform solution for dynamic programming and publishing projects. In the source code you can write pages or components with `<template>`, `<style>` and `<script>` tags, and then transform them into bundles for deploying. In server-side we can use these JS bundles for client request. When client get a bundle from server, it will be processed by client-side JavaScript engine and manages the native view rendering, the native API invoking and user interactions.\n"
-msgstr "长的是一个动态规划和出版项目可扩展的跨平台解决方案。在源代码中，您可以用`, `个`<template>`个`<style>`个` and `个个`<script>`个标签来写页面或组件，然后将它们转换成用于部署的捆绑包。在服务器端，我们可以使用这些JS捆绑客户请求。当客户端从服务器得到一束，它将通过客户端JavaScript引擎处理和管理本地视图渲染，本地API调用和用户交互。 ???\n"
+msgstr "长的是一个动态规划和出版项目可扩展的跨平台解决方案。在源代码中你可以写页或组件与`<template>``, ``<style>`` and ``<script>`标签，然后变换成束的部署。在服务器端，我们可以使用这些JS捆绑客户请求。当客户端从服务器得到一束，它将通过客户端JavaScript引擎处理和管理本地视图渲染，本地API调用和用户交互。 ???\n"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:7
@@ -112,13 +112,13 @@ msgid ""
 "Join the two above with `<script>` content. The three parts will be joined "
 "together and wrapped into a JavaScript AMD module."
 msgstr ""
-"加入两个以上的`<script>`个内容。三部分将结合在一起，包裹成一个JavaScript AMD"
-"模块。 ???"
+"加入两个以上`<script>`内容。三部分将结合在一起，包裹成一个JavaScript AMD模"
+"块。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:36
 msgid "A whole example (`main.we`):"
-msgstr "一个完整的例子( 598131628476 )： ???"
+msgstr "一个完整的案例( z598131628476z )： ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:52
@@ -220,8 +220,8 @@ msgid ""
 msgstr ""
 "`callNative`` sends commands from JavaScript to native. So it's called from "
 "JavaScript and implemented with native code. All commands are native APIs "
-"organized by modules, for example ``, ``networking``, ``, and other client-"
-"side features like ``toast``rendering`等。 ???"
+"organized by modules, for example ``rendering``, ``networking``, "
+"``authorizing``, and other client-side features like ``toast`等 ???"
 
 #. type: Bullet: '* '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:87
@@ -250,7 +250,7 @@ msgstr "本地renderengine将呼叫提供许多本地组件和模块。 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:93
 #, no-wrap
 msgid "**Component** is an element in the screen which have a certain view and behavior. It could be configured with some attributes and style properties, and could response user interactions. There are some common components like `<div>`, `<text>`, `<image>` etc.\n"
-msgstr "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *。它可以配置一些属性和样式属性，并可以响应用户交互。有一些常见的组件，如`, `、`<div>`、`<text>`、`, `、`<image>`等 ???\n"
+msgstr "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *。它可以配置一些属性和样式属性，并可以响应用户交互。有一些常见的成分如`<div>``, ``<text>``, ``<image>`等 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:95
@@ -271,16 +271,16 @@ msgid ""
 "native RenderEngines."
 msgstr ""
 "一个长的工程实例中，本土renderengine接收各种模块API调用的js框架。这些调用会创"
-"建或更新从JS框架视图和使用客户端功能`toast``. When a user interaction or "
-"module API callback happens, It will call ``callJS()`部件。这些工作可以通过步"
-"行快实例生命周期直到实例被销毁。正如在建筑图所示，是一个特殊的renderengine "
-"H5 renderengine几乎相同的功能作为本土renderengines。 ???"
+"建或更新视图和使用客户端功能`toast``. When a user interaction or module API "
+"callback happens, It will call ``callJS()`从JS框架组件。这些工作可以通过步行"
+"快实例生命周期直到实例被销毁。正如在建筑图所示，是一个特殊的renderengine H5 "
+"renderengine几乎相同的功能作为本土renderengines。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:98
 #, no-wrap
 msgid "![arch](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)  \n"
-msgstr "![拱门](http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)???\n"
+msgstr "![弓】(http://gtms02.alicdn.com/tps/i2/TB1ootBMpXXXXXrXXXXwi60UVXX-596-397.png)???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:100
@@ -330,7 +330,7 @@ msgstr "渲染流程 ???"
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:124
 #, no-wrap
 msgid "![render flow](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)  \n"
-msgstr "![渲染流](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)???\n"
+msgstr "![流](http://gtms03.alicdn.com/tps/i3/TB1_SA4MXXXXXXGaXXXpZ8UVXXX-519-337.png)渲染 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:126
@@ -345,7 +345,7 @@ msgstr "输入虚拟DOM。 ???"
 #. type: Bullet: '0. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:135
 msgid "**Build Tree**. Parse JSON data (virtual dom) to a Render Tree (RT)."
-msgstr "* *建立树。解析JSON数据(virtual dom)渲染树(RT)。 ???"
+msgstr "* *建立树。解析JSON数据(virtual dom)来渲染树(RT)。 ???"
 
 #. type: Bullet: '0. '
 #: /home/dev/download/weex_doc/weex/doc/advanced/how-it-works.md:135
@@ -387,5 +387,5 @@ msgid ""
 "In H5 Render Flow, `CSS Layout` and `Update Frame` are implemented by "
 "browser engine like webkit."
 msgstr ""
-"在H5渲染流程，`CSS Layout`` and ``Update Frame`是由浏览器引擎WebKit实现"
-"像。 ???"
+"在H5渲染流程，`CSS Layout`` and ``Update Frame`浏览器引擎WebKit实现这样"
+"的。 ???"

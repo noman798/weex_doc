@@ -24,7 +24,7 @@ msgstr "盒模型 ???"
 msgid ""
 "![box model](http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png)"
 msgstr ""
-"![盒模型](http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png)???"
+"![](http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png)盒模型 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:10
@@ -86,18 +86,18 @@ msgid ""
 "    - border-top-left-radius\n"
 "    - border-top-right-radius\n"
 msgstr ""
-"-填充(space around content, between element content and the element border)???\n"
+"(space around content, between element content and the element border)填充 ???\n"
 "-填充左 ???\n"
 "-填充吧 ???\n"
 "-垫上 ???\n"
 "底部填充 ???\n"
-"利润的(space around elements, outside the border)???\n"
+"利润(space around elements, outside the border)???\n"
 "利润的左 ???\n"
 "利润的权利 ???\n"
 "利润率最高 ???\n"
 "利润的底部 ???\n"
 "边界 ???\n"
-"-边境风格(solid,dashed,dotted)???\n"
+"-边框样式(solid,dashed,dotted)???\n"
 "边框宽度 ???\n"
 "-左边框宽度 ???\n"
 "-边缘顶部宽度 ???\n"
@@ -108,7 +108,7 @@ msgstr ""
 "-边框顶部颜色 ???\n"
 "右边框颜色 ???\n"
 "-边缘底颜色 ???\n"
-"-边界半径( rounded borders to elements , default value is 0 meaning right angle )???\n"
+"( rounded borders to elements , default value is 0 meaning right angle )边界半径 ???\n"
 "-边界左下角半径 ???\n"
 "-边界右下角半径 ???\n"
 "-左上角半径 ???\n"
@@ -118,7 +118,7 @@ msgstr ""
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:44
 #, no-wrap
 msgid "Notes: The rule of border-radius for a specific corner such as `border-top-left-radius` is not currently supported for component `<image>` and `<text>`.\n"
-msgstr "注：如` is not currently supported for component `、`<image>`、` and `、`<text>`、`border-top-left-radius`、、、等一个特定的角落的边界半径规则。 ???\n"
+msgstr "注：对于一个特定的角落，如`border-top-left-radius`` is not currently supported for component ``<image>`` and ``<text>`边界半径的规律。 ???\n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:46
@@ -127,7 +127,7 @@ msgid ""
 "meaning the width and height properties includes content, padding and "
 "border, but not the margin."
 msgstr ""
-"长的盒模型采用`border-box`` as the default value of ``box-sizing`，意义的宽度"
+"长的盒模型使用`border-box`` as the default value of ``box-sizing`，意义的宽度"
 "和高度属性包括内容、填充和边框，但不边缘。 ???"
 
 #. type: Plain text
@@ -203,7 +203,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:70
 msgid "- `flex-direction`: `row` | `column`"
-msgstr "-`: ``row`` | ``column`???"
+msgstr "-`flex-direction``: ``row`` | ``column`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:72
@@ -211,16 +211,16 @@ msgid ""
 "The flex-direction property specifies the direction of the flexible items "
 "inside the flex container. Default value is `column` (top-to-bottom)."
 msgstr ""
-"弯曲方向属性指定在柔性容器中的柔性项目的方向。默认值为(top-to-"
-"bottom)`column`。 ???"
+"弯曲方向属性指定在柔性容器中的柔性项目的方向。默认值是`column`(top-to-"
+"bottom)。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:74
 msgid ""
 "- `justify-content`: `flex-start` | `flex-end` | `center` | `space-between`"
 msgstr ""
-"-`: ``flex-start`` | ``flex-end`` | ``center`` | ``space-between``justify-"
-"content`???"
+"-`justify-content``: ``flex-start`` | ``flex-end`` | ``center`` | ``space-"
+"between`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:76
@@ -234,24 +234,23 @@ msgid ""
 "between the lines."
 msgstr ""
 "当项目不使用主轴上的所有可用空间时，合理的内容属性水平对齐灵活的容器的项目。"
-"默认值为` meaning the flex items are positioned at the beginning of the "
-"container. `，`flex-start`，`flex-end`，` means the items are positioned at "
-"the end of the container. `，`center`，` means the items are positioned at "
-"the center of the container. `，`space-between`，意味着项目被放置在线条之间的"
-"空间。 ???"
+"默认值是`flex-start`` meaning the flex items are positioned at the beginning "
+"of the container. ``flex-end`` means the items are positioned at the end of "
+"the container. ``center`` means the items are positioned at the center of "
+"the container. ``space-between`意味着项目定位线之间的空间。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:78
 msgid ""
 "![justify-content](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)"
 msgstr ""
-"![正当理由内容](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)???"
+"![内容](http://www.w3.org/TR/css3-flexbox/images/flex-pack.svg)辩解 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:80
 msgid "- `align-items`: `stretch` | `flex-start` | `center` | `flex-end`"
 msgstr ""
-"-`: ``stretch`` | ``flex-start`` | ``center`` | ``flex-end``align-items`???"
+"-`align-items``: ``stretch`` | ``flex-start`` | ``center`` | ``flex-end`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:82
@@ -265,10 +264,10 @@ msgid ""
 "(vertically)."
 msgstr ""
 "当项目不使用在交叉轴上的所有可用空间时，对齐项目属性垂直对齐灵活的容器的项"
-"目。默认值是` meaning the items are stretched to fit the container. `、"
-"`stretch`、`flex-start`、` means the items are positioned at the top of the "
-"container; `、`flex-end`、` means the items are positioned at the bottom of "
-"the container; `、`center`、，意味着项目位于容器(vertically)的中心位置。 ???"
+"目。默认值是`stretch`` meaning the items are stretched to fit the container. "
+"``flex-start`` means the items are positioned at the top of the container; "
+"``flex-end`` means the items are positioned at the bottom of the container; "
+"``center`意味着项目被放置在容器的中心(vertically)。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:84
@@ -276,8 +275,8 @@ msgid ""
 "![align-items](http://gtms02.alicdn.com/tps/i2/"
 "TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)"
 msgstr ""
-"![对齐项目](http://gtms02.alicdn.com/tps/i2/"
-"TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502.jpg)???"
+"![项目](http://gtms02.alicdn.com/tps/i2/TB1VnHKMXXXXXcEaXXXDldN_pXX-1018-502."
+"jpg)对齐 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:85
@@ -302,12 +301,13 @@ msgid ""
 "flex items don't set `flex`, they will be aligned depending on the "
 "container's `justify-content` property."
 msgstr ""
-"属性指定了在同一个容器中的其他部分的柔性项的长度。如果所有的柔性项目设置`, "
-"they will have equal width or height on direction of flex container's `个"
-"`flex: 1``flex-direction``. If there are two flex items, with one setting "
-"``, and the other setting ``, the first one will take 1/3 container space, "
-"and the second one will take 2/3 container space. If all of flex items don't "
-"set ``, they will be aligned depending on the container's `属性。 ???"
+"属性指定了在同一个容器中的其他部分的柔性项的长度。如果所有的Flex项目集`flex: "
+"1``, they will have equal width or height on direction of flex container's "
+"``flex-direction``. If there are two flex items, with one setting ``flex: "
+"1``, and the other setting ``flex: 2``, the first one will take 1/3 "
+"container space, and the second one will take 2/3 container space. If all of "
+"flex items don't set ``flex``, they will be aligned depending on the "
+"container's ``justify-content`财产。 ???"
 
 #. type: Title ###
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:92
@@ -394,8 +394,8 @@ msgid ""
 "- `position`: `relative` | `absolute` | `fixed` | `sticky`, default value is "
 "`relative`."
 msgstr ""
-"-`: ``relative`` | ``absolute`` | ``fixed`` | ``sticky``, default value is "
-"``relative``position`。 ???"
+"-`position``: ``relative`` | ``absolute`` | ``fixed`` | ``sticky``, default "
+"value is ``relative`。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:138
@@ -421,11 +421,10 @@ msgid ""
 "`left`: &lt;number&gt;, leftward offset value, default value is `0` - "
 "`right`: &lt;number&gt;, rightward offset value, default value is `0`"
 msgstr ""
-"-`: &lt;number&gt;, upward offset value, default value is ``0`` - "
+"-`top``: &lt;number&gt;, upward offset value, default value is ``0`` - "
 "``bottom``: &lt;number&gt;, downward offset value, default value is ``0`` - "
 "``left``: &lt;number&gt;, leftward offset value, default value is ``0`` - "
-"``right``top``0``: &lt;number&gt;, rightward offset value, default value is "
-"`???"
+"``right``: &lt;number&gt;, rightward offset value, default value is ``0`???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:161
@@ -462,10 +461,10 @@ msgid ""
 "value is 1.  - `background-color`: &lt;colors&gt; sets the background color "
 "of an element, default value is `transparent`."
 msgstr ""
-"-`: &lt;number&gt;, value within range 0 to 1. 1 is not transparent at all, "
-"0.5 is 50% see-through, and 0 is completely transparent, default value is "
-"1.  - ``background-color``: &lt;colors&gt; sets the background color of an "
-"element, default value is ``transparent`。 ???"
+"-`opacity``: &lt;number&gt;, value within range 0 to 1. 1 is not transparent "
+"at all, 0.5 is 50% see-through, and 0 is completely transparent, default "
+"value is 1.  - ``background-color``: &lt;colors&gt; sets the background "
+"color of an element, default value is ``transparent`。 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:167
@@ -482,16 +481,16 @@ msgid ""
 "hexadecimal (`#f00`), named color (`red`).  - enumerated values: a limited "
 "number of string values."
 msgstr ""
-"-长度：编号依次为长度单位`, ``px`` can be omitted.  - colors: support "
-"multiple formats of values, including rgb (``rgb(255, 0, 0)``), rgba (``), "
-"hexadecimal (``), short hexadecimal (``#f00``), named color "
-"(``red``rgba(255, 0, 0, 0.5)`。枚举值：数量有限的字符串值。 ???"
+"长度：长度单位数依次`px``, ``px`` can be omitted.  - colors: support "
+"multiple formats of values, including rgb (``rgb(255, 0, 0)``), rgba "
+"(``rgba(255, 0, 0, 0.5)``), hexadecimal (``#ff0000``), short hexadecimal "
+"(``#f00``), named color (``red`)。枚举值：数量有限的字符串值。 ???"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:174
 #, no-wrap
 msgid "**Note:** [The list of color keywords.](./color-names.md)\n"
-msgstr "*注：* [彩色关键字列表](./color-names.md)???\n"
+msgstr "*注：* [关键词](./color-names.md)颜色列表。 ???\n"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/references/common-style.md:175

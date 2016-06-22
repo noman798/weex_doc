@@ -20,8 +20,8 @@ msgid ""
 "![weex hello world](http://gtms01.alicdn.com/tps/i1/"
 "TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920.png)"
 msgstr ""
-"![快](http://gtms01.alicdn.com/tps/i1/TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920."
-"png)世界你好 ???"
+"![长](http://gtms01.alicdn.com/tps/i1/TB1rXlGMpXXXXXqXVXX1PdU0VXX-640-920."
+"png)你好世界 ???"
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/demo/hello-world.md:7
