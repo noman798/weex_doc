@@ -328,8 +328,8 @@ msgid ""
 "![list1 in Android](http://gtms04.alicdn.com/tps/i4/"
 "TB1FH15LVXXXXcYXFXXFzbANVXX-504-896.png)"
 msgstr ""
-"![表](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896."
-"png)Android "
+"![Android 中的列表](http://gtms04.alicdn.com/tps/i4/TB1FH15LVXXXXcYXFXXFzbANVXX-504-896."
+"png)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:119
