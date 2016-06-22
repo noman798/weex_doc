@@ -126,7 +126,7 @@ msgid ""
 "```\n"
 msgstr ""
 "选项： \n"
-"  -qr     显示本地运行时访问的二维码 \n"
+"  -qr     显示原生组件运行时访问的二维码 \n"
 "  -o      transform weex JS bundle only, specify bundle file name using the\n"
 "          option                                 [default: \"no JSBundle output\"]\n"
 "  -s      start a http file server, weex .we file will be transformed on the\n"
@@ -282,7 +282,7 @@ msgid ""
 "your terminal and navigate to the directory where you save the tech_list.we "
 "again,then type"
 msgstr ""
-"现在，我们将用本地的渲染器来渲染 tech_list.we 。打开终端，进入到你的 "
+"现在，我们将用原生组件渲染器来渲染 tech_list.we 。打开终端，进入到你的 "
 "tech_list.we 目录，然后键入 "
 
 #. type: Plain text
@@ -293,7 +293,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:109
 msgid "``` An QR code will be display in the terminal window, like:"
-msgstr "然后，命令行中会出现一个二维码，类似:"
+msgstr "``` 然后，命令行中会出现一个二维码，类似:"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:112
@@ -315,12 +315,12 @@ msgid ""
 "the list is render using native widget ( no webkit ), so your app get faster "
 "loading and less memory overhead than common embedded webkit renderer."
 msgstr ""
-"二维码将与weex playground app一起工作，你可以下载应用程序[这里](http://"
-"alibaba.github.io/weex/download.html)。安装成功后，打开应用程序，然后单"
-"击“weex操场右上角扫描图标，然后扫描QR码在你的终端。如果一切顺利，一个漂亮的列"
-"表将显示在您的手机。在这里，我要强调的是，这份名单是渲染使用本地widget( no "
-"webkit )，所以你的应用程序获得更快的加载速度和更少的内存开销比常见的嵌入式"
-"WebKit渲染。 "
+"二维码将与weex playground app一起工作，你可以用手机到这里下载应用程序[这里]"
+"(http://alibaba.github.io/weex/download.html)。安装成功后，打开应用程序，然后"
+"单击Weex playground App 右上角的扫描图标，扫描二维码。如果顺利，一个漂亮的列"
+"表将显示在您的手机。此时，我要强调的是，这份列表的渲染使用的是原生组件( no "
+"webkit )，所以比起用WebKit渲染内嵌网页，你的应用程序加载速度更快、使用内存更"
+"少。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:117
@@ -339,9 +339,9 @@ msgid ""
 "called **Hot-Reload**, it also works with default Weex browser renderer. We "
 "hope hot-reload will be helpful when you debug Weex script."
 msgstr ""
-"现在打开tech_list.we又试图改变一些文本，更改后保存weex操场程序会立即显示这些"
-"变化。这叫**热加载**，它还与weex浏览器默认渲染器。我们希望热加载将帮助您调试"
-"weex脚本。 "
+"现在打开tech_list.we，再次改变一些文本，更改后保存。weex playground app 会立"
+"即显示这些变化。这叫**热加载（Hot-Reload）**，weex默认的浏览器渲染器也支持热"
+"加载。我们希望热加载能方便您去调试weex脚本。 "
 
 #. type: Title ##
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:120
@@ -353,7 +353,7 @@ msgstr "添加内置组件 "
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:123
 #, no-wrap
 msgid "Beyond writing basic tag by yourself, Weex provide  a lot of build-in components.   For example,  Slider is common to many App/Mobile Web, So Weex include  a  build-in  Slider  and you can easily using the component in your script.  Let's open tech_list.we and update it's content like below.\n"
-msgstr "超越自己写作的基本标签，weex提供了大量的内置部件。例如，滑块是许多应用程序和移动网络常见的，所以weex包括内置滑块，你可以在你的脚本很容易使用的组件。让我们打开tech_list.we和更新内容如下。 \n"
+msgstr "除了自己定义去基本标签，weex也提供了大量的内置部件。例如，走马灯(Slider)是许多应用程序和移动网络常见的，所以weex包括内置走马灯模块，它很容易使用。让我们打开 tech_list.we 更新内容如下。 \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:134
@@ -444,7 +444,7 @@ msgstr ""
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:196
 msgid "You should see a slider prepend to our list."
-msgstr "你应该看到一个滑块在我们的列表。 "
+msgstr "你应该在我们的列表中看到一个Slider。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:198
@@ -452,15 +452,15 @@ msgid ""
 "![slider demo](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
 "XUXXX-596-1000.gif)"
 msgstr ""
-"![演示](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8.XUXXX-596-1000."
-"gif)滑块 "
+"![Slider演示](http://gtms02.alicdn.com/tps/i2/TB1MB2gLVXXXXaLXpXXB8."
+"XUXXX-596-1000.gif)"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:201
 msgid ""
 "More information about Slider Component can be found [here](components/"
 "slider.md)."
-msgstr "关于滑块组件的更多信息可以在[这里](components/slider.md)。 "
+msgstr "关于Slider组件的更多信息见[这里](components/slider.md)。 "
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:202
@@ -469,5 +469,6 @@ msgid ""
 "Weex playground,also in your App. Please refer [the document](advanced/"
 "integrate-to-android.md) for integrating Weex into your App."
 msgstr ""
-"就像前面的例子，滑块可以绘制在本地，容易在weex操场，也在你的应用程序。请参阅"
-"[文件](advanced/integrate-to-android.md)weex集成到您的应用程序。 "
+"就像前面的例子，Slider可以被原生的渲染，无论是在weex playground，还是你的"
+"Android应用程序。Android整合请参阅[集成weex到您的Android程序](advanced/"
+"integrate-to-android.md)。 "
