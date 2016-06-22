@@ -2,12 +2,7 @@
 
 ## For Child-Parent Communication
 
-Children component can use `this.$dispatch([String type], [Object detail])`
-method passing information to parent component. first argument meaning type
-of message , second argument is the message object. If any parent of the
-child component register the same type of listener using `$on([String type],
-[Function callback])` method , the callback will be execute with one
-argument , the message object will be `detail` property of the the argument.
+Children component can use `this.$dispatch([String type], [Object detail])` method passing information to parent component. first argument meaning type of message , second argument is the message object. If any parent of the child component register the same type of listener using `$on([String type], [Function callback])` method , the callback will be execute with one argument , the message object will be `detail` property of the the argument.
 
 eg:
 
@@ -52,9 +47,7 @@ eg:
 
 ## For Parent-Child Communication
 
-Parent component can using `this.$([String id])` get context of child
-component. you can access child component information using the context
-object.
+Parent component can using `this.$([String id])` get context of child component. you can access child component information using the context object.
 
 ```html
 <we-element name="foo">
@@ -101,8 +94,7 @@ object.
 
 ## Parent to Children (multi-child) Communication
 
-Parent can using `this.$broadcast([String type], [Object detail])` broadcast
-message to all of children.
+Parent can using `this.$broadcast([String type], [Object detail])` broadcast message to all of children.
 
 eg:
 
@@ -176,8 +168,7 @@ eg:
 
 ## Siblings Communication
 
-siblings components can using common parent as bridge for passing
-information
+siblings components can using common parent as bridge for passing information
 
 eg:
 
@@ -227,5 +218,4 @@ eg:
 </script>
 ```
 
-At last, you can learn how to write [config & data](./config-n-data.md) for
-a Weex page.
+At last, you can learn how to write [config & data](./config-n-data.md) for a Weex page.

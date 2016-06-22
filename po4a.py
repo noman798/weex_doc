@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
 import envoy
-from os import walk
-from os.path import dirname, abspath, join
+from os.path import join
 from shutil import rmtree, copytree
 from distutils.dir_util import mkpath
-from config import LANG, PATH
-PATH_DOC = join(PATH, "weex", "doc")
-
+from config import LANG, PATH, PATH_DOC
+from _util import walk_md
 
 
 def print_exist(*args):
@@ -60,11 +58,7 @@ def _update(lang, path):
                 li.append(i)
 
     with open(f, "w") as fout:
-        fout.write("".join(li)
-                   #.replace("""msgid ""
-                   # msgstr ""
-                   #""", '').strip("\n")
-                   )
+        fout.write("".join(li).strip("\n"))
 
 
 def _build(lang, path):
@@ -83,22 +77,16 @@ def scan():
         copytree(PATH_DOC, join(doc_path, i))
 
     count = 1
-    for (dirpath, dirnames, filenames) in walk(PATH_DOC):
-        md_li = []
-
-        for i in filenames:
-            if i.endswith(".md"):
-                md_li.append(i)
-        if md_li:
+    for dirpath, md_li in walk_md():
+        for lang in LANG:
+            mkpath(join(PATH, "po", lang, dirpath[len(PATH_DOC) + 1:]))
+        for i in md_li:
             for lang in LANG:
-                mkpath(join(PATH, "po", lang, dirpath[len(PATH_DOC) + 1:]))
-            for i in md_li:
-                for lang in LANG:
-                    for func in (_update, _build):
-                        f = join(dirpath, i)[len(PATH_DOC) + 1:]
-                        print(count, f)
-                        count += 1
-                        func(lang, f)
+                for func in (_update, _build):
+                    f = join(dirpath, i)[len(PATH_DOC) + 1:]
+                    print(count, f)
+                    count += 1
+                    func(lang, f)
 
 
 if __name__ == "__main__":

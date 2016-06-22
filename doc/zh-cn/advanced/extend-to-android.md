@@ -4,21 +4,17 @@
 weex sdk support Moulde extend,
 Weex SDK provides only rendering capabilities, rather than have other capabilities, such as network, picture, and URL redirection. If you want the these features, you need to implement it.  
 
-For example: If you want to implement an address jumping function, you can
-achieve a Module Follow the steps below.
+For example: If you want to implement an address jumping function, you can achieve a Module Follow the steps below. 
 #### Step to customize a module 
-1. Customize module must extend WXModule
-2. @WXModuleAnno annotation must be added, as it is the only the way to
-   recognized by Weex
-3. The access levels of mehtod must be **public**
-4. The module class also can not be an inner class
+1. Customize module must extend WXModule  
+2. @WXModuleAnno annotation must be added, as it is the only the way to recognized by Weex  
+3. The access levels of mehtod must be **public**  
+4. The module class also can not be an inner class  
 5. Customize can not be obfuscated by tools like ProGuard
-6. Module methods will be invoked in UI thread, do not put time consuming
-   operation there
-7. Weex params can be int, double, float, String, Map, List, self-defined
-   class that implements WXObject interface
+6. Module methods will be invoked in UI thread, do not put time consuming operation there
+7. Weex params can be int, double, float, String, Map, List, self-defined class that implements WXObject interface
 
-Refer to the following example
+Refer to the following example 
 
 ```java
       
@@ -71,19 +67,16 @@ There are label, image, div, scroll, ect. components in weex, you can also custo
 
 #### Step to customize a module 
 
-1. Customize components must extend WXComponent or WXContainer
-2. @WXComponentProp(name=value(value is attr or style of dsl)) for it be
-   recognized by weex SDK.
+1. Customize components must extend WXComponent or WXContainer  
+2. @WXComponentProp(name=value(value is attr or style of dsl)) for it be recognized by weex SDK.
 3. The access levels of mehtod must be **public**
-4. The component class can not be an inner class
-5. Customize can not be obfuscated by tools like ProGuard
-6. Component methods will be invoked in UI thread, do not put time consuming
-   operation there.
-7. Weex params can be int, double, float, String, Map, List, self-defined
-   class that implements WXObject interface
+4. The component class can not be an inner class  
+5. Customize can not be obfuscated by tools like ProGuard  
+6. Component methods will be invoked in UI thread, do not put time consuming operation there.  
+7. Weex params can be int, double, float, String, Map, List, self-defined class that implements WXObject interface 
 
 
-Refer to the following example
+Refer to the following example 
 
 ```java
 
@@ -134,15 +127,18 @@ Refer to the following example
 <font color="gray">
 Weex SDK has no image download capability, you need to implement IWXImgLoaderAdapter. Refer to the following examples.
 
-```java package com.alibaba.weex.extend;
+```java
+package com.alibaba.weex.extend;
 
-import android.app.Activity; import android.text.TextUtils; import
-android.widget.ImageView;
+import android.app.Activity;
+import android.text.TextUtils;
+import android.widget.ImageView;
 
-import com.squareup.picasso.Picasso; import com.taobao.weex.WXEnvironment;
-import com.taobao.weex.adapter.IWXImgLoaderAdapter; import
-com.taobao.weex.common.WXImageStrategy; import
-com.taobao.weex.dom.WXImageQuality;
+import com.squareup.picasso.Picasso;
+import com.taobao.weex.WXEnvironment;
+import com.taobao.weex.adapter.IWXImgLoaderAdapter;
+import com.taobao.weex.common.WXImageStrategy;
+import com.taobao.weex.dom.WXImageQuality;
 
 public class ImageAdapter implements IWXImgLoaderAdapter {
 

@@ -23,13 +23,10 @@ module.exports = {
 }
 ```
 
-The `data` option is a function that return a observable data object for
-this ViewModel.  The `methods` option is a map which contains all ViewModel
-methods.
+The `data` option is a function that return a observable data object for this ViewModel.
+The `methods` option is a map which contains all ViewModel methods.
 
-Each `data` or `methods` property will be proxied to the ViewModel
-instance. So you can read and write data with `this.x`, also you can call
-methods with `this.doThis(...)`.
+Each `data` or `methods` property will be proxied to the ViewModel instance. So you can read and write data with `this.x`, also you can call methods with `this.doThis(...)`.
 
 A whole example:
 
@@ -71,12 +68,9 @@ module.exports = {
 }
 ```
 
-The `events` options could allow you to add custom event listeners when
-ViewModel created. Then it will listen these type of events and handle them
-by the function-type value.
+The `events` options could allow you to add custom event listeners when ViewModel created. Then it will listen these type of events and handle them by the function-type value.
 
-The first argument is a event object which contains event data in
-`e.detail`.
+The first argument is a event object which contains event data in `e.detail`.
 
 ## Lifecycle options
 
@@ -97,11 +91,8 @@ module.exports = {
 }
 ```
 
-Weex ViewModel now supports these lifecycle hook functions which could be
-write as component options:
+Weex ViewModel now supports these lifecycle hook functions which could be write as component options:
 
 * `init`: fired at the beginning of a ViewModel constructor call.
-* `created`: fired when ViewModel observes default data but not compile the
-  template.
-* `ready`: fired when ViewModel observes default data and compiles the
-  template to generate virtual DOM finally.
+* `created`: fired when ViewModel observes default data but not compile the template.
+* `ready`: fired when ViewModel observes default data and compiles the template to generate virtual DOM finally.

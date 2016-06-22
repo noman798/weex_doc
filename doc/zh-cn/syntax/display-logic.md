@@ -1,13 +1,10 @@
 # Display Logic Control
 
-There are two attributes for display logic control: `if` and `repeat`. We
-can create Weex page structure and effects more flexible with them.
+There are two attributes for display logic control: `if` and `repeat`. We can create Weex page structure and effects more flexible with them.
 
 ## `if`
 
-`if` attribute can control the display of a component by a truthy/falsy
-value. If the value is truthy, then the component will generated, otherwise
-it will be removed.
+`if` attribute can control the display of a component by a truthy/falsy value. If the value is truthy, then the component will generated, otherwise it will be removed.
 
 ```html
 <template>
@@ -33,9 +30,7 @@ it will be removed.
 
 ## `repeat`
 
-`repeat` statement is just for array rendering. Every item in an array is
-also a structed data. This means in `repeat`ed component, you can bind their
-item properties directly.
+`repeat` statement is just for array rendering. Every item in an array is also a structed data. This means in `repeat`ed component, you can bind their item properties directly.
 
 ```html
 <template>
@@ -65,8 +60,7 @@ item properties directly.
 </script>
 ```
 
-The origin data properties which not belongs to the array will also be
-bound:
+The origin data properties which not belongs to the array will also be bound:
 
 ```html
 <template>
@@ -127,10 +121,7 @@ e.g.
 
 #### use `track-by` to specify unique attribute
 
-By default when replacing an array, `repeat` will cause the entire list to
-be re-rendered. However you can use `track-by` to specify an unique
-attribute as a hint, so that weex can reuse existing elements as much as
-possible.
+By default when replacing an array, `repeat` will cause the entire list to be re-rendered. However you can use `track-by` to specify an unique attribute as a hint, so that weex can reuse existing elements as much as possible.
 
 **NOTE: DO NOT USE DATA-BINDING SYNTAX FOR `track-by`**
 
@@ -146,14 +137,11 @@ e.g.
 </template>
 ```
 
-Later on, when you replace the array including an item of the same nickname,
-it knows it can reuse the existing scope and DOM elements associated with
-the same nickname.
+Later on, when you replace the array including an item of the same nickname, it knows it can reuse the existing scope and DOM elements associated with the same nickname.
 
 ## Omitted mustach wrapper
 
-Particularly for the `if` and `repeat` attribute, the mustache wrapper in
-values could be omitted: just the same as data-binding syntax.
+Particularly for the `if` and `repeat` attribute, the mustache wrapper in values could be omitted: just the same as data-binding syntax.
 
 ```html
 <template>

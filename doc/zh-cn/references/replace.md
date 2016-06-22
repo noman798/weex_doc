@@ -54,5 +54,4 @@ will rendered as:
 <text>Foo</text>
 ```
 
-So you can choose a way you need or like to manage your virtual DOM
-structure.
+So you can choose a way you need or like to manage your virtual DOM structure.

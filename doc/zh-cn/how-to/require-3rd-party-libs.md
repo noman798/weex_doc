@@ -6,8 +6,7 @@ Let take `extend` for example.
 
 ## Require Local Js Modules
 
-A basic implementation of `extend` is as follows, and it's placed in
-directory path `./common/utils.js`.
+A basic implementation of `extend` is as follows, and it's placed in directory path `./common/utils.js`.
 
 ```
 function extend(dest, src) {
@@ -31,16 +30,13 @@ In a `.we` file, `extend` can be used with the help of `require`:
 
 ## Require Installed Node Modules
 
-Besides, [underscore](http://underscorejs.org) is a JavaScript library that
-provides a whole mess of useful functional programming helpers without
-extending any built-in objects. It implements a more robust version of
-[extend](http://underscorejs.org/#extend).
+Besides, [underscore](http://underscorejs.org) is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. It implements a more robust version of [extend](http://underscorejs.org/#extend).
 
-We can use underscore's extend instead of the version implemented by
-ourselves. After installing `underscore` to the `node_modules` directory, we
-can `require` and use it.
+We can use underscore's extend instead of the version implemented by ourselves. After installing `underscore` to the `node_modules` directory, we can `require` and use it.
 
-``` npm install underscore ```
+```
+npm install underscore
+```
 
 ```
 <script>

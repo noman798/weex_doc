@@ -2,13 +2,9 @@
 
 A simple Weex page sample is just a piece of `<template>` code, a piece of `<style>` code and a piece of `<script>` code. The three parts together describe a whole Weex page.
 
-- `<template>`: *required*. Just uses HTML syntax and describes the
-  structure of a Weex page, which is build upon several tags. Each tag means
-  a type of *component*.
-- `<style>`: *optional*. Describes the presetation details, and the content
-  is based on CSS syntax.
-- `<script>`: *optional*. Describes the data and behaiver with JavaScript
-  syntax. It defines data and how these data are processed etc.
+- `<template>`: *required*. Just uses HTML syntax and describes the structure of a Weex page, which is build upon several tags. Each tag means a type of *component*.
+- `<style>`: *optional*. Describes the presetation details, and the content is based on CSS syntax.
+- `<script>`: *optional*. Describes the data and behaiver with JavaScript syntax. It defines data and how these data are processed etc.
 
 ```html
 <template>
@@ -37,15 +33,11 @@ We describe page structure in `<template>` tag like the following definition:
 </template>
 ```
 
-Here `container` tag is the root element of the component. `image` tag
-describes a picture, while `text` tag means a paragraph of text.
+Here `container` tag is the root element of the component. `image` tag describes a picture, while `text` tag means a paragraph of text.
 
-Just similar to HTML, each component could have its own attributes, some
-components also have children as their sub components.
+Just similar to HTML, each component could have its own attributes, some components also have children as their sub components.
 
-The root element of template: In a `template` tag, there could be only one
-root component which has no display logics directive. Here are three types
-of root component we support now:
+The root element of template: In a `template` tag, there could be only one root component which has no display logics directive. Here are three types of root component we support now:
 
 - `<container>`: a common native container
 - `<scroller>`: a native scroll view
@@ -57,8 +49,7 @@ Only these type of components are allowed for root element.
 
 ## `<style>`
 
-You can consider the Weex style syntax is a subset of the CSS syntax, but
-there is still some differences.
+You can consider the Weex style syntax is a subset of the CSS syntax, but there is still some differences.
 
 First we could write inline `style` attribute in `<template>` element. Second we could use the `class` attribute to apply stylesheets, which are defined with single-class selectors in `<style>` code. Here is an example:
 
@@ -75,15 +66,13 @@ First we could write inline `style` attribute in `<template>` element. Second we
 </style>
 ```
 
-Both the two `text` components above have the same `font-size`, which is
-`64` pixel.
+Both the two `text` components above have the same `font-size`, which is `64` pixel.
 
 * [See common styles in Weex](../references/common-style.md)
 
 ## `<script>`
 
-The syntax is JavaScript (ES5) and it describes data and behavior of a Weex
-page. Here we create three paragraphs:
+The syntax is JavaScript (ES5) and it describes data and behavior of a Weex page. Here we create three paragraphs:
 
 ```html
 <template>

@@ -2,21 +2,15 @@
 
 ### `Document`
 
-Each instance has a corresponding document with the same id. A document has
-many nodes which compose a node tree.
+Each instance has a corresponding document with the same id. A document has many nodes which compose a node tree.
 
 * `new Document(id)`
-* `createBody(type, props)` Create body with a certian type and props. The
-  `type` is one of `container`, `list` or `scroller`, and the `props` may
-  contain `attr` and `style`.
+* `createBody(type, props)` Create body with a certian type and props. The `type` is one of `container`, `list` or `scroller`, and the `props` may contain `attr` and `style`.
 * `createElement(tagName, props)` Create a certain type element with props.
 * `createComment(text)` Create a comment node with a certain comment text.
-* `setListener(listener)` Set a dom listener which listens each dom updates
-  and tells the rendering engine
-* `open()` Set a flag which means init rendering start, so each dom update
-  will be called immediately
-* `close()` Set a flag which means init rendering finished, so the dom
-  updates later will be batched in each task.
+* `setListener(listener)` Set a dom listener which listens each dom updates and tells the rendering engine
+* `open()` Set a flag which means init rendering start, so each dom update will be called immediately
+* `close()` Set a flag which means init rendering finished, so the dom updates later will be batched in each task.
 * `addRef(el)` Add a new ref to the internal node map for a `el`
 * `getRef(ref)` Get node by `ref` from the internal node map
 * `removeRef(ref)` Removes the `ref` record from the internal node map
@@ -39,21 +33,18 @@ many nodes which compose a node tree.
 
 extends from `Node`
 
-* `new Element(type, props, ownerDocument)` Create an element and the
-  `props` may contain `attr` and `style`.
+* `new Element(type, props, ownerDocument)` Create an element and the `props` may contain `attr` and `style`.
 * `appendChild(node)`
 * `insertBefore(node, before)`
 * `insertAfter(node, after)`
-* `removeChild(node, preserved)` Removes a child. The parameter `preserved`
-  means whether destroy the removed node immediately or preserve it.
+* `removeChild(node, preserved)` Removes a child. The parameter `preserved` means whether destroy the removed node immediately or preserve it.
 * `clear()`
 * `setAttr(key, value)`
 * `setStyle(key, value)`
 * `setClassStyle(classStyle)`
 * `addEvent(type, handler)`
 * `removeEvent(type)`
-* `toJSON()` Format of `{ref, type, attr{string}, style{string},
-  event[string], children[Element]}`
+* `toJSON()` Format of `{ref, type, attr{string}, style{string}, event[string], children[Element]}`
 * `type` Element type
 * `attr` Several attribuets for this element
 * `style` Several style rules for this element
@@ -72,9 +63,6 @@ extends from `Node` and will not passed to rendering engine
 
 Document event manager
 
-* `add(el, type, handler)` Adds an event `handler` for certain `type` to a
-  certain `el` element
-* `remove(el, type)` Removes event handler for certain `type` to a certain
-  `el` element
-* `fire(el, type, e)` Fires a certain event to `el` with `type` and event
-  object `e`
+* `add(el, type, handler)` Adds an event `handler` for certain `type` to a certain `el` element
+* `remove(el, type)` Removes event handler for certain `type` to a certain `el` element
+* `fire(el, type, e)` Fires a certain event to `el` with `type` and event object `e`
