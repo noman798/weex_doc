@@ -107,10 +107,14 @@ msgstr "* * *：常见的方式检查[组件](../references/common-style.md)常�
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/components/text.md:40
+#| msgid ""
+#| "- support flexbox related styles - support box model related styles - "
+#| "support ``position`` related styles - support ``opacity``, ``background-"
+#| "color`` etc."
 msgid ""
 "- support flexbox related styles - support box model related styles - "
-"support ``position`` related styles - support ``opacity``, ``background-"
-"color`` etc."
+"support `position` related styles - support `opacity`, `background-color` "
+"etc."
 msgstr ""
 "支持flexbox相关的风格支持盒模型相关的风格支持```position```` related styles "
 "- support ````opacity````, ````background-color```等 ???"
