@@ -46,10 +46,10 @@ def translate_po(lang, po):
             msgid_li.append((msgid, i))
 
     for msgid, _ in msgid_li:
+        if msgid.strip("\n ").startswith("```"):
+            continue
         for j in msgid.split("\n"):
             j = j.strip()
-            if j.startswith("```"):
-                continue
             if j:
                 li.append(j)
     if not li:
