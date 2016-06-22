@@ -6,6 +6,24 @@ from pyutil._util import walk_md
 from os.path import join
 from pyutil._baidu import translate
 from pyutil.extract import extract_map
+import re
+
+RE_WEEX = re.compile('weex')
+RE_ZZWEEX = re.compile('zzweex')
+
+
+def matchcase(word):
+    def replace(m):
+        text = m.group()
+        if text.isupper():
+            return word.upper()
+        elif text.islower():
+            return word.lower()
+        elif text[0].isupper():
+            return word.capitalize()
+        else:
+            return word
+    return replace
 
 
 class HideBracket:
@@ -24,9 +42,11 @@ class HideBracket:
         txt = extract_map("`", "`", txt, self._hide)
         txt = extract_map("(", ")", txt, self._hide)
         txt = extract_map("<", ">", txt, self._hide)
+        txt = RE_WEEX.sub(matchcase('zzweex'), txt, flags=re.IGNORECASE)
         return txt
 
     def _restore(self, txt):
+        txt = RE_ZZWEEX.sub(matchcase('weex'), txt, flags=re.IGNORECASE)
         x = txt[6:-6]
         if x.isdigit():
             return self._hideed[int(x)]
@@ -68,7 +88,7 @@ def translate_po(lang, po):
         if not i.msgstr:
             t = []
             for j in msgid.split("\n"):
-                txt = lang_dict.get(j.strip("\n "), 0)
+                txt = lang_dict.get(j.strip("\n ").lower(), 0)
                 if txt:
                     txt = txt + " ???"
                 else:
