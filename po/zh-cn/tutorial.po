@@ -353,7 +353,7 @@ msgstr "添加内置组件 "
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:123
 #, no-wrap
 msgid "Beyond writing basic tag by yourself, Weex provide  a lot of build-in components.   For example,  Slider is common to many App/Mobile Web, So Weex include  a  build-in  Slider  and you can easily using the component in your script.  Let's open tech_list.we and update it's content like below.\n"
-msgstr "除了自己定义去基本标签，weex也提供了大量的内置部件。例如，走马灯(Slider)是许多应用程序和移动网络常见的，所以weex包括内置走马灯模块，它很容易使用。让我们打开 tech_list.we 更新内容如下。 \n"
+msgstr "除了自己定义去基本标签，weex也提供了大量的内置部件。例如，走马灯(Slider)是许多网站和移动应用常见的，所以weex包括内置走马灯模块，它很容易使用。让我们打开 tech_list.we 更新内容如下。 \n"
 
 #. type: Plain text
 #: /home/dev/download/weex_doc/weex/doc/tutorial.md:134
